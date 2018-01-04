@@ -1,0 +1,47 @@
+---
+title: "MaratonaSBC"
+author: "Marianne Linhares"
+date: "January 3, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+### Dependências
+
+Antes de falarmos dos dados iremos importar as dependências para executar tanto esta análise quanto a próxima.
+ 
+```{r warning=FALSE}
+library(tidyverse)  # carrega os pacotes ggplot2, readr, tidyr e dplyr
+library(stringr)  # biblioteca para lidar com strings
+```
+
+```{r}
+# Importando os dados
+avaliacoes = read_csv("scoreboards/2017.csv", skip = 1)
+
+# Renomeando colunas
+avaliacoes = avaliacoes %>% 
+    select(avaliador = `Sua matrícula`, 
+           id_reclamacao = `Id da reclamação`, 
+           insatisfacao = Insatisfação)
+
+# Removendo times que não são brasileiros
+
+
+# Removendo duplicatas
+
+# Olhando os dados
+glimpse(avaliacoes)
+
+# Sumário dos dados
+summary(avaliacoes)
+```
