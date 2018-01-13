@@ -1,0 +1,6 @@
+0,1,2,3,4,5,6,7,8
+Languages x Answers,NO - Compilation error,NO - Filename Mismatch,NO - Presentation error,NO - Runtime error,NO - Time limit exceeded,NO - Wrong answer,YES,Total
+C,1 (6%),0,0,0,0,8 (50%),7 (44%),16
+C++,6 (1%),0,0,11 (2%),34 (7%),244 (52%),177 (38%),472
+C++11,1 (1%),0,2 (1%),1 (1%),10 (5%),89 (47%),85 (45%),188
+Java,1 (4%),2 (9%),0,0,1 (4%),10 (43%),9 (39%),23

@@ -1,0 +1,8 @@
+0,1,2,3,4,5,6,7,8
+Languages x Answers,NO - Compilation error,NO - Presentation error,NO - Runtime error,NO - Time limit exceeded,NO - Wrong answer,NO - Wrong language choice,YES,Total
+C,0,0,0,1 (20%),3 (60%),0,1 (20%),5
+C++,5 (1%),2 (0%),19 (4%),50 (11%),210 (44%),0,187 (40%),473
+C++11,3 (1%),1 (0%),4 (1%),37 (11%),169 (48%),2 (1%),136 (39%),352
+Java,1 (2%),0,0,7 (16%),24 (53%),0,13 (29%),45
+Python2,0,0,2 (25%),0,2 (25%),0,4 (50%),8
+Python3,0,0,0,1 (17%),3 (50%),0,2 (33%),6
