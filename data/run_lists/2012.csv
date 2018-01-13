@@ -1,0 +1,573 @@
+0,1,2,3,4,5,6,7,8,9
+#,Site,User,Time,Problem,Language,Filename,Status,Judge (Site),Answer
+1,1,,-98,F,C,guilherme.c,judged,juiz4 (1),YES
+2,1,,-97,A,C,guilherme.c,judged,juiz5 (1),NO - Time limit exceeded
+3,1,,-37,A,C++,ray.cpp,judged,juiz5 (1),YES
+4,1,,-34,C,C++,C_pablo.cpp,judged,juiz4 (1),YES
+5,1,,-33,C,C++,fidel-slow.cpp,judged,juiz4 (1),NO - Time limit exceeded
+6,1,,-32,B,C++,B_pablo.cpp,judged,juiz5 (1),YES
+7,1,,-32,D,C++,fidel.cpp,judged,juiz5 (1),YES
+8,1,,-31,B,C++,fidel.cpp,judged,juiz5 (1),YES
+9,1,,-23,E,C++,fidel.cpp,judged,juiz6 (1),YES
+10,1,,-23,E,C,guilherme.c,judged,juiz6 (1),YES
+11,1,,-22,G,C++,G_pablo.cpp,judged,juiz6 (1),YES
+12,1,,-22,G,C,ranido.c,judged,juiz4 (1),YES
+13,1,,-21,B,Java,B.java,judged,juiz5 (1),YES
+14,1,,-21,G,C,guilherme.c,judged,juiz4 (1),NO - Time limit exceeded
+15,1,,-19,H,C++,fidel.cpp,judged,juiz5 (1),YES
+16,1,,-19,I,C,ranido.c,judged,juiz6 (1),YES
+17,1,,-19,H,Java,H_pancho.java,judged,juiz2 (1),NO - Filename mismatch
+18,1,,-18,J,C++,ray.cpp,judged,juiz3 (1),YES
+19,1,,-18,J,C++,fidel.cpp,judged,juiz4 (1),YES
+20,1,,-15,J,C,ranido_slow_lca.c,judged,juiz4 (1),NO - Time limit exceeded
+21,1,,-15,J,Java,J_pancho.java,judged,juiz3 (1),NO - Filename mismatch
+22,1,,-14,J,Java,J.java,judged,juiz3 (1),NO - Filename mismatch
+23,1,,-13,A,C++,fidel-slow.cpp,judged,juiz4 (1),NO - Runtime error
+24,1,,-12,J,C++,fidel-slow.cpp,judged,juiz6 (1),NO - Time limit exceeded
+25,1,,-11,J,C,ranido_slow_lca.c,judged,juiz4 (1),NO - Time limit exceeded
+26,1,,-7,J,Java,J.java,judged,juiz4 (1),YES
+27,1,,-6,J,C,ray.cpp,judged,juiz4 (1),NO - Compilation error
+28,1,Señora Margarida,4,D,C++,D.cpp,judged,juiz4 (1),YES
+29,1,I Can Haz Balloonz,5,D,C++,d.cpp,judged,juiz3 (1),YES
+30,1,Os Cartolas,6,D,C++,d.cpp,judged,juiz2 (1),YES
+31,1,IFSC - Schrödingers Katze,6,H,C++,H.cpp,judged,juiz3 (1),YES
+32,1,MOJUCA,7,D,C++,D.cpp,judged,juiz6 (1),YES
+33,1,PhD na área;,7,D,C++,d.cpp,judged,juiz3 (1),YES
+34,1,4 Fun 2 Win,7,D,C++,D.cpp,judged,juiz6 (1),YES
+35,1,sudo make a sandwich,8,D,C++,D.cpp,judged,juiz4 (1),YES
+36,1,Time do Feipa,8,D,C++,D.cpp,judged,juiz4 (1),YES
+37,1,#include <RijeéL>,8,D,C++,D.cpp,judged,juiz6 (1),YES
+38,1,ASA,8,D,C++,d.cpp,judged,juiz3 (1),YES
+39,1,Absurdo Clássico - Agora Vai!,9,D,C++,D.cpp,judged,juiz6 (1),YES
+40,1,using namespace none;,10,D,C++,D.cpp,judged,juiz2 (1),YES
+41,1,"jQuery bool, jQuery char!",11,D,C++,diferent.cpp,judged,juiz4 (1),YES
+42,1,PonteirosReversos,11,D,C++,d.cpp,judged,juiz6 (1),YES
+43,1,Spanish Inquisition,11,H,C++,H.cpp,judged,juiz3 (1),YES
+44,1,Coração das Cartas,11,D,C++,D.cpp,judged,juiz6 (1),YES
+45,1,Knights of The Round Robin,11,D,C++,D.cpp,judged,juiz4 (1),YES
+46,1,IFSC - Schrödingers Katze,11,D,C++,D.cpp,judged,juiz4 (1),YES
+47,1,ETROPUS,11,D,C,d.c,judged,juiz6 (1),YES
+48,1,MargarITA,11,H,C++,h.cpp,judged,juiz2 (1),YES
+49,1,Monkeys,11,D,C++,D.cpp,judged,juiz4 (1),YES
+50,1,UFMG Starters Edition,12,D,C++,d.cpp,judged,juiz6 (1),YES
+51,1,UFMG In rand() we trust!,12,D,C++,d.cpp,judged,juiz3 (1),YES
+52,1,Timelhosa,12,D,C++,D.cpp,judged,juiz3 (1),YES
+53,1,Chinelada na Orelha,13,H,C++,a.cpp,judged,juiz4 (1),YES
+54,1,Colecionadores de Balões,13,D,C++,different.cpp,judged,juiz6 (1),YES
+55,1,Absurdo Clássico - Agora Vai!,13,H,C++,H.cpp,judged,juiz2 (1),YES
+56,1,Os Cartolas,14,H,C++,h.cpp,judged,juiz2 (1),YES
+57,1,Gargamels Team,14,D,C,d.c,judged,juiz2 (1),YES
+58,1,while (c==8),14,D,C++,D.cpp,judged,juiz2 (1),YES
+59,1,"jQuery bool, jQuery char!",15,H,C++,hours.cpp,judged,juiz2 (1),YES
+60,1,MargarITA,15,D,C++,d.cpp,judged,juiz5 (1),YES
+61,1,Stalingrafo,15,D,C++,D.cpp,judged,juiz6 (1),YES
+62,1,Já Chegou o Disco Voador,15,D,Java,D.java,judged,juiz6 (1),YES
+63,1,Y U no accept?,15,D,C++,d.cpp,judged,juiz5 (1),YES
+64,1,Berro Trypanossomático,15,H,C++,H.cpp,judged,juiz6 (1),YES
+65,1,Vruum,16,D,C++,d.cpp,judged,juiz2 (1),YES
+66,1,MOJUCA,16,H,C++,H.cpp,judged,juiz2 (1),YES
+67,1,Monkeys,17,H,C++,H.cpp,judged,juiz4 (1),YES
+68,1,sudo make a sandwich,17,H,C++,H.cpp,judged,juiz2 (1),YES
+69,1,PhD na área;,19,H,C++,h.cpp,judged,juiz6 (1),NO - Wrong answer
+70,1,Knights of The Round Robin,19,H,C++,H.cpp,judged,juiz2 (1),YES
+71,1,Unoeste WJR,19,H,C++,hm.cpp,judged,juiz3 (1),YES
+72,1,using namespace none;,19,H,C++,H.cpp,judged,juiz2 (1),YES
+73,1,PontoCPP,19,H,C++,h.cpp,judged,juiz2 (1),YES
+74,1,Untitled.c,20,H,C,H.c,judged,juiz3 (1),YES
+75,1,Timelhosa,20,H,C++,H.cpp,judged,juiz3 (1),NO - Wrong answer
+76,1,ASA,21,H,C++,h.cpp,judged,juiz3 (1),YES
+77,1,Largest Living Rodent,21,H,C,H.c,judged,juiz3 (1),YES
+78,1,Berro Trypanossomático,21,D,C++,D.cpp,judged,juiz2 (1),YES
+79,1,Não Entre em Pânico,21,H,C++,H.cpp,judged,juiz3 (1),YES
+80,1,UFMG In rand() we trust!,21,H,C++,H.cpp,judged,juiz3 (1),YES
+81,1,Coração das Cartas,21,H,C++,H.cpp,judged,juiz3 (1),YES
+82,1,Grupo Gama,21,D,C,D.c,judged,juiz2 (1),YES
+83,1,a; DROP TABLEuser; --,21,D,C++,D.cpp,judged,juiz3 (1),YES
+84,1,Gargamels Team,22,H,C,h.c,judged,juiz2 (1),YES
+85,1,while (c==8),23,H,C++,H.cpp,judged,juiz3 (1),NO - Wrong answer
+86,1,Spanish Inquisition,23,D,C++,D.cpp,judged,juiz6 (1),YES
+87,1,#include <RijeéL>,23,H,C++,H.cpp,judged,juiz2 (1),YES
+88,1,Time do Feipa,24,H,C++,H.cpp,judged,juiz2 (1),YES
+89,1,Stalingrafo,24,H,C++,H.cpp,judged,juiz2 (1),YES
+90,1,char *alho;,24,D,C++,D.cpp,judged,juiz6 (1),NO - Wrong answer
+91,1,DEBUG,24,H,C,H.c,judged,juiz3 (1),YES
+92,1,Chinelada na Orelha,24,D,C++,d.cpp,judged,juiz2 (1),YES
+93,1,Programação Orientada a Balões,25,D,C++,exd.cpp,judged,juiz6 (1),NO - Wrong answer
+94,1,4 Fun 2 Win,25,H,C++,H.cpp,judged,juiz3 (1),YES
+95,1,a; DROP TABLEuser; --,26,H,C++,H.cpp,judged,juiz2 (1),YES
+96,1,Timelhosa,26,H,C++,H.cpp,judged,juiz6 (1),YES
+97,1,ETROPUS,26,H,C,h.c,judged,juiz6 (1),YES
+98,1,"jQuery bool, jQuery char!",26,I,C++,interval.cpp,judged,juiz6 (1),YES
+99,1,Vruum,26,H,C++,h.cpp,judged,juiz6 (1),YES
+100,1,UFMG Starters Edition,26,H,C++,h.cpp,judged,juiz6 (1),YES
+101,1,Colecionadores de Balões,26,H,C++,hours.cpp,judged,juiz6 (1),YES
+102,1,Os Cartolas,27,I,C++,i.cpp,judged,juiz2 (1),YES
+103,1,I Can Haz Balloonz,27,I,C++,i.cpp,judged,juiz2 (1),YES
+104,1,PiratasDoValeDoSãoFrancisco,27,D,C++,j.cpp,judged,juiz6 (1),YES
+105,1,Já Chegou o Disco Voador,28,H,Java,H.java,judged,juiz3 (1),YES
+106,1,4 Fun 2 Win,28,I,C++,I.cpp,judged,juiz2 (1),YES
+107,1,TBK,29,D,C++,D.cpp,judged,juiz6 (1),YES
+108,1,char *alho;,29,D,C++,D.cpp,judged,juiz3 (1),NO - Wrong answer
+109,1,while (c==8),29,H,C++,H.cpp,judged,juiz3 (1),YES
+110,1,PontoCPP,29,D,C++,d.cpp,judged,juiz2 (1),YES
+111,1,Y U no accept?,29,H,C++,h.cpp,judged,juiz6 (1),NO - Wrong answer
+112,1,MargarITA,30,I,C++,i.cpp,judged,juiz2 (1),YES
+113,1,Unoeste WJR,30,D,C++,dd.cpp,judged,juiz2 (1),YES
+114,1,PonteirosReversos,31,H,C++,h.cpp,judged,juiz2 (1),YES
+115,1,Go Horse,31,D,Java,D.java,judged,juiz6 (1),YES
+116,1,Monkeys,31,I,C++,I.cpp,judged,juiz2 (1),YES
+117,1,Go Horse,32,H,Java,H.java,judged,juiz3 (1),YES
+118,1,PhD na área;,33,H,C++,h.cpp,judged,juiz2 (1),YES
+119,1,I Can Haz Balloonz,33,H,C++,h.cpp,judged,juiz2 (1),YES
+120,1,Programação Orientada a Balões,34,H,C++,exh.cpp,judged,juiz3 (1),YES
+121,1,Programação Orientada a Balões,34,D,C++,exd.cpp,judged,juiz2 (1),YES
+122,1,PiratasDoValeDoSãoFrancisco,35,H,C++,h.cpp,judged,juiz2 (1),YES
+123,1,Berro Trypanossomático,36,I,C++,I.cpp,judged,juiz2 (1),NO - Wrong answer
+124,1,Berro Trypanossomático,38,I,C++,I.cpp,judged,juiz2 (1),NO - Wrong answer
+125,1,Grupo Gama,38,H,C,H.c,judged,juiz2 (1),YES
+126,1,Largest Living Rodent,40,D,C,D.c,judged,juiz2 (1),YES
+127,1,Señora Margarida,40,I,C++,I.cpp,judged,juiz6 (1),NO - Wrong answer
+128,1,TBK,40,H,C++,H.cpp,judged,juiz6 (1),YES
+129,1,Berro Trypanossomático,41,I,C++,I.cpp,judged,juiz2 (1),YES
+130,1,Thundercats,41,D,C++,teste.cpp,judged,juiz6 (1),NO - Wrong answer
+131,1,Señora Margarida,41,H,C++,h.cpp,judged,juiz2 (1),YES
+132,1,IFSC - Schrödingers Katze,42,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+133,1,Dont Care,43,D,C++,D.cpp,judged,juiz3 (1),YES
+134,1,"ICompUFAM-""Computa agora""",43,D,C++,differents.cpp,judged,juiz3 (1),NO - Wrong answer
+135,1,a; DROP TABLEuser; --,44,I,C++,I.cpp,judged,juiz2 (1),NO - Time limit exceeded
+136,1,Não Entre em Pânico,44,I,C++,I.cpp,judged,juiz6 (1),NO - Time limit exceeded
+137,1,"jQuery bool, jQuery char!",45,C,C++,cellphone.cpp,judged,juiz3 (1),YES
+138,1,Y U no accept?,47,I,C++,i.cpp,judged,juiz2 (1),YES
+139,1,PontoCPP,47,I,C++,i.cpp,judged,juiz2 (1),NO - Time limit exceeded
+140,1,PhD na área;,47,I,C++,i.cpp,judged,juiz3 (1),YES
+141,1,Señora Margarida,48,I,C++,I.cpp,judged,juiz2 (1),YES
+142,1,Absurdo Clássico - Agora Vai!,49,I,C++,I.cpp,judged,juiz6 (1),YES
+143,1,Y U no accept?,49,H,C++,h.cpp,judged,juiz2 (1),NO - Wrong answer
+144,1,Não Entre em Pânico,50,I,C++,I.cpp,judged,juiz6 (1),NO - Time limit exceeded
+145,1,Go Horse,51,I,Java,I.java,judged,juiz2 (1),NO - Runtime error
+146,1,ASA,51,I,C++,i.cpp,judged,juiz2 (1),YES
+147,1,UFMG In rand() we trust!,52,I,C++,I.cpp,judged,juiz3 (1),YES
+148,1,char *alho;,52,D,C++,D.cpp,judged,juiz3 (1),YES
+149,1,a; DROP TABLEuser; --,53,I,C++,I.cpp,judged,juiz4 (1),NO - Time limit exceeded
+150,1,MargarITA,53,C,C++,c.cpp,judged,juiz2 (1),YES
+151,1,Chinelada na Orelha,53,I,C++,i.cpp,judged,juiz3 (1),YES
+152,1,using namespace none;,54,I,C++,I.cpp,judged,juiz2 (1),YES
+153,1,4 Fun 2 Win,54,C,C++,C.cpp,judged,juiz2 (1),YES
+154,1,ETROPUS,54,I,C++,i.cpp,judged,juiz3 (1),NO - Time limit exceeded
+155,1,char *alho;,55,H,C++,H.cpp,judged,juiz6 (1),NO - Runtime error
+156,1,Unoeste WJR,56,I,C++,ip.cpp,judged,juiz6 (1),NO - Time limit exceeded
+157,1,Y U no accept?,56,H,C++,h.cpp,judged,juiz3 (1),NO - Wrong answer
+158,1,MOJUCA,56,I,C++,I.cpp,judged,juiz6 (1),YES
+159,1,Grupo Gama,57,I,C,I.c,judged,juiz6 (1),NO - Wrong answer
+160,1,Já Chegou o Disco Voador,58,I,Java,I.java,judged,juiz3 (1),NO - Time limit exceeded
+161,1,Untitled.c,58,I,C,I.c,judged,juiz4 (1),NO - Time limit exceeded
+162,1,Programação Orientada a Balões,59,I,C++,exi.cpp,judged,juiz2 (1),NO - Time limit exceeded
+163,1,PontoCPP,59,I,C++,i.cpp,judged,juiz2 (1),NO - Time limit exceeded
+164,1,Go Horse,60,I,Java,I.java,judged,juiz2 (1),NO - Runtime error
+165,1,char *alho;,60,H,C++,H.cpp,judged,juiz5 (1),YES
+166,1,Coração das Cartas,60,I,C++,I.cpp,judged,juiz4 (1),YES
+167,1,Señora Margarida,60,C,C++,C.cpp,judged,juiz3 (1),YES
+168,1,"jQuery bool, jQuery char!",62,A,C++,arranging.cpp,judged,juiz2 (1),NO - Wrong answer
+169,1,Untitled.c,63,D,C,D.c,judged,juiz3 (1),NO - Wrong answer
+170,1,Grupo Gama,63,I,C,I.c,judged,juiz5 (1),NO - Wrong answer
+171,1,sudo make a sandwich,64,C,C++,C.cpp,judged,juiz2 (1),YES
+172,1,Dont Care,64,I,C++,I.cpp,judged,juiz5 (1),NO - Runtime error
+173,1,#include <RijeéL>,66,I,C++,I.cpp,judged,juiz2 (1),YES
+174,1,Já Chegou o Disco Voador,66,I,Java,I.java,judged,juiz3 (1),NO - Time limit exceeded
+175,1,Grupo Gama,67,I,C,I.c,judged,juiz6 (1),NO - Time limit exceeded
+176,1,Monkeys,67,C,C++,C.cpp,judged,juiz6 (1),YES
+177,1,Não Entre em Pânico,67,I,C++,I.cpp,judged,juiz6 (1),NO - Wrong answer
+178,1,Unoeste WJR,68,I,C++,ip.cpp,judged,juiz4 (1),NO - Time limit exceeded
+179,1,Vruum,68,I,C++,i.cpp,judged,juiz6 (1),YES
+180,1,Os Cartolas,68,C,C++,c.cpp,judged,juiz4 (1),YES
+181,1,"ICompUFAM-""Computa agora""",68,D,C++,differents.cpp,judged,juiz3 (1),YES
+182,1,Untitled.c,70,D,C,D.c,judged,juiz2 (1),NO - Wrong answer
+183,1,Dont Care,71,I,C++,I.cpp,judged,juiz2 (1),NO - Wrong answer
+184,1,"jQuery bool, jQuery char!",71,A,C++,arranging.cpp,judged,juiz3 (1),NO - Wrong answer
+185,1,Já Chegou o Disco Voador,72,I,Java,I.java,judged,juiz2 (1),NO - Wrong answer
+186,1,Go Horse,72,I,Java,I.java,judged,juiz6 (1),NO - Runtime error
+187,1,Grupo Gama,72,I,C,I.c,judged,juiz3 (1),NO - Wrong answer
+188,1,UFMG Starters Edition,73,I,C++,i.cpp,judged,juiz3 (1),YES
+189,1,Knights of The Round Robin,74,C,C++,C.cpp,judged,juiz3 (1),YES
+190,1,Thundercats,74,D,C++,teste.cpp,judged,juiz6 (1),YES
+191,1,Untitled.c,75,D,C,D.c,judged,juiz6 (1),YES
+192,1,Não Entre em Pânico,75,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+193,1,PonteirosReversos,76,I,C++,i.cpp,judged,juiz6 (1),NO - Time limit exceeded
+194,1,Knights of The Round Robin,78,I,C++,I.cpp,judged,juiz6 (1),NO - Wrong answer
+195,1,Grupo Gama,78,I,C,I.c,judged,juiz3 (1),NO - Wrong answer
+196,1,a; DROP TABLEuser; --,78,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+197,1,Thundercats,78,H,C++,hours.cpp,judged,juiz2 (1),YES
+198,1,Coração das Cartas,78,A,C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+199,1,Stalingrafo,80,I,C++,I.cpp,judged,juiz3 (1),YES
+200,1,a; DROP TABLEuser; --,81,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+201,1,Grupo Gama,81,I,C,I-3.c,judged,juiz5 (1),NO - Wrong answer
+202,1,Y U no accept?,82,H,C++,h.cpp,judged,juiz2 (1),YES
+203,1,Coração das Cartas,82,C,C++,C.cpp,judged,juiz2 (1),YES
+204,1,"ICompUFAM-""Computa agora""",82,I,C++,interval.cpp,judged,juiz2 (1),NO - Time limit exceeded
+205,1,Grupo Gama,82,I,C,I.c,judged,juiz2 (1),NO - Wrong answer
+206,1,using namespace none;,82,C,C++,C.cpp,judged,juiz3 (1),YES
+207,1,Go Horse,83,I,Java,I.java,judged,juiz2 (1),NO - Time limit exceeded
+208,1,Grupo Gama,84,I,C,I.c,judged,juiz3 (1),NO - Wrong answer
+209,1,Berro Trypanossomático,85,G,C++,G.cpp,judged,juiz5 (1),NO - Time limit exceeded
+210,1,sudo make a sandwich,85,I,C++,I.cpp,judged,juiz5 (1),NO - Time limit exceeded
+211,1,Berro Trypanossomático,86,G,C++,G.cpp,judged,juiz3 (1),NO - Time limit exceeded
+212,1,UFMG In rand() we trust!,87,C,C++,C.cpp,judged,juiz3 (1),YES
+213,1,Os Cartolas,87,G,C++,g.cpp,judged,juiz3 (1),NO - Wrong answer
+214,1,Berro Trypanossomático,88,C,C++,C.cpp,judged,juiz2 (1),NO - Runtime error
+215,1,Timelhosa,90,C,C++,C.cpp,judged,juiz5 (1),YES
+216,1,Untitled.c,90,I,C,I.c,judged,juiz2 (1),NO - Runtime error
+217,1,Berro Trypanossomático,91,G,C++,G.cpp,judged,juiz2 (1),NO - Wrong answer
+218,1,Dont Care,92,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+219,1,PhD na área;,92,C,C++,cm.cpp,judged,juiz4 (1),YES
+220,1,MOJUCA,94,C,C++,C.cpp,judged,juiz2 (1),NO - Wrong answer
+221,1,Os Cartolas,94,G,C++,g.cpp,judged,juiz4 (1),NO - Wrong answer
+222,1,Grupo Gama,94,I,C,I.c,judged,juiz4 (1),NO - Wrong answer
+223,1,Knights of The Round Robin,95,I,C++,I.cpp,judged,juiz3 (1),YES
+224,1,PiratasDoValeDoSãoFrancisco,95,I,C++,i.cpp,judged,juiz2 (1),NO - Time limit exceeded
+225,1,Berro Trypanossomático,95,C,C++,C.cpp,judged,juiz3 (1),NO - Runtime error
+226,1,Go Horse,95,I,Java,I.java,judged,juiz3 (1),NO - Time limit exceeded
+227,1,Os Cartolas,97,G,C++,g.cpp,judged,juiz2 (1),NO - Wrong answer
+228,1,"jQuery bool, jQuery char!",97,E,C++,environment.cpp,judged,juiz4 (1),YES
+229,1,PontoCPP,99,I,C++,i.cpp,judged,juiz2 (1),NO - Time limit exceeded
+230,1,Dont Care,99,H,C++,H.cpp,judged,juiz3 (1),YES
+231,1,sudo make a sandwich,100,I,C++,I.cpp,judged,juiz3 (1),YES
+232,1,Absurdo Clássico - Agora Vai!,100,C,C++,C.cpp,judged,juiz2 (1),YES
+233,1,MOJUCA,101,C,C++,C.cpp,judged,juiz2 (1),NO - Wrong answer
+234,1,"ICompUFAM-""Computa agora""",101,H,C++,hours.cpp,judged,juiz6 (1),YES
+235,1,Berro Trypanossomático,102,G,C++,G.cpp,judged,juiz5 (1),NO - Compilation error
+236,1,while (c==8),102,I,C++,I.cpp,judged,juiz6 (1),NO - Wrong answer
+237,1,Os Cartolas,103,G,C++,g.cpp,judged,juiz5 (1),NO - Wrong answer
+238,1,MOJUCA,105,C,C++,C.cpp,judged,juiz4 (1),NO - Wrong answer
+239,1,I Can Haz Balloonz,106,C,C++,c.cpp,judged,juiz5 (1),YES
+240,1,Berro Trypanossomático,107,G,C++,G.cpp,judged,juiz6 (1),NO - Time limit exceeded
+241,1,Berro Trypanossomático,107,C,C++,C.cpp,judged,juiz3 (1),YES
+242,1,Grupo Gama,109,I,C,I.c,judged,juiz4 (1),NO - Compilation error
+243,1,Já Chegou o Disco Voador,109,I,Java,I.java,judged,juiz4 (1),NO - Wrong answer
+244,1,PiratasDoValeDoSãoFrancisco,111,I,C++,i.cpp,judged,juiz4 (1),NO - Time limit exceeded
+245,1,Vruum,111,C,C++,c.cpp,judged,juiz4 (1),YES
+246,1,Largest Living Rodent,112,I,C,I.c,judged,juiz4 (1),NO - Runtime error
+247,1,TBK,113,I,C++,I.cpp,judged,juiz2 (1),NO - Time limit exceeded
+248,1,#include <RijeéL>,114,C,C++,C.cpp,judged,juiz3 (1),YES
+249,1,ETROPUS,114,I,C++,i2.cpp,judged,juiz2 (1),NO - Time limit exceeded
+250,1,PontoCPP,115,J,C++,j.cpp,judged,juiz2 (1),NO - Time limit exceeded
+251,1,IFSC - Schrödingers Katze,117,C,C++,C.cpp,judged,juiz2 (1),YES
+252,1,Untitled.c,118,I,C,I.c,judged,juiz3 (1),NO - Time limit exceeded
+253,1,MargarITA,120,J,C++,j.cpp,judged,juiz2 (1),YES
+254,1,Largest Living Rodent,121,I,C,I.c,judged,juiz3 (1),NO - Time limit exceeded
+255,1,"jQuery bool, jQuery char!",123,J,C++,joining.cpp,judged,juiz2 (1),YES
+256,1,Go Horse,123,I,Java,I.java,judged,juiz4 (1),NO - Time limit exceeded
+257,1,Grupo Gama,123,I,C,I.c,judged,juiz4 (1),NO - Time limit exceeded
+258,1,Timelhosa,124,I,C++,I.cpp,judged,juiz4 (1),YES
+259,1,Os Cartolas,124,G,C++,g.cpp,judged,juiz3 (1),YES
+260,1,Coração das Cartas,125,G,C++,G.cpp,judged,juiz2 (1),NO - Runtime error
+261,1,PontoCPP,126,J,C++,j.cpp,judged,juiz4 (1),NO - Time limit exceeded
+262,1,4 Fun 2 Win,126,E,C++,E.cpp,judged,juiz4 (1),YES
+263,1,PiratasDoValeDoSãoFrancisco,128,I,C++,i.cpp,judged,juiz6 (1),NO - Time limit exceeded
+264,1,Largest Living Rodent,129,I,C,I.c,judged,juiz2 (1),NO - Time limit exceeded
+265,1,Já Chegou o Disco Voador,130,I,Java,I.java,judged,juiz2 (1),NO - Time limit exceeded
+266,1,Coração das Cartas,131,G,C++,G.cpp,judged,juiz5 (1),YES
+267,1,Timelhosa,131,A,C++,A.cpp,judged,juiz5 (1),NO - Wrong answer
+268,1,PontoCPP,132,J,C++,j.cpp,judged,juiz5 (1),NO - Time limit exceeded
+269,1,4 Fun 2 Win,132,J,C++,J.cpp,judged,juiz5 (1),NO - Time limit exceeded
+270,1,Já Chegou o Disco Voador,133,I,Java,I.java,judged,juiz4 (1),NO - Time limit exceeded
+271,1,Time do Feipa,134,A,C++,A.cpp,judged,juiz2 (1),NO - Time limit exceeded
+272,1,MOJUCA,134,C,C++,C.cpp,judged,juiz3 (1),NO - Wrong answer
+273,1,PhD na área;,135,J,C++,j.cpp,judged,juiz6 (1),NO - Wrong answer
+274,1,Monkeys,135,E,C++,E.cpp,judged,juiz5 (1),NO - Time limit exceeded
+275,1,MOJUCA,135,C,C++,C.cpp,judged,juiz2 (1),NO - Wrong answer
+276,1,Não Entre em Pânico,136,I,C++,I.cpp,judged,juiz2 (1),NO - Time limit exceeded
+277,1,PiratasDoValeDoSãoFrancisco,138,I,C++,i.cpp,judged,juiz5 (1),NO - Time limit exceeded
+278,1,Time do Feipa,140,A,C++,A.cpp,judged,juiz5 (1),NO - Time limit exceeded
+279,1,Grupo Gama,140,I,C,I.c,judged,juiz3 (1),NO - Time limit exceeded
+280,1,I Can Haz Balloonz,140,E,C++,e.cpp,judged,juiz2 (1),NO - Wrong answer
+281,1,Berro Trypanossomático,140,G,C++,G.cpp,judged,juiz5 (1),NO - Time limit exceeded
+282,1,Os Cartolas,141,J,C++,j.cpp,judged,juiz3 (1),NO - Runtime error
+283,1,Monkeys,144,E,C++,E.cpp,judged,juiz2 (1),NO - Time limit exceeded
+284,1,PhD na área;,144,J,C++,j.cpp,judged,juiz6 (1),NO - Wrong answer
+285,1,ASA,146,C,C++,c.cpp,judged,juiz4 (1),NO - Wrong answer
+286,1,I Can Haz Balloonz,147,E,C++,e.cpp,judged,juiz4 (1),NO - Wrong answer
+287,1,DEBUG,147,D,C,differentdigits.c,judged,juiz3 (1),YES
+288,1,Berro Trypanossomático,148,G,C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+289,1,Go Horse,150,I,Java,I.java,judged,juiz2 (1),NO - Time limit exceeded
+290,1,Señora Margarida,150,E,C++,E.cpp,judged,juiz2 (1),NO - Wrong answer
+291,1,ASA,150,E,C++,e.cpp,judged,juiz2 (1),NO - Time limit exceeded
+292,1,4 Fun 2 Win,152,J,C++,J.cpp,judged,juiz4 (1),NO - Wrong answer
+293,1,ETROPUS,152,C,C,c.c,judged,juiz4 (1),YES
+294,1,Colecionadores de Balões,153,C,C++,cellphone.cpp,judged,juiz4 (1),YES
+295,1,Monkeys,153,E,C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+296,1,MOJUCA,154,C,C++,C.cpp,judged,juiz2 (1),YES
+297,1,Señora Margarida,154,E,C++,E.cpp,judged,juiz2 (1),NO - Time limit exceeded
+298,1,a; DROP TABLEuser; --,156,J,C++,J.cpp,judged,juiz4 (1),NO - Time limit exceeded
+299,1,Largest Living Rodent,156,J,C,J.c,judged,juiz2 (1),NO - Time limit exceeded
+300,1,Señora Margarida,156,E,C++,E.cpp,judged,juiz2 (1),NO - Time limit exceeded
+301,1,Unoeste WJR,157,I,C++,ip.cpp,judged,juiz4 (1),NO - Runtime error
+302,1,Berro Trypanossomático,157,G,C++,G.cpp,judged,juiz6 (1),YES
+303,1,"jQuery bool, jQuery char!",160,F,C++,fix.cpp,judged,juiz4 (1),YES
+304,1,Os Cartolas,160,J,C++,j.cpp,judged,juiz3 (1),NO - Runtime error
+305,1,Spanish Inquisition,160,C,C++,c.cpp,judged,juiz3 (1),NO - Runtime error
+306,1,Señora Margarida,161,E,C++,E.cpp,judged,juiz2 (1),YES
+307,1,Monkeys,161,E,C++,E.cpp,judged,juiz2 (1),NO - Time limit exceeded
+308,1,Unoeste WJR,162,I,C++,ip.cpp,judged,juiz2 (1),NO - Time limit exceeded
+309,1,while (c==8),162,I,C++,I.cpp,judged,juiz4 (1),NO - Runtime error
+310,1,I Can Haz Balloonz,163,E,C++,e.cpp,judged,juiz2 (1),NO - Wrong answer
+311,1,Já Chegou o Disco Voador,165,I,Java,I.java,judged,juiz4 (1),NO - Time limit exceeded
+312,1,ASA,165,C,C++,c.cpp,judged,juiz4 (1),NO - Wrong answer
+313,1,Não Entre em Pânico,165,D,C++,D.cpp,judged,juiz3 (1),NO - Wrong answer
+314,1,Spanish Inquisition,166,C,C++,c.cpp,judged,juiz5 (1),YES
+315,1,while (c==8),166,I,C++,I.cpp,judged,juiz3 (1),YES
+316,1,a; DROP TABLEuser; --,167,J,C++,J.cpp,judged,juiz3 (1),NO - Time limit exceeded
+317,1,IFSC - Schrödingers Katze,169,I,C++,I.cpp,judged,juiz3 (1),YES
+318,1,Largest Living Rodent,169,I,C,I.c,judged,juiz3 (1),NO - Time limit exceeded
+319,1,PonteirosReversos,169,I,C++,i2.cpp,judged,juiz3 (1),NO - Time limit exceeded
+320,1,Gargamels Team,173,C,C,c2.c,judged,juiz4 (1),YES
+321,1,Vruum,174,J,C++,j.cpp,judged,juiz4 (1),NO - Wrong answer
+322,1,Não Entre em Pânico,174,D,C++,D.cpp,judged,juiz4 (1),YES
+323,1,"jQuery bool, jQuery char!",178,G,C++,game.cpp,judged,juiz4 (1),YES
+324,1,using namespace none;,178,E,C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+325,1,Já Chegou o Disco Voador,178,I,Java,I.java,judged,juiz2 (1),NO - Time limit exceeded
+326,1,Thundercats,178,I,C++,interval.cpp,judged,juiz4 (1),NO - Time limit exceeded
+327,1,Os Cartolas,179,J,C++,j.cpp,judged,juiz4 (1),YES
+328,1,using namespace none;,180,E,C++,E.cpp,judged,juiz3 (1),NO - Time limit exceeded
+329,1,I Can Haz Balloonz,181,E,C++,e.cpp,judged,juiz4 (1),NO - Time limit exceeded
+330,1,UFMG Starters Edition,182,C,C++,c.cpp,judged,juiz4 (1),YES
+331,1,Y U no accept?,182,E,C++,e.cpp,judged,juiz2 (1),NO - Time limit exceeded
+332,1,Spanish Inquisition,182,C,C++,c.cpp,judged,juiz5 (1),YES
+333,1,MargarITA,184,E,C++,e.cpp,judged,juiz2 (1),NO - Time limit exceeded
+334,1,Largest Living Rodent,184,J,C,J.c,judged,juiz6 (1),NO - Time limit exceeded
+335,1,a; DROP TABLEuser; --,186,I,C++,INovo.cpp,judged,juiz6 (1),NO - Time limit exceeded
+336,1,Coração das Cartas,186,J,C++,J.cpp,judged,juiz6 (1),NO - Time limit exceeded
+337,1,Y U no accept?,186,E,C++,e.cpp,judged,juiz6 (1),NO - Time limit exceeded
+338,1,using namespace none;,188,E,C++,E.cpp,judged,juiz2 (1),NO - Time limit exceeded
+339,1,Não Entre em Pânico,188,I,C++,I.cpp,judged,juiz2 (1),NO - Time limit exceeded
+340,1,Y U no accept?,189,E,C++,e.cpp,judged,juiz3 (1),NO - Wrong answer
+341,1,Colecionadores de Balões,189,J,C++,joining.cpp,judged,juiz6 (1),NO - Time limit exceeded
+342,1,Y U no accept?,191,E,C++,e.cpp,judged,juiz6 (1),NO - Wrong answer
+343,1,Coração das Cartas,191,E,C++,E.cpp,judged,juiz6 (1),NO - Time limit exceeded
+344,1,4 Fun 2 Win,192,J,C++,J.cpp,judged,juiz3 (1),YES
+345,1,Gargamels Team,193,I,C,i.c,judged,juiz2 (1),NO - Wrong answer
+346,1,Untitled.c,193,I,C,I.c,judged,juiz5 (1),NO - Time limit exceeded
+347,1,I Can Haz Balloonz,195,E,C++,e.cpp,judged,juiz4 (1),NO - Wrong answer
+348,1,Coração das Cartas,197,E,C++,E.cpp,judged,juiz4 (1),NO - Time limit exceeded
+349,1,Dont Care,197,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+350,1,ASA,199,C,C++,c.cpp,judged,juiz4 (1),YES
+351,1,Y U no accept?,201,E,C++,e.cpp,judged,juiz2 (1),NO - Time limit exceeded
+352,1,PhD na área;,202,J,C++,j.cpp,judged,juiz2 (1),NO - Wrong answer
+353,1,"ICompUFAM-""Computa agora""",204,I,C++,interval.cpp,judged,juiz6 (1),NO - Runtime error
+354,1,ETROPUS,205,J,C++,j.cpp,judged,juiz2 (1),NO - Time limit exceeded
+355,1,PiratasDoValeDoSãoFrancisco,207,I,C++,i2.cpp,judged,juiz2 (1),NO - Time limit exceeded
+356,1,Vruum,207,J,C++,j.cpp,judged,juiz6 (1),YES
+357,1,PonteirosReversos,208,I,C++,i3.cpp,judged,juiz4 (1),NO - Time limit exceeded
+358,1,DEBUG,210,I,C,I.cpp,judged,juiz3 (1),NO - Compilation error
+359,1,Knights of The Round Robin,210,J,C++,J.cpp,judged,juiz6 (1),NO - Time limit exceeded
+360,1,Coração das Cartas,211,E,C++,E.cpp,judged,juiz6 (1),NO - Wrong answer
+361,1,Grupo Gama,211,I,C,I.c,judged,juiz4 (1),NO - Time limit exceeded
+362,1,"ICompUFAM-""Computa agora""",211,I,C++,interval.cpp,judged,juiz6 (1),NO - Time limit exceeded
+363,1,Monkeys,212,J,C++,J.cpp,judged,juiz4 (1),NO - Wrong answer
+364,1,Coração das Cartas,213,J,C++,J.cpp,judged,juiz3 (1),NO - Time limit exceeded
+365,1,Time do Feipa,214,I,C++,I.cpp,judged,juiz6 (1),NO - Wrong answer
+366,1,Coração das Cartas,215,E,C++,E.cpp,judged,juiz2 (1),NO - Wrong answer
+367,1,"jQuery bool, jQuery char!",216,A,C++,arranging.cpp,judged,juiz6 (1),YES
+368,1,PhD na área;,216,G,C++,g.cpp,judged,juiz2 (1),NO - Time limit exceeded
+369,1,TBK,218,I,C++,I.cpp,judged,juiz2 (1),NO - Time limit exceeded
+370,1,Colecionadores de Balões,219,J,C++,joining.cpp,judged,juiz2 (1),NO - Time limit exceeded
+371,1,Time do Feipa,220,I,C++,I.cpp,judged,juiz4 (1),NO - Wrong answer
+372,1,Coração das Cartas,221,E,C++,E.cpp,judged,juiz2 (1),NO - Time limit exceeded
+373,1,MOJUCA,221,J,C++,J.cpp,judged,juiz4 (1),NO - Time limit exceeded
+374,1,I Can Haz Balloonz,224,E,C++,e.cpp,judged,juiz3 (1),NO - Wrong answer
+375,1,Go Horse,225,C,Java,C.java,judged,juiz3 (1),YES
+376,1,DEBUG,225,I,C++,IDavid.cpp,judged,juiz3 (1),NO - Time limit exceeded
+377,1,I Can Haz Balloonz,226,E,C++,e.cpp,judged,juiz3 (1),NO - Wrong answer
+378,1,Não Entre em Pânico,226,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+379,1,char *alho;,227,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+380,1,TBK,228,I,C++,I.cpp,judged,juiz6 (1),NO - Time limit exceeded
+381,1,I Can Haz Balloonz,229,E,C++,e.cpp,judged,juiz2 (1),NO - Wrong answer
+382,1,Spanish Inquisition,230,I,C++,I.cpp,judged,juiz2 (1),NO - Time limit exceeded
+383,1,Já Chegou o Disco Voador,231,I,Java,I.java,judged,juiz3 (1),NO - Time limit exceeded
+384,1,MargarITA,232,E,C++,e_old.cpp,judged,juiz6 (1),NO - Time limit exceeded
+385,1,Stalingrafo,233,E,C++,E.cpp,judged,juiz3 (1),NO - Wrong answer
+386,1,Unoeste WJR,233,I,C++,ip.cpp,judged,juiz3 (1),NO - Time limit exceeded
+387,1,UFMG In rand() we trust!,234,A,C++,a.cpp,judged,juiz3 (1),NO - Time limit exceeded
+388,1,char *alho;,235,I,C++,I.cpp,judged,juiz5 (1),NO - Time limit exceeded
+389,1,Largest Living Rodent,235,I,C,I.c,judged,juiz3 (1),NO - Wrong answer
+390,1,sudo make a sandwich,235,F,C++,F.cpp,judged,juiz5 (1),NO - Runtime error
+391,1,using namespace none;,239,A,C++,A.cpp,judged,juiz5 (1),NO - Time limit exceeded
+392,1,Stalingrafo,239,E,C++,E.cpp,judged,juiz5 (1),NO - Time limit exceeded
+393,1,Unoeste WJR,240,I,C++,ip.cpp,judged,juiz5 (1),NO - Time limit exceeded
+394,1,Coração das Cartas,240,E,C++,E.cpp,judged,juiz5 (1),NO - Wrong answer
+395,1,Timelhosa,240,G,C++,G.cpp,judged,juiz5 (1),NO - Time limit exceeded
+396,1,"ICompUFAM-""Computa agora""",241,I,C++,interval.cpp,judged,juiz5 (1),NO - Time limit exceeded
+397,1,UFMG Starters Edition,241,J,C++,j.cpp,judged,juiz5 (1),NO - Wrong answer
+398,1,Largest Living Rodent,242,I,C,I.c,judged,juiz3 (1),NO - Time limit exceeded
+399,1,UFMG In rand() we trust!,242,J,C++,J.cpp,judged,juiz6 (1),NO - Runtime error
+400,1,4 Fun 2 Win,242,F,C++,F.cpp,judged,juiz6 (1),YES
+401,1,Stalingrafo,242,E,C++,E.cpp,judged,juiz6 (1),NO - Time limit exceeded
+402,1,Já Chegou o Disco Voador,243,I,Java,I.java,judged,juiz4 (1),NO - Time limit exceeded
+403,1,while (c==8),243,C,C++,C.cpp,judged,juiz4 (1),YES
+404,1,ETROPUS,243,J,C++,j.cpp,judged,juiz2 (1),NO - Time limit exceeded
+405,1,Stalingrafo,245,E,C++,E.cpp,judged,juiz2 (1),NO - Time limit exceeded
+406,1,Já Chegou o Disco Voador,247,I,Java,I.java,judged,juiz2 (1),NO - Time limit exceeded
+407,1,Stalingrafo,247,E,C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+408,1,Señora Margarida,249,G,C++,G.cpp,judged,juiz6 (1),NO - Time limit exceeded
+409,1,Go Horse,249,I,Java,I.java,judged,juiz5 (1),NO - Time limit exceeded
+410,1,PhD na área;,251,G,C++,g.cpp,judged,juiz5 (1),NO - Time limit exceeded
+411,1,Os Cartolas,251,F,C++,f.cpp,judged,juiz4 (1),YES
+412,1,using namespace none;,254,A,C++,A.cpp,judged,juiz5 (1),NO - Time limit exceeded
+413,1,I Can Haz Balloonz,255,E,C++,e.cpp,judged,juiz5 (1),NO - Wrong answer
+414,1,PhD na área;,255,G,C++,g.cpp,judged,juiz6 (1),NO - Time limit exceeded
+415,1,Coração das Cartas,255,E,C++,E.cpp,judged,juiz6 (1),NO - Time limit exceeded
+416,1,Programação Orientada a Balões,256,C,C++,exc.cpp,judged,juiz2 (1),NO - Runtime error
+417,1,UFMG In rand() we trust!,257,J,C++,J.cpp,judged,juiz4 (1),YES
+418,1,Programação Orientada a Balões,258,C,C++,exc.cpp,judged,juiz6 (1),NO - Wrong answer
+419,1,UFMG Starters Edition,259,A,C++,a.cpp,judged,juiz3 (1),NO - Wrong answer
+420,1,Stalingrafo,259,E,C++,E.cpp,judged,juiz3 (1),NO - Wrong answer
+421,1,Já Chegou o Disco Voador,259,I,Java,I.java,judged,juiz3 (1),NO - Time limit exceeded
+422,1,Vruum,259,E,C++,e.cpp,judged,juiz2 (1),NO - Wrong answer
+423,1,Knights of The Round Robin,259,J,C++,J.cpp,judged,juiz2 (1),NO - Wrong answer
+424,1,using namespace none;,262,J,C++,J.cpp,judged,juiz6 (1),NO - Wrong answer
+425,1,I Can Haz Balloonz,262,E,C++,e.cpp,judged,juiz6 (1),NO - Wrong answer
+426,1,Knights of The Round Robin,263,J,C++,J.cpp,judged,juiz5 (1),NO - Time limit exceeded
+427,1,Gargamels Team,264,F,C,f2.cc,judged,juiz5 (1),NO - Compilation error
+428,1,Colecionadores de Balões,264,I,C++,interval2.cpp,judged,juiz2 (1),YES
+429,1,Gargamels Team,264,F,C++,f2.cc,judged,juiz4 (1),NO - Time limit exceeded
+430,1,using namespace none;,264,A,C++,A.cpp,judged,juiz6 (1),NO - Wrong answer
+431,1,Thundercats,267,C,C++,typing.cpp,judged,juiz4 (1),NO - Runtime error
+432,1,Largest Living Rodent,267,G,C,G.c,judged,juiz5 (1),NO - Wrong answer
+433,1,PhD na área;,267,E,C++,e.cpp,judged,juiz5 (1),NO - Wrong answer
+434,1,using namespace none;,267,A,C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+435,1,Já Chegou o Disco Voador,267,I,C++,I.cpp,judged,juiz4 (1),NO - Compilation error
+436,1,PhD na área;,268,E,C++,e.cpp,judged,juiz5 (1),NO - Wrong answer
+437,1,using namespace none;,268,E,C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+438,1,Thundercats,268,C,C++,typing.cpp,judged,juiz3 (1),NO - Runtime error
+439,1,PhD na área;,268,E,C++,e.cpp,judged,juiz3 (1),NO - Wrong answer
+440,1,Já Chegou o Disco Voador,269,I,Java,I.cpp,judged,juiz2 (1),NO - Compilation error
+441,1,using namespace none;,269,A,C++,A.cpp,judged,juiz6 (1),NO - Time limit exceeded
+442,1,Time do Feipa,269,C,C++,c.cpp,judged,juiz4 (1),YES
+443,1,Já Chegou o Disco Voador,270,I,Java,I.java,judged,juiz2 (1),NO - Time limit exceeded
+444,1,DEBUG,271,I,C++,IDavid.cpp,judged,juiz2 (1),NO - Time limit exceeded
+445,1,Spanish Inquisition,271,I,C++,I.cpp,judged,juiz6 (1),YES
+446,1,Grupo Gama,272,I,C,I.c,judged,juiz2 (1),NO - Time limit exceeded
+447,1,UFMG In rand() we trust!,272,A,C++,a2.cpp,judged,juiz3 (1),NO - Wrong answer
+448,1,PhD na área;,274,E,C++,e.cpp,judged,juiz6 (1),NO - Time limit exceeded
+449,1,Absurdo Clássico - Agora Vai!,274,J,C++,J.cpp,judged,juiz3 (1),NO - Wrong answer
+450,1,Time do Feipa,274,A,C++,A.cpp,judged,juiz3 (1),NO - Time limit exceeded
+451,1,Y U no accept?,274,E,C++,e.cpp,judged,juiz6 (1),YES
+452,1,Knights of The Round Robin,274,J,C++,J.cpp,judged,juiz6 (1),NO - Wrong answer
+453,1,UFMG Starters Edition,275,A,C++,a.cpp,judged,juiz3 (1),NO - Wrong answer
+454,1,Chinelada na Orelha,275,C,C++,c.cpp,judged,juiz2 (1),YES
+455,1,using namespace none;,275,J,C++,J.cpp,judged,juiz2 (1),NO - Wrong answer
+456,1,Os Cartolas,276,E,C++,e2.cpp,judged,juiz2 (1),YES
+457,1,Não Entre em Pânico,276,I,C++,I.cpp,judged,juiz2 (1),NO - Time limit exceeded
+458,1,Señora Margarida,276,G,C++,G.cpp,judged,juiz3 (1),NO - Time limit exceeded
+459,1,Já Chegou o Disco Voador,276,I,Java,I.java,judged,juiz2 (1),NO - Wrong answer
+460,1,Thundercats,277,C,C++,typing.cpp,judged,juiz2 (1),NO - Runtime error
+461,1,using namespace none;,278,A,C++,A.cpp,judged,juiz2 (1),YES
+462,1,using namespace none;,278,E,C++,E.cpp,judged,juiz2 (1),NO - Time limit exceeded
+463,1,Thundercats,278,C,C++,typing.cpp,judged,juiz4 (1),NO - Runtime error
+464,1,Coração das Cartas,280,J,C++,J.cpp,judged,juiz6 (1),NO - Runtime error
+465,1,Programação Orientada a Balões,281,C,C++,exc.cpp,judged,juiz6 (1),NO - Wrong answer
+466,1,Coração das Cartas,281,E,C++,E.cpp,judged,juiz5 (1),NO - Time limit exceeded
+467,1,MargarITA,281,E,C++,e2.cpp,judged,juiz3 (1),NO - Time limit exceeded
+468,1,Programação Orientada a Balões,282,C,C++,exc.cpp,judged,juiz4 (1),NO - Wrong answer
+469,1,Time do Feipa,282,I,C++,I.cpp,judged,juiz5 (1),YES
+470,1,using namespace none;,282,J,C++,J.cpp,judged,juiz6 (1),NO - Wrong answer
+471,1,MargarITA,282,E,C++,e2.cpp,judged,juiz2 (1),NO - Wrong answer
+472,1,while (c==8),282,J,C++,J.cpp,judged,juiz3 (1),NO - Time limit exceeded
+473,1,Coração das Cartas,282,E,C++,E.cpp,judged,juiz6 (1),NO - Time limit exceeded
+474,1,ASA,282,J,C++,lca.cpp,judged,juiz5 (1),NO - Time limit exceeded
+475,1,MargarITA,283,E,C++,e2.cpp,judged,juiz5 (1),NO - Wrong answer
+476,1,Coração das Cartas,283,E,C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+477,1,Señora Margarida,283,G,C++,G.cpp,judged,juiz4 (1),YES
+478,1,Thundercats,283,C,C++,typing.cpp,judged,juiz4 (1),NO - Runtime error
+479,1,MargarITA,283,E,C++,e2.cpp,judged,juiz6 (1),NO - Wrong answer
+480,1,UFMG In rand() we trust!,284,A,C++,a2.cpp,judged,juiz3 (1),NO - Wrong answer
+481,1,Já Chegou o Disco Voador,284,I,Java,I.java,judged,juiz4 (1),NO - Time limit exceeded
+482,1,while (c==8),284,J,C++,J.cpp,judged,juiz5 (1),NO - Time limit exceeded
+483,1,MargarITA,284,E,C++,e2.cpp,judged,juiz3 (1),NO - Wrong answer
+484,1,Coração das Cartas,284,J,C++,J.cpp,judged,juiz5 (1),NO - Runtime error
+485,1,Time do Feipa,285,A,C++,A.cpp,judged,juiz3 (1),NO - Time limit exceeded
+486,1,UFMG In rand() we trust!,286,A,C++,a2.cpp,judged,juiz6 (1),NO - Wrong answer
+487,1,UFMG In rand() we trust!,286,A,C++,a2.cpp,judged,juiz2 (1),NO - Wrong answer
+488,1,Absurdo Clássico - Agora Vai!,287,A,C++,A.cpp,judged,juiz2 (1),NO - Time limit exceeded
+489,1,ASA,288,J,C++,lca.cpp,judged,juiz6 (1),NO - Time limit exceeded
+490,1,Vruum,288,E,C++,e.cpp,judged,juiz3 (1),NO - Wrong answer
+491,1,Largest Living Rodent,288,G,C,G.c,judged,juiz2 (1),NO - Wrong answer
+492,1,Largest Living Rodent,288,G,C,G.c,judged,juiz6 (1),NO - Wrong answer
+493,1,DEBUG,289,I,C++,IDavid.cpp,judged,juiz6 (1),NO - Time limit exceeded
+494,1,UFMG In rand() we trust!,289,A,C++,a2.cpp,judged,juiz2 (1),NO - Wrong answer
+495,1,Colecionadores de Balões,289,A,C++,arranging.cpp,judged,juiz6 (1),NO - Wrong answer
+496,1,Largest Living Rodent,289,G,C,G.c,judged,juiz3 (1),NO - Wrong answer
+497,1,IFSC - Schrödingers Katze,289,G,C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+498,1,UFMG In rand() we trust!,290,A,C++,a2.cpp,judged,juiz4 (1),NO - Compilation error
+499,1,Largest Living Rodent,290,G,C,C.c,judged,juiz4 (1),NO - Wrong answer
+500,1,Já Chegou o Disco Voador,290,I,Java,I.java,judged,juiz4 (1),NO - Time limit exceeded
+501,1,Os Cartolas,290,A,C++,a.cpp,judged,juiz3 (1),NO - Time limit exceeded
+502,1,Já Chegou o Disco Voador,291,I,Java,I.java,judged,juiz5 (1),NO - Time limit exceeded
+503,1,UFMG In rand() we trust!,291,A,C++,a2.cpp,judged,juiz3 (1),NO - Wrong answer
+504,1,IFSC - Schrödingers Katze,291,G,C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+505,1,Já Chegou o Disco Voador,291,I,Java,I.java,judged,juiz2 (1),NO - Time limit exceeded
+506,1,Time do Feipa,292,A,C++,A.cpp,judged,juiz4 (1),NO - Time limit exceeded
+507,1,using namespace none;,292,J,C++,J.cpp,judged,juiz3 (1),NO - Wrong answer
+508,1,while (c==8),292,J,C++,J.cpp,judged,juiz4 (1),NO - Time limit exceeded
+509,1,while (c==8),293,J,C++,J.cpp,judged,juiz2 (1),NO - Time limit exceeded
+510,1,UFMG Starters Edition,293,A,C++,a.cpp,judged,juiz4 (1),NO - Wrong answer
+511,1,Thundercats,293,C,C++,typing.cpp,judged,juiz4 (1),NO - Runtime error
+512,1,MOJUCA,293,E,C++,E.cpp,judged,juiz5 (1),NO - Time limit exceeded
+513,1,PhD na área;,293,E,C++,e.cpp,judged,juiz2 (1),NO - Wrong answer
+514,1,char *alho;,294,I,C++,I.cpp,judged,juiz4 (1),NO - Time limit exceeded
+515,1,UFMG Starters Edition,294,A,C++,a.cpp,judged,juiz5 (1),NO - Wrong answer
+516,1,Absurdo Clássico - Agora Vai!,294,A,C++,A.cpp,judged,juiz4 (1),NO - Time limit exceeded
+517,1,PhD na área;,294,E,C++,e.cpp,judged,juiz2 (1),NO - Wrong answer
+518,1,MargarITA,294,E,C++,e.cpp,judged,juiz5 (1),NO - Wrong answer
+519,1,UFMG In rand() we trust!,294,A,C++,a2.cpp,judged,juiz4 (1),NO - Wrong answer
+520,1,UFMG Starters Edition,295,A,C++,a.cpp,judged,juiz2 (1),NO - Wrong answer
+521,1,Já Chegou o Disco Voador,295,I,Java,I.java,judged,juiz4 (1),NO - Time limit exceeded
+522,1,ASA,295,J,C++,lca.cpp,judged,juiz4 (1),NO - Time limit exceeded
+523,1,Y U no accept?,295,C,C++,c.cpp,judged,juiz5 (1),NO - Runtime error
+524,1,using namespace none;,295,E,C++,E.cpp,judged,juiz3 (1),NO - Wrong answer
+525,1,UFMG Starters Edition,295,A,C++,a.cpp,judged,juiz3 (1),NO - Wrong answer
+526,1,Thundercats,295,C,C++,typing.cpp,judged,juiz3 (1),NO - Runtime error
+527,1,Knights of The Round Robin,295,J,C++,J.cpp,judged,juiz5 (1),YES
+528,1,UFMG In rand() we trust!,295,A,C++,a2.cpp,judged,juiz4 (1),NO - Wrong answer
+529,1,IFSC - Schrödingers Katze,295,G,C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+530,1,Timelhosa,295,G,C++,G.cpp,judged,juiz4 (1),NO - Time limit exceeded
+531,1,MargarITA,295,E,C++,e.cpp,judged,juiz2 (1),NO - Wrong answer
+532,1,Absurdo Clássico - Agora Vai!,296,A,C++,A.cpp,judged,juiz2 (1),NO - Time limit exceeded
+533,1,UFMG Starters Edition,296,A,C++,a.cpp,judged,juiz3 (1),NO - Wrong answer
+534,1,IFSC - Schrödingers Katze,296,G,C++,G.cpp,judged,juiz5 (1),NO - Wrong answer
+535,1,MargarITA,296,E,C++,e.cpp,judged,juiz2 (1),NO - Wrong answer
+536,1,Coração das Cartas,296,J,C++,J.cpp,judged,juiz6 (1),NO - Runtime error
+537,1,a; DROP TABLEuser; --,296,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+538,1,UFMG Starters Edition,296,A,C++,a.cpp,judged,juiz5 (1),NO - Wrong answer
+539,1,ETROPUS,296,I,C,i3.c,judged,juiz2 (1),NO - Runtime error
+540,1,UFMG In rand() we trust!,296,A,C++,a2.cpp,judged,juiz6 (1),NO - Wrong answer
+541,1,IFSC - Schrödingers Katze,297,G,C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+542,1,PhD na área;,297,E,C++,e.cpp,judged,juiz2 (1),NO - Time limit exceeded
+543,1,IFSC - Schrödingers Katze,297,G,C++,G.cpp,judged,juiz6 (1),NO - Wrong answer
+544,1,using namespace none;,297,E,C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+545,1,Thundercats,297,C,C++,typing.cpp,judged,juiz6 (1),NO - Time limit exceeded
+546,1,a; DROP TABLEuser; --,297,I,C++,I.cpp,judged,juiz4 (1),NO - Time limit exceeded
+547,1,sudo make a sandwich,298,F,C++,F.cpp,judged,juiz2 (1),YES
+548,1,MargarITA,298,E,C++,e.cpp,judged,juiz6 (1),NO - Wrong answer
+549,1,ASA,298,J,C++,lca.cpp,judged,juiz3 (1),NO - Time limit exceeded
+550,1,IFSC - Schrödingers Katze,298,G,C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+551,1,Thundercats,298,C,C++,typing.cpp,judged,juiz6 (1),NO - Compilation error
+552,1,Não Entre em Pânico,298,I,C++,I.cpp,judged,juiz3 (1),NO - Time limit exceeded
+553,1,UFMG In rand() we trust!,298,A,C++,a2.cpp,judged,juiz5 (1),NO - Wrong answer
+554,1,Já Chegou o Disco Voador,298,I,Java,I.java,judged,juiz3 (1),NO - Time limit exceeded
+555,1,Time do Feipa,298,A,C++,A.cpp,judged,juiz4 (1),NO - Time limit exceeded
+556,1,PhD na área;,298,G,C++,g.cpp,judged,juiz4 (1),NO - Time limit exceeded
+557,1,Largest Living Rodent,298,I,C,I.c,judged,juiz6 (1),NO - Time limit exceeded
+558,1,UFMG In rand() we trust!,298,A,C++,a2.cpp,judged,juiz6 (1),NO - Wrong answer
+559,1,IFSC - Schrödingers Katze,298,G,C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+560,1,MargarITA,298,E,C++,e2.cpp,judged,juiz6 (1),YES
+561,1,Largest Living Rodent,299,J,C,J.c,judged,juiz6 (1),NO - Time limit exceeded
+562,1,Y U no accept?,299,C,C++,c.cpp,judged,juiz5 (1),NO - Runtime error
+563,1,using namespace none;,299,E,C++,E.cpp,judged,juiz3 (1),NO - Time limit exceeded
+564,1,Largest Living Rodent,299,G,C,G.c,judged,juiz6 (1),NO - Wrong answer
+565,1,UFMG In rand() we trust!,299,A,C++,a2.cpp,judged,juiz4 (1),NO - Wrong answer
+566,1,PhD na área;,299,G,C++,g.cpp,judged,juiz5 (1),NO - Time limit exceeded
+567,1,ETROPUS,299,I,C,i3.c,judged,juiz6 (1),NO - Runtime error
+568,1,MargarITA,299,E,C++,e2.cpp,judged,juiz4 (1),YES
+569,1,IFSC - Schrödingers Katze,299,G,C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+570,1,char *alho;,299,J,C++,J.cpp,judged,juiz6 (1),NO - Time limit exceeded
+571,1,ETROPUS,299,J,C++,j.cpp,judged,juiz6 (1),NO - Time limit exceeded
