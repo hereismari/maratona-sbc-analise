@@ -13,7 +13,7 @@ def main():
   for year in links:
     if 'statistic_url' in links[year]:
       print links[year][STATISTICS_KEY]
-      ds.download_statistics(links[year][STATISTICS_KEY], '%s/%s.csv' % (OUTPUT_PATH, year))
+      ds.download_statistics(links[year][STATISTICS_KEY], '%s/%s/' % (OUTPUT_PATH, year))
     else:
       print "Ignoring %s because the statistics url doesn't exist :(" % year
 if __name__ == '__main__':
