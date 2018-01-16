@@ -1,0 +1,509 @@
+0,1,2,3,4,5,6,7,8,9
+#,Site,User,Time,Problem,Language,Filename,Status,Judge (Site),Answer
+1,1,Juiz 5,-272,A(Branco),C,gap-rooks.c,judged,juiz3 (1),YES
+2,1,Juiz 5,-272,A(Branco),C++,fidel-rooks.cpp,judged,juiz3 (1),YES
+3,1,Juiz 3,-271,J(Cinza),C,gap-join2k-linear.c,judged,juiz3 (1),YES
+4,1,Juiz 5,-271,A(Branco),C++,rooks-pablo-greedy.cpp,judged,juiz3 (1),NO - Time limit exceeded
+5,1,Juiz 3,-271,J(Cinza),C,gap-join2k-quadratic.c,judged,juiz3 (1),NO - Time limit exceeded
+6,1,Juiz 3,-270,I(Rosa),C++,huffman-leo.cpp,judged,juiz3 (1),YES
+7,1,Juiz 5,-270,B(Lilas),C++,fidel-unreadable-mult.cpp,judged,juiz3 (1),YES
+8,1,Juiz 3,-270,I(Rosa),C,gap-huffman.c,judged,juiz3 (1),YES
+9,1,Juiz 5,-269,A(Branco),C++,fidel-unreadable-slow-opt.cpp,judged,juiz3 (1),NO - Wrong answer
+10,1,Juiz 5,-269,A(Branco),C,fidel-unreadable-slow.cpp,judged,juiz3 (1),NO - Compilation error
+11,1,Juiz 3,-269,H(Azul escuro),C++,hideandseek-pablo.cpp,judged,juiz5 (1),YES
+12,1,Juiz 3,-269,H(Azul escuro),C++,gap-hideandseek-slow.cpp,judged,juiz5 (1),NO - Time limit exceeded
+13,1,Juiz 5,-267,B(Lilas),C++,fidel-unreadable-slow.cpp,judged,juiz3 (1),NO - Time limit exceeded
+14,1,Juiz 5,-266,B(Lilas),C++,unreadable_pablo.cpp,judged,juiz3 (1),YES
+15,1,Juiz 5,-265,C(Azul claro),C++,cbits_ray.cpp,judged,juiz3 (1),YES
+16,1,Juiz 5,-264,C(Azul claro),C,gap-slow.c,judged,juiz3 (1),NO - Time limit exceeded
+17,1,Juiz 5,-264,C(Azul claro),C,gap-wrong.c,judged,juiz3 (1),NO - Wrong answer
+18,1,Juiz 3,-264,G(Verde Claro),C,gap-ultra.c,judged,juiz3 (1),YES
+19,1,Juiz 3,-264,G(Verde Claro),C,gap-ultra-quadratic.c,judged,juiz3 (1),NO - Time limit exceeded
+20,1,Juiz 3,-263,G(Verde Claro),C++,fidel-ultra-nh.cpp,judged,juiz3 (1),NO - Time limit exceeded
+21,1,Juiz 3,-263,F(Amarelo),C,gap-football.c,judged,juiz5 (1),YES
+22,1,Juiz 3,-263,F(Amarelo),C++,football-leo.cpp,judged,juiz5 (1),YES
+23,1,Juiz 5,-263,D(Vermelho),C++,fidel-twopaths-linear.cpp,judged,juiz5 (1),YES
+24,1,Juiz 5,-262,D(Vermelho),C++,fidel-twopaths.cpp,judged,juiz5 (1),YES
+25,1,Juiz 5,-261,D(Vermelho),C++,fidel-twopaths-slow.cpp,judged,juiz3 (1),NO - Time limit exceeded
+26,1,Juiz 5,-260,E(Laranja),C++,eleven_leo.cpp,judged,juiz3 (1),YES
+27,1,Juiz 5,-260,E(Laranja),C,gap-slow.c,judged,juiz3 (1),NO - Time limit exceeded
+28,1,Juiz 3,-259,E(Laranja),C++,eleven-pablo.cpp,judged,juiz2 (1),YES
+29,1,Juiz 3,-259,E(Laranja),C,gap-slow.c,judged,juiz2 (1),NO - Time limit exceeded
+30,1,Juiz 5,-258,F(Amarelo),C++,football-leo.cpp,judged,juiz2 (1),YES
+31,1,[BR/USP-Sao Carlos] Ntemtempabobagi,7,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+32,1,[BR/USP-Sao Carlos] Ntemtempabobagi,8,F(Amarelo),C++,F.cpp,judged,juiz2 (1),YES
+33,1,[BR/USP-Sao Carlos] Ntemtempabobagi,9,F(Amarelo),C++,F.cpp,judged,juiz2 (1),YES
+34,1,[BR/UFCG] Coders Gonna Code,11,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+35,1,[BR/UFPE] =(,13,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+36,1,[BR/UFS] Bateu ai?,14,F(Amarelo),C++,F.cpp,judged,juiz3 (1),YES
+37,1,"[BR/UNITAU] 2 de porao, 1 de lab",14,F(Amarelo),C++,football.cpp,judged,juiz4 (1),NO - Wrong answer
+38,1,[BR/ITA] CPF na nota?,14,F(Amarelo),C++,football.cpp,judged,juiz3 (1),YES
+39,1,[BR/UFMG] In rand() we trust!,14,F(Amarelo),C++,f.cpp,judged,juiz4 (1),NO - Wrong answer
+40,1,[BR/USP] Bitelo,14,F(Amarelo),C++,f.cpp,judged,juiz4 (1),NO - Wrong answer
+41,1,[BR/IME] Timelino,15,C(Azul claro),C++,C.cpp,judged,juiz3 (1),YES
+42,1,[BR/UFPR] Ballong Misto de Trypanossoma,15,F(Amarelo),C++,F.cpp,judged,juiz2 (1),YES
+43,1,[BR/UFRJ] #YesWeCan read you mail,16,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+44,1,[BR/Unicamp] I Triple Dare You,16,F(Amarelo),C++,f.cpp,judged,juiz4 (1),YES
+45,1,[BR/FATEC-Sorocaba] 2B||!2B,18,F(Amarelo),C++,football.cpp,judged,juiz3 (1),NO - Wrong answer
+46,1,[BR/UNIFEI] Os Feras do Paranaue,18,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+47,1,[BR/UFSC] Gargamel s Team,18,F(Amarelo),C++,f.cc,judged,juiz4 (1),NO - Wrong answer
+48,1,"[BR/UNITAU] 2 de porao, 1 de lab",18,F(Amarelo),C++,football.cpp,judged,juiz5 (1),NO - Wrong answer
+49,1,[BR/Unicamp] All in,19,F(Amarelo),C++,f.cpp,judged,juiz4 (1),YES
+50,1,[BR/UFG] Monkeys,19,F(Amarelo),C++,f.cpp,judged,juiz3 (1),NO - Wrong answer
+51,1,[UFPI] Alliance,20,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+52,1,"[BR/UFCG] Calma pessoal, calma...",20,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+53,1,[BR/USP-Sao Carlos] aHHHH entaum tah baoum,21,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+54,1,[BR/UFPE] =(,22,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+55,1,[BR/UFES] ETROPUS,23,F(Amarelo),C,F.c,judged,juiz3 (1),NO - Wrong answer
+56,1,[BR/UFSCar-Sorocaba] omelette du fromage,23,F(Amarelo),C,f.c,judged,juiz4 (1),NO - Time limit exceeded
+57,1,[BR/UFRGS] BDR,23,F(Amarelo),C++,f.cpp,judged,juiz3 (1),NO - Wrong answer
+58,1,[BR/UEFS] Untitled.cpp,23,F(Amarelo),C++,F.cpp,judged,juiz3 (1),YES
+59,1,[BR/UFRJ] Hidden Markov Programmers,24,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+60,1,[BR/IME] Timelino,24,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+61,1,[BR/USP-Sao Carlos] Ntemtempabobagi,25,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+62,1,[BR/UFPE] Nao e so pelos 20 minutos,25,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+63,1,[BR/UFRN] Kamikaze,25,F(Amarelo),C++,f.cpp,judged,juiz5 (1),NO - Wrong answer
+64,1,[BR/UFRJ] Hidden Markov Programmers,26,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+65,1,[BR/UFRJ] #YesWeCan read you mail,26,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+66,1,[BR/UFRN] Voa Absurdo Classico!,27,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+67,1,[BR/UECE] Gatinhos da UECE,27,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+68,1,[BR/UFMS] k-pivara,27,F(Amarelo),C++,F.cpp,judged,juiz2 (1),YES
+69,1,[BR/UFG] Monkeys,27,F(Amarelo),C++,f.cpp,judged,juiz4 (1),YES
+70,1,[BR/UFES] ETROPUS,27,F(Amarelo),C,F.c,judged,juiz4 (1),YES
+71,1,[BR/FATEC-Sorocaba] 2B||!2B,28,F(Amarelo),C++,football.cpp,judged,juiz4 (1),NO - Wrong answer
+72,1,[BR/UFG] Trainee,28,F(Amarelo),C++,f.cpp,judged,juiz3 (1),YES
+73,1,[BR/UFPR] Ballong Misto de Trypanossoma,29,C(Azul claro),C++,C.cpp,judged,juiz3 (1),YES
+74,1,[BR/UFRGS] BDR,29,F(Amarelo),C++,f.cpp,judged,juiz5 (1),NO - Wrong answer
+75,1,[BR/UFSC] Gargamel s Team,31,F(Amarelo),C++,f.cc,judged,juiz4 (1),YES
+76,1,[BR/UFSCar-Sorocaba] omelette du fromage,31,F(Amarelo),C++,f.cpp,judged,juiz3 (1),NO - Time limit exceeded
+77,1,[BR/UFMG] Starters Edition,31,F(Amarelo),C++,g.cpp,judged,juiz4 (1),YES
+78,1,[BR/IME] Timelino,31,F(Amarelo),C++,F.cpp,judged,juiz3 (1),YES
+79,1,[BR/UFPEL] SucoDeLaranja,32,F(Amarelo),C,F.c,judged,juiz3 (1),NO - Wrong answer
+80,1,[BR/UDESC] Noollab,34,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+81,1,[BR/USP] Bitelo,34,F(Amarelo),C++,f2.cpp,judged,juiz4 (1),YES
+82,1,[BR/UFOP] The Doppler Effect,34,F(Amarelo),C++,footbal.cpp,judged,juiz4 (1),NO - Wrong answer
+83,1,[BR/UNIVASF] Fire s Determination,34,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+84,1,[BR/IFTM] Modus Ponens Malditos,35,F(Amarelo),C,F.c,judged,juiz7 (1),NO - Wrong answer
+85,1,[BR/FATEC-Sorocaba] 2B||!2B,35,F(Amarelo),C++,football.cpp,judged,juiz3 (1),YES
+86,1,[UFPI] Alliance,35,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+87,1,[BR/UFRN] Kamikaze,35,F(Amarelo),C++,f.cpp,judged,juiz4 (1),NO - Wrong answer
+88,1,[BR/UECE] Gatinhos da UECE,38,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+89,1,[BR/IFCE] ADA,38,F(Amarelo),Java,F.java,judged,juiz4 (1),NO - Wrong answer
+90,1,[BR/UFSCar-Sorocaba] omelette du fromage,38,F(Amarelo),C,f.c,judged,juiz5 (1),NO - Time limit exceeded
+91,1,[BR/FATEC-Mogi] EQUIPISTOLA,38,F(Amarelo),Java,F.java,judged,juiz3 (1),YES
+92,1,[BR/UFV] admin admin,39,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+93,1,[BR/UFRGS] BDR,39,F(Amarelo),C++,f.cpp,judged,juiz3 (1),YES
+94,1,[BR/UFFS] The Morgans,39,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+95,1,[BR/UFMG] In rand() we trust!,39,C(Azul claro),C++,c.cpp,judged,juiz4 (1),YES
+96,1,[BR/IFTM] Modus Ponens Malditos,39,F(Amarelo),C,F.c,judged,juiz3 (1),NO - Wrong answer
+97,1,[BR/UPF] Funcionalidade Aleatoria,39,F(Amarelo),C++,F.cpp,judged,juiz5 (1),NO - Wrong answer
+98,1,[BR/ITA] PlankITA,39,F(Amarelo),C++,F.cpp,judged,juiz3 (1),YES
+99,1,[BR/UFPEL] SucoDeLaranja,39,F(Amarelo),C,F.c,judged,juiz3 (1),NO - Wrong answer
+100,1,[BR/UFOP] The Doppler Effect,40,F(Amarelo),C++,footbal.cpp,judged,juiz2 (1),NO - Wrong answer
+101,1,"[BR/UNITAU] 2 de porao, 1 de lab",40,F(Amarelo),C++,football.cpp,judged,juiz7 (1),YES
+102,1,[BR/UDESC] Noollab,40,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+103,1,[BR/UFRN] Kamikaze,41,F(Amarelo),C++,f.cpp,judged,juiz4 (1),YES
+104,1,[BR/Unoeste] AG2,41,F(Amarelo),C++,F.CPP,judged,juiz5 (1),NO - Wrong answer
+105,1,[BR/UNIVASF] Fire s Determination,42,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+106,1,[BR/UFRJ] Hidden Markov Programmers,43,C(Azul claro),C++,C.cpp,judged,juiz5 (1),YES
+107,1,[BR/UFU] Coelhos de dentes afiados,43,F(Amarelo),C++,F.cpp,judged,juiz2 (1),NO - Wrong answer
+108,1,[BR/USP-Sao Carlos] aHHHH entaum tah baoum,43,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+109,1,[BR/UFOP] The Doppler Effect,44,F(Amarelo),C++,footbal.cpp,judged,juiz3 (1),NO - Wrong answer
+110,1,[BR/UNILINS] #kabumba,44,F(Amarelo),C++,f.cpp,judged,juiz3 (1),YES
+111,1,[BR/UFPE] Nao e so pelos 20 minutos,44,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+112,1,[BR/Unicamp] I Triple Dare You,44,C(Azul claro),C++,c.cpp,judged,juiz3 (1),YES
+113,1,[BR/UFSCar-Sorocaba] omelette du fromage,44,F(Amarelo),C,f.c,judged,juiz2 (1),YES
+114,1,[BR/UFPE] =(,46,A(Branco),C++,A.cpp,judged,juiz4 (1),YES
+115,1,[BR/Fatec Lins] SoFaltatestar,47,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+116,1,[BR/UFFS] The Morgans,47,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+117,1,[BR/IFCE] ADA,48,F(Amarelo),Java,F.java,judged,juiz4 (1),NO - Wrong answer
+118,1,[BR/UFU] Coelhos de dentes afiados,48,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+119,1,[BR/UFOP] The Doppler Effect,49,F(Amarelo),C++,footbal.cpp,judged,juiz4 (1),YES
+120,1,[BR/UTFPR] MVVC,50,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+121,1,[BR/UFSCar] Deggub,50,F(Amarelo),C++,F.cpp,judged,juiz5 (1),YES
+122,1,[BR/UFMG] In rand() we trust!,51,F(Amarelo),C++,f.cpp,judged,juiz3 (1),YES
+123,1,[BR/UFV] admin admin,53,F(Amarelo),C++,F.cpp,judged,juiz2 (1),YES
+124,1,[UFPI] Alliance,54,F(Amarelo),C++,F.cpp,judged,juiz3 (1),YES
+125,1,[BR/Unicamp] All in,55,C(Azul claro),C++,c.cpp,judged,juiz3 (1),YES
+126,1,[BR/USP] Bpyym,55,F(Amarelo),C++,F.cpp,judged,juiz3 (1),YES
+127,1,[BR/UFRGS] BDR,55,C(Azul claro),C++,c.cpp,judged,juiz2 (1),YES
+128,1,[BR/USP] Bitelo,56,C(Azul claro),C++,c.cpp,judged,juiz4 (1),YES
+129,1,"[BR/UFCG] Calma pessoal, calma...",56,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+130,1,[BR/IFTM] Modus Ponens Malditos,57,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+131,1,[BR/USP] Bpyym,57,A(Branco),C++,a.cpp,judged,juiz4 (1),YES
+132,1,[BR/UVA] Startup,57,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+133,1,[BR/UFRN] Voa Absurdo Classico!,57,C(Azul claro),C++,C.cpp,judged,juiz3 (1),YES
+134,1,[BR/UFFS] The Morgans,58,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+135,1,[BR/UFCG] Coders Gonna Code,58,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+136,1,[BR/UVA] Startup,60,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+137,1,[BR/Unis] BCC A,60,F(Amarelo),C++,f.cxx,judged,juiz4 (1),NO - Time limit exceeded
+138,1,[BR/UFSCar-Sorocaba] omelette du fromage,62,G(Verde Claro),C++,g.cpp,judged,juiz2 (1),NO - Wrong answer
+139,1,[BR/UFMG] Starters Edition,62,C(Azul claro),C++,c.cpp,judged,juiz2 (1),YES
+140,1,[BR/Unoeste] AG2,64,F(Amarelo),C++,F.CPP,judged,juiz2 (1),NO - Wrong answer
+141,1,[BR/UFMT-Araguaia] HUEHUE BR,65,F(Amarelo),C++,F.cpp,judged,juiz2 (1),NO - Runtime error
+142,1,[BR/UFRN] Voa Absurdo Classico!,65,H(Azul escuro),C++,H.cpp,judged,juiz3 (1),NO - Time limit exceeded
+143,1,[BR/UFRJ] #YesWeCan read you mail,65,C(Azul claro),C++,C.cpp,judged,juiz2 (1),YES
+144,1,[BR/UFPEL] SucoDeLaranja,65,F(Amarelo),C,F.c,judged,juiz5 (1),YES
+145,1,[BR/UFPE] Nao e so pelos 20 minutos,65,A(Branco),C++,A.cpp,judged,juiz3 (1),YES
+146,1,[BR/PUC Rio] PUC-Rio 2,67,F(Amarelo),C++,F.cpp,judged,juiz2 (1),NO - Wrong answer
+147,1,"[BR/UNITAU] 2 de porao, 1 de lab",68,A(Branco),C++,rooks.cpp,judged,juiz2 (1),NO - Time limit exceeded
+148,1,[BR/Unicamp] I Triple Dare You,69,A(Branco),C++,a.cpp,judged,juiz3 (1),NO - Runtime error
+149,1,Juiz 4,69,F(Amarelo),C++,test.cpp,judged,juiz2 (1),NO - Time limit exceeded
+150,1,[BR/USP-Sao Carlos] Ntemtempabobagi,69,A(Branco),C++,A.cpp,judged,juiz2 (1),YES
+151,1,[BR/UFSCar-Sorocaba] omelette du fromage,70,G(Verde Claro),C++,g.cpp,judged,juiz7 (1),NO - Wrong answer
+152,1,[BR/PUC Rio] PUC-Rio 2,71,F(Amarelo),C++,F.cpp,judged,juiz5 (1),NO - Wrong answer
+153,1,[BR/UFPR] Ballong Misto de Trypanossoma,71,D(Vermelho),C++,D.cpp,judged,juiz2 (1),NO - Wrong answer
+154,1,[BR/UECE] Gatinhos da UECE,71,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+155,1,[BR/Unicamp] I Triple Dare You,71,G(Verde Claro),C++,g.cpp,judged,juiz5 (1),NO - Time limit exceeded
+156,1,[BR/UFMT-Araguaia] HUEHUE BR,72,F(Amarelo),C++,F.cpp,judged,juiz2 (1),NO - Runtime error
+157,1,[BR/USP] Bitelo,72,A(Branco),C++,a.cpp,judged,juiz2 (1),NO - Runtime error
+158,1,[BR/IFTM] Modus Ponens Malditos,72,F(Amarelo),C++,F.cpp,judged,juiz2 (1),YES
+159,1,[BR/Unicamp] I Triple Dare You,73,A(Branco),C++,a.cpp,judged,juiz2 (1),YES
+160,1,[BR/UFPA] ClubeDosCanalhas,74,F(Amarelo),Java,F.java,judged,juiz3 (1),NO - Wrong answer
+161,1,[BR/PUC Rio] PUC-Rio 2,75,F(Amarelo),C++,F.cpp,judged,juiz5 (1),YES
+162,1,[BR/UFU] Coelhos de dentes afiados,76,F(Amarelo),C++,F.cpp,judged,juiz2 (1),NO - Wrong answer
+163,1,[BR/IFCE] ADA,76,G(Verde Claro),Java,G.java,judged,juiz2 (1),NO - Wrong answer
+164,1,[BR/USP] Bitelo,77,A(Branco),C++,a.cpp,judged,juiz7 (1),YES
+165,1,[BR/UPF] Funcionalidade Aleatoria,77,F(Amarelo),C++,F.cpp,judged,juiz2 (1),YES
+166,1,[BR/UVA] Startup,77,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+167,1,[BR/UFPA] ClubeDosCanalhas,79,F(Amarelo),Java,F.java,judged,juiz2 (1),YES
+168,1,[BR/UECE] Gatinhos da UECE,79,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+169,1,[BR/IME] Timelino,79,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Runtime error
+170,1,[BR/Unicamp] I Triple Dare You,80,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Time limit exceeded
+171,1,[BR/ITA] CPF na nota?,80,C(Azul claro),C++,counting.cpp,judged,juiz4 (1),YES
+172,1,[BR/UFG] Monkeys,81,C(Azul claro),C++,c.cpp,judged,juiz3 (1),YES
+173,1,[BR/IFCE] ADA,81,F(Amarelo),Java,F.java,judged,juiz2 (1),NO - Wrong answer
+174,1,[BR/USP-Sao Carlos] aHHHH entaum tah baoum,82,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Wrong answer
+175,1,[BR/USP] Bpyym,83,C(Azul claro),C++,c.cpp,judged,juiz4 (1),YES
+176,1,[BR/UFRJ] Hidden Markov Programmers,84,A(Branco),C++,A.cpp,judged,juiz5 (1),NO - Runtime error
+177,1,[BR/Unis] BCC A,84,G(Verde Claro),C++,g.cxx,judged,juiz2 (1),NO - Wrong answer
+178,1,[BR/FATEC-Sorocaba] 2B||!2B,85,A(Branco),C++,a.cpp,judged,juiz2 (1),NO - Wrong answer
+179,1,[BR/USP-Sao Carlos] Ntemtempabobagi,85,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),YES
+180,1,[BR/UFCG] Coders Gonna Code,86,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Runtime error
+181,1,[BR/UFRJ] Hidden Markov Programmers,88,A(Branco),C++,A.cpp,judged,juiz3 (1),YES
+182,1,[BR/UFU] Coelhos de dentes afiados,88,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+183,1,[BR/UFMT-Araguaia] HUEHUE BR,88,F(Amarelo),Java,F.java,judged,juiz4 (1),YES
+184,1,[BR/Unis] BCC A,88,F(Amarelo),C++,f.cxx,judged,juiz3 (1),NO - Time limit exceeded
+185,1,[BR/ITA] CPF na nota?,88,A(Branco),C++,rooks.cpp,judged,juiz4 (1),YES
+186,1,[BR/PUC Rio] PUC-Rio 2,88,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+187,1,[BR/UECE] Gatinhos da UECE,88,A(Branco),C++,A.cpp,judged,juiz5 (1),NO - Wrong answer
+188,1,[BR/Unicamp] I Triple Dare You,90,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),YES
+189,1,[BR/UTFPR] MVVC,90,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+190,1,[BR/UNIR] TeamName,92,F(Amarelo),C,F.c,judged,juiz3 (1),NO - Wrong answer
+191,1,[BR/Facit] Facit 1,92,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+192,1,[BR/UFPE] =(,93,E(Laranja),C++,E.cpp,judged,juiz7 (1),NO - Wrong answer
+193,1,[BR/Unis] BCC A,94,F(Amarelo),C++,f.cxx,judged,juiz2 (1),NO - Time limit exceeded
+194,1,[BR/UFCG] Coders Gonna Code,97,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Runtime error
+195,1,[BR/UVA] Startup,99,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Time limit exceeded
+196,1,[BR/FPU] Avengers,99,G(Verde Claro),Java,G.java,judged,juiz4 (1),NO - Wrong answer
+197,1,"[BR/UNITAU] 2 de porao, 1 de lab",99,A(Branco),C++,rooks.cpp,judged,juiz3 (1),NO - Wrong answer
+198,1,[BR/UFPE] Nao e so pelos 20 minutos,99,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),YES
+199,1,"[BR/UFCG] Calma pessoal, calma...",99,A(Branco),C++,A.cpp,judged,juiz2 (1),YES
+200,1,[BR/ITA] PlankITA,101,C(Azul claro),C++,C.cpp,judged,juiz3 (1),YES
+201,1,[BR/Unis] BCC A,101,F(Amarelo),C++,f.cxx,judged,juiz3 (1),NO - Wrong answer
+202,1,[BR/UFFS] The Morgans,102,C(Azul claro),C,C.c,judged,juiz3 (1),YES
+203,1,[BR/UFSCar-Sorocaba] omelette du fromage,102,A(Branco),C++,a.cpp,judged,juiz2 (1),NO - Wrong answer
+204,1,[BR/UFV] admin admin,102,B(Lilas),C++,B.cpp,judged,juiz2 (1),NO - Time limit exceeded
+205,1,[BR/UFU] Coelhos de dentes afiados,103,F(Amarelo),C++,F.cpp,judged,juiz4 (1),YES
+206,1,[BR/Facit] Facit 1,104,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+207,1,[BR/USP] Bitelo,104,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),YES
+208,1,[BR/IME] Timelino,105,A(Branco),C++,A.cpp,judged,juiz3 (1),YES
+209,1,[BR/UFU] Coelhos de dentes afiados,105,C(Azul claro),C++,C.cpp,judged,juiz3 (1),YES
+210,1,[BR/UVA] Startup,105,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Time limit exceeded
+211,1,[BR/USP-Sao Carlos] Ntemtempabobagi,107,E(Laranja),C++,E.cpp,judged,juiz4 (1),YES
+212,1,[BR/UFRN] Voa Absurdo Classico!,107,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Runtime error
+213,1,[BR/UFRN] Kamikaze,107,C(Azul claro),C++,C.cpp,judged,juiz3 (1),YES
+214,1,[BR/UFPR] Ballong Misto de Trypanossoma,108,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+215,1,[BR/Unis] BCC A,109,F(Amarelo),C++,f.cxx,judged,juiz4 (1),NO - Time limit exceeded
+216,1,[BR/USP] Bitelo,112,E(Laranja),C++,e.cpp,judged,juiz3 (1),NO - Wrong answer
+217,1,[BR/UNIFEI] Os Feras do Paranaue,116,C(Azul claro),C++,C.cpp,judged,juiz3 (1),YES
+218,1,[BR/Unoeste] AG2,116,F(Amarelo),C++,f.cpp,judged,juiz2 (1),NO - Wrong answer
+219,1,[BR/USP-Sao Carlos] Ntemtempabobagi,117,D(Vermelho),C++,D.cpp,judged,juiz4 (1),YES
+220,1,[BR/UFRN] Voa Absurdo Classico!,117,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Runtime error
+221,1,[BR/IFCE] ADA,117,F(Amarelo),Java,F.java,judged,juiz3 (1),NO - Wrong answer
+222,1,[BR/UTFPR] MVVC,119,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+223,1,[BR/UNIR] TeamName,120,F(Amarelo),C,football.c,judged,juiz2 (1),NO - Wrong answer
+224,1,[BR/USP] Bitelo,120,E(Laranja),C++,e.cpp,judged,juiz3 (1),YES
+225,1,[BR/UFES] ETROPUS,122,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Time limit exceeded
+226,1,[BR/UFCG] Coders Gonna Code,123,A(Branco),C++,A.cpp,judged,juiz4 (1),YES
+227,1,[BR/ITA] CPF na nota?,125,G(Verde Claro),C++,ultra.cpp,judged,juiz3 (1),NO - Wrong answer
+228,1,[BR/UFRJ] #YesWeCan read you mail,125,A(Branco),C++,A.cpp,judged,juiz3 (1),YES
+229,1,[BR/Facit] Facit 1,126,G(Verde Claro),C++,G.cpp,judged,juiz2 (1),NO - Wrong answer
+230,1,[BR/UFPE] Nao e so pelos 20 minutos,126,E(Laranja),C++,E.cpp,judged,juiz2 (1),NO - Wrong answer
+231,1,[BR/USP] Bpyym,128,G(Verde Claro),C++,g.cpp,judged,juiz3 (1),NO - Wrong answer
+232,1,[BR/UNIR] TeamName,128,F(Amarelo),C,football.c,judged,juiz3 (1),NO - Wrong answer
+233,1,[BR/IME] Timelino,128,G(Verde Claro),C++,G.cpp,judged,juiz2 (1),NO - Wrong answer
+234,1,[BR/Unis] BCC A,129,F(Amarelo),C++,f.cxx,judged,juiz3 (1),NO - Time limit exceeded
+235,1,[BR/UFRN] Voa Absurdo Classico!,130,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+236,1,[BR/IFCE] ADA,131,F(Amarelo),Java,F.java,judged,juiz4 (1),NO - Wrong answer
+237,1,[BR/UVA] Startup,131,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Time limit exceeded
+238,1,[UFPI] Alliance,133,E(Laranja),C++,E.cpp,judged,juiz4 (1),NO - Time limit exceeded
+239,1,[BR/UFSCar-Sorocaba] omelette du fromage,133,G(Verde Claro),C++,g2.cpp,judged,juiz4 (1),NO - Wrong answer
+240,1,[BR/UNIR] TeamName,134,E(Laranja),C,eleven.c,judged,juiz4 (1),NO - Compilation error
+241,1,[BR/ITA] CPF na nota?,134,G(Verde Claro),C++,ultra.cpp,judged,juiz5 (1),YES
+242,1,[BR/UFPR] Ballong Misto de Trypanossoma,135,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+243,1,[BR/Unis] BCC A,135,F(Amarelo),C++,f.cxx,judged,juiz4 (1),NO - Time limit exceeded
+244,1,[BR/UFPE] =(,136,E(Laranja),C++,E.cpp,judged,juiz3 (1),YES
+245,1,"[BR/UNITAU] 2 de porao, 1 de lab",137,A(Branco),C++,rooks.cpp,judged,juiz5 (1),NO - Wrong answer
+246,1,[BR/UVA] Startup,138,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Time limit exceeded
+247,1,[BR/Unoeste] AG2,138,F(Amarelo),C++,f.cpp,judged,juiz4 (1),NO - Time limit exceeded
+248,1,[BR/UEFS] Untitled.cpp,139,C(Azul claro),C++,C.cpp,judged,juiz3 (1),YES
+249,1,[BR/UFSCar] Deggub,140,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+250,1,[BR/ITA] PlankITA,141,I(Rosa),C++,I.cpp,judged,juiz3 (1),NO - Wrong answer
+251,1,[BR/UFRJ] Hidden Markov Programmers,142,G(Verde Claro),C++,G.cpp,judged,juiz2 (1),NO - Wrong answer
+252,1,[BR/UFMG] In rand() we trust!,143,A(Branco),C++,a.cpp,judged,juiz3 (1),YES
+253,1,[BR/UECE] Gatinhos da UECE,146,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+254,1,[BR/UFPE] Nao e so pelos 20 minutos,147,E(Laranja),C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+255,1,[BR/IME] Timelino,147,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),YES
+256,1,[BR/UFCG] Coders Gonna Code,148,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+257,1,[BR/UFPEL] SucoDeLaranja,149,C(Azul claro),C,C.c,judged,juiz5 (1),NO - Wrong answer
+258,1,[BR/UFRGS] BDR,150,A(Branco),C++,a.cpp,judged,juiz4 (1),NO - Wrong answer
+259,1,[BR/Unis] BCC A,150,F(Amarelo),C++,f.cxx,judged,juiz5 (1),NO - Time limit exceeded
+260,1,[BR/UFPE] =(,151,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Time limit exceeded
+261,1,[BR/UFES] ETROPUS,151,A(Branco),C,A.c,judged,juiz5 (1),NO - Time limit exceeded
+262,1,[BR/IME] Timelino,153,D(Vermelho),C++,D.cpp,judged,juiz4 (1),YES
+263,1,[BR/UFPE] =(,153,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),YES
+264,1,[BR/UFPEL] SucoDeLaranja,155,C(Azul claro),C,C.c,judged,juiz5 (1),YES
+265,1,[BR/IFCE] ADA,155,F(Amarelo),Java,F.java,judged,juiz4 (1),YES
+266,1,[BR/UFS] Bateu ai?,156,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+267,1,[BR/Unicamp] I Triple Dare You,159,E(Laranja),C++,e.cpp,judged,juiz4 (1),NO - Time limit exceeded
+268,1,[BR/UFPR] Ballong Misto de Trypanossoma,159,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+269,1,[BR/UFPR] Ballong Misto de Trypanossoma,162,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),NO - Wrong answer
+270,1,[BR/UFCG] Coders Gonna Code,163,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),YES
+271,1,[BR/UECE] Gatinhos da UECE,163,A(Branco),C++,A.cpp,judged,juiz5 (1),NO - Wrong answer
+272,1,[BR/UVA] Startup,163,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Time limit exceeded
+273,1,[BR/Unicamp] I Triple Dare You,164,J(Cinza),C++,j.cpp,judged,juiz4 (1),NO - Wrong answer
+274,1,[BR/UFG] Monkeys,165,G(Verde Claro),C++,g.cpp,judged,juiz7 (1),YES
+275,1,[BR/USP] Bpyym,165,G(Verde Claro),C++,g.cpp,judged,juiz2 (1),YES
+276,1,[BR/Unis] BCC A,165,F(Amarelo),C++,f.cxx,judged,juiz2 (1),NO - Wrong answer
+277,1,[BR/USP-Sao Carlos] aHHHH entaum tah baoum,166,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+278,1,[BR/UNIR] TeamName,166,F(Amarelo),C,football.c,judged,juiz3 (1),NO - Wrong answer
+279,1,[BR/Unicamp] I Triple Dare You,169,J(Cinza),C++,j.cpp,judged,juiz4 (1),NO - Wrong answer
+280,1,[BR/UNIR] TeamName,170,F(Amarelo),C,F.c,judged,juiz3 (1),NO - Wrong answer
+281,1,[BR/UFPE] Nao e so pelos 20 minutos,171,D(Vermelho),C++,D.cpp,judged,juiz4 (1),NO - Wrong answer
+282,1,[BR/Unis] BCC A,171,F(Amarelo),C++,f.cxx,judged,juiz3 (1),NO - Time limit exceeded
+283,1,[BR/UFRJ] Hidden Markov Programmers,174,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),NO - Wrong answer
+284,1,"[BR/UFCG] Calma pessoal, calma...",174,J(Cinza),C++,J.cpp,judged,juiz2 (1),YES
+285,1,[BR/UDESC] Noollab,174,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),NO - Wrong answer
+286,1,[BR/Unicamp] I Triple Dare You,174,E(Laranja),C++,e.cpp,judged,juiz7 (1),NO - Wrong answer
+287,1,[BR/UFES] ETROPUS,178,C(Azul claro),C++,C.cpp,judged,juiz4 (1),YES
+288,1,[BR/UNIFEI] Os Feras do Paranaue,178,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+289,1,[BR/UFRJ] Hidden Markov Programmers,179,G(Verde Claro),C++,G.cpp,judged,juiz2 (1),NO - Wrong answer
+290,1,[BR/UFSC] Gargamel s Team,179,B(Lilas),C++,b.cc,judged,juiz4 (1),NO - Wrong answer
+291,1,[BR/Facit] Facit 1,180,F(Amarelo),C++,F.cpp,judged,juiz2 (1),NO - Wrong answer
+292,1,[BR/UTFPR] MVVC,181,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+293,1,[BR/UFRJ] #YesWeCan read you mail,181,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+294,1,[BR/UNIR] TeamName,183,F(Amarelo),C,F.c,judged,juiz5 (1),NO - Wrong answer
+295,1,[BR/UFRJ] Hidden Markov Programmers,184,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+296,1,[BR/Unicamp] I Triple Dare You,184,J(Cinza),C++,j.cpp,judged,juiz3 (1),NO - Wrong answer
+297,1,"[BR/UFCG] Calma pessoal, calma...",184,E(Laranja),C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+298,1,[BR/UFRJ] #YesWeCan read you mail,185,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+299,1,[BR/UFPE] Nao e so pelos 20 minutos,187,J(Cinza),C++,J.cpp,judged,juiz4 (1),YES
+300,1,[BR/Unicamp] I Triple Dare You,188,E(Laranja),C++,e.cpp,judged,juiz4 (1),YES
+301,1,[BR/UFMG] In rand() we trust!,189,G(Verde Claro),C++,g.cpp,judged,juiz5 (1),NO - Wrong answer
+302,1,[BR/UVA] Startup,190,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Time limit exceeded
+303,1,[BR/UFSCar-Sorocaba] omelette du fromage,192,G(Verde Claro),C++,g3.cpp,judged,juiz3 (1),NO - Wrong answer
+304,1,[BR/UFSCar] Deggub,193,B(Lilas),C++,B.cpp,judged,juiz5 (1),NO - Time limit exceeded
+305,1,[BR/UECE] Gatinhos da UECE,193,B(Lilas),C++,B.cpp,judged,juiz4 (1),NO - Time limit exceeded
+306,1,"[BR/UFCG] Calma pessoal, calma...",193,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Wrong answer
+307,1,[BR/PUC Rio] PUC-Rio 2,194,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+308,1,[BR/UFCG] Coders Gonna Code,194,D(Vermelho),C++,D.cpp,judged,juiz5 (1),NO - Wrong answer
+309,1,[BR/Unicamp] I Triple Dare You,194,J(Cinza),C++,j.cpp,judged,juiz5 (1),NO - Wrong answer
+310,1,[BR/UFRJ] Hidden Markov Programmers,194,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),NO - Wrong answer
+311,1,[BR/USP] Bitelo,196,D(Vermelho),C++,d.cpp,judged,juiz2 (1),NO - Time limit exceeded
+312,1,[BR/UNIR] TeamName,196,F(Amarelo),C,F.c,judged,juiz2 (1),NO - Wrong answer
+313,1,[BR/Unis] BCC A,196,F(Amarelo),C++,f.cxx,judged,juiz3 (1),NO - Wrong answer
+314,1,[BR/Facit] Facit 1,197,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+315,1,[BR/FPU] Avengers,198,C(Azul claro),Java,C.java,judged,juiz4 (1),NO - Time limit exceeded
+316,1,[BR/USP] Bitelo,198,D(Vermelho),C++,d.cpp,judged,juiz2 (1),YES
+317,1,[BR/UFSCar] Deggub,199,B(Lilas),C++,B.cpp,judged,juiz2 (1),NO - Time limit exceeded
+318,1,[BR/Unoeste] AG2,199,F(Amarelo),C++,f.cpp,judged,juiz4 (1),NO - Time limit exceeded
+319,1,[BR/UFMG] In rand() we trust!,200,G(Verde Claro),C++,g.cpp,judged,juiz3 (1),NO - Wrong answer
+320,1,[BR/UFFS] The Morgans,201,B(Lilas),C++,B.cpp,judged,juiz3 (1),NO - Time limit exceeded
+321,1,[BR/UFRJ] Hidden Markov Programmers,202,G(Verde Claro),C++,G.cpp,judged,juiz2 (1),NO - Wrong answer
+322,1,[BR/UFSCar-Sorocaba] omelette du fromage,202,G(Verde Claro),C++,g3.cpp,judged,juiz4 (1),NO - Wrong answer
+323,1,[BR/UFMG] In rand() we trust!,203,G(Verde Claro),C++,g.cpp,judged,juiz2 (1),NO - Wrong answer
+324,1,[BR/UEFS] Untitled.cpp,204,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Wrong answer
+325,1,[BR/UNIVASF] Fire s Determination,204,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+326,1,[BR/UFG] Monkeys,204,E(Laranja),C++,e.cpp,judged,juiz2 (1),YES
+327,1,[BR/USP-Sao Carlos] Ntemtempabobagi,204,J(Cinza),C++,J.cpp,judged,juiz4 (1),NO - Wrong answer
+328,1,[BR/PUC Rio] PUC-Rio 2,206,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+329,1,[BR/Facit] Facit 1,206,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+330,1,[BR/UFRJ] #YesWeCan read you mail,207,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+331,1,[BR/USP-Sao Carlos] Ntemtempabobagi,209,J(Cinza),C++,J.cpp,judged,juiz4 (1),YES
+332,1,[BR/UFRJ] Hidden Markov Programmers,209,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+333,1,[BR/UFSC] Gargamel s Team,210,B(Lilas),C++,b.cc,judged,juiz3 (1),NO - Time limit exceeded
+334,1,[BR/UDESC] Noollab,213,C(Azul claro),C++,C.cpp,judged,juiz2 (1),YES
+335,1,[BR/UFPE] Nao e so pelos 20 minutos,213,D(Vermelho),C++,D.cpp,judged,juiz2 (1),YES
+336,1,[BR/UNIFEI] Os Feras do Paranaue,213,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+337,1,[BR/UFOP] The Doppler Effect,214,C(Azul claro),Java,counting.java,judged,juiz2 (1),NO - File name mismatch
+338,1,[BR/UFG] Trainee,214,G(Verde Claro),C++,g.cpp,judged,juiz7 (1),NO - Wrong answer
+339,1,[BR/UFPE] =(,215,J(Cinza),C++,J.cpp,judged,juiz3 (1),YES
+340,1,[BR/UFSCar-Sorocaba] omelette du fromage,215,H(Azul escuro),C++,h.cpp,judged,juiz3 (1),NO - Wrong answer
+341,1,[BR/Facit] Facit 1,216,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+342,1,[BR/UFSCar-Sorocaba] omelette du fromage,216,H(Azul escuro),C++,h.cpp,judged,juiz2 (1),NO - Wrong answer
+343,1,[BR/UFOP] The Doppler Effect,216,C(Azul claro),Java,C.java,judged,juiz4 (1),YES
+344,1,[BR/UFMT-Araguaia] HUEHUE BR,219,B(Lilas),C++,B.cpp,judged,juiz4 (1),NO - Wrong answer
+345,1,[BR/UFU] Coelhos de dentes afiados,220,A(Branco),C++,A.cpp,judged,juiz2 (1),NO - Wrong answer
+346,1,[BR/UFPE] Nao e so pelos 20 minutos,221,E(Laranja),C++,E.cpp,judged,juiz2 (1),YES
+347,1,[BR/IME] Timelino,221,J(Cinza),C++,J.cpp,judged,juiz4 (1),YES
+348,1,[BR/UNIR] TeamName,222,F(Amarelo),C,F.c,judged,juiz2 (1),NO - Wrong answer
+349,1,[BR/Facit] Facit 1,222,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Wrong answer
+350,1,[BR/UFMG] Starters Edition,223,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Wrong answer
+351,1,"[BR/UFCG] Calma pessoal, calma...",223,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),YES
+352,1,[BR/UTFPR] MVVC,225,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+353,1,[BR/UFRJ] #YesWeCan read you mail,225,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),YES
+354,1,[BR/Unicamp] All in,227,A(Branco),C++,a.cpp,judged,juiz3 (1),NO - Compilation error
+355,1,[BR/UFMG] Starters Edition,228,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Wrong answer
+356,1,[BR/UFG] Trainee,228,G(Verde Claro),C++,g.cpp,judged,juiz3 (1),NO - Wrong answer
+357,1,[BR/UFPEL] SucoDeLaranja,228,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Time limit exceeded
+358,1,[BR/UDESC] Noollab,228,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Time limit exceeded
+359,1,[BR/UFRN] Voa Absurdo Classico!,230,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+360,1,[BR/UECE] Gatinhos da UECE,230,B(Lilas),C++,B.cpp,judged,juiz4 (1),NO - Time limit exceeded
+361,1,[BR/Unicamp] I Triple Dare You,231,J(Cinza),C++,j.cpp,judged,juiz5 (1),YES
+362,1,[BR/UFES] ETROPUS,231,A(Branco),C,A.c,judged,juiz5 (1),NO - Time limit exceeded
+363,1,[BR/UFMS] k-pivara,233,C(Azul claro),C++,C.cpp,judged,juiz5 (1),YES
+364,1,[BR/USP] Bitelo,234,J(Cinza),C++,j.cpp,judged,juiz2 (1),YES
+365,1,[BR/UFS] Bateu ai?,235,A(Branco),C++,A.cpp,judged,juiz7 (1),YES
+366,1,[BR/UFG] Trainee,235,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Runtime error
+367,1,[BR/UFPR] Ballong Misto de Trypanossoma,236,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),NO - Runtime error
+368,1,[BR/UEFS] Untitled.cpp,236,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+369,1,[BR/UFSCar-Sorocaba] omelette du fromage,237,J(Cinza),C++,j.cpp,judged,juiz4 (1),NO - Wrong answer
+370,1,[BR/Unicamp] All in,239,A(Branco),C++,a.cpp,judged,juiz3 (1),NO - Wrong answer
+371,1,[BR/UFPR] Ballong Misto de Trypanossoma,239,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Runtime error
+372,1,[BR/UFOP] The Doppler Effect,239,A(Branco),C++,A.cpp,judged,juiz5 (1),NO - Wrong answer
+373,1,[BR/UFRGS] BDR,239,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Time limit exceeded
+374,1,[BR/UFPA] ClubeDosCanalhas,240,B(Lilas),Java,B.java,judged,juiz2 (1),NO - Wrong answer
+375,1,[BR/ITA] PlankITA,240,I(Rosa),C++,I.cpp,judged,juiz2 (1),NO - Wrong answer
+376,1,[BR/UFU] Coelhos de dentes afiados,240,A(Branco),C++,A.cpp,judged,juiz5 (1),NO - Wrong answer
+377,1,[BR/UFRN] Voa Absurdo Classico!,241,A(Branco),C++,A.cpp,judged,juiz4 (1),YES
+378,1,[BR/UNIFEI] Os Feras do Paranaue,241,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+379,1,[BR/UFMG] In rand() we trust!,242,G(Verde Claro),C++,g.cpp,judged,juiz3 (1),NO - Wrong answer
+380,1,[BR/UFV] admin admin,243,C(Azul claro),C++,C.cpp,judged,juiz5 (1),YES
+381,1,[BR/UFPR] Ballong Misto de Trypanossoma,243,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),YES
+382,1,[BR/UFRGS] BDR,246,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Wrong answer
+383,1,[BR/Facit] Facit 1,246,F(Amarelo),C++,F.cpp,judged,juiz5 (1),NO - Wrong answer
+384,1,[BR/USP-Sao Carlos] Ntemtempabobagi,247,I(Rosa),C++,I.cpp,judged,juiz5 (1),NO - Wrong answer
+385,1,[UFPI] Alliance,247,B(Lilas),C++,B.cpp,judged,juiz4 (1),NO - Wrong answer
+386,1,[BR/USP-Sao Carlos] Ntemtempabobagi,249,I(Rosa),C++,I.cpp,judged,juiz3 (1),NO - Wrong answer
+387,1,[BR/UFU] Coelhos de dentes afiados,250,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Time limit exceeded
+388,1,[UFPI] Alliance,250,B(Lilas),C++,B.cpp,judged,juiz3 (1),NO - Wrong answer
+389,1,[BR/Unoeste] AG2,250,F(Amarelo),C++,f.cpp,judged,juiz5 (1),NO - Wrong answer
+390,1,[BR/UVA] Startup,251,F(Amarelo),C++,F.cpp,judged,juiz3 (1),NO - Time limit exceeded
+391,1,[BR/UDESC] Noollab,251,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Time limit exceeded
+392,1,[BR/UFFS] The Morgans,251,B(Lilas),C++,B.cpp,judged,juiz5 (1),NO - Time limit exceeded
+393,1,[BR/FATEC-Sorocaba] 2B||!2B,253,C(Azul claro),C++,c.cpp,judged,juiz4 (1),NO - Wrong answer
+394,1,[BR/Unicamp] All in,253,A(Branco),C++,a.cpp,judged,juiz3 (1),NO - Wrong answer
+395,1,"[BR/UFCG] Calma pessoal, calma...",255,E(Laranja),C++,E.cpp,judged,juiz3 (1),NO - Wrong answer
+396,1,[BR/UFPA] ClubeDosCanalhas,255,B(Lilas),Java,B.java,judged,juiz3 (1),NO - Wrong answer
+397,1,[BR/UNIFEI] Os Feras do Paranaue,256,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Time limit exceeded
+398,1,[BR/Unicamp] All in,256,A(Branco),C++,a.cpp,judged,juiz2 (1),NO - Runtime error
+399,1,[BR/Unis] BCC A,256,F(Amarelo),C++,f.cxx,judged,juiz7 (1),NO - Wrong answer
+400,1,[BR/USP] Bitelo,256,H(Azul escuro),C++,h.cpp,judged,juiz4 (1),NO - Wrong answer
+401,1,[BR/Unicamp] All in,258,A(Branco),C++,a.cpp,judged,juiz4 (1),YES
+402,1,[BR/UFMG] Starters Edition,259,G(Verde Claro),C++,g.cpp,judged,juiz3 (1),NO - Wrong answer
+403,1,[BR/UNIFEI] Os Feras do Paranaue,263,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+404,1,[BR/UFPEL] SucoDeLaranja,263,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),NO - Time limit exceeded
+405,1,[BR/UNIFEI] Os Feras do Paranaue,263,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+406,1,[BR/UFMG] In rand() we trust!,263,G(Verde Claro),C++,g2.cpp,judged,juiz5 (1),NO - Wrong answer
+407,1,[BR/UFMG] In rand() we trust!,263,G(Verde Claro),C++,g.cpp,judged,juiz3 (1),NO - Wrong answer
+408,1,[BR/UFRN] Kamikaze,265,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+409,1,[BR/Unis] BCC A,265,F(Amarelo),C++,f.cxx,judged,juiz4 (1),NO - Wrong answer
+410,1,[BR/UDESC] Noollab,266,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),NO - Time limit exceeded
+411,1,[BR/UEFS] Untitled.cpp,266,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Wrong answer
+412,1,[BR/FPU] Avengers,267,F(Amarelo),Java,F.java,judged,juiz4 (1),NO - Wrong answer
+413,1,[BR/Unicamp] I Triple Dare You,267,D(Vermelho),C++,d2.cpp,judged,juiz2 (1),YES
+414,1,[BR/USP] Bpyym,267,J(Cinza),C++,j.cpp,judged,juiz5 (1),NO - Wrong answer
+415,1,[BR/UFPR] Ballong Misto de Trypanossoma,267,D(Vermelho),C++,D.cpp,judged,juiz5 (1),NO - Wrong answer
+416,1,[BR/UFRN] Voa Absurdo Classico!,269,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+417,1,"[BR/UNITAU] 2 de porao, 1 de lab",270,G(Verde Claro),C++,ultas.cpp,judged,juiz7 (1),NO - Wrong answer
+418,1,[BR/UFMG] Starters Edition,270,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Time limit exceeded
+419,1,[BR/FATEC-Sorocaba] 2B||!2B,271,E(Laranja),C++,e.cpp,judged,juiz2 (1),NO - Time limit exceeded
+420,1,[BR/UFMT-Araguaia] HUEHUE BR,272,B(Lilas),C++,B.cpp,judged,juiz2 (1),NO - Time limit exceeded
+421,1,[BR/Unicamp] All in,272,J(Cinza),C++,J.cpp,judged,juiz4 (1),NO - Runtime error
+422,1,[BR/UFPR] Ballong Misto de Trypanossoma,272,D(Vermelho),C++,D.cpp,judged,juiz3 (1),NO - Wrong answer
+423,1,[BR/Unis] BCC A,272,F(Amarelo),C++,f.cxx,judged,juiz5 (1),NO - Wrong answer
+424,1,[BR/UFRGS] BDR,272,G(Verde Claro),C++,g.cpp,judged,juiz5 (1),NO - Wrong answer
+425,1,[BR/UFMG] In rand() we trust!,272,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Wrong answer
+426,1,[BR/UFMG] In rand() we trust!,272,G(Verde Claro),C++,g.cpp,judged,juiz2 (1),NO - Wrong answer
+427,1,[BR/UFRJ] Hidden Markov Programmers,272,I(Rosa),C++,I.cpp,judged,juiz4 (1),NO - Wrong answer
+428,1,[BR/UEFS] Untitled.cpp,273,G(Verde Claro),C++,G.cpp,judged,juiz7 (1),NO - Wrong answer
+429,1,[BR/ITA] CPF na nota?,273,J(Cinza),C++,king.cpp,judged,juiz3 (1),NO - Compilation error
+430,1,[BR/Unicamp] All in,273,J(Cinza),C++,J.cpp,judged,juiz4 (1),NO - Wrong answer
+431,1,[BR/UFMG] Starters Edition,274,A(Branco),C++,a.cpp,judged,juiz5 (1),NO - Wrong answer
+432,1,[BR/UFMG] Starters Edition,275,G(Verde Claro),C++,g.cpp,judged,juiz2 (1),YES
+433,1,[BR/ITA] PlankITA,275,I(Rosa),C++,I.cpp,judged,juiz3 (1),NO - Wrong answer
+434,1,[BR/Unicamp] All in,275,J(Cinza),C++,J.cpp,judged,juiz4 (1),NO - Wrong answer
+435,1,[BR/UFPR] Ballong Misto de Trypanossoma,276,D(Vermelho),C++,D.cpp,judged,juiz2 (1),YES
+436,1,[BR/Facit] Facit 1,276,F(Amarelo),C++,F.cpp,judged,juiz7 (1),NO - Wrong answer
+437,1,[BR/UFPR] Ballong Misto de Trypanossoma,276,D(Vermelho),C++,D.cpp,judged,juiz3 (1),YES
+438,1,[BR/Unoeste] AG2,276,F(Amarelo),C++,f.cpp,judged,juiz4 (1),YES
+439,1,[BR/UFMG] In rand() we trust!,278,G(Verde Claro),C++,g.cpp,judged,juiz3 (1),NO - Wrong answer
+440,1,[BR/UPF] Funcionalidade Aleatoria,278,B(Lilas),C++,B.cpp,judged,juiz4 (1),NO - Runtime error
+441,1,[BR/UFMG] In rand() we trust!,278,G(Verde Claro),C++,g.cpp,judged,juiz2 (1),NO - Wrong answer
+442,1,[BR/FATEC-Mogi] EQUIPISTOLA,279,G(Verde Claro),Java,G.java,judged,juiz4 (1),NO - Wrong answer
+443,1,[BR/IME] Timelino,279,E(Laranja),C++,E.cpp,judged,juiz4 (1),NO - Time limit exceeded
+444,1,[BR/UFU] Coelhos de dentes afiados,280,B(Lilas),C++,B.cpp,judged,juiz2 (1),NO - Wrong answer
+445,1,[BR/UFOP] The Doppler Effect,280,G(Verde Claro),C++,G.cpp,judged,juiz7 (1),NO - Wrong answer
+446,1,[BR/ITA] CPF na nota?,281,J(Cinza),C++,king.cpp,judged,juiz4 (1),NO - Wrong answer
+447,1,[BR/UEFS] Untitled.cpp,281,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+448,1,[BR/UFRJ] Hidden Markov Programmers,282,I(Rosa),C++,I.cpp,judged,juiz4 (1),NO - Wrong answer
+449,1,[BR/UDESC] Noollab,282,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Wrong answer
+450,1,[BR/UFRJ] #YesWeCan read you mail,282,D(Vermelho),C++,D.cpp,judged,juiz4 (1),NO - Wrong answer
+451,1,[BR/Unis] BCC A,282,F(Amarelo),C++,f.cxx,judged,juiz2 (1),YES
+452,1,"[BR/UFCG] Calma pessoal, calma...",283,E(Laranja),C++,E.cpp,judged,juiz3 (1),NO - Wrong answer
+453,1,[BR/USP] Bpyym,283,J(Cinza),C++,j.cpp,judged,juiz4 (1),YES
+454,1,[BR/UFU] Coelhos de dentes afiados,284,B(Lilas),C++,B.cpp,judged,juiz4 (1),NO - Wrong answer
+455,1,[BR/UFPR] Ballong Misto de Trypanossoma,284,A(Branco),C++,A.cpp,judged,juiz3 (1),NO - Wrong answer
+456,1,[BR/UNIVASF] Fire s Determination,284,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Wrong answer
+457,1,[BR/UFRN] Voa Absurdo Classico!,285,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),YES
+458,1,[BR/ITA] CPF na nota?,285,J(Cinza),C++,king.cpp,judged,juiz3 (1),NO - Wrong answer
+459,1,[BR/UTFPR] MVVC,285,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+460,1,[BR/FATEC-Sorocaba] 2B||!2B,285,C(Azul claro),C++,c.cpp,judged,juiz2 (1),YES
+461,1,[BR/Facit] Facit 1,287,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+462,1,[BR/UFG] Monkeys,287,J(Cinza),C++,j.cpp,judged,juiz3 (1),YES
+463,1,[BR/UFRJ] #YesWeCan read you mail,287,D(Vermelho),C++,D.cpp,judged,juiz4 (1),YES
+464,1,[BR/UFG] Trainee,288,G(Verde Claro),C++,g.cpp,judged,juiz4 (1),NO - Wrong answer
+465,1,"[BR/UFCG] Calma pessoal, calma...",288,E(Laranja),C++,E.cpp,judged,juiz5 (1),NO - Wrong answer
+466,1,[BR/UFMG] In rand() we trust!,288,E(Laranja),C++,e2.cpp,judged,juiz3 (1),NO - Wrong answer
+467,1,[BR/ITA] CPF na nota?,288,J(Cinza),C++,king.cpp,judged,juiz2 (1),NO - Wrong answer
+468,1,"[BR/UFCG] Calma pessoal, calma...",289,E(Laranja),C++,E.cpp,judged,juiz3 (1),NO - Wrong answer
+469,1,[BR/Facit] Facit 1,290,A(Branco),C++,A.cpp,judged,juiz5 (1),NO - Wrong answer
+470,1,[BR/UFFS] The Morgans,291,A(Branco),C++,A.cpp,judged,juiz3 (1),NO - Wrong answer
+471,1,[BR/Unicamp] All in,291,J(Cinza),C++,J.cpp,judged,juiz7 (1),NO - Wrong answer
+472,1,[BR/Facit] Facit 1,292,F(Amarelo),C++,F.cpp,judged,juiz4 (1),NO - Wrong answer
+473,1,[BR/UFSCar-Sorocaba] omelette du fromage,292,J(Cinza),C++,j.cpp,judged,juiz4 (1),NO - Wrong answer
+474,1,[BR/UEFS] Untitled.cpp,292,G(Verde Claro),C++,G.cpp,judged,juiz5 (1),NO - Wrong answer
+475,1,[BR/Unicamp] All in,293,J(Cinza),C++,J.cpp,judged,juiz5 (1),NO - Wrong answer
+476,1,"[BR/UFCG] Calma pessoal, calma...",293,E(Laranja),C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+477,1,[BR/USP] Bpyym,293,E(Laranja),C++,E.cpp,judged,juiz5 (1),NO - Wrong answer
+478,1,[BR/FATEC-Sorocaba] 2B||!2B,293,A(Branco),C++,a.cpp,judged,juiz7 (1),NO - Wrong answer
+479,1,[BR/UFOP] The Doppler Effect,294,G(Verde Claro),C++,G.cpp,judged,juiz3 (1),NO - Wrong answer
+480,1,[BR/UFRJ] #YesWeCan read you mail,294,D(Vermelho),C++,D.cpp,judged,juiz4 (1),YES
+481,1,[BR/Unicamp] All in,295,J(Cinza),C++,J.cpp,judged,juiz3 (1),NO - Wrong answer
+482,1,"[BR/UFCG] Calma pessoal, calma...",295,D(Vermelho),C++,D.cpp,judged,juiz2 (1),NO - Time limit exceeded
+483,1,[BR/Facit] Facit 1,295,G(Verde Claro),C++,G.cpp,judged,juiz2 (1),NO - Compilation error
+484,1,[BR/USP] Bitelo,295,B(Lilas),C++,b.cpp,judged,juiz2 (1),NO - Time limit exceeded
+485,1,[BR/UFRJ] Hidden Markov Programmers,295,E(Laranja),C++,E.cpp,judged,juiz4 (1),YES
+486,1,[BR/UFPE] =(,295,D(Vermelho),C++,D.cpp,judged,juiz5 (1),NO - Wrong answer
+487,1,[BR/Unicamp] All in,295,J(Cinza),C++,J.cpp,judged,juiz7 (1),YES
+488,1,[BR/UDESC] Noollab,296,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Time limit exceeded
+489,1,[BR/UNIFEI] Os Feras do Paranaue,296,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+490,1,[BR/Unis] BCC A,296,C(Azul claro),C++,c.cxx,judged,juiz4 (1),NO - Wrong answer
+491,1,[BR/USP] Bitelo,296,B(Lilas),C++,b.cpp,judged,juiz3 (1),NO - Time limit exceeded
+492,1,[BR/PUC Rio] PUC-Rio 2,296,A(Branco),C++,A.cpp,judged,juiz7 (1),NO - Wrong answer
+493,1,[BR/PUC Rio] PUC-Rio 2,296,A(Branco),C++,A.cpp,judged,juiz4 (1),NO - Wrong answer
+494,1,[BR/UFRGS] BDR,296,G(Verde Claro),C++,g.cpp,judged,juiz7 (1),NO - Wrong answer
+495,1,[BR/UFPR] Ballong Misto de Trypanossoma,297,A(Branco),C++,A.cpp,judged,juiz5 (1),NO - Wrong answer
+496,1,[BR/UFRJ] Hidden Markov Programmers,297,G(Verde Claro),C++,G.cpp,judged,juiz4 (1),NO - Wrong answer
+497,1,[BR/USP] Bpyym,297,E(Laranja),C++,E.cpp,judged,juiz4 (1),NO - Wrong answer
+498,1,[BR/UFV] admin admin,297,B(Lilas),C++,B.cpp,judged,juiz2 (1),NO - Wrong answer
+499,1,"[BR/UFCG] Calma pessoal, calma...",297,E(Laranja),C++,E.cpp,judged,juiz7 (1),NO - Wrong answer
+500,1,[BR/UFRJ] Hidden Markov Programmers,298,G(Verde Claro),C++,G.cpp,judged,juiz2 (1),NO - Wrong answer
+501,1,[BR/IFTM] Modus Ponens Malditos,298,G(Verde Claro),C,G.c,judged,juiz7 (1),NO - Wrong answer
+502,1,[BR/PUC Rio] PUC-Rio 2,298,A(Branco),C++,A.cpp,judged,juiz3 (1),NO - Wrong answer
+503,1,[BR/PUC Rio] PUC-Rio 2,299,B(Lilas),C++,B.cpp,judged,juiz4 (1),NO - Wrong answer
+504,1,[BR/PUC Rio] PUC-Rio 2,299,D(Vermelho),C++,D.cpp,judged,juiz4 (1),NO - Wrong answer
+505,1,[BR/PUC Rio] PUC-Rio 2,299,H(Azul escuro),C++,H.cpp,judged,juiz4 (1),NO - Wrong answer
+506,1,[BR/PUC Rio] PUC-Rio 2,299,I(Rosa),C++,I.cpp,judged,juiz2 (1),NO - Wrong answer
+507,1,[BR/USP] Bpyym,299,B(Lilas),C++,f.cpp,judged,juiz4 (1),NO - Compilation error
