@@ -13,6 +13,6 @@ def main():
     if not '_comment' in links[year]:
       ds.download_scoreboard(links[year][SCOREBOARD_KEY], '%s/%s.csv' % (OUTPUT_PATH, year))
     else:
-      print 'Ignorting %s because the scoreboard is a pdf file :(' % year
+      print 'Ignoring %s because the scoreboard is a pdf file :(' % year
 if __name__ == '__main__':
   main()
