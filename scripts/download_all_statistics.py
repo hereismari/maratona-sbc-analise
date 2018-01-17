@@ -1,15 +1,13 @@
 # coding: utf8
-
+import utils
 import download_statistics as ds
 import json
 
-LINKS_JSON_PATH = '../data/links.json'
-OUTPUT_PATH = '../data/statistics'
+OUTPUT_PATH = utils.OUTPUT_PATH + '../data/statistics'
 STATISTICS_KEY = 'statistic_url'
 
 def main():
-  links = json.load(open(LINKS_JSON_PATH, 'r'))
-  print links
+  links = json.load(open(utils.LINKS_JSON_PATH, 'r'))
   for year in links:
     if 'statistic_url' in links[year]:
       print links[year][STATISTICS_KEY]

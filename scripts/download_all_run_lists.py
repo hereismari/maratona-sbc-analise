@@ -1,14 +1,13 @@
 # coding: utf8
-
+import utils
 import download_run_list as dr
 import json
 
-LINKS_JSON_PATH = '../data/links.json'
-OUTPUT_PATH = '../data/run_lists'
+OUTPUT_PATH = utils.OUTPUT_PATH + 'run_lists'
 RUN_LIST_KEY = 'runs_url'
 
 def main():
-  links = json.load(open(LINKS_JSON_PATH, 'r'))
+  links = json.load(open(utils.LINKS_JSON_PATH, 'r'))
   for year in links:
     if 'runs_url' in links[year]:
       dr.download_run_list(links[year][RUN_LIST_KEY], '%s/%s.csv' % (OUTPUT_PATH, year))
