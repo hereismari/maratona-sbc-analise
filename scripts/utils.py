@@ -4,9 +4,18 @@ import pandas as pd
 import os
 
 # ---------------- Constants -----------------------
+
+# paths
 OUTPUT_PATH = '../data/'
 LINKS_JSON_PATH = OUTPUT_PATH + 'links.json'
 
+# keys in LINKS_JSON
+COMMENT_SCOREBOARD_KEY = '_comment_scoreboard_url'
+SCOREBOARD_KEY = 'scoreboard_url'
+SUBMISSOES_KEY = 'submissoes_url'
+STATISTICS_KEY = 'statisticas_url'
+TEAM_KEY = 'pagina_principal_url'
+CLARIFICATIONS_KEY = 'clarifications_url'
 
 # ---------------- HTML related ----------------
 def request_get(url):
@@ -17,6 +26,7 @@ def get_first_table(html):
 
 def get_last_table(html):
     return pd.read_html(html)[-1]
+
 
 # ---------------- CSV related --------------------
 def save_as_csv(df, output_path):
