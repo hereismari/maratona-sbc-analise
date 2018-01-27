@@ -1,0 +1,6 @@
+Languages x Answers,NO - Class name mismatch,NO - Compilation error,NO - Output format error,NO - Runtime error,NO - Time limit exceeded,NO - Wrong Language Choice,NO - Wrong answer,YES,Total
+C,0,0,0,0,0,0,6,1,7
+C++11,0,6,3,23,66,1,277,269,645
+Java,1,0,0,6,7,1,18,9,42
+Python2,0,0,0,0,0,0,6,0,6
+Python3,0,0,0,0,4,0,9,3,16
