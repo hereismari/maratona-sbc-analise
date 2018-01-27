@@ -1,4 +1,4 @@
-"""Download competitions info and save as data/competitors.csv and
+"""Download competitions info and save as data/competidores.csv and
    data/coaches.csv.
  """
 import utils
@@ -15,13 +15,14 @@ parser = argparse.ArgumentParser()
 
 URL_2017 = "http://maratona.ime.usp.br/resultados17/"
 parser.add_argument('--general_information_url', type=str, default=URL_2017,
-                    help='URL to the main page of a competition.')
+                    help='URL to the main page of a SBC competition.')
 
-parser.add_argument('--output_path_competitor', type=str,
-                    default='../data/competitors.csv',
-                    help='Path to competitor CSV.')
+parser.add_argument('--output_path_competidor', type=str,
+                    default='../data/competidores.csv',
+                    help='Path to competidor CSV.')
 parser.add_argument('--output_path_coach', type=str,
                     default='../data/coaches.csv', help='Path to coach CSV.')
+
 
 # ------------------ Global variables and constants -------------
 CLASSIFIED = ['classificado para a final mundial',
@@ -46,6 +47,7 @@ def add_rows(df_competitors, df_coaches, soup, color, url):
     '''Remove pontuation and leading white space.'''
     return name.strip().replace('.', '')
 
+  # position will be incremented for each team
   global position
 
   # year can be found in the first font of all html
@@ -103,7 +105,7 @@ def generate_dataframes(url, soup, output_path_competitor, output_path_coach):
   return df_competitors, df_coaches
 
 
-def download_competitor_data(url, output_path_competitor, output_path_coach):
+def download_competidor_data(url, output_path_competitor, output_path_coach):
   global position
   position = 1
   print 'Getting competitors from: %s' % url
@@ -124,7 +126,7 @@ def download_competitor_data(url, output_path_competitor, output_path_coach):
 
 def main():
   args = parser.parse_args()
-  download_competitor_data(args.general_information_url,
+  download_competidor_data(args.general_information_url,
                            args.output_path_competitor, args.output_path_coach)
 
 
