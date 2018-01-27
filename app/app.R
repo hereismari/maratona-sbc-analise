@@ -1,22 +1,49 @@
 library(shiny)
+library(shinyjs)
+library(shinydashboard)
+library(readr)
+library(ggplot2)
+library(highcharter)
+library(plotly)
+source("pre_processa.R")
 
-# Define UI for app that draws a histogram ----
-ui <- fluidPage(
+ui <- dashboardPage(
   
-  # App title ----
-  titlePanel("Análise Maratona SBC"),
-
-  # Sidebar layout with input and output definitions ----
-  sidebarLayout(
-     
-    sidebarPanel(
-       helpText("Análise dos dados da Maratona SBC do Brasil nos últimos anos."),
-       sliderInput("slider", h4("Slider"), min = 0, max = 100, value = 50)),
-     
-     
-     mainPanel(
-       plotOutput(outputId = "histPlot"),
-       textOutput("selected_var"))
+  dashboardHeader(title = "Header da página"),
+  
+  dashboardSidebar(
+    useShinyjs(),
+    sidebarMenu(id = "menu",
+                menuItem("Tab1", tabName = "tab1", icon = icon("bookmark")),
+                menuItem("Tab2", tabName = "tab2", icon = icon("bookmark"))
+    )
+  ),
+  dashboardBody(
+    
+    tabItems(
+      tabItem(tabName = "tab1",
+              fluidRow(
+                column(width = 4,
+                       box(width = NULL)
+                ),
+                column(width = 8,
+                       box(width = NULL)
+                )
+              )
+              
+      ),
+      
+      tabItem(tabName = "tab2",
+              fluidRow(
+                column(width = 4,
+                       box(width = NULL)),
+                column(width = 8,
+                       box(width = NULL)
+                )
+              )
+              
+      )
+    )
   )
 )
 
