@@ -30,7 +30,7 @@ CLASSIFIED = ['classificado para a final mundial',
 SUBSTITUTE = '(reserva)'
 
 COMPETITOR_CSV_HEADER = ['ano', 'time', 'competidor', 'reserva', 'classificado',
-                         'link_foto', 'posicao', 'medalha']
+                         'posicao', 'medalha']
 COACH_CSV_HEADER = ['ano', 'time', 'coach']
 
 # hack for saving competitors position in a table
@@ -57,8 +57,6 @@ def add_rows(df_competitors, df_coaches, soup, color, url):
     element = soup.find("font", {"color": color}).findParent()
     for children in element.findChildren():
       if children.name == 'li':
-
-        photo_link = url + children.a['href']
         team = get_text(children.a)
         competitors_text = re.sub(' +', ' ', get_text(children).split(':')[-1])
 
@@ -81,8 +79,7 @@ def add_rows(df_competitors, df_coaches, soup, color, url):
           if SUBSTITUTE in c:
               c = c.replace(SUBSTITUTE, '')
               substitute = 1
-          row = [year, team, c, substitute, classified, photo_link, position,
-                 color]
+          row = [year, team, c, substitute, classified, position, color]
           df_competitors.loc[len(df_competitors)] = row
 
         for i, c in enumerate(coaches):
