@@ -45,10 +45,10 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2007,gap,guilherme kunigami,0,0,4,silver,UNICAMP,SP,Sudeste
 2007,gap,paulo roberto costa,0,0,4,silver,UNICAMP,SP,Sudeste
 2007,gap,,0,0,4,silver,UNICAMP,SP,Sudeste
-2007,dcc ufrj nop,andré souza,0,0,5,silver,UFRJ,RJ,Sudeste
-2007,dcc ufrj nop,bruno leite,0,0,5,silver,UFRJ,RJ,Sudeste
-2007,dcc ufrj nop,vinicius santos,0,0,5,silver,UFRJ,RJ,Sudeste
-2007,dcc ufrj nop,,0,0,5,silver,UFRJ,RJ,Sudeste
+2007,nop,andré souza,0,0,5,silver,UFRJ,RJ,Sudeste
+2007,nop,bruno leite,0,0,5,silver,UFRJ,RJ,Sudeste
+2007,nop,vinicius santos,0,0,5,silver,UFRJ,RJ,Sudeste
+2007,nop,,0,0,5,silver,UFRJ,RJ,Sudeste
 2007,"cnuth, dijkstra & edmonds",caio valentim,0,0,6,silver,PUC-RIO,RJ,Sudeste
 2007,"cnuth, dijkstra & edmonds",daniel rocha,0,0,6,silver,PUC-RIO,RJ,Sudeste
 2007,"cnuth, dijkstra & edmonds",eduardo cardoso,0,0,6,silver,PUC-RIO,RJ,Sudeste
