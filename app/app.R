@@ -4,11 +4,12 @@ library(shinydashboard)
 library(ggplot2)
 library(highcharter)
 library(plotly)
+library(leaflet)
 #source("app/pre_processa.R")
 #source("app/util_imports.R")
 
 #source("pre_processa.R")
-source("util_imports.R")
+source("~/maratona-sbc-analise/app/util_imports.R")
 
 
 ui <- dashboardPage(
@@ -37,7 +38,10 @@ ui <- dashboardPage(
                            sliderInput(inputId = "problems_years", label = "Anos:",
                                        min = 2015, max = 2017, step = 1, 
                                        sep = "", value = c(2017, 2017)))
-                )
+                ),
+                column(width=8,
+                       box(width=8, leafletOutput("mapa")),
+                       box(width=4, selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze"))))
               )
       )
       # tabItem(tabName = "tab2",
@@ -92,7 +96,59 @@ server <- function(input, output) {
         type = "column"
       )
   })
+  
+  output$mapa <- renderLeaflet({
+    
+    data <- readRDS(file = "~/maratona-sbc-analise/app/mapa/mapa_competidores.rds")
+    
+    bins <- c(0, 5, 10, 15, 20, 25, 30, 40, Inf)
+    # Blue
+    pal <- colorBin("Blues", domain = data[[input$teste]], bins=bins)
+    # Red
+    # pal <- colorBin("YlOrRd", domain = data[[input$teste]], bins = bins)
+    
+    # draw the histogram with the specified number of bins
+    state_popup <- paste0("<strong>Estado: </strong>", 
+                          data$estado,
+                          "<br><strong>Medalhas de ouro: </strong>",
+                          data[[input$teste]])
+                          
+    
+    labels <- sprintf(
+      "<strong>%s</strong><br/>%g %s",
+      data$estado, data[[input$teste]], input$teste
+    ) %>% lapply(htmltools::HTML)
+    
+    
+    leaflet(data = brasileiropg) %>%
+      # setView(-96, 37.8, 4) %>%
+      # addProviderTiles("CartoDB.Positron") %>%
+      addProviderTiles("MapBox", options = providerTileOptions(
+      id = "mapbox.light",
+      accessToken = Sys.getenv('MAPBOX_ACCESS_TOKEN'))) %>%
+      addPolygons(
+        fillColor = ~pal(data[[input$teste]]),
+        weight = 2,
+        opacity = 1,
+        color = "white",
+        dashArray = "3",
+        fillOpacity = 0.7,
+        highlight = highlightOptions(
+          weight = 3,
+          color = "pink",
+          dashArray = "",
+          fillOpacity = 0.7,
+          bringToFront = TRUE),
+        label = labels,
+        labelOptions = labelOptions(
+          style = list("font-weight" = "normal", padding = "3px 8px"),
+          textsize = "15px",
+          direction = "auto")) %>%
+      addLegend(pal = pal, values = ~data[[input$teste]],
+                title = "Pontos Conquistados",
+                opacity = 1)
+    
+  })
 }
 
 shinyApp(ui = ui, server = server)
-

@@ -1,7 +1,7 @@
 library(readr)
 library(dplyr)
 
-root = "../dados/"
+root = "~/maratona-sbc-analise/dados/"
 
 import_scoreboard = function(ano) {
   csv_name = paste(ano, ".csv", sep="")
@@ -15,10 +15,30 @@ import_scoreboard = function(ano) {
 }
 
 import_competitors = function() {
-  path = paste(root, "competidores.csv", sep="")
+  path = paste(root, "pre_processado_competidores.csv", sep="")
   competitors = read_csv(path)
   return(competitors)
 }
+
+import_competitors_grouped_by_state = function() {
+  competitors = import_competitors()
+  
+  # We don't want the competitors, we just want the team!
+  # the line below removes the repetitions
+  competitors <- subset(competitors, !duplicated(competitors[,2]))
+  
+  # group by state
+  competitors_grouped <- competitors %>%
+                         group_by(estado) %>%
+                         summarise(classificados = sum(classificado),
+                                   ouro = sum(medalha=="gold"),
+                                   prata = sum(medalha=="silver"),
+                                   bronze = sum(medalha=="bronze"),
+                                   medalhas = n())
+  
+  return(competitors_grouped)
+}
+
 
 import_universities = function() {
   path = paste(root, "auxiliares/universidades.csv", sep="")
