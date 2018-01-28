@@ -1,0 +1,475 @@
+#,Site,User,Time,Problem,Language,Filename,Status,Judge (Site),Answer,AnswerBin
+1,1,ITA - O que é Overflow?,9,H,C,he.c,judged,notteam65 (1),YES,1
+2,1,IME-Atlântico,13,H,C++,h.cpp,judged,notteam62 (1),YES,1
+3,1,FIPP/UNOESTE #1,13,H,C++,he.cpp,judged,notteam62 (1),No - Incorrect output,1
+4,1,Unicamp NP-Rosa-Choque,14,H,C++,he.cpp,judged,notteam61 (1),YES,1
+5,1,UFRGS Veni Vidi Duci,14,H,C++,he.cpp,judged,notteam65 (1),YES,1
+6,1,CESUPA #3,15,A,Java,ambiguous.java,judged,notteam61 (1),No - Incorrect output,1
+7,1,UFSCoders,17,H,C++,he.cpp,judged,notteam65 (1),YES,1
+8,1,PUC Rio NósNumSamba,17,H,C++,he.cpp,judged,notteam62 (1),YES,1
+9,1,ITA - Baiamahrim,17,H,C++,he.cpp,judged,notteam62 (1),YES,1
+10,1,IME-Ártico,17,H,Java,he.java,judged,notteam61 (1),YES,1
+11,1,ICMC-USP IfThenElse,17,H,C,he.c,judged,notteam62 (1),YES,1
+12,1,IME-USP Who wants to code forever?,18,H,C++,he.cpp,judged,notteam61 (1),YES,1
+13,1,UFV They tell and They tell,18,H,C++,he.cpp,judged,notteam61 (1),YES,1
+14,1,UFPR Triforce,19,H,C++,he.cpp,judged,notteam62 (1),YES,1
+15,1,"PUC Rio Cnuth, Dijkstra & Edmonds",19,H,C++,he.cpp,judged,notteam61 (1),YES,1
+16,1,UFPE PC JAM,20,H,C++,he.cpp,judged,notteam62 (1),YES,1
+17,1,IME-USP O fim dos pesquisadores,21,H,C++,he.cpp,judged,notteam65 (1),YES,1
+18,1,FURG OMEGA,21,H,C,h.c,judged,notteam62 (1),YES,1
+19,1,UECE - Die aphthe schmerzen,22,H,C,he.c,judged,notteam62 (1),YES,1
+20,1,UnB Crazy Programming Turkeys,22,H,C,he.c,judged,notteam62 (1),YES,1
+21,1,UFC - AVL Team,22,H,C,he.c,judged,notteam62 (1),YES,1
+22,1,CESUPA #3,23,A,Java,ambiguous.java,judged,notteam62 (1),No - Incorrect output,1
+23,1,UFES NULL,24,H,C++,he.cpp,judged,notteam65 (1),YES,1
+24,1,DCC-UFRJ YEP,25,H,C,he.c,judged,notteam65 (1),YES,1
+25,1,ICMC-USP Animaniacs,26,H,C,he.c,judged,notteam65 (1),YES,1
+26,1,UFRN JumenTeam,27,H,C++,he.cpp,judged,notteam62 (1),YES,1
+27,1,UERJ - Coders,27,D,C++,drop.cpp,judged,notteam62 (1),No - Incorrect output,1
+28,1,UFS Anuncie Aqui,28,H,C++,he.cpp,judged,ranido (1),YES,1
+29,1,DCC-UFRJ NOP,29,H,C,he.c,judged,notteam61 (1),No - Incorrect output,1
+30,1,"UECE - Camila, Tainara, Leonilia",30,H,C++,he.cc,judged,notteam62 (1),YES,1
+31,1,Unicamp GAP,31,H,C++,h.cpp,judged,notteam62 (1),No - Incorrect output,1
+32,1,UNAES Exception Error,32,H,C++,he.cpp,judged,notteam62 (1),YES,1
+33,1,UEMS É nóis na fita,33,H,C,he.c,judged,ranido (1),YES,1
+34,1,UniSantos #1,34,H,C,he.c,judged,notteam61 (1),No - Incorrect output,1
+35,1,UFRGS Submit & Run!,34,H,C++,he.cpp,judged,notteam62 (1),YES,1
+36,1,IBILCE/UNESP Até o fim,35,H,C++,he.cpp,judged,notteam62 (1),YES,1
+37,1,UFCG Izaque's Team,35,H,Java,he.java,judged,notteam62 (1),YES,1
+38,1,UFMG aniMOUSEs,36,H,C++,he.cpp,judged,notteam62 (1),YES,1
+39,1,UDESC 03 - KCT,36,H,C++,he.cpp,judged,notteam62 (1),YES,1
+40,1,DCC-UFRJ NOP,36,H,C,he.c,judged,notteam62 (1),No - Incorrect output,1
+41,1,IME-USP Who wants to code forever?,37,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+42,1,DCC-UFRJ NOP,38,H,C,he.c,judged,notteam65 (1),YES,1
+43,1,PUC MG The Bugs on the Table,39,H,C,he.c,judged,notteam62 (1),YES,1
+44,1,UFMS Xiforímpula,39,H,C++,heIsOffside.cc,judged,notteam62 (1),YES,1
+45,1,UniSantos #1,40,H,C,he.c,judged,ranido (1),YES,1
+46,1,UNIP TriForce,40,H,Java,he.java,judged,notteam65 (1),YES,1
+47,1,UNIFEI Plante queijo na monarquia,41,H,C++,he.cpp,judged,ranido (1),YES,1
+48,1,UFMG ROFLcopters,41,H,C++,he.cpp,judged,ranido (1),No - Incorrect output,1
+49,1,UERJ - Coders,42,H,C++,he.cpp,judged,notteam65 (1),No - Incorrect output,1
+50,1,Unicamp GAP,42,H,C++,H.cpp,judged,notteam65 (1),No - Incorrect output,1
+51,1,ITA - O que é Overflow?,42,C,C,carplates.c,judged,ranido (1),No - Incorrect output,1
+52,1,Unicamp GAP,43,H,C++,H.cpp,judged,notteam62 (1),YES,1
+53,1,Unioeste Capim Canela,43,H,C++,he.cpp,judged,notteam65 (1),No - Incorrect output,1
+54,1,UFMA debug is on the table,44,H,C++,h.cpp,judged,notteam62 (1),No - Incorrect output,1
+55,1,UERJ - Coders,46,H,C++,he.cpp,judged,ranido (1),YES,1
+56,1,Uninove Eq. Memorial da América Latina,46,H,C,he.c,judged,ranido (1),No - Incorrect output,1
+57,1,ITA - O que é Overflow?,47,C,C,carplates.c,judged,notteam62 (1),YES,1
+58,1,USJT 1,50,H,Java,he.java,judged,notteam62 (1),No - Incorrect output,1
+59,1,CESUPA #3,50,A,Java,ambiguous.java,judged,notteam62 (1),No - Incorrect output,1
+60,1,FIPP/UNOESTE #1,50,H,C++,he.cpp,judged,notteam62 (1),No - Incorrect output,1
+61,1,UFMA debug is on the table,52,H,C++,h.cpp,judged,notteam62 (1),No - Incorrect output,1
+62,1,IME-USP Who wants to code forever?,53,G,C++,galou.cpp,judged,notteam62 (1),YES,1
+63,1,Unioeste Capim Canela,53,H,C++,he.cpp,judged,notteam62 (1),YES,1
+64,1,UFMG ROFLcopters,54,H,C++,he.cpp,judged,notteam65 (1),YES,1
+65,1,UFPR Triforce,57,D,C++,drop.cpp,judged,notteam65 (1),No - Incorrect output,1
+66,1,UPE The POGgers,58,H,C++,he.cpp,judged,notteam61 (1),YES,1
+67,1,UFPR Triforce,59,D,C++,drop.cpp,judged,notteam62 (1),No - Incorrect output,1
+68,1,IME-USP Who wants to code forever?,61,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+69,1,UFES NULL,62,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+70,1,CESUPA #3,62,H,Java,he.java,judged,notteam61 (1),No - Incorrect output,1
+71,1,IME-Atlântico,65,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+72,1,DCC-UFRJ YEP,66,D,C++,drop.cpp,judged,notteam62 (1),No - Runtime error,1
+73,1,IME-USP O fim dos pesquisadores,66,D,C++,drop.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+74,1,USJT 1,67,H,Java,he.java,judged,ranido (1),No - Incorrect output,1
+75,1,UFV They tell and They tell,69,G,C++,galou.cpp,judged,notteam61 (1),No - Incorrect output,1
+76,1,DCC-UFRJ YEP,71,D,C++,drop.cpp,judged,notteam62 (1),No - Incorrect output,1
+77,1,ITA - Baiamahrim,73,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+78,1,UFMA debug is on the table,73,H,C++,h.cpp,judged,notteam62 (1),YES,1
+79,1,UFRGS Veni Vidi Duci,74,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+80,1,IME-Atlântico,74,C,C++,carplates.cpp,judged,notteam62 (1),YES,1
+81,1,Unicamp GAP,74,G,C++,G.cpp,judged,ranido (1),YES,1
+82,1,IME-USP O fim dos pesquisadores,77,G,C++,galou.cpp,judged,notteam62 (1),YES,1
+83,1,UFRGS Veni Vidi Duci,78,C,C++,carplates.cpp,judged,ranido (1),YES,1
+84,1,USJT 1,79,H,Java,he.java,judged,ranido (1),No - Incorrect output,1
+85,1,UDESC 03 - KCT,80,C,C++,carplates.cpp,judged,notteam62 (1),YES,1
+86,1,UFES NULL,80,C,C++,carplates.cpp,judged,notteam62 (1),YES,1
+87,1,Uninove Eq. Memorial da América Latina,82,H,C,he.c,judged,ranido (1),No - Incorrect output,1
+88,1,CESUPA #3,83,E,Java,emoticons.java,judged,ranido (1),No - Time limit exceeded,1
+89,1,ITA - Baiamahrim,85,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+90,1,ITA - O que é Overflow?,85,G,C,galou.c,judged,notteam65 (1),YES,1
+91,1,ICMC-USP IfThenElse,85,C,C++,carplates.cpp,judged,ranido (1),YES,1
+92,1,USJT 1,86,H,Java,he.java,judged,notteam62 (1),No - Incorrect output,1
+93,1,Unicamp NP-Rosa-Choque,87,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+94,1,UFSCoders,87,F,C++,find.cpp,judged,ranido (1),No - Compilation error,1
+95,1,IME-USP Who wants to code forever?,87,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+96,1,"PUC Rio Cnuth, Dijkstra & Edmonds",87,G,C++,galou.cpp,judged,notteam62 (1),YES,1
+97,1,UFSCoders,89,F,C++,find.cpp,judged,ranido (1),No - Compilation error,1
+98,1,FIPP/UNOESTE #1,90,E,C++,emoticons.cpp,judged,notteam62 (1),No - Incorrect output,1
+99,1,UFC - AVL Team,91,G,C++,G.cpp,judged,notteam62 (1),YES,1
+100,1,IBILCE/UNESP Até o fim,91,F,C++,find.cpp,judged,notteam62 (1),YES,1
+101,1,DCC-UFRJ YEP,93,C,C,carplates.c,judged,ranido (1),No - Incorrect output,1
+102,1,IME-USP Who wants to code forever?,93,C,C++,carplates.cpp,judged,notteam62 (1),YES,1
+103,1,USJT 1,94,H,Java,he.java,judged,notteam62 (1),YES,1
+104,1,Unicamp NP-Rosa-Choque,94,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+105,1,UNIPAM Killers,96,E,Java,emoticons.java,judged,notteam65 (1),No - Incorrect output,1
+106,1,IME-USP O fim dos pesquisadores,97,D,C++,drop.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+107,1,IME-Ártico,99,D,Java,drop.java,judged,notteam62 (1),No - Incorrect output,1
+108,1,FIPP/UNOESTE #1,100,H,C++,he.cpp,judged,notteam62 (1),No - Incorrect output,1
+109,1,UFSCoders,102,F,C++,find.cpp,judged,notteam65 (1),YES,1
+110,1,UECE - Die aphthe schmerzen,102,C,C,carplates.c,judged,notteam65 (1),YES,1
+111,1,"UECE - Camila, Tainara, Leonilia",103,G,C++,galou.cc,judged,notteam62 (1),No - Incorrect output,1
+112,1,CESUPA #3,103,E,Java,emoticons.java,judged,notteam65 (1),No - Incorrect output,1
+113,1,UEMS É nóis na fita,104,D,C,drop.c,judged,notteam65 (1),No - Incorrect output,1
+114,1,UNIFEI Plante queijo na monarquia,107,C,C++,carplates.cpp,judged,notteam62 (1),YES,1
+115,1,FURG OMEGA,107,C,C,c.c,judged,notteam62 (1),No - Incorrect output,1
+116,1,UFPR Triforce,108,G,C++,galou.cpp,judged,notteam65 (1),No - Output format error,1
+117,1,"PUC Rio Cnuth, Dijkstra & Edmonds",108,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+118,1,UFMG ROFLcopters,108,C,C++,carplates.cpp,judged,notteam62 (1),YES,1
+119,1,UNIP TriForce,109,A,Java,ambiguos.java,judged,notteam62 (1),No - Runtime error,1
+120,1,URI-Erechim Pampa Coders,109,H,C++,he.cpp,judged,notteam62 (1),No - Incorrect output,1
+121,1,CESUPA #3,109,H,Java,he.java,judged,notteam62 (1),No - Incorrect output,1
+122,1,UFRGS Submit & Run!,110,D,C++,drop.cpp,judged,ranido (1),No - Incorrect output,1
+123,1,IME-USP Who wants to code forever?,110,D,C++,drop.cpp,judged,notteam61 (1),No - Incorrect output,1
+124,1,UnB Crazy Programming Turkeys,110,D,C,drop.c,judged,notteam65 (1),No - Incorrect output,1
+125,1,URI-Erechim Pampa Coders,112,H,C++,he.cpp,judged,notteam62 (1),YES,1
+126,1,UFPR Triforce,112,G,C++,galou.cpp,judged,ranido (1),YES,1
+127,1,UERJ - Coders,115,G,C++,galou.cpp,judged,ranido (1),No - Incorrect output,1
+128,1,IME-Atlântico,115,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+129,1,UNIPAM Killers,116,H,Java,he.java,judged,notteam65 (1),YES,1
+130,1,UFMS Xiforímpula,116,C,C++,carplates.cc,judged,notteam62 (1),No - Incorrect output,1
+131,1,DCC-UFRJ NOP,116,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+132,1,"PUC Rio Cnuth, Dijkstra & Edmonds",117,C,C++,carplates.cpp,judged,notteam62 (1),YES,1
+133,1,UNAES Exception Error,118,J,C++,justice.cpp,judged,notteam65 (1),No - Incorrect output,1
+134,1,Unicamp NP-Rosa-Choque,119,G,C++,galou.cpp,judged,ranido (1),YES,1
+135,1,UFMS Xiforímpula,120,C,C++,carplates.cc,judged,notteam62 (1),No - Incorrect output,1
+136,1,UFES NULL,120,G,C++,galou.cpp,judged,ranido (1),No - Incorrect output,1
+137,1,UFPR Triforce,121,C,C++,carplates.cpp,judged,ranido (1),No - Incorrect output,1
+138,1,DCC-UFRJ NOP,122,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+139,1,UFMS Xiforímpula,124,C,C++,carplates.cc,judged,notteam62 (1),No - Incorrect output,1
+140,1,FURG OMEGA,126,C,C,c.c,judged,notteam62 (1),No - Incorrect output,1
+141,1,UFS Anuncie Aqui,127,C,C++,carplates.cpp,judged,notteam65 (1),YES,1
+142,1,ITA - O que é Overflow?,128,F,C,find.c,judged,notteam62 (1),No - Time limit exceeded,1
+143,1,Unicamp NP-Rosa-Choque,129,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+144,1,"UECE - Camila, Tainara, Leonilia",130,C,C++,carplates.cc,judged,notteam62 (1),YES,1
+145,1,ITA - O que é Overflow?,131,F,C,find.c,judged,ranido (1),YES,1
+146,1,USJT 1,132,D,Java,drop.java,judged,ranido (1),No - Incorrect output,1
+147,1,UFPR Triforce,132,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+148,1,UFSCoders,132,G,C++,galou.cpp,judged,ranido (1),No - Incorrect output,1
+149,1,FIPP/UNOESTE #1,134,G,C++,galou.cpp,judged,notteam62 (1),No - Runtime error,1
+150,1,UFMS Xiforímpula,134,C,C++,carplates.cc,judged,ranido (1),No - Incorrect output,1
+151,1,DCC-UFRJ NOP,135,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+152,1,"UECE - Camila, Tainara, Leonilia",135,G,C++,galou.cc,judged,ranido (1),No - Incorrect output,1
+153,1,ITA - O que é Overflow?,136,I,C,icpc.c,judged,ranido (1),YES,1
+154,1,IME-USP O fim dos pesquisadores,136,C,C++,carplates.cpp,judged,ranido (1),YES,1
+155,1,UFES NULL,136,G,C++,galou.cpp,judged,notteam62 (1),YES,1
+156,1,UFPR Triforce,137,D,C++,drop.cpp,judged,notteam62 (1),No - Incorrect output,1
+157,1,UFMS Xiforímpula,138,D,C++,dropTheTriples.cc,judged,ranido (1),No - Incorrect output,1
+158,1,Uninove Eq. Memorial da América Latina,138,H,C,he.c,judged,notteam65 (1),No - Incorrect output,1
+159,1,Unicamp NP-Rosa-Choque,139,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+160,1,UFRGS Submit & Run!,139,D,C++,drop.cpp,judged,ranido (1),No - Incorrect output,1
+161,1,Unicamp GAP,139,I,C++,i.cpp,judged,notteam65 (1),No - Incorrect output,1
+162,1,UFRGS Veni Vidi Duci,139,G,C++,galou.cpp,judged,ranido (1),No - Output format error,1
+163,1,USJT 1,139,D,Java,drop.java,judged,notteam65 (1),No - Incorrect output,1
+164,1,UFSCoders,140,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+165,1,UFMA debug is on the table,140,D,C++,d.cpp,judged,ranido (1),No - Incorrect output,1
+166,1,DCC-UFRJ YEP,141,G,C++,galou.c,judged,ranido (1),YES,1
+167,1,UFPR Triforce,142,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+168,1,UFRGS Veni Vidi Duci,142,G,C++,galou.cpp,judged,notteam62 (1),YES,1
+169,1,UDESC 03 - KCT,142,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+170,1,Unicamp NP-Rosa-Choque,143,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+171,1,UDESC 03 - KCT,144,G,C++,galou.cpp,judged,notteam62 (1),No - Runtime error,1
+172,1,FURG OMEGA,145,C,C,c.c,judged,ranido (1),YES,1
+173,1,UFRN JumenTeam,145,G,C++,galou.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+174,1,UEMS É nóis na fita,146,D,C,drop.c,judged,ranido (1),No - Incorrect output,1
+175,1,UFCG Izaque's Team,146,A,Java,ambiguous.java,judged,notteam65 (1),No - Incorrect output,1
+176,1,UECE - Die aphthe schmerzen,146,G,C,galou.c,judged,ranido (1),No - Incorrect output,1
+177,1,FIPP/UNOESTE #1,147,H,C++,he.cpp,judged,notteam65 (1),YES,1
+178,1,UFMS Xiforímpula,147,C,C++,carplates.cc,judged,ranido (1),No - Incorrect output,1
+179,1,Unicamp GAP,149,I,C++,i.cpp,judged,notteam65 (1),No - Incorrect output,1
+180,1,Unicamp NP-Rosa-Choque,150,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+181,1,UnB Crazy Programming Turkeys,151,G,C,galou.c,judged,notteam65 (1),YES,1
+182,1,ITA - Baiamahrim,151,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+183,1,DCC-UFRJ YEP,151,C,C,carplates.c,judged,notteam65 (1),YES,1
+184,1,UFCG Izaque's Team,152,I,Java,icpc.java,judged,ranido (1),No - Incorrect output,1
+185,1,UECE - Die aphthe schmerzen,152,G,C,galou.c,judged,ranido (1),No - Incorrect output,1
+186,1,UFPR Triforce,152,C,C++,carplates.cpp,judged,ranido (1),YES,1
+187,1,UFS Anuncie Aqui,153,G,C++,galou.cpp,judged,ranido (1),No - Output format error,1
+188,1,Uninove Eq. Memorial da América Latina,153,H,C,he.c,judged,ranido (1),No - Incorrect output,1
+189,1,UFMA debug is on the table,154,I,C++,i.cpp,judged,ranido (1),YES,1
+190,1,UFV They tell and They tell,154,G,C++,galou.cpp,judged,ranido (1),YES,1
+191,1,ICMC-USP IfThenElse,155,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+192,1,UFS Anuncie Aqui,155,G,C++,galou.cpp,judged,notteam62 (1),No - Output format error,1
+193,1,UnB Crazy Programming Turkeys,155,D,C,drop.c,judged,ranido (1),No - Incorrect output,1
+194,1,"UECE - Camila, Tainara, Leonilia",155,G,C++,galou.cc,judged,ranido (1),YES,1
+195,1,UFV They tell and They tell,156,C,C++,carplates.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+196,1,Unicamp NP-Rosa-Choque,156,C,C++,carplates.cpp,judged,ranido (1),No - Incorrect output,1
+197,1,UFS Anuncie Aqui,157,G,C++,galou.cpp,judged,ranido (1),YES,1
+198,1,Uninove Eq. Memorial da América Latina,159,H,C,he.c,judged,notteam62 (1),No - Incorrect output,1
+199,1,Unicamp GAP,163,F,C++,f.cpp,judged,ranido (1),No - Time limit exceeded,1
+200,1,Unicamp NP-Rosa-Choque,163,C,C++,carplates.cpp,judged,ranido (1),YES,1
+201,1,UECE - Die aphthe schmerzen,163,G,C,galou.c,judged,notteam65 (1),YES,1
+202,1,UDESC 03 - KCT,163,G,C++,galou.cpp,judged,notteam65 (1),No - Runtime error,1
+203,1,UFSCoders,164,G,C++,galou.cpp,judged,ranido (1),No - Incorrect output,1
+204,1,IME-Atlântico,165,I,C++,icpc.cpp,judged,notteam62 (1),No - Runtime error,1
+205,1,FIPP/UNOESTE #1,166,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+206,1,UERJ - Coders,166,G,C++,galou.cpp,judged,notteam62 (1),No - Compilation error,1
+207,1,ITA - O que é Overflow?,166,E,C++,emoticons.cpp,judged,notteam62 (1),YES,1
+208,1,UFPR Triforce,167,F,C++,find.cpp,judged,notteam65 (1),YES,1
+209,1,ITA - Baiamahrim,168,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+210,1,FURG OMEGA,168,G,C,g.c,judged,notteam62 (1),YES,1
+211,1,UFS Anuncie Aqui,168,I,C++,icpc.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+212,1,Unicamp GAP,171,I,C++,i.cpp,judged,notteam65 (1),No - Incorrect output,1
+213,1,IME-USP Who wants to code forever?,172,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+214,1,FIPP/UNOESTE #1,174,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+215,1,IME-USP O fim dos pesquisadores,176,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+216,1,IME-USP Who wants to code forever?,177,I,C++,icpc.cpp,judged,ranido (1),YES,1
+217,1,IME-Atlântico,178,I,C++,icpc.cpp,judged,notteam65 (1),YES,1
+218,1,"UECE - Camila, Tainara, Leonilia",178,F,C++,find.cc,judged,notteam65 (1),No - Time limit exceeded,1
+219,1,UFS Anuncie Aqui,178,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+220,1,ICMC-USP Animaniacs,178,G,C,galou.c,judged,notteam61 (1),No - Incorrect output,1
+221,1,UFV They tell and They tell,179,C,C++,carplates.cpp,judged,notteam61 (1),No - Time limit exceeded,1
+222,1,DCC-UFRJ NOP,179,C,C++,carplates.cpp,judged,notteam61 (1),No - Incorrect output,1
+223,1,DCC-UFRJ NOP,182,C,C,carplates.cpp,judged,notteam65 (1),No - Compilation error,1
+224,1,UNIFEI Plante queijo na monarquia,182,E,C++,emoticons.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+225,1,PUC Rio NósNumSamba,184,G,C++,galou.cpp,judged,ranido (1),No - Incorrect output,1
+226,1,"UECE - Camila, Tainara, Leonilia",185,F,C++,find.cc,judged,notteam65 (1),No - Time limit exceeded,1
+227,1,DCC-UFRJ NOP,185,C,C++,carplates.cpp,judged,ranido (1),YES,1
+228,1,IME-USP Who wants to code forever?,186,F,C++,find.cpp,judged,notteam65 (1),YES,1
+229,1,UFC - AVL Team,186,C,C++,carplates-antigo.cpp,judged,ranido (1),No - Incorrect output,1
+230,1,UFS Anuncie Aqui,186,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+231,1,UFMS Xiforímpula,188,C,C++,carplates.cc,judged,notteam65 (1),No - Incorrect output,1
+232,1,ITA - Baiamahrim,189,C,C++,carplates.cpp,judged,ranido (1),No - Incorrect output,1
+233,1,UFS Anuncie Aqui,191,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+234,1,UFMG aniMOUSEs,191,G,C++,galou.cpp,judged,notteam62 (1),No - Runtime error,1
+235,1,UDESC 03 - KCT,193,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+236,1,IME-Ártico,194,I,Java,icpc.java,judged,notteam65 (1),YES,1
+237,1,UNIP TriForce,194,D,Java,drop.java,judged,ranido (1),No - Incorrect output,1
+238,1,PUC Rio NósNumSamba,195,G,C++,galou.cpp,judged,notteam65 (1),YES,1
+239,1,Unicamp GAP,196,I,C++,i.cpp,judged,notteam62 (1),YES,1
+240,1,UFS Anuncie Aqui,198,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+241,1,UFV They tell and They tell,199,C,C++,carplates.cpp,judged,ranido (1),No - Incorrect output,1
+242,1,UFPE PC JAM,199,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+243,1,UFMG aniMOUSEs,201,G,C++,galou.cpp,judged,notteam62 (1),No - Runtime error,1
+244,1,UFRGS Submit & Run!,202,D,C++,drop.cpp,judged,notteam62 (1),No - Incorrect output,1
+245,1,UFCG Izaque's Team,203,C,Java,carplates.java,judged,notteam62 (1),No - Incorrect output,1
+246,1,UFMS Xiforímpula,204,G,C++,galou.cc,judged,notteam62 (1),No - Incorrect output,1
+247,1,ICMC-USP Animaniacs,204,G,C,galou.c,judged,notteam62 (1),No - Incorrect output,1
+248,1,ICMC-USP IfThenElse,204,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+249,1,ITA - O que é Overflow?,205,D,C,drop.c,judged,notteam62 (1),No - Time limit exceeded,1
+250,1,"PUC Rio Cnuth, Dijkstra & Edmonds",205,F,C++,find.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+251,1,UFSCoders,206,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+252,1,UNIP TriForce,206,D,Java,drop.java,judged,notteam62 (1),No - Incorrect output,1
+253,1,UDESC 03 - KCT,206,G,C++,galou.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+254,1,IME-Atlântico,206,F,C++,find.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+255,1,ITA - Baiamahrim,206,G,C++,galou.cpp,judged,notteam62 (1),YES,1
+256,1,UFES NULL,208,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+257,1,UFPE PC JAM,208,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+258,1,DCC-UFRJ NOP,208,G,C,galou.cpp,judged,notteam62 (1),No - Compilation error,1
+259,1,Unicamp GAP,208,C,C++,C.cpp,judged,notteam62 (1),No - Incorrect output,1
+260,1,UDESC 03 - KCT,208,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+261,1,DCC-UFRJ NOP,208,G,C++,galou.cpp,judged,ranido (1),YES,1
+262,1,ITA - Baiamahrim,209,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+263,1,IME-USP O fim dos pesquisadores,210,F,C++,find.cpp,judged,notteam62 (1),No - Runtime error,1
+264,1,ITA - Baiamahrim,210,F,C++,find.cpp,judged,notteam62 (1),No - Runtime error,1
+265,1,UFCG Izaque's Team,211,I,Java,icpc.java,judged,notteam62 (1),No - Incorrect output,1
+266,1,"UECE - Camila, Tainara, Leonilia",211,F,C++,find.cc,judged,ranido (1),No - Time limit exceeded,1
+267,1,UFSCoders,213,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+268,1,UFS Anuncie Aqui,213,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+269,1,UFMS Xiforímpula,213,G,C++,galou.cc,judged,notteam62 (1),No - Incorrect output,1
+270,1,UDESC 03 - KCT,215,G,C++,galou.cpp,judged,ranido (1),YES,1
+271,1,IME-USP Who wants to code forever?,216,E,C++,emoticons.cpp,judged,notteam62 (1),YES,1
+272,1,IME-Atlântico,216,F,C++,find.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+273,1,UFPR Triforce,217,E,C++,emoticons.cpp,judged,ranido (1),No - Incorrect output,1
+274,1,Unicamp GAP,217,F,C++,f.cpp,judged,ranido (1),No - Incorrect output,1
+275,1,"PUC Rio Cnuth, Dijkstra & Edmonds",218,F,C++,find.cpp,judged,ranido (1),No - Incorrect output,1
+276,1,UFMS Xiforímpula,218,G,C++,galou.cc,judged,notteam62 (1),No - Incorrect output,1
+277,1,UECE - Die aphthe schmerzen,219,I,C,icpc.c,judged,notteam65 (1),No - Incorrect output,1
+278,1,ITA - Baiamahrim,220,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+279,1,Unicamp GAP,220,C,C++,C.cpp,judged,notteam62 (1),No - Incorrect output,1
+280,1,UDESC 03 - KCT,220,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+281,1,ICMC-USP Animaniacs,220,C,C,carplates.c,judged,notteam65 (1),YES,1
+282,1,UFRGS Veni Vidi Duci,220,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+283,1,UFMG aniMOUSEs,220,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+284,1,UFV They tell and They tell,221,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+285,1,ICMC-USP IfThenElse,221,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+286,1,UFRN JumenTeam,222,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+287,1,UEMS É nóis na fita,222,G,C,galou.c,judged,notteam65 (1),No - Incorrect output,1
+288,1,FURG OMEGA,223,F,C,f.c,judged,notteam62 (1),No - Time limit exceeded,1
+289,1,IBILCE/UNESP Até o fim,223,G,C++,galou.cpp,judged,ranido (1),No - Incorrect output,1
+290,1,IME-Atlântico,224,G,C++,galou.cpp,judged,notteam62 (1),YES,1
+291,1,ICMC-USP IfThenElse,225,D,C,drop.c,judged,notteam62 (1),No - Incorrect output,1
+292,1,UFS Anuncie Aqui,225,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+293,1,UECE - Die aphthe schmerzen,227,I,C,icpc.c,judged,notteam62 (1),YES,1
+294,1,UFMA debug is on the table,227,C,C++,c.cpp,judged,notteam62 (1),No - Incorrect output,1
+295,1,UERJ - Coders,227,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+296,1,UFCG Izaque's Team,228,C,Java,carplates.java,judged,ranido (1),YES,1
+297,1,UFRN JumenTeam,229,C,C++,carplates.cpp,judged,notteam65 (1),YES,1
+298,1,"PUC Rio Cnuth, Dijkstra & Edmonds",229,F,C++,find.cpp,judged,notteam62 (1),No - Incorrect output,1
+299,1,UFS Anuncie Aqui,230,I,C++,icpc.cpp,judged,notteam65 (1),YES,1
+300,1,UFES NULL,230,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+301,1,UNIFEI Plante queijo na monarquia,230,G,C++,galou.cpp,judged,ranido (1),No - Runtime error,1
+302,1,ITA - Baiamahrim,231,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+303,1,UFC - AVL Team,231,C,C++,carplates-antigo.cpp,judged,notteam62 (1),YES,1
+304,1,Unicamp GAP,232,C,C++,C.cpp,judged,notteam65 (1),YES,1
+305,1,ITA - Baiamahrim,232,F,C++,find.cpp,judged,notteam65 (1),No - Runtime error,1
+306,1,IME-USP O fim dos pesquisadores,232,F,C++,find.cpp,judged,notteam62 (1),No - Incorrect output,1
+307,1,UFRGS Submit & Run!,232,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+308,1,UERJ - Coders,233,C,C++,carplates.cpp,judged,notteam65 (1),YES,1
+309,1,UFPR Triforce,233,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+310,1,UFMG ROFLcopters,233,G,C++,galou.cpp,judged,notteam62 (1),No - Runtime error,1
+311,1,UFPE PC JAM,234,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+312,1,UEMS É nóis na fita,234,D,C,drop.c,judged,notteam65 (1),No - Incorrect output,1
+313,1,Unicamp GAP,235,F,C++,ff.cpp,judged,notteam65 (1),YES,1
+314,1,UFV They tell and They tell,237,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+315,1,UFPE PC JAM,237,G,C++,galou.cpp,judged,notteam65 (1),YES,1
+316,1,ITA - Baiamahrim,237,F,C++,find.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+317,1,PUC MG The Bugs on the Table,238,C,C,carplates.c,judged,notteam65 (1),No - Incorrect output,1
+318,1,IME-USP O fim dos pesquisadores,239,F,C++,find.cpp,judged,notteam65 (1),No - Incorrect output,1
+319,1,UFMG aniMOUSEs,240,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+320,1,Unicamp GAP,240,D,C++,d.cpp,judged,notteam65 (1),No - Incorrect output,1
+321,1,UFMS Xiforímpula,241,C,C++,carplates.cc,judged,notteam65 (1),YES,1
+322,1,UFMA debug is on the table,241,C,C++,c.cpp,judged,notteam65 (1),YES,1
+323,1,UFRGS Submit & Run!,241,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+324,1,UFV They tell and They tell,241,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+325,1,IME-Atlântico,242,F,C++,find.cpp,judged,notteam65 (1),YES,1
+326,1,UFCG Izaque's Team,242,I,Java,icpc.java,judged,notteam65 (1),No - Incorrect output,1
+327,1,ITA - Baiamahrim,242,I,C++,icpc.cpp,judged,notteam62 (1),No - Runtime error,1
+328,1,ITA - Baiamahrim,243,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+329,1,ITA - Baiamahrim,244,F,C++,find.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+330,1,UEMS É nóis na fita,244,G,C,galou.c,judged,notteam65 (1),No - Runtime error,1
+331,1,UFRGS Veni Vidi Duci,244,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+332,1,ICMC-USP Animaniacs,244,G,C,galou.c,judged,notteam62 (1),YES,1
+333,1,IME-USP Who wants to code forever?,245,D,C++,drop.cpp,judged,notteam62 (1),YES,1
+334,1,DCC-UFRJ NOP,245,F,C++,find.cpp,judged,notteam65 (1),No - Incorrect output,1
+335,1,UFPR Triforce,246,E,C++,emoticons.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+336,1,UFMG ROFLcopters,248,G,C++,galou.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+337,1,ITA - Baiamahrim,248,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+338,1,UNIP TriForce,249,A,Java,ambiguous.java,judged,notteam65 (1),No - Incorrect output,1
+339,1,UFRN JumenTeam,249,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+340,1,ITA - O que é Overflow?,249,D,C,drop.c,judged,notteam65 (1),No - Time limit exceeded,1
+341,1,Unicamp NP-Rosa-Choque,249,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+342,1,UFMS Xiforímpula,252,G,C++,galou.cc,judged,notteam65 (1),No - Incorrect output,1
+343,1,URI-Erechim Pampa Coders,253,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+344,1,ITA - O que é Overflow?,253,D,C,drop.c,judged,notteam65 (1),No - Time limit exceeded,1
+345,1,UNIFEI Plante queijo na monarquia,253,D,C++,drop.cpp,judged,notteam65 (1),No - Incorrect output,1
+346,1,IME-USP O fim dos pesquisadores,254,F,C++,find.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+347,1,"UECE - Camila, Tainara, Leonilia",254,I,C++,icpc.cc,judged,notteam65 (1),No - Time limit exceeded,1
+348,1,UFPR Triforce,254,E,C++,emoticons.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+349,1,IBILCE/UNESP Até o fim,254,C,C++,carplates.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+350,1,UNIP TriForce,255,A,Java,ambiguous.java,judged,ranido (1),No - Incorrect output,1
+351,1,"UECE - Camila, Tainara, Leonilia",255,I,C++,icpc.cc,judged,notteam65 (1),No - Time limit exceeded,1
+352,1,UFMS Xiforímpula,256,G,C++,galou.cc,judged,notteam65 (1),No - Output format error,1
+353,1,DCC-UFRJ NOP,257,F,C++,find.cpp,judged,notteam65 (1),YES,1
+354,1,UFMS Xiforímpula,258,G,C++,galou.cc,judged,notteam62 (1),YES,1
+355,1,"UECE - Camila, Tainara, Leonilia",260,I,C++,icpc.cc,judged,notteam62 (1),No - Incorrect output,1
+356,1,UFPR Triforce,261,I,C++,icpc.cpp,judged,ranido (1),No - Incorrect output,1
+357,1,UFRN JumenTeam,261,G,C++,galou.cpp,judged,ranido (1),YES,1
+358,1,IME-Ártico,262,C,Java,carplates.java,judged,notteam62 (1),YES,1
+359,1,"UECE - Camila, Tainara, Leonilia",262,I,C++,icpc.cc,judged,ranido (1),No - Incorrect output,1
+360,1,UFMG aniMOUSEs,262,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+361,1,"UECE - Camila, Tainara, Leonilia",263,I,C++,icpc.cc,judged,ranido (1),No - Incorrect output,1
+362,1,UFSCoders,264,E,C++,emoticons.cpp,judged,ranido (1),No - Time limit exceeded,1
+363,1,Unicamp NP-Rosa-Choque,264,I,C++,icpc.cpp,judged,ranido (1),YES,1
+364,1,URI-Erechim Pampa Coders,265,C,C++,carplates.cpp,judged,ranido (1),No - Incorrect output,1
+365,1,UFMG aniMOUSEs,265,G,C++,galou.cpp,judged,ranido (1),YES,1
+366,1,"UECE - Camila, Tainara, Leonilia",265,I,C++,icpc.cc,judged,ranido (1),No - Incorrect output,1
+367,1,"PUC Rio Cnuth, Dijkstra & Edmonds",266,I,C++,icpc.cpp,judged,ranido (1),YES,1
+368,1,DCC-UFRJ YEP,266,I,C,icpc.c,judged,ranido (1),No - Incorrect output,1
+369,1,ITA - O que é Overflow?,266,A,C++,ambiguous.cpp,judged,notteam62 (1),YES,1
+370,1,UFSCoders,266,E,C++,emoticons.cpp,judged,notteam65 (1),No - Incorrect output,1
+371,1,IBILCE/UNESP Até o fim,266,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+372,1,ITA - Baiamahrim,267,F,C++,find.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+373,1,UFRGS Submit & Run!,267,G,C++,galou.cpp,judged,notteam62 (1),YES,1
+374,1,UFPR Triforce,267,I,C++,icpc.cpp,judged,ranido (1),No - Incorrect output,1
+375,1,"UECE - Camila, Tainara, Leonilia",268,I,C++,icpc.cc,judged,ranido (1),No - Incorrect output,1
+376,1,IBILCE/UNESP Até o fim,268,C,C++,carplates.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+377,1,UECE - Die aphthe schmerzen,268,F,C,find.c,judged,notteam65 (1),No - Time limit exceeded,1
+378,1,IME-USP O fim dos pesquisadores,268,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+379,1,UERJ - Coders,269,G,C++,galou.cpp,judged,ranido (1),YES,1
+380,1,UECE - Die aphthe schmerzen,269,F,C,find.c,judged,notteam65 (1),No - Time limit exceeded,1
+381,1,UnB Crazy Programming Turkeys,270,I,C,icpc.c,judged,notteam65 (1),No - Incorrect output,1
+382,1,IME-USP O fim dos pesquisadores,270,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+383,1,"UECE - Camila, Tainara, Leonilia",271,I,C++,icpc.cc,judged,notteam65 (1),No - Incorrect output,1
+384,1,DCC-UFRJ NOP,271,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+385,1,UNIFEI Plante queijo na monarquia,272,D,C++,drop.cpp,judged,notteam65 (1),No - Incorrect output,1
+386,1,ITA - Baiamahrim,273,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+387,1,PUC Rio NósNumSamba,274,F,C++,find.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+388,1,UFPR Triforce,274,E,C++,emoticons.cpp,judged,ranido (1),No - Incorrect output,1
+389,1,IBILCE/UNESP Até o fim,274,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+390,1,"PUC Rio Cnuth, Dijkstra & Edmonds",275,F,C++,find.cpp,judged,notteam62 (1),No - Incorrect output,1
+391,1,ITA - O que é Overflow?,275,D,C,drop.c,judged,ranido (1),No - Runtime error,1
+392,1,"PUC Rio Cnuth, Dijkstra & Edmonds",277,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+393,1,ITA - Baiamahrim,277,C,C++,carplates.cpp,judged,ranido (1),No - Incorrect output,1
+394,1,UFMG aniMOUSEs,277,C,C++,carplates.cpp,judged,ranido (1),No - Incorrect output,1
+395,1,UFES NULL,277,I,C++,icpc.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+396,1,UFPE PC JAM,278,C,C++,carplates.cpp,judged,ranido (1),No - Incorrect output,1
+397,1,ITA - O que é Overflow?,278,D,C,drop.c,judged,notteam62 (1),No - Runtime error,1
+398,1,UFSCoders,279,C,C++,c.cc,judged,ranido (1),No - Incorrect output,1
+399,1,FIPP/UNOESTE #1,279,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+400,1,IBILCE/UNESP Até o fim,279,C,C++,carplates.cpp,judged,notteam62 (1),YES,1
+401,1,UFRGS Veni Vidi Duci,279,E,C++,emoticons.cpp,judged,notteam65 (1),No - Incorrect output,1
+402,1,FURG OMEGA,280,F,C,f.c,judged,notteam65 (1),No - Incorrect output,1
+403,1,ITA - Baiamahrim,280,F,C++,find.cpp,judged,notteam62 (1),No - Incorrect output,1
+404,1,URI-Erechim Pampa Coders,280,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+405,1,IME-USP O fim dos pesquisadores,280,F,C++,find.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+406,1,ITA - O que é Overflow?,280,D,C,drop.c,judged,notteam65 (1),No - Incorrect output,1
+407,1,UnB Crazy Programming Turkeys,281,C,C,carplates.c,judged,notteam62 (1),No - Runtime error,1
+408,1,IBILCE/UNESP Até o fim,281,G,C++,galou.cpp,judged,notteam62 (1),No - Incorrect output,1
+409,1,Unicamp GAP,281,E,C++,e.cpp,judged,notteam62 (1),No - Incorrect output,1
+410,1,ITA - Baiamahrim,282,F,C++,find.cpp,judged,ranido (1),No - Incorrect output,1
+411,1,FURG OMEGA,282,F,C,f.c,judged,notteam62 (1),No - Incorrect output,1
+412,1,DCC-UFRJ NOP,283,I,C++,icpc.cpp,judged,notteam65 (1),YES,1
+413,1,"PUC Rio Cnuth, Dijkstra & Edmonds",283,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+414,1,ITA - O que é Overflow?,284,D,C,drop.c,judged,ranido (1),No - Incorrect output,1
+415,1,ITA - Baiamahrim,284,C,C++,carplates.cpp,judged,notteam65 (1),No - Incorrect output,1
+416,1,UFRGS Veni Vidi Duci,285,I,C++,icpc.cpp,judged,ranido (1),No - Incorrect output,1
+417,1,UFMG aniMOUSEs,285,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+418,1,ITA - Baiamahrim,286,F,C++,find.cpp,judged,notteam62 (1),No - Incorrect output,1
+419,1,UERJ - Coders,287,A,C++,ambiguous.cpp,judged,notteam62 (1),No - Incorrect output,1
+420,1,Unicamp NP-Rosa-Choque,287,E,C++,emoticons.cpp,judged,notteam62 (1),No - Incorrect output,1
+421,1,"PUC Rio Cnuth, Dijkstra & Edmonds",287,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+422,1,DCC-UFRJ YEP,287,I,C,icpc.c,judged,notteam65 (1),No - Incorrect output,1
+423,1,ITA - Baiamahrim,288,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+424,1,ITA - O que é Overflow?,288,D,C,drop.c,judged,notteam65 (1),YES,1
+425,1,UECE - Die aphthe schmerzen,288,F,C,find.c,judged,notteam62 (1),No - Runtime error,1
+426,1,IME-Atlântico,289,E,C++,emoticons.cpp,judged,ranido (1),No - Time limit exceeded,1
+427,1,IME-USP Who wants to code forever?,289,J,C++,justice.cpp,judged,notteam62 (1),No - Incorrect output,1
+428,1,UnB Crazy Programming Turkeys,289,C,C,carplates.c,judged,notteam65 (1),No - Incorrect output,1
+429,1,UDESC 03 - KCT,289,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+430,1,UFPR Triforce,290,E,C++,emoticons.cpp,judged,notteam65 (1),No - Incorrect output,1
+431,1,UERJ - Coders,291,A,C++,ambiguous.cpp,judged,notteam62 (1),No - Incorrect output,1
+432,1,UFPE PC JAM,291,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+433,1,UNIFEI Plante queijo na monarquia,291,D,C++,drop.cpp,judged,notteam65 (1),No - Incorrect output,1
+434,1,IBILCE/UNESP Até o fim,292,G,C++,galou.cpp,judged,notteam65 (1),No - Incorrect output,1
+435,1,UniSantos #1,292,C,C,carplates.c,judged,notteam65 (1),No - Incorrect output,1
+436,1,Unicamp GAP,292,E,C++,e.cpp,judged,ranido (1),No - Incorrect output,1
+437,1,ITA - Baiamahrim,292,C,C++,carplates.cpp,judged,notteam65 (1),YES,1
+438,1,FURG OMEGA,293,F,C,f.c,judged,notteam65 (1),No - Incorrect output,1
+439,1,ITA - Baiamahrim,293,F,C++,find.cpp,judged,ranido (1),No - Incorrect output,1
+440,1,IME-USP O fim dos pesquisadores,293,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+441,1,ITA - Baiamahrim,294,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+442,1,URI-Erechim Pampa Coders,294,C,C++,carplates.cpp,judged,notteam62 (1),No - Incorrect output,1
+443,1,UFPR Triforce,294,E,C++,emoticons.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+444,1,IME-USP Who wants to code forever?,294,J,C++,justice.cpp,judged,notteam62 (1),No - Incorrect output,1
+445,1,UFCG Izaque's Team,295,I,Java,icpc.java,judged,notteam65 (1),No - Incorrect output,1
+446,1,UFS Anuncie Aqui,295,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+447,1,Unicamp NP-Rosa-Choque,295,E,C++,emoctions2.cpp,judged,notteam62 (1),No - Incorrect output,1
+448,1,ITA - Baiamahrim,295,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+449,1,IME-Atlântico,295,E,C++,emoticons.cpp,judged,notteam62 (1),No - Time limit exceeded,1
+450,1,ICMC-USP IfThenElse,295,G,C++,galou.cpp,judged,ranido (1),No - Time limit exceeded,1
+451,1,ITA - Baiamahrim,295,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+452,1,Unicamp NP-Rosa-Choque,295,E,C++,emoticons.cpp,judged,notteam65 (1),No - Incorrect output,1
+453,1,Unicamp GAP,296,E,C++,e.cpp,judged,notteam62 (1),No - Incorrect output,1
+454,1,UFPE PC JAM,296,F,C++,find.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+455,1,ITA - Baiamahrim,296,I,C++,icpc.cpp,judged,notteam65 (1),No - Incorrect output,1
+456,1,IME-USP Who wants to code forever?,296,J,C++,justice.cpp,judged,ranido (1),No - Incorrect output,1
+457,1,UFPR Triforce,296,E,C++,emoticons.cpp,judged,notteam65 (1),No - Time limit exceeded,1
+458,1,ITA - O que é Overflow?,297,D,C,drop.c,judged,notteam65 (1),No - Incorrect output,1
+459,1,UFCG Izaque's Team,297,I,Java,icpc.java,judged,notteam65 (1),No - Incorrect output,1
+460,1,UFSCoders,297,D,C++,drop.cpp,judged,notteam65 (1),No - Incorrect output,1
+461,1,UFPR Triforce,297,E,C++,emoticons.cpp,judged,ranido (1),No - Incorrect output,1
+462,1,Uninove Eq. Memorial da América Latina,297,C,C,carplates.c,judged,ranido (1),No - Time limit exceeded,1
+463,1,UERJ - Coders,297,A,C++,ambiguous.cpp,judged,notteam65 (1),No - Incorrect output,1
+464,1,UFMA debug is on the table,298,G,C++,g.cpp,judged,ranido (1),No - Incorrect output,1
+465,1,"UECE - Camila, Tainara, Leonilia",298,I,C++,icpc.cc,judged,notteam65 (1),YES,1
+466,1,UFS Anuncie Aqui,298,F,C++,find.cpp,judged,ranido (1),No - Time limit exceeded,1
+467,1,Unicamp GAP,298,E,C++,e.cpp,judged,ranido (1),No - Incorrect output,1
+468,1,ITA - Baiamahrim,298,I,C++,icpc.cpp,judged,notteam62 (1),No - Incorrect output,1
+469,1,UnB Crazy Programming Turkeys,298,I,C,icpc.c,judged,notteam62 (1),No - Incorrect output,1
+470,1,UERJ - Coders,298,A,C++,ambiguous.cpp,judged,notteam65 (1),No - Incorrect output,1
+471,1,Uninove Eq. Memorial da América Latina,298,H,C,he.c,judged,ranido (1),No - Incorrect output,1
+472,1,UFPR Triforce,299,D,C++,drop.cpp,judged,notteam62 (1),No - Incorrect output,1
+473,1,UFRGS Submit & Run!,299,C,C++,carplate.cpp,judged,notteam65 (1),No - Incorrect output,1
+474,1,Unicamp GAP,299,E,C++,e.cpp,judged,notteam62 (1),No - Incorrect output,1

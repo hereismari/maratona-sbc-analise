@@ -1,41 +1,96 @@
 library(shiny)
+library(shinyjs)
+library(shinydashboard)
+library(ggplot2)
+library(highcharter)
+library(plotly)
+#source("app/pre_processa.R")
+#source("app/util_imports.R")
 
-# Define UI for app that draws a histogram ----
-ui <- fluidPage(
+#source("pre_processa.R")
+source("util_imports.R")
+
+
+ui <- dashboardPage(
   
-  # App title ----
-  titlePanel("Análise Maratona SBC"),
-
-  # Sidebar layout with input and output definitions ----
-  sidebarLayout(
-     
-    sidebarPanel(
-       helpText("Análise dos dados da Maratona SBC do Brasil nos últimos anos."),
-       sliderInput("slider", h4("Slider"), min = 0, max = 100, value = 50)),
-     
-     
-     mainPanel(
-       plotOutput(outputId = "histPlot"),
-       textOutput("selected_var"))
+  dashboardHeader(title = "Header da página"),
+  
+  dashboardSidebar(
+    useShinyjs(),
+    sidebarMenu(id = "menu",
+                menuItem("Geral", tabName = "tab1", icon = icon("bookmark")),
+                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark"))
+    )
+  ),
+  dashboardBody(
+    
+    tabItems(
+      tabItem(tabName = "tab1",
+              fluidRow(
+                column(width = 4,
+                       box(width = NULL)
+                ),
+                column(width = 8,
+                       textOutput("selected_var"),
+                       box(width = NULL, highchartOutput("problemas_geral")),
+                       box(width = NULL, uiOutput('selectUI'),
+                           sliderInput(inputId = "problems_years", label = "Anos:",
+                                       min = 2015, max = 2017, step = 1, 
+                                       sep = "", value = c(2017, 2017)))
+                )
+              )
+      )
+      # tabItem(tabName = "tab2",
+      #         fluidRow(
+      #           column(width = 4,
+      #                  box(width = NULL, 
+      #                      selectInput("tab1_select_univ", label = h3("Universidades"),
+      #                                  choices = unique(universidades$nome), multiple=T,
+      #                                  selected = c("UFCG")
+      #                      )
+      #                  )
+      #           ),                
+      #           column(width = 8,
+      #                  box(width = NULL)
+      #           )
+      #         )
+      #         
+      # )
+    )
   )
 )
 
-# Define server logic required to draw a histogram ----
+
 server <- function(input, output) {
   
-  output$selected_var <- renderText({ 
-    paste("You have selected", input$slider)
-  })
+  # output$selected_var <- renderText({ 
+  #   for (ano in input$problems_years) {
+  #    paste("oi", ano)
+  #   }
+  # })
   
-  output$histPlot <- renderPlot({
-    x    <- faithful$waiting
-    bins <- seq(min(x), max(x), length.out = input$slider + 1)
-    
-    hist(x, breaks = bins, col = "#75AADB", border = "white",
-         xlab = "xlab",
-         ylab = "ylab",
-         main = "Histogram example")
-    
+  output$problemas_geral = renderHighchart({
+
+    problems = import_problems(input$problems_years)
+    problems$NotAccepted = problems$Total - problems$Accepted
+
+    highchart() %>%
+      hc_chart(animation = FALSE) %>%
+      hc_title(text = "Submissões em problemas") %>%
+      hc_xAxis(categories = problems$Problems) %>%
+      hc_plotOptions( column = list(stacking = "normal") ) %>%
+      hc_add_series(
+        data = (problems$NotAccepted),
+        name = "Quantidade de submissões não aceitas",
+        color = "#B71C1C",
+        type = "column"
+      ) %>%
+      hc_add_series(
+        data = (problems$Accepted),
+        name = "Quantidade de submissões aceitas",
+        color = "#2980b9",
+        type = "column"
+      )
   })
 }
 
