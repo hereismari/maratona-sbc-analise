@@ -4,11 +4,11 @@ library(shinydashboard)
 library(ggplot2)
 library(highcharter)
 library(plotly)
-#source("pre_processa.R")
+#source("app/pre_processa.R")
 #source("app/util_imports.R")
 
 #source("pre_processa.R")
-#source("util_imports.R")
+source("util_imports.R")
 
 
 ui <- dashboardPage(
@@ -18,8 +18,8 @@ ui <- dashboardPage(
   dashboardSidebar(
     useShinyjs(),
     sidebarMenu(id = "menu",
-                menuItem("Universidades", tabName = "tab1", icon = icon("bookmark")),
-                menuItem("Times", tabName = "tab2", icon = icon("bookmark"))
+                menuItem("Geral", tabName = "tab1", icon = icon("bookmark")),
+                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark"))
     )
   ),
   dashboardBody(
@@ -28,31 +28,34 @@ ui <- dashboardPage(
       tabItem(tabName = "tab1",
               fluidRow(
                 column(width = 4,
-                       box(width = NULL, 
-                           selectInput("tab1_select_univ", label = h3("Universidades"),
-                                       choices = unique(universidades$nome), multiple=T,
-                                       selected = c("UFCG")
-                           )
-                       )
-                ),                
-                column(width = 8,
-                       box(width = NULL)
-                )
-              )
-              
-      ),
-      
-      tabItem(tabName = "tab2",
-              fluidRow(
-                column(width = 4,
                        box(width = NULL)
                 ),
                 column(width = 8,
-                       box(width = NULL)
+                       textOutput("selected_var"),
+                       box(width = NULL, highchartOutput("problemas_geral")),
+                       box(width = NULL, uiOutput('selectUI'),
+                           sliderInput(inputId = "problems_years", label = "Anos:",
+                                       min = 2015, max = 2017, step = 1, 
+                                       sep = "", value = 2017))
                 )
               )
-              
       )
+      # tabItem(tabName = "tab2",
+      #         fluidRow(
+      #           column(width = 4,
+      #                  box(width = NULL, 
+      #                      selectInput("tab1_select_univ", label = h3("Universidades"),
+      #                                  choices = unique(universidades$nome), multiple=T,
+      #                                  selected = c("UFCG")
+      #                      )
+      #                  )
+      #           ),                
+      #           column(width = 8,
+      #                  box(width = NULL)
+      #           )
+      #         )
+      #         
+      # )
     )
   )
 )
@@ -61,18 +64,33 @@ ui <- dashboardPage(
 server <- function(input, output) {
   
   output$selected_var <- renderText({ 
-    paste("You have selected", input$slider)
+    for (ano in input$problems_years) {
+     ano 
+    }
   })
   
-  output$histPlot <- renderPlot({
-    x    <- faithful$waiting
-    bins <- seq(min(x), max(x), length.out = input$slider + 1)
-    
-    hist(x, breaks = bins, col = "#75AADB", border = "white",
-         xlab = "xlab",
-         ylab = "ylab",
-         main = "Histogram example")
-    
+  output$problemas_geral = renderHighchart({
+
+    problems = import_problems(input$problems_years[1])
+    problems$NotAccepted = problems$Total - problems$Accepted
+
+    highchart() %>%
+      hc_chart(animation = FALSE) %>%
+      hc_title(text = "Submissões em problemas") %>%
+      hc_xAxis(categories = problems$Problems) %>%
+      hc_plotOptions( column = list(stacking = "normal") ) %>%
+      hc_add_series(
+        data = (problems$NotAccepted),
+        name = "Quantidade de alunos aptos a pagar",
+        color = "#B71C1C",
+        type = "column"
+      ) %>%
+      hc_add_series(
+        data = (problems$Accepted),
+        name = "Quantidade de alunos pagando",
+        color = "#2980b9",
+        type = "column"
+      )
   })
 }
 
