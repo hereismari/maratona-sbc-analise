@@ -67,3 +67,25 @@ import_problems = function(anos) {
 
 }
 
+import_coaches = function() {
+  
+  path = paste(root, "coaches.csv", sep="")
+  temp_df = read_csv(path)
+  
+  competitors = import_competitors()
+  
+  path = paste(root, "/competidores.csv", sep="")
+  df = read_csv(path)
+  
+  df$ano = competitors$ano
+  df = subset(df, !duplicated(df[,2]))
+  
+  # We don't want the competitors, we just want the team!
+  # the line below removes the repetitions
+  coaches = merge(df, temp_df, by=c("time", "ano"))
+  
+  coaches = coaches %>% select(ano, medalha) %>% group_by(coach) %>% unique()
+  View (coaches)
+  
+  return(coaches)
+}

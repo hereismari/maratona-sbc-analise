@@ -11,6 +11,8 @@ source("../app/util_imports.R")
 
 universities = import_universities()
 competitors = import_competitors()
+coaches = import_coaches()
+
 
 
 ui <- dashboardPage(
@@ -21,7 +23,8 @@ ui <- dashboardPage(
     useShinyjs(),
     sidebarMenu(id = "menu",
                 menuItem("Geral", tabName = "tab1", icon = icon("bookmark")),
-                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark"))
+                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark")),
+                menuItem("Coaches", tabName = "tab3", icon = icon("bookmark"))
     )
   ),
   dashboardBody(
@@ -64,14 +67,21 @@ ui <- dashboardPage(
                 ),
                 column(width = 8,
                        box(width = NULL, highchartOutput("participation_univs")),
-                       box(width = NULL,  uiOutput('selectUI'),
+                       box(width = NULL,  #uiOutput('selectUI'),
                            sliderInput(inputId = "classifications_years", label = "Anos:",
                                        min = min(competitors$ano), max = max(competitors$ano), step = 1, 
                                        sep = "", value = c(2015, 2017))
                        )
                 )
               )
-      )
+      ),
+      tabItem(tabName = "tab3",
+              fluidRow(
+                column(width = 8,
+                       box(width = NULL, highchartOutput("participation_coaches"))
+                       )
+                )
+              )
     )
   )
 )
@@ -178,6 +188,10 @@ server <- function(input, output) {
                 title = "Pontos Conquistados",
                 opacity = 1)
     
+  })
+  
+  output$participation_coaches = renderHighchart({
+    hchart(coaches, "column", hcaes(x = medalhas, y = coach, group = ano))
   })
 
 }
