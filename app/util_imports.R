@@ -20,6 +20,25 @@ import_competitors = function() {
   return(competitors)
 }
 
+import_competitors_grouped_by_state = function() {
+  competitors = import_competitors()
+  
+  # We don't want the competitors, we just want the team!
+  # the line below removes the repetitions
+  competitors <- subset(competitors, !duplicated(competitors[,2]))
+  
+  # group by state
+  competitors_grouped <- competitors %>%
+                         group_by(estado) %>%
+                         summarise(classificados = sum(classificado),
+                                   ouro = sum(medalha=="gold"),
+                                   prata = sum(medalha=="silver"),
+                                   bronze = sum(medalha=="bronze"),
+                                   medalhas = n())
+  
+  return(competitors_grouped)
+}
+
 import_universities = function() {
   path = paste(root, "auxiliares/universidades.csv", sep="")
   univs = read_csv(path)
@@ -44,10 +63,7 @@ import_problems = function(anos) {
     summarise(Total = sum(Total),
               Accepted = sum(Accepted))
   
-  
   return(problems)
-  
+
 }
-
-
 
