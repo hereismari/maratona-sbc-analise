@@ -1,6 +1,6 @@
 # coding: utf8
 import utils
-import download_regions_champ as dr
+import download_campeoes_por_regiao as dr
 import json
 
 OUTPUT_PATH = utils.OUTPUT_PATH + 'campeoes_por_regiao'
