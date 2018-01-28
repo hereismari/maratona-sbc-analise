@@ -12,7 +12,6 @@ source("../app/util_imports.R")
 universities = import_universities()
 competitors = import_competitors()
 
-
 ui <- dashboardPage(
   
   dashboardHeader(title = "Header da página"),
@@ -21,7 +20,8 @@ ui <- dashboardPage(
     useShinyjs(),
     sidebarMenu(id = "menu",
                 menuItem("Geral", tabName = "tab1", icon = icon("bookmark")),
-                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark"))
+                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark")),
+                menuItem("Contests", tabName = "tab3", icon = icon("bookmark"))
     )
   ),
   dashboardBody(
@@ -42,21 +42,21 @@ ui <- dashboardPage(
                                        sep = "", value = c(2017, 2017))
                        )
                 )
-              ),
-              
-              br(),
-              
-              h3("Classificações e medalhas por região"),
-              fluidRow(
-                column(width = 3,
-                       box(width = NULL, 
-                           selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
-                ),
-                column(width = 6,
-                       box(width = NULL, 
-                           leafletOutput("mapa"))
-                       )
               )
+              
+              # br(),
+              # 
+              # h3("Classificações e medalhas por região"),
+              # fluidRow(
+              #   column(width = 3,
+              #          box(width = NULL, 
+              #              selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
+              #   ),
+              #   column(width = 6,
+              #          box(width = NULL, 
+              #              leafletOutput("mapa"))
+              #          )
+              # )
       ),
       tabItem(tabName = "tab2",
               fluidRow(
@@ -70,11 +70,26 @@ ui <- dashboardPage(
                 ),
                 column(width = 8,
                        box(width = NULL, highchartOutput("participation_univs")),
-                       box(width = NULL,  uiOutput('selectUI'),
+                       box(width = NULL,  
                            sliderInput(inputId = "classifications_years", label = "Anos:",
                                        min = min(competitors$ano), max = max(competitors$ano), step = 1, 
                                        sep = "", value = c(2015, 2017))
                        )
+                )
+              )
+      ),
+      tabItem(tabName = "tab3",
+              fluidRow(
+                column(width = 4,
+                       box(width = NULL,
+                           selectInput(inputId = "contest_year", label = "Selecione o ano",
+                                       choices = list("2015" = 2015, "2016" = 2016, "2017" = 2017), selected = 2017
+                           )
+                       ),
+                       box(width = NULL, uiOutput("contest_teams_cond"))
+                ),
+                column(width = 8,
+                       box(width = NULL, plotlyOutput("teams_in_contest"))
                 )
               )
       )
@@ -134,28 +149,28 @@ server <- function(input, output) {
   })
 
   output$mapa <- renderLeaflet({
-    
+
     data <- readRDS(file = "../app/mapa/mapa_competidores.rds")
-    
+
     bins <- c(0, 5, 10, 15, 20, 25, 30, 40, Inf)
     # Blue
     pal <- colorBin("Blues", domain = data[[input$teste]], bins=bins)
     # Red
     # pal <- colorBin("YlOrRd", domain = data[[input$teste]], bins = bins)
-    
+
     # draw the histogram with the specified number of bins
-    state_popup <- paste0("<strong>Estado: </strong>", 
+    state_popup <- paste0("<strong>Estado: </strong>",
                           data$estado,
                           "<br><strong>Medalhas de ouro: </strong>",
                           data[[input$teste]])
-                          
-    
+
+
     labels <- sprintf(
       "<strong>%s</strong><br/>%g %s",
       data$estado, data[[input$teste]], input$teste
     ) %>% lapply(htmltools::HTML)
-    
-    
+
+
     leaflet(data) %>%
       # setView(-96, 37.8, 4) %>%
       # addProviderTiles("CartoDB.Positron") %>%
@@ -183,7 +198,21 @@ server <- function(input, output) {
       addLegend(pal = pal, values = ~data[[input$teste]],
                 title = "Pontos Conquistados",
                 opacity = 1)
+
+  })
+  
+  output$contest_teams_cond = renderUI({
     
+    scoreboard = import_scoreboard(input$contest_year)
+    teams = unique(scoreboard$Name)
+    
+    selectInput(inputId = "contest_teams", label = "Selecione os times",
+                choices = teams, multiple=T
+    )
+  })
+  
+  output$teams_in_contest = renderPlotly({
+    plot_ly(mtcars, x = ~mpg, y = ~wt)
   })
 
 }
