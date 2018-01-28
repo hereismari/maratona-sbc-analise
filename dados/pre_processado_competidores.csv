@@ -144,10 +144,10 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2015,absurdo clássico: missão final,zailton calheiros,0,0,10,bronze,UFRN,RN,Nordeste
 2015,absurdo clássico: missão final,hélio filho,0,0,10,bronze,UFRN,RN,Nordeste
 2015,absurdo clássico: missão final,,0,0,10,bronze,UFRN,RN,Nordeste
-2014,i am root,marcos kawakami,0,1,1,gold,USP,SP,Sudeste
-2014,i am root,stefano tommasini,0,1,1,gold,USP,SP,Sudeste
-2014,i am root,antonio roberto de campos junior,0,1,1,gold,USP,SP,Sudeste
-2014,i am root,,0,1,1,gold,USP,SP,Sudeste
+2014,i am root,marcos kawakami,0,1,1,gold,USP-SP,SP,Sudeste
+2014,i am root,stefano tommasini,0,1,1,gold,USP-SP,SP,Sudeste
+2014,i am root,antonio roberto de campos junior,0,1,1,gold,USP-SP,SP,Sudeste
+2014,i am root,,0,1,1,gold,USP-SP,SP,Sudeste
 2014,manoel borboleta e miguxos,manoel lucas urbano de barros lins,0,1,2,gold,UFCG,PB,Nordeste
 2014,manoel borboleta e miguxos,rafael catalão perrela,0,1,2,gold,UFCG,PB,Nordeste
 2014,manoel borboleta e miguxos,lucas figueiredo,0,1,2,gold,UFCG,PB,Nordeste
@@ -163,9 +163,9 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2014,literally tourists,gabriel poesia,0,1,5,silver,UFMG,MG,Centro-Oeste
 2014,literally tourists,diogo oliveira,0,1,5,silver,UFMG,MG,Centro-Oeste
 2014,literally tourists,guilherme gomes,0,1,5,silver,UFMG,MG,Centro-Oeste
-2014,arquiduque andorinha,ramon silva de lima,0,0,6,silver,USP,SP,Sudeste
-2014,arquiduque andorinha,marcelo sales,0,0,6,silver,USP,SP,Sudeste
-2014,arquiduque andorinha,andré amaral de souza,0,0,6,silver,USP,SP,Sudeste
+2014,arquiduque andorinha,ramon silva de lima,0,0,6,silver,USP-SP,SP,Sudeste
+2014,arquiduque andorinha,marcelo sales,0,0,6,silver,USP-SP,SP,Sudeste
+2014,arquiduque andorinha,andré amaral de souza,0,0,6,silver,USP-SP,SP,Sudeste
 2014,paitheus quer ir embora,matheus scandiffio,0,0,7,bronze,UFU,MG,Centro-Oeste
 2014,paitheus quer ir embora,alvaro bruno silva pereira,0,0,7,bronze,UFU,MG,Centro-Oeste
 2014,paitheus quer ir embora,caio augusto araujo oliveira,0,0,7,bronze,UFU,MG,Centro-Oeste
@@ -204,10 +204,10 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2008,time limit exceeded,eluan miranda,0,1,6,silver,UFSC,SC,Sul
 2008,time limit exceeded,luis fernando schultz xavier da silveira,0,1,6,silver,UFSC,SC,Sul
 2008,time limit exceeded,,0,1,6,silver,UFSC,SC,Sul
-2008,guerreiros da poli,ricardo pereira,0,1,7,bronze,EP-USP,SP,Sudeste
-2008,guerreiros da poli,gustavo gouveia,0,1,7,bronze,EP-USP,SP,Sudeste
-2008,guerreiros da poli,victor lassance,0,1,7,bronze,EP-USP,SP,Sudeste
-2008,guerreiros da poli,,0,1,7,bronze,EP-USP,SP,Sudeste
+2008,guerreiros da poli,ricardo pereira,0,1,7,bronze,POLI-USP,SP,Sudeste
+2008,guerreiros da poli,gustavo gouveia,0,1,7,bronze,POLI-USP,SP,Sudeste
+2008,guerreiros da poli,victor lassance,0,1,7,bronze,POLI-USP,SP,Sudeste
+2008,guerreiros da poli,,0,1,7,bronze,POLI-USP,SP,Sudeste
 2008,tampureção,davi costa,0,0,8,bronze,UNICAMP,SP,Sudeste
 2008,tampureção,andre linhares,0,0,8,bronze,UNICAMP,SP,Sudeste
 2008,tampureção,felipe sodre silva,0,0,8,bronze,UNICAMP,SP,Sudeste
@@ -252,10 +252,10 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2009,falha de segmentasamba,pedro veras,0,0,8,bronze,PUC-RIO,RJ,Sudeste
 2009,falha de segmentasamba,paulo de tarso gomide,0,0,8,bronze,PUC-RIO,RJ,Sudeste
 2009,falha de segmentasamba,,0,0,8,bronze,PUC-RIO,RJ,Sudeste
-2009,kmp,alexandre kunieda,0,0,9,bronze,IC-UNICAMP,SP,Sudeste
-2009,kmp,mauro lopes,0,0,9,bronze,IC-UNICAMP,SP,Sudeste
-2009,kmp,lucas tiago de castro jesus,0,0,9,bronze,IC-UNICAMP,SP,Sudeste
-2009,kmp,,0,0,9,bronze,IC-UNICAMP,SP,Sudeste
+2009,kmp,alexandre kunieda,0,0,9,bronze,UNICAMP,SP,Sudeste
+2009,kmp,mauro lopes,0,0,9,bronze,UNICAMP,SP,Sudeste
+2009,kmp,lucas tiago de castro jesus,0,0,9,bronze,UNICAMP,SP,Sudeste
+2009,kmp,,0,0,9,bronze,UNICAMP,SP,Sudeste
 2009,kryptonita,diogo holanda,0,0,10,bronze,ITA,SP,Sudeste
 2009,kryptonita,walter filho,0,0,10,bronze,ITA,SP,Sudeste
 2009,kryptonita,luca moller,0,0,10,bronze,ITA,SP,Sudeste
@@ -296,10 +296,10 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2011,gcv,gabriel marques portal,0,0,9,bronze,UFRGS,RS,Sul
 2011,gcv,bruno fiss,0,0,9,bronze,UFRGS,RS,Sul
 2011,gcv,,0,0,9,bronze,UFRGS,RS,Sul
-2011,unicamp alfa,marcelo galvão povoa,0,0,10,bronze,UNICAMP-ALFA,SP,Sudeste
-2011,unicamp alfa,douglas oliveira santos,0,0,10,bronze,UNICAMP-ALFA,SP,Sudeste
-2011,unicamp alfa,bruno espinosa crespaldi,0,0,10,bronze,UNICAMP-ALFA,SP,Sudeste
-2011,unicamp alfa,,0,0,10,bronze,UNICAMP-ALFA,SP,Sudeste
+2011,unicamp alfa,marcelo galvão povoa,0,0,10,bronze,UNICAMP,SP,Sudeste
+2011,unicamp alfa,douglas oliveira santos,0,0,10,bronze,UNICAMP,SP,Sudeste
+2011,unicamp alfa,bruno espinosa crespaldi,0,0,10,bronze,UNICAMP,SP,Sudeste
+2011,unicamp alfa,,0,0,10,bronze,UNICAMP,SP,Sudeste
 2010,razão cruzada,filipe melo,0,1,1,gold,UFPE,PE,Nordeste
 2010,razão cruzada,pablo carvalho pinheiro,0,1,1,gold,UFPE,PE,Nordeste
 2010,razão cruzada,luiz silva,0,1,1,gold,UFPE,PE,Nordeste
@@ -344,10 +344,10 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2013,ñtemtempabobagi,bianca m shimizu oe,0,1,1,gold,USP-SC,SP,Sudeste
 2013,ñtemtempabobagi,bruno junqueira adami,0,1,1,gold,USP-SC,SP,Sudeste
 2013,ñtemtempabobagi,,0,1,1,gold,USP-SC,SP,Sudeste
-2013,bitelo,marcos kawakami,0,1,2,gold,USP,SP,Sudeste
-2013,bitelo,stefano tommasini,0,1,2,gold,USP,SP,Sudeste
-2013,bitelo,antonio roberto de campos junior,0,1,2,gold,USP,SP,Sudeste
-2013,bitelo,,0,1,2,gold,USP,SP,Sudeste
+2013,bitelo,marcos kawakami,0,1,2,gold,USP-SP,SP,Sudeste
+2013,bitelo,stefano tommasini,0,1,2,gold,USP-SP,SP,Sudeste
+2013,bitelo,antonio roberto de campos junior,0,1,2,gold,USP-SP,SP,Sudeste
+2013,bitelo,,0,1,2,gold,USP-SP,SP,Sudeste
 2013,não é só pelos 20 minutos,sergio filho,0,1,3,gold,UFPE,PE,Nordeste
 2013,não é só pelos 20 minutos,davi pinheiro,0,1,3,gold,UFPE,PE,Nordeste
 2013,não é só pelos 20 minutos,pedro silvestre,0,1,3,gold,UFPE,PE,Nordeste
@@ -366,9 +366,9 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2013,"calma pessoal, calma",mateus carvalho dantas,0,1,7,bronze,UFCG,PB,Nordeste
 2013,"calma pessoal, calma",danilo pimenteira melo nascimento,0,1,7,bronze,UFCG,PB,Nordeste
 2013,"calma pessoal, calma",phyllipe cesar ramos de almeida,0,1,7,bronze,UFCG,PB,Nordeste
-2013,bpyym,guilherme philippe figueiredo,0,0,8,bronze,USP,SP,Sudeste
-2013,bpyym,marcelo sales,0,0,8,bronze,USP,SP,Sudeste
-2013,bpyym,andré amaral de souza,0,0,8,bronze,USP,SP,Sudeste
+2013,bpyym,guilherme philippe figueiredo,0,0,8,bronze,USP-SP,SP,Sudeste
+2013,bpyym,marcelo sales,0,0,8,bronze,USP-SP,SP,Sudeste
+2013,bpyym,andré amaral de souza,0,0,8,bronze,USP-SP,SP,Sudeste
 2013,monkeys,rafael de assis cruz,0,0,9,bronze,UFG,GO,Centro-Oeste
 2013,monkeys,welton cardoso do carmo,0,0,9,bronze,UFG,GO,Centro-Oeste
 2013,monkeys,paulo cezar pereira costa,0,0,9,bronze,UFG,GO,Centro-Oeste
@@ -389,10 +389,10 @@ ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,reg
 2012,4 fun 2 win,marcio filho,0,1,3,gold,UFPE,PE,Nordeste
 2012,4 fun 2 win,pedro silvestre,0,1,3,gold,UFPE,PE,Nordeste
 2012,4 fun 2 win,,0,1,3,gold,UFPE,PE,Nordeste
-2012,señora margarida,bruno junqueira adami,0,1,4,silver,ICMC-USP,SP,Sudeste
-2012,señora margarida,carlos eduardo guillen davila,0,1,4,silver,ICMC-USP,SP,Sudeste
-2012,señora margarida,vinicius de freitas reis,0,1,4,silver,ICMC-USP,SP,Sudeste
-2012,señora margarida,,0,1,4,silver,ICMC-USP,SP,Sudeste
+2012,señora margarida,bruno junqueira adami,0,1,4,silver,USP-SC,SP,Sudeste
+2012,señora margarida,carlos eduardo guillen davila,0,1,4,silver,USP-SC,SP,Sudeste
+2012,señora margarida,vinicius de freitas reis,0,1,4,silver,USP-SC,SP,Sudeste
+2012,señora margarida,,0,1,4,silver,USP-SC,SP,Sudeste
 2012,margarita,walter filho,0,0,5,silver,ITA,SP,Sudeste
 2012,margarita,diogo holanda,0,0,5,silver,ITA,SP,Sudeste
 2012,margarita,luca moller,0,0,5,silver,ITA,SP,Sudeste
