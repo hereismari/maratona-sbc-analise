@@ -15,7 +15,7 @@ import_scoreboard = function(ano) {
 }
 
 import_competitors = function() {
-  path = paste(root, "competidores.csv", sep="")
+  path = paste(root, "pre_processado_competidores.csv", sep="")
   competitors = read_csv(path)
   return(competitors)
 }
@@ -48,3 +48,6 @@ import_problems = function(anos) {
   return(problems)
   
 }
+
+
+
