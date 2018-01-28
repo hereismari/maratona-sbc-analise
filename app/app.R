@@ -203,8 +203,8 @@ server <- function(input, output) {
   
   output$contest_teams_cond = renderUI({
     
-    scoreboard = import_scoreboard(input$contest_year)
-    teams = unique(scoreboard$Name)
+    submissions = import_submissions(input$contest_year) 
+    teams = unique(submissions$User)
     
     selectInput(inputId = "contest_teams", label = "Selecione os times",
                 choices = teams, multiple=T
@@ -212,7 +212,19 @@ server <- function(input, output) {
   })
   
   output$teams_in_contest = renderPlotly({
-    plot_ly(mtcars, x = ~mpg, y = ~wt)
+    
+    submissions = import_submissions(input$contest_year) %>%
+      filter(User %in% input$contest_teams)
+    
+    g = ggplot(submissions, aes(x = Time, y = User, group = User, color = User)) +
+      geom_point(aes(size=AnswerBin)) +
+      geom_line() + 
+      ggtitle("Número de matrículas realizadas por período") + 
+      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      theme_bw()
+    
+    ggplotly(g)
+    
   })
 
 }
