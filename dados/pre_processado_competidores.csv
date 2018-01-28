@@ -1,0 +1,418 @@
+ano,time,competidor,reserva,classificado,posicao,medalha,universidade,estado,regiao
+2016,0xe,lucas almeida pereira de lima,0,1,1,gold,UFPE,PE,Nordeste
+2016,0xe,duhan caraciolo,0,1,1,gold,UFPE,PE,Nordeste
+2016,0xe,mario henrique da silva,0,1,1,gold,UFPE,PE,Nordeste
+2016,veni vidi codi,guilherme bueno andrade,0,1,2,gold,UNICAMP,SP,Sudeste
+2016,veni vidi codi,matheus de souza ataide,0,1,2,gold,UNICAMP,SP,Sudeste
+2016,veni vidi codi,arthur pratti dadalto,0,1,2,gold,UNICAMP,SP,Sudeste
+2016,roberio e seu teclado,guilherme bernal,0,1,3,gold,UFBA,BA,Nordeste
+2016,roberio e seu teclado,roberto caldeira,0,1,3,gold,UFBA,BA,Nordeste
+2016,roberio e seu teclado,jonathan queiroz,0,1,3,gold,UFBA,BA,Nordeste
+2016,wickaninnish,orlando aceto,0,0,4,silver,UFPE,PE,Nordeste
+2016,wickaninnish,vitor castelo branco,0,0,4,silver,UFPE,PE,Nordeste
+2016,wickaninnish,victor duarte diniz monteiro,0,0,4,silver,UFPE,PE,Nordeste
+2016,epic sax guys,josé wagner de andrade junior,0,1,5,silver,UNIFEI,MG,Centro-Oeste
+2016,epic sax guys,fúlvio abrahão de paula,0,1,5,silver,UNIFEI,MG,Centro-Oeste
+2016,epic sax guys,thiago carvalho pinto,0,1,5,silver,UNIFEI,MG,Centro-Oeste
+2016,!xor&!,ordan silva santos,0,1,6,silver,UFCG,PB,Nordeste
+2016,!xor&!,lucas de matos figueiredo,0,1,6,silver,UFCG,PB,Nordeste
+2016,!xor&!,victor andrade de almeida,0,1,6,silver,UFCG,PB,Nordeste
+2016,ginga com tapioca,railton calheiros,0,1,7,bronze,UFRN,RN,Nordeste
+2016,ginga com tapioca,hélio filho,0,1,7,bronze,UFRN,RN,Nordeste
+2016,ginga com tapioca,victor lima,0,1,7,bronze,UFRN,RN,Nordeste
+2016,esse é meu time,igor figueiredo,0,0,8,bronze,UFRJ,RJ,Sudeste
+2016,esse é meu time,tiago montalvão,0,0,8,bronze,UFRJ,RJ,Sudeste
+2016,esse é meu time,ian miranda,0,0,8,bronze,UFRJ,RJ,Sudeste
+2016,where are the monkeys,paulo augusto gomes kataki,0,0,9,bronze,UFG,GO,Centro-Oeste
+2016,where are the monkeys,rafael de assis cruz,0,0,9,bronze,UFG,GO,Centro-Oeste
+2016,where are the monkeys,murilo gonçalves pereira,0,0,9,bronze,UFG,GO,Centro-Oeste
+2016,lorem ipsum,athos cotta couto,0,0,10,bronze,IME,RJ,Sudeste
+2016,lorem ipsum,naum azeredo fernandes barreira,0,0,10,bronze,IME,RJ,Sudeste
+2016,lorem ipsum,matheus cariús castro,0,0,10,bronze,IME,RJ,Sudeste
+2007,o que é overflow?,anderson aiziro,0,0,1,gold,ITA,SP,Sudeste
+2007,o que é overflow?,felipe souza,0,0,1,gold,ITA,SP,Sudeste
+2007,o que é overflow?,rafael daigo hirama,0,0,1,gold,ITA,SP,Sudeste
+2007,o que é overflow?,,0,0,1,gold,ITA,SP,Sudeste
+2007,who wants to code forever,leonardo facci,0,0,2,gold,IME-USP,SP,Sudeste
+2007,who wants to code forever,guilherme silveira,0,0,2,gold,IME-USP,SP,Sudeste
+2007,who wants to code forever,cristiane sato,0,0,2,gold,IME-USP,SP,Sudeste
+2007,who wants to code forever,,0,0,2,gold,IME-USP,SP,Sudeste
+2007,atlântico,rafael paulino,0,0,3,gold,IME,RJ,Sudeste
+2007,atlântico,renato paes leme,0,0,3,gold,IME,RJ,Sudeste
+2007,atlântico,thiago pereira,0,0,3,gold,IME,RJ,Sudeste
+2007,atlântico,,0,0,3,gold,IME,RJ,Sudeste
+2007,gap,andré rodrigues,0,0,4,silver,UNICAMP,SP,Sudeste
+2007,gap,guilherme kunigami,0,0,4,silver,UNICAMP,SP,Sudeste
+2007,gap,paulo roberto costa,0,0,4,silver,UNICAMP,SP,Sudeste
+2007,gap,,0,0,4,silver,UNICAMP,SP,Sudeste
+2007,nop,andré souza,0,0,5,silver,UFRJ,RJ,Sudeste
+2007,nop,bruno leite,0,0,5,silver,UFRJ,RJ,Sudeste
+2007,nop,vinicius santos,0,0,5,silver,UFRJ,RJ,Sudeste
+2007,nop,,0,0,5,silver,UFRJ,RJ,Sudeste
+2007,"cnuth, dijkstra & edmonds",caio valentim,0,0,6,silver,PUC-RIO,RJ,Sudeste
+2007,"cnuth, dijkstra & edmonds",daniel rocha,0,0,6,silver,PUC-RIO,RJ,Sudeste
+2007,"cnuth, dijkstra & edmonds",eduardo cardoso,0,0,6,silver,PUC-RIO,RJ,Sudeste
+2007,"cnuth, dijkstra & edmonds",,0,0,6,silver,PUC-RIO,RJ,Sudeste
+2007,triforce,bruno ribas,0,0,7,bronze,UFPR,PR,Sul
+2007,triforce,eduardo ribas,0,0,7,bronze,UFPR,PR,Sul
+2007,triforce,raphael ribas,0,0,7,bronze,UFPR,PR,Sul
+2007,triforce,,0,0,7,bronze,UFPR,PR,Sul
+2007,die aphthe schmerzen,rafael carmo,0,0,8,bronze,UECE,CE,Nordeste
+2007,die aphthe schmerzen,rudy matela,0,0,8,bronze,UECE,CE,Nordeste
+2007,die aphthe schmerzen,teófilo bezerra,0,0,8,bronze,UECE,CE,Nordeste
+2007,die aphthe schmerzen,,0,0,8,bronze,UECE,CE,Nordeste
+2007,np-rosa-choque,igor assis,0,0,9,bronze,UNICAMP,SP,Sudeste
+2007,np-rosa-choque,felipe sodré dos santos silva,0,0,9,bronze,UNICAMP,SP,Sudeste
+2007,np-rosa-choque,thiago serra silva,0,0,9,bronze,UNICAMP,SP,Sudeste
+2007,np-rosa-choque,,0,0,9,bronze,UNICAMP,SP,Sudeste
+2007,anuncie aqui,mauricio collares neto,0,0,10,bronze,UFS,SE,Nordeste
+2007,anuncie aqui,ramon fernandes,0,0,10,bronze,UFS,SE,Nordeste
+2007,anuncie aqui,thadeu henrique meneses,0,0,10,bronze,UFS,SE,Nordeste
+2007,anuncie aqui,,0,0,10,bronze,UFS,SE,Nordeste
+2017,"¯\_( ""/ )_/¯",yan couto,0,1,1,gold,USP-SP,SP,Sudeste
+2017,"¯\_( ""/ )_/¯",victor sena moleiro,0,1,1,gold,USP-SP,SP,Sudeste
+2017,"¯\_( ""/ )_/¯",arthur nascimento,0,1,1,gold,USP-SP,SP,Sudeste
+2017,"¯\_( ""/ )_/¯",pelos,0,1,1,gold,USP-SP,SP,Sudeste
+2017,trei linha,samuel santos,0,1,2,gold,USP-SC,SP,Sudeste
+2017,trei linha,rodrigo weigert,0,1,2,gold,USP-SC,SP,Sudeste
+2017,trei linha,lucas de oliveira pacheco,0,1,2,gold,USP-SC,SP,Sudeste
+2017,alt,arthur costa,0,1,3,gold,UFPE,PE,Nordeste
+2017,alt,tiago gonçalves,0,1,3,gold,UFPE,PE,Nordeste
+2017,alt,lucas santana,0,1,3,gold,UFPE,PE,Nordeste
+2017,dog hits dog,gabriel oliveira,0,0,4,silver,USP-SP,SP,Sudeste
+2017,dog hits dog,nathan benedetto proença,0,0,4,silver,USP-SP,SP,Sudeste
+2017,dog hits dog,pedro sousa,0,0,4,silver,USP-SP,SP,Sudeste
+2017,choose difficulty: titan,felipe mota dos santos,0,1,5,silver,UFCG,PB,Nordeste
+2017,choose difficulty: titan,árysson figueiredo,0,1,5,silver,UFCG,PB,Nordeste
+2017,choose difficulty: titan,ordan silva santos,0,1,5,silver,UFCG,PB,Nordeste
+2017,choose difficulty: titan,paulo silva ,1,1,5,silver,UFCG,PB,Nordeste
+2017,ginga com tapioca,railton calheiros,0,1,6,silver,UFRN,RN,Nordeste
+2017,ginga com tapioca,hélio duarte,0,1,6,silver,UFRN,RN,Nordeste
+2017,ginga com tapioca,victor lima,0,1,6,silver,UFRN,RN,Nordeste
+2017,ginga com tapioca,paulo augusto de lima medeiros ,1,1,6,silver,UFRN,RN,Nordeste
+2017,se juntas causa imagina juntas,gustavo bezerra ribeiro,0,0,7,bronze,UFCG,PB,Nordeste
+2017,se juntas causa imagina juntas,emerson leonardo lucena,0,0,7,bronze,UFCG,PB,Nordeste
+2017,se juntas causa imagina juntas,arthur vinicius tomé rodrigues,0,0,7,bronze,UFCG,PB,Nordeste
+2017,se juntas causa imagina juntas,rodrigo farias de macedo ,1,0,7,bronze,UFCG,PB,Nordeste
+2017,esse é meu time,igor figueiredo,0,1,8,bronze,UFRJ,RJ,Sudeste
+2017,esse é meu time,tiago montalvão,0,1,8,bronze,UFRJ,RJ,Sudeste
+2017,esse é meu time,ian miranda,0,1,8,bronze,UFRJ,RJ,Sudeste
+2017,lorem ipsum,athos cotta couto,0,1,9,bronze,IME,RJ,Sudeste
+2017,lorem ipsum,naum azeredo fernandes barreira,0,1,9,bronze,IME,RJ,Sudeste
+2017,lorem ipsum,matheus cariús castro,0,1,9,bronze,IME,RJ,Sudeste
+2017,lorem ipsum,carla cosenza ,1,1,9,bronze,IME,RJ,Sudeste
+2017,calopsita,lucas frança de oliveira,0,0,10,bronze,ITA,SP,Sudeste
+2017,calopsita,matheus leão,0,0,10,bronze,ITA,SP,Sudeste
+2017,calopsita,lucas ferreira,0,0,10,bronze,ITA,SP,Sudeste
+2017,calopsita,caique lira ,1,0,10,bronze,ITA,SP,Sudeste
+2015,turing indecisos,duhan caraciolo,0,1,1,gold,UFPE,PE,Nordeste
+2015,turing indecisos,mario henrique,0,1,1,gold,UFPE,PE,Nordeste
+2015,turing indecisos,gustavo stor,0,1,1,gold,UFPE,PE,Nordeste
+2015,turing indecisos,,0,1,1,gold,UFPE,PE,Nordeste
+2015,abella e os feras,felipe abella de souza,0,1,2,gold,UFCG,PB,Nordeste
+2015,abella e os feras,árysson figueiredo,0,1,2,gold,UFCG,PB,Nordeste
+2015,abella e os feras,manoel lucas lins,0,1,2,gold,UFCG,PB,Nordeste
+2015,abella e os feras,,0,1,2,gold,UFCG,PB,Nordeste
+2015,bob,tomás raphael fonseca,0,1,3,gold,USP-SC,SP,Sudeste
+2015,bob,bruno sanches,0,1,3,gold,USP-SC,SP,Sudeste
+2015,bob,danilo tedeschi,0,1,3,gold,USP-SC,SP,Sudeste
+2015,bob,,0,1,3,gold,USP-SC,SP,Sudeste
+2015,robério e seus teclados,guilherme bernal,0,1,4,silver,UFBA,BA,Nordeste
+2015,robério e seus teclados,roberto caldeira,0,1,4,silver,UFBA,BA,Nordeste
+2015,robério e seus teclados,jonathan queiroz,0,1,4,silver,UFBA,BA,Nordeste
+2015,robério e seus teclados,,0,1,4,silver,UFBA,BA,Nordeste
+2015,sua mãe,yan couto,0,1,5,silver,USP-SP,SP,Sudeste
+2015,sua mãe,giovana delfino,0,1,5,silver,USP-SP,SP,Sudeste
+2015,sua mãe,gabriel fernandes,0,1,5,silver,USP-SP,SP,Sudeste
+2015,sua mãe,,0,1,5,silver,USP-SP,SP,Sudeste
+2015,ballions,vítor castelo branco,0,0,6,silver,UFPE,PE,Nordeste
+2015,ballions,marlon santos,0,0,6,silver,UFPE,PE,Nordeste
+2015,ballions,josé rene santos leite,0,0,6,silver,UFPE,PE,Nordeste
+2015,ballions,,0,0,6,silver,UFPE,PE,Nordeste
+2015,biblethump,augusto morgan,0,1,7,bronze,UNICAMP,SP,Sudeste
+2015,biblethump,ivan petrin,0,1,7,bronze,UNICAMP,SP,Sudeste
+2015,biblethump,tiago reis,0,1,7,bronze,UNICAMP,SP,Sudeste
+2015,biblethump,,0,1,7,bronze,UNICAMP,SP,Sudeste
+2015,starters edition,lucas maciel,0,0,8,bronze,UFMG,MG,Centro-Oeste
+2015,starters edition,gabriel poesia,0,0,8,bronze,UFMG,MG,Centro-Oeste
+2015,starters edition,luiz santos,0,0,8,bronze,UFMG,MG,Centro-Oeste
+2015,starters edition,,0,0,8,bronze,UFMG,MG,Centro-Oeste
+2015,pgrnsue,caíque lira,0,0,9,bronze,ITA,SP,Sudeste
+2015,pgrnsue,luiz ramos,0,0,9,bronze,ITA,SP,Sudeste
+2015,pgrnsue,mateus oliveira,0,0,9,bronze,ITA,SP,Sudeste
+2015,absurdo clássico: missão final,hugo cabral,0,0,10,bronze,UFRN,RN,Nordeste
+2015,absurdo clássico: missão final,zailton calheiros,0,0,10,bronze,UFRN,RN,Nordeste
+2015,absurdo clássico: missão final,hélio filho,0,0,10,bronze,UFRN,RN,Nordeste
+2015,absurdo clássico: missão final,,0,0,10,bronze,UFRN,RN,Nordeste
+2014,i am root,marcos kawakami,0,1,1,gold,USP,SP,Sudeste
+2014,i am root,stefano tommasini,0,1,1,gold,USP,SP,Sudeste
+2014,i am root,antonio roberto de campos junior,0,1,1,gold,USP,SP,Sudeste
+2014,i am root,,0,1,1,gold,USP,SP,Sudeste
+2014,manoel borboleta e miguxos,manoel lucas urbano de barros lins,0,1,2,gold,UFCG,PB,Nordeste
+2014,manoel borboleta e miguxos,rafael catalão perrela,0,1,2,gold,UFCG,PB,Nordeste
+2014,manoel borboleta e miguxos,lucas figueiredo,0,1,2,gold,UFCG,PB,Nordeste
+2014,manoel borboleta e miguxos,,0,1,2,gold,UFCG,PB,Nordeste
+2014,guns n' codes,diego ximenes mendes,0,1,3,gold,UFRJ,RJ,Sudeste
+2014,guns n' codes,rodrigo zhou,0,1,3,gold,UFRJ,RJ,Sudeste
+2014,guns n' codes,filipe zhou,0,1,3,gold,UFRJ,RJ,Sudeste
+2014,guns n' codes,,0,1,3,gold,UFRJ,RJ,Sudeste
+2014,rua do sabão,igor wolff resplande,0,1,4,silver,UNICAMP,SP,Sudeste
+2014,rua do sabão,ruan ramos monteiro silva,0,1,4,silver,UNICAMP,SP,Sudeste
+2014,rua do sabão,patricia hongo,0,1,4,silver,UNICAMP,SP,Sudeste
+2014,rua do sabão,,0,1,4,silver,UNICAMP,SP,Sudeste
+2014,literally tourists,gabriel poesia,0,1,5,silver,UFMG,MG,Centro-Oeste
+2014,literally tourists,diogo oliveira,0,1,5,silver,UFMG,MG,Centro-Oeste
+2014,literally tourists,guilherme gomes,0,1,5,silver,UFMG,MG,Centro-Oeste
+2014,arquiduque andorinha,ramon silva de lima,0,0,6,silver,USP,SP,Sudeste
+2014,arquiduque andorinha,marcelo sales,0,0,6,silver,USP,SP,Sudeste
+2014,arquiduque andorinha,andré amaral de souza,0,0,6,silver,USP,SP,Sudeste
+2014,paitheus quer ir embora,matheus scandiffio,0,0,7,bronze,UFU,MG,Centro-Oeste
+2014,paitheus quer ir embora,alvaro bruno silva pereira,0,0,7,bronze,UFU,MG,Centro-Oeste
+2014,paitheus quer ir embora,caio augusto araujo oliveira,0,0,7,bronze,UFU,MG,Centro-Oeste
+2014,cpf na nota?,caíque lira,0,0,8,bronze,ITA,SP,Sudeste
+2014,cpf na nota?,luiz ramos,0,0,8,bronze,ITA,SP,Sudeste
+2014,cpf na nota?,felipe freitas,0,0,8,bronze,ITA,SP,Sudeste
+2014,code fu pandas,mario henrique,0,0,9,bronze,UFPE,PE,Nordeste
+2014,code fu pandas,lucas lima,0,0,9,bronze,UFPE,PE,Nordeste
+2014,code fu pandas,gustavo stor,0,0,9,bronze,UFPE,PE,Nordeste
+2014,code fu pandas,,0,0,9,bronze,UFPE,PE,Nordeste
+2014,zuera++,jonathan carvalhosa,0,0,10,bronze,IME,RJ,Sudeste
+2014,zuera++,matheus leal assunção,0,0,10,bronze,IME,RJ,Sudeste
+2014,zuera++,geraldo avelino,0,0,10,bronze,IME,RJ,Sudeste
+2014,zuera++,,0,0,10,bronze,IME,RJ,Sudeste
+2008,"prático, cícero e heitor",pedro bello,0,1,1,gold,UFPE,PE,Nordeste
+2008,"prático, cícero e heitor",pablo pinheiro,0,1,1,gold,UFPE,PE,Nordeste
+2008,"prático, cícero e heitor",hallan dos santos,0,1,1,gold,UFPE,PE,Nordeste
+2008,"prático, cícero e heitor",,0,1,1,gold,UFPE,PE,Nordeste
+2008,triforce,bruno ribas,0,1,2,gold,UFPR,PR,Sul
+2008,triforce,eduardo ribas,0,1,2,gold,UFPR,PR,Sul
+2008,triforce,raphael ribas,0,1,2,gold,UFPR,PR,Sul
+2008,triforce,,0,1,2,gold,UFPR,PR,Sul
+2008,yathreesobas,maira araujo,0,0,3,gold,UFPE,PE,Nordeste
+2008,yathreesobas,victor medeiros,0,0,3,gold,UFPE,PE,Nordeste
+2008,yathreesobas,artur de aquino,0,0,3,gold,UFPE,PE,Nordeste
+2008,yathreesobas,,0,0,3,gold,UFPE,PE,Nordeste
+2008,null,rafael coelho,0,1,4,silver,UFES,ES,Sudeste
+2008,null,giovanni comarela,0,1,4,silver,UFES,ES,Sudeste
+2008,null,lessandro mariano,0,1,4,silver,UFES,ES,Sudeste
+2008,null,,0,1,4,silver,UFES,ES,Sudeste
+2008,posso ajudar?,rafael carmo,0,1,5,silver,UECE,CE,Nordeste
+2008,posso ajudar?,teofilo dutra,0,1,5,silver,UECE,CE,Nordeste
+2008,posso ajudar?,rudy matela,0,1,5,silver,UECE,CE,Nordeste
+2008,posso ajudar?,,0,1,5,silver,UECE,CE,Nordeste
+2008,time limit exceeded,tiago madeira,0,1,6,silver,UFSC,SC,Sul
+2008,time limit exceeded,eluan miranda,0,1,6,silver,UFSC,SC,Sul
+2008,time limit exceeded,luis fernando schultz xavier da silveira,0,1,6,silver,UFSC,SC,Sul
+2008,time limit exceeded,,0,1,6,silver,UFSC,SC,Sul
+2008,guerreiros da poli,ricardo pereira,0,1,7,bronze,EP-USP,SP,Sudeste
+2008,guerreiros da poli,gustavo gouveia,0,1,7,bronze,EP-USP,SP,Sudeste
+2008,guerreiros da poli,victor lassance,0,1,7,bronze,EP-USP,SP,Sudeste
+2008,guerreiros da poli,,0,1,7,bronze,EP-USP,SP,Sudeste
+2008,tampureção,davi costa,0,0,8,bronze,UNICAMP,SP,Sudeste
+2008,tampureção,andre linhares,0,0,8,bronze,UNICAMP,SP,Sudeste
+2008,tampureção,felipe sodre silva,0,0,8,bronze,UNICAMP,SP,Sudeste
+2008,tampureção,,0,0,8,bronze,UNICAMP,SP,Sudeste
+2008,end of list,breno flesch franco,0,0,9,bronze,IME-USP,SP,Sudeste
+2008,end of list,gabriel peixoto,0,0,9,bronze,IME-USP,SP,Sudeste
+2008,end of list,rafael suguiura,0,0,9,bronze,IME-USP,SP,Sudeste
+2008,end of list,,0,0,9,bronze,IME-USP,SP,Sudeste
+2008,merputação,alexandre kunieda,0,0,10,bronze,UNICAMP,SP,Sudeste
+2008,merputação,marcelo povoa,0,0,10,bronze,UNICAMP,SP,Sudeste
+2008,merputação,igor assis,0,0,10,bronze,UNICAMP,SP,Sudeste
+2008,merputação,,0,0,10,bronze,UNICAMP,SP,Sudeste
+2009,"pedrov, victorov e mairova",pedro bello,0,1,1,gold,UFPE,PE,Nordeste
+2009,"pedrov, victorov e mairova",víctor medeiros,0,1,1,gold,UFPE,PE,Nordeste
+2009,"pedrov, victorov e mairova",maira araújo,0,1,1,gold,UFPE,PE,Nordeste
+2009,"pedrov, victorov e mairova",,0,1,1,gold,UFPE,PE,Nordeste
+2009,anuncie aqui,ramon cravo,0,1,2,gold,UFS,SE,Nordeste
+2009,anuncie aqui,mauricio collares neto,0,1,2,gold,UFS,SE,Nordeste
+2009,anuncie aqui,felipe oliveira,0,1,2,gold,UFS,SE,Nordeste
+2009,anuncie aqui,,0,1,2,gold,UFS,SE,Nordeste
+2009,é muita grana,raphael ribas,0,1,3,gold,IME-USP,SP,Sudeste
+2009,é muita grana,joel uchoa,0,1,3,gold,IME-USP,SP,Sudeste
+2009,é muita grana,gabriel peixoto,0,1,3,gold,IME-USP,SP,Sudeste
+2009,é muita grana,,0,1,3,gold,IME-USP,SP,Sudeste
+2009,carteado,daniel moreira,0,1,4,silver,ITA,SP,Sudeste
+2009,carteado,cesar kawakami,0,1,4,silver,ITA,SP,Sudeste
+2009,carteado,guilherme souza,0,1,4,silver,ITA,SP,Sudeste
+2009,carteado,,0,1,4,silver,ITA,SP,Sudeste
+2009,dynasty of samba,caio dias valentim,0,1,5,silver,PUC-RIO,RJ,Sudeste
+2009,dynasty of samba,carlos guilherme ferreira,0,1,5,silver,PUC-RIO,RJ,Sudeste
+2009,dynasty of samba,eduardo cardoso,0,1,5,silver,PUC-RIO,RJ,Sudeste
+2009,dynasty of samba,,0,1,5,silver,PUC-RIO,RJ,Sudeste
+2009,ic /* no comments */,davi costa,0,1,6,silver,UNICAMP,SP,Sudeste
+2009,ic /* no comments */,guilherme kunigami,0,1,6,silver,UNICAMP,SP,Sudeste
+2009,ic /* no comments */,marcelo povoa,0,1,6,silver,UNICAMP,SP,Sudeste
+2009,ic /* no comments */,,0,1,6,silver,UNICAMP,SP,Sudeste
+2009,morte ao luis fernando,helena günter,0,1,7,bronze,UFSC,SC,Sul
+2009,morte ao luis fernando,bruno farias,0,1,7,bronze,UFSC,SC,Sul
+2009,morte ao luis fernando,luis fernando silveira,0,1,7,bronze,UFSC,SC,Sul
+2009,morte ao luis fernando,,0,1,7,bronze,UFSC,SC,Sul
+2009,falha de segmentasamba,daniel marques,0,0,8,bronze,PUC-RIO,RJ,Sudeste
+2009,falha de segmentasamba,pedro veras,0,0,8,bronze,PUC-RIO,RJ,Sudeste
+2009,falha de segmentasamba,paulo de tarso gomide,0,0,8,bronze,PUC-RIO,RJ,Sudeste
+2009,falha de segmentasamba,,0,0,8,bronze,PUC-RIO,RJ,Sudeste
+2009,kmp,alexandre kunieda,0,0,9,bronze,IC-UNICAMP,SP,Sudeste
+2009,kmp,mauro lopes,0,0,9,bronze,IC-UNICAMP,SP,Sudeste
+2009,kmp,lucas tiago de castro jesus,0,0,9,bronze,IC-UNICAMP,SP,Sudeste
+2009,kmp,,0,0,9,bronze,IC-UNICAMP,SP,Sudeste
+2009,kryptonita,diogo holanda,0,0,10,bronze,ITA,SP,Sudeste
+2009,kryptonita,walter filho,0,0,10,bronze,ITA,SP,Sudeste
+2009,kryptonita,luca moller,0,0,10,bronze,ITA,SP,Sudeste
+2009,kryptonita,,0,0,10,bronze,ITA,SP,Sudeste
+2011,challenge accepted,davi pinheiro,0,1,1,gold,UFPE,PE,Nordeste
+2011,challenge accepted,filipe melo,0,1,1,gold,UFPE,PE,Nordeste
+2011,challenge accepted,luiz silva,0,1,1,gold,UFPE,PE,Nordeste
+2011,challenge accepted,,0,1,1,gold,UFPE,PE,Nordeste
+2011,comp-ele error,fernando fonseca,0,1,2,gold,ITA,SP,Sudeste
+2011,comp-ele error,gabriel dalalio,0,1,2,gold,ITA,SP,Sudeste
+2011,comp-ele error,diogo holanda,0,1,2,gold,ITA,SP,Sudeste
+2011,comp-ele error,,0,1,2,gold,ITA,SP,Sudeste
+2011,modus ponens malditos,diogo silva,0,1,3,gold,UFCG,PB,Nordeste
+2011,modus ponens malditos,felipe abella,0,1,3,gold,UFCG,PB,Nordeste
+2011,modus ponens malditos,phyllipe medeiros,0,1,3,gold,UFCG,PB,Nordeste
+2011,modus ponens malditos,,0,1,3,gold,UFCG,PB,Nordeste
+2011,* da trypanossoma,ricardo oliveira,0,1,4,silver,UFPR,PR,Sul
+2011,* da trypanossoma,flavio h de bittencourt zavan,0,1,4,silver,UFPR,PR,Sul
+2011,* da trypanossoma,vinicius k ruoso,0,1,4,silver,UFPR,PR,Sul
+2011,* da trypanossoma,,0,1,4,silver,UFPR,PR,Sul
+2011,double cheeseburger,leonardo inacio lima de oliveira,0,1,5,silver,UFRJ,RJ,Sudeste
+2011,double cheeseburger,pedro veras bezerra da silva,0,1,5,silver,UFRJ,RJ,Sudeste
+2011,double cheeseburger,mauricio collares neto,0,1,5,silver,UFRJ,RJ,Sudeste
+2011,double cheeseburger,,0,1,5,silver,UFRJ,RJ,Sudeste
+2011,inkognita,felipe freitas,0,0,6,silver,ITA,SP,Sudeste
+2011,inkognita,luca moller,0,0,6,silver,ITA,SP,Sudeste
+2011,inkognita,walter filho,0,0,6,silver,ITA,SP,Sudeste
+2011,inkognita,,0,0,6,silver,ITA,SP,Sudeste
+2011,"fulano, beltrano e sicrano",israel silva,0,0,7,bronze,UFPE,PE,Nordeste
+2011,"fulano, beltrano e sicrano",pedro silvestre,0,0,7,bronze,UFPE,PE,Nordeste
+2011,"fulano, beltrano e sicrano",marcio filho,0,0,7,bronze,UFPE,PE,Nordeste
+2011,"fulano, beltrano e sicrano",,0,0,7,bronze,UFPE,PE,Nordeste
+2011,up,leonardo marchetti,0,1,8,bronze,IME-USP,SP,Sudeste
+2011,up,cesar gamboa machado,0,1,8,bronze,IME-USP,SP,Sudeste
+2011,up,lucas piva rocha correa,0,1,8,bronze,IME-USP,SP,Sudeste
+2011,up,,0,1,8,bronze,IME-USP,SP,Sudeste
+2011,gcv,cristiano medeiros dalbem,0,0,9,bronze,UFRGS,RS,Sul
+2011,gcv,gabriel marques portal,0,0,9,bronze,UFRGS,RS,Sul
+2011,gcv,bruno fiss,0,0,9,bronze,UFRGS,RS,Sul
+2011,gcv,,0,0,9,bronze,UFRGS,RS,Sul
+2011,unicamp alfa,marcelo galvão povoa,0,0,10,bronze,UNICAMP-ALFA,SP,Sudeste
+2011,unicamp alfa,douglas oliveira santos,0,0,10,bronze,UNICAMP-ALFA,SP,Sudeste
+2011,unicamp alfa,bruno espinosa crespaldi,0,0,10,bronze,UNICAMP-ALFA,SP,Sudeste
+2011,unicamp alfa,,0,0,10,bronze,UNICAMP-ALFA,SP,Sudeste
+2010,razão cruzada,filipe melo,0,1,1,gold,UFPE,PE,Nordeste
+2010,razão cruzada,pablo carvalho pinheiro,0,1,1,gold,UFPE,PE,Nordeste
+2010,razão cruzada,luiz silva,0,1,1,gold,UFPE,PE,Nordeste
+2010,razão cruzada,,0,1,1,gold,UFPE,PE,Nordeste
+2010,carteado,daniel moreira,0,1,2,gold,ITA,SP,Sudeste
+2010,carteado,cesar kawakami,0,1,2,gold,ITA,SP,Sudeste
+2010,carteado,guilherme souza,0,1,2,gold,ITA,SP,Sudeste
+2010,carteado,,0,1,2,gold,ITA,SP,Sudeste
+2010,eita!,luca moller,0,0,3,gold,ITA,SP,Sudeste
+2010,eita!,diogo holanda,0,0,3,gold,ITA,SP,Sudeste
+2010,eita!,walter filho,0,0,3,gold,ITA,SP,Sudeste
+2010,eita!,,0,0,3,gold,ITA,SP,Sudeste
+2010,sudo,felipe machado,0,1,4,silver,UFMG,MG,Centro-Oeste
+2010,sudo,thiago goulart,0,1,4,silver,UFMG,MG,Centro-Oeste
+2010,sudo,leonardo martinez,0,1,4,silver,UFMG,MG,Centro-Oeste
+2010,sudo,,0,1,4,silver,UFMG,MG,Centro-Oeste
+2010,rga,ricardo hahn pereira,0,1,5,silver,POLI-USP,SP,Sudeste
+2010,rga,andré hahn pereira,0,1,5,silver,POLI-USP,SP,Sudeste
+2010,rga,gustavo paccianotto gouveia,0,1,5,silver,POLI-USP,SP,Sudeste
+2010,rga,,0,1,5,silver,POLI-USP,SP,Sudeste
+2010,isso é tudo pessoal,natan costa lima,0,1,6,silver,IME-USP,SP,Sudeste
+2010,isso é tudo pessoal,atol fortim de oliveira,0,1,6,silver,IME-USP,SP,Sudeste
+2010,isso é tudo pessoal,tiago madeira,0,1,6,silver,IME-USP,SP,Sudeste
+2010,isso é tudo pessoal,,0,1,6,silver,IME-USP,SP,Sudeste
+2010,grito da trypanossoma,vinicius ruoso,0,1,7,bronze,UFPR,PR,Sul
+2010,grito da trypanossoma,ricardo oliveira,0,1,7,bronze,UFPR,PR,Sul
+2010,grito da trypanossoma,eduardo riba,0,1,7,bronze,UFPR,PR,Sul
+2010,grito da trypanossoma,,0,1,7,bronze,UFPR,PR,Sul
+2010,alfa,igor de assis,0,0,8,bronze,UNICAMP,SP,Sudeste
+2010,alfa,paulo roberto de almeida costa,0,0,8,bronze,UNICAMP,SP,Sudeste
+2010,alfa,douglas oliveira santos,0,0,8,bronze,UNICAMP,SP,Sudeste
+2010,alfa,,0,0,8,bronze,UNICAMP,SP,Sudeste
+2010,auhauhuahuhauah,leonardo oliveira,0,0,9,bronze,UFRJ,RJ,Sudeste
+2010,auhauhuahuhauah,douglas cardoso,0,0,9,bronze,UFRJ,RJ,Sudeste
+2010,auhauhuahuhauah,igor ramos,0,0,9,bronze,UFRJ,RJ,Sudeste
+2010,auhauhuahuhauah,,0,0,9,bronze,UFRJ,RJ,Sudeste
+2010,iriariari baloes mano,lucas magalhães,0,0,10,bronze,UFRJ,RJ,Sudeste
+2010,iriariari baloes mano,bruno ferreira,0,0,10,bronze,UFRJ,RJ,Sudeste
+2010,iriariari baloes mano,pedro bezerra da silva,0,0,10,bronze,UFRJ,RJ,Sudeste
+2010,iriariari baloes mano,,0,0,10,bronze,UFRJ,RJ,Sudeste
+2013,ñtemtempabobagi,luis fernando dorelli de abreu,0,1,1,gold,USP-SC,SP,Sudeste
+2013,ñtemtempabobagi,bianca m shimizu oe,0,1,1,gold,USP-SC,SP,Sudeste
+2013,ñtemtempabobagi,bruno junqueira adami,0,1,1,gold,USP-SC,SP,Sudeste
+2013,ñtemtempabobagi,,0,1,1,gold,USP-SC,SP,Sudeste
+2013,bitelo,marcos kawakami,0,1,2,gold,USP,SP,Sudeste
+2013,bitelo,stefano tommasini,0,1,2,gold,USP,SP,Sudeste
+2013,bitelo,antonio roberto de campos junior,0,1,2,gold,USP,SP,Sudeste
+2013,bitelo,,0,1,2,gold,USP,SP,Sudeste
+2013,não é só pelos 20 minutos,sergio filho,0,1,3,gold,UFPE,PE,Nordeste
+2013,não é só pelos 20 minutos,davi pinheiro,0,1,3,gold,UFPE,PE,Nordeste
+2013,não é só pelos 20 minutos,pedro silvestre,0,1,3,gold,UFPE,PE,Nordeste
+2013,não é só pelos 20 minutos,,0,1,3,gold,UFPE,PE,Nordeste
+2013,i triple dare you,igor wolff resplande,0,1,4,silver,UNICAMP,SP,Sudeste
+2013,i triple dare you,douglas oliveira santos,0,1,4,silver,UNICAMP,SP,Sudeste
+2013,i triple dare you,lucas tiago de castro jesus,0,1,4,silver,UNICAMP,SP,Sudeste
+2013, =(,israel silva,0,0,5,silver,UFPE,PE,Nordeste
+2013, =(,lucas veras,0,0,5,silver,UFPE,PE,Nordeste
+2013, =(,gustavo stor,0,0,5,silver,UFPE,PE,Nordeste
+2013, =(,,0,0,5,silver,UFPE,PE,Nordeste
+2013,timelino,jonathan carvalhosa,0,1,6,silver,IME,RJ,Sudeste
+2013,timelino,felipe rasinhas,0,1,6,silver,IME,RJ,Sudeste
+2013,timelino,geraldo avelino,0,1,6,silver,IME,RJ,Sudeste
+2013,timelino,,0,1,6,silver,IME,RJ,Sudeste
+2013,"calma pessoal, calma",mateus carvalho dantas,0,1,7,bronze,UFCG,PB,Nordeste
+2013,"calma pessoal, calma",danilo pimenteira melo nascimento,0,1,7,bronze,UFCG,PB,Nordeste
+2013,"calma pessoal, calma",phyllipe cesar ramos de almeida,0,1,7,bronze,UFCG,PB,Nordeste
+2013,bpyym,guilherme philippe figueiredo,0,0,8,bronze,USP,SP,Sudeste
+2013,bpyym,marcelo sales,0,0,8,bronze,USP,SP,Sudeste
+2013,bpyym,andré amaral de souza,0,0,8,bronze,USP,SP,Sudeste
+2013,monkeys,rafael de assis cruz,0,0,9,bronze,UFG,GO,Centro-Oeste
+2013,monkeys,welton cardoso do carmo,0,0,9,bronze,UFG,GO,Centro-Oeste
+2013,monkeys,paulo cezar pereira costa,0,0,9,bronze,UFG,GO,Centro-Oeste
+2013,monkeys,,0,0,9,bronze,UFG,GO,Centro-Oeste
+2013,#yeswecan read your mail,igor ramos,0,0,10,bronze,UFRJ,RJ,Sudeste
+2013,#yeswecan read your mail,rodrigo zhou,0,0,10,bronze,UFRJ,RJ,Sudeste
+2013,#yeswecan read your mail,filipe zhou,0,0,10,bronze,UFRJ,RJ,Sudeste
+2013,#yeswecan read your mail,,0,0,10,bronze,UFRJ,RJ,Sudeste
+2012,"jquery bool, jquery char!",felipe freitas,0,1,1,gold,ITA,SP,Sudeste
+2012,"jquery bool, jquery char!",fernando fonseca,0,1,1,gold,ITA,SP,Sudeste
+2012,"jquery bool, jquery char!",gabriel dalalio,0,1,1,gold,ITA,SP,Sudeste
+2012,"jquery bool, jquery char!",,0,1,1,gold,ITA,SP,Sudeste
+2012,os cartolas,thiago cavalcante,0,1,2,gold,UNICAMP,SP,Sudeste
+2012,os cartolas,douglas oliveira santos,0,1,2,gold,UNICAMP,SP,Sudeste
+2012,os cartolas,marcelo povoa,0,1,2,gold,UNICAMP,SP,Sudeste
+2012,os cartolas,,0,1,2,gold,UNICAMP,SP,Sudeste
+2012,4 fun 2 win,sergio filho,0,1,3,gold,UFPE,PE,Nordeste
+2012,4 fun 2 win,marcio filho,0,1,3,gold,UFPE,PE,Nordeste
+2012,4 fun 2 win,pedro silvestre,0,1,3,gold,UFPE,PE,Nordeste
+2012,4 fun 2 win,,0,1,3,gold,UFPE,PE,Nordeste
+2012,señora margarida,bruno junqueira adami,0,1,4,silver,ICMC-USP,SP,Sudeste
+2012,señora margarida,carlos eduardo guillen davila,0,1,4,silver,ICMC-USP,SP,Sudeste
+2012,señora margarida,vinicius de freitas reis,0,1,4,silver,ICMC-USP,SP,Sudeste
+2012,señora margarida,,0,1,4,silver,ICMC-USP,SP,Sudeste
+2012,margarita,walter filho,0,0,5,silver,ITA,SP,Sudeste
+2012,margarita,diogo holanda,0,0,5,silver,ITA,SP,Sudeste
+2012,margarita,luca moller,0,0,5,silver,ITA,SP,Sudeste
+2012,margarita,,0,0,5,silver,ITA,SP,Sudeste
+2012,coração das cartas,rafael marinheiro,0,0,6,silver,UFPE,PE,Nordeste
+2012,coração das cartas,israel silva,0,0,6,silver,UFPE,PE,Nordeste
+2012,coração das cartas,lucas veras,0,0,6,silver,UFPE,PE,Nordeste
+2012,coração das cartas,,0,0,6,silver,UFPE,PE,Nordeste
+2012,vruum,guilherme philippe figueiredo,0,1,7,bronze,POLI-USP,SP,Sudeste
+2012,vruum,marcelo sales,0,1,7,bronze,POLI-USP,SP,Sudeste
+2012,vruum,andré amaral de souza,0,1,7,bronze,POLI-USP,SP,Sudeste
+2012,in rand() we trust!,filipe arcanjo,0,1,8,bronze,UFMG,MG,Centro-Oeste
+2012,in rand() we trust!,alexandre davis,0,1,8,bronze,UFMG,MG,Centro-Oeste
+2012,in rand() we trust!,dilson guimarães,0,1,8,bronze,UFMG,MG,Centro-Oeste
+2012,in rand() we trust!,,0,1,8,bronze,UFMG,MG,Centro-Oeste
+2012,sudo make a sandwich,brunno braga,0,0,9,bronze,UTFPR,PR,Sul
+2012,sudo make a sandwich,alexandre marin,0,0,9,bronze,UTFPR,PR,Sul
+2012,sudo make a sandwich,marcelo teider lopes,0,0,9,bronze,UTFPR,PR,Sul
+2012,sudo make a sandwich,,0,0,9,bronze,UTFPR,PR,Sul
+2012,using namespace none;,pedro nascimento,0,0,10,bronze,UFRJ,RJ,Sudeste
+2012,using namespace none;,rodrigo zhou,0,0,10,bronze,UFRJ,RJ,Sudeste
+2012,using namespace none;,filipe zhou,0,0,10,bronze,UFRJ,RJ,Sudeste
+2012,using namespace none;,,0,0,10,bronze,UFRJ,RJ,Sudeste
