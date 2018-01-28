@@ -1,7 +1,7 @@
 library(readr)
 library(dplyr)
 
-root = "../dados/"
+root = "dados/"
 
 import_scoreboard = function(ano) {
   csv_name = paste(ano, ".csv", sep="")
@@ -67,3 +67,12 @@ import_problems = function(anos) {
 
 }
 
+import_submissions = function(ano) {
+  csv_name = paste(ano, ".csv", sep="")
+  path = paste(root, "submissoes/pre_processado_", sep="")
+  path = paste(path, csv_name, sep="")
+  
+  submissoes = read_csv(path)
+  
+  return(submissoes)
+}

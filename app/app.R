@@ -12,7 +12,6 @@ source("../app/util_imports.R")
 universities = import_universities()
 competitors = import_competitors()
 
-
 ui <- dashboardPage(
   
   dashboardHeader(title = "Header da página"),
@@ -21,7 +20,8 @@ ui <- dashboardPage(
     useShinyjs(),
     sidebarMenu(id = "menu",
                 menuItem("Geral", tabName = "tab1", icon = icon("bookmark")),
-                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark"))
+                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark")),
+                menuItem("Contests", tabName = "tab3", icon = icon("bookmark"))
     )
   ),
   dashboardBody(
@@ -43,7 +43,6 @@ ui <- dashboardPage(
                        )
                 )
               ),
-              
               br(),
               
               h3("Classificações e medalhas por região"),
@@ -70,11 +69,26 @@ ui <- dashboardPage(
                 ),
                 column(width = 8,
                        box(width = NULL, highchartOutput("participation_univs")),
-                       box(width = NULL,  uiOutput('selectUI'),
+                       box(width = NULL,  
                            sliderInput(inputId = "classifications_years", label = "Anos:",
                                        min = min(competitors$ano), max = max(competitors$ano), step = 1, 
                                        sep = "", value = c(2015, 2017))
                        )
+                )
+              )
+      ),
+      tabItem(tabName = "tab3",
+              fluidRow(
+                column(width = 4,
+                       box(width = NULL,
+                           selectInput(inputId = "contest_year", label = "Selecione o ano",
+                                       choices = list("2015" = 2015, "2016" = 2016, "2017" = 2017), selected = 2017
+                           )
+                       ),
+                       box(width = NULL, uiOutput("contest_teams_cond"))
+                ),
+                column(width = 8,
+                       box(width = NULL, plotlyOutput("teams_in_contest"))
                 )
               )
       )
@@ -134,7 +148,6 @@ server <- function(input, output) {
   })
 
   output$mapa <- renderLeaflet({
-    
     data <- readRDS(file = "~/maratona-sbc-analise/app/mapa/mapa_competidores.rds")
     
     bins <- c(0, 5, 10, 15, 20, 25, 30, 40, Inf)
@@ -144,18 +157,18 @@ server <- function(input, output) {
     # pal <- colorBin("YlOrRd", domain = data[[input$tipo_mapa]], bins = bins)
     
     # draw the histogram with the specified number of bins
-    state_popup <- paste0("<strong>Estado: </strong>", 
+    state_popup <- paste0("<strong>Estado: </strong>",
                           data$estado,
                           "<br><strong>Medalhas de ouro: </strong>",
                           data[[input$tipo_mapa]])
                           
-    
+   
     labels <- sprintf(
       "<strong>%s</strong><br/>%g %s",
       data$estado, data[[input$tipo_mapa]], input$tipo_mapa
     ) %>% lapply(htmltools::HTML)
-    
-    
+
+
     leaflet(data) %>%
       # setView(-96, 37.8, 4) %>%
       # addProviderTiles("CartoDB.Positron") %>%
@@ -183,6 +196,32 @@ server <- function(input, output) {
       addLegend(pal = pal, values = ~data[[input$tipo_mapa]],
                 title = "Pontos Conquistados",
                 opacity = 1)
+
+  })
+  
+  output$contest_teams_cond = renderUI({
+    
+    submissions = import_submissions(input$contest_year) 
+    teams = unique(submissions$User)
+    
+    selectInput(inputId = "contest_teams", label = "Selecione os times",
+                choices = teams, multiple=T
+    )
+  })
+  
+  output$teams_in_contest = renderPlotly({
+    
+    submissions = import_submissions(input$contest_year) %>%
+      filter(User %in% input$contest_teams)
+    
+    g = ggplot(submissions, aes(x = Time, y = User, group = User, color = User)) +
+      geom_point(aes(size=AnswerBin)) +
+      geom_line() + 
+      ggtitle("Número de matrículas realizadas por período") + 
+      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      theme_bw()
+    
+    ggplotly(g)
     
   })
 
