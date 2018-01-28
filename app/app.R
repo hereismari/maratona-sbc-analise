@@ -28,11 +28,13 @@ ui <- dashboardPage(
     
     tabItems(
       tabItem(tabName = "tab1",
+              
+              h3("Submissões totais"),
               fluidRow(
-                column(width = 4,
+                column(width = 3,
                        box(width = NULL)
                 ),
-                column(width = 8, 
+                column(width = 6, 
                        box(width = NULL, highchartOutput("problemas_geral")),
                        box(width = NULL,
                            sliderInput(inputId = "problems_years", label = "Anos:",
@@ -41,12 +43,16 @@ ui <- dashboardPage(
                        )
                 )
               ),
+              
+              br(),
+              
+              h3("Classificações e medalhas por região"),
               fluidRow(
-                column(width = 4,
+                column(width = 3,
                        box(width = NULL, 
                            selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
                 ),
-                column(width = 8,
+                column(width = 6,
                        box(width = NULL, 
                            leafletOutput("mapa"))
                        )
@@ -117,7 +123,7 @@ server <- function(input, output) {
     colors <- c("#FB1108", "#9AD2E1")
     m_competitors$Color <- colorize(m_competitors$QntTimes, colors)
 
-    x <- c("Universidade", "Num times classificados")
+    x <- c("Universidade:", "Num times classificados: ")
     y <- sprintf("{point.%s}", c("universidade", "QntTimes"))
     tltip <- tooltip_table(x, y)
 
