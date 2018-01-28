@@ -3,7 +3,7 @@ import utils
 import download_regions_champ as dr
 import json
 
-OUTPUT_PATH = utils.OUTPUT_PATH + 'regions_champs'
+OUTPUT_PATH = utils.OUTPUT_PATH + 'campeoes_por_regiao'
 REGIONS_CHAMPS_KEY = 'general_information_url'
 
 def main():
