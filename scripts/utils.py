@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 # ---------------- Constants -----------------------
-OUTPUT_PATH = '../data/'
+OUTPUT_PATH = '../dados/'
 LINKS_JSON_PATH = OUTPUT_PATH + 'links.json'
 
 

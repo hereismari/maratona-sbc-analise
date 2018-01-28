@@ -18,7 +18,7 @@ parser.add_argument('--general_information_url', type=str, default=URL_2017,
                     help='URL to the main page of a competition.')
 
 parser.add_argument('--output_path_regional_champions', type=str,
-                    default='../data/campeoes_por_regiao/2017.csv',
+                    default='../dados/campeoes_por_regiao/2017.csv',
                     help='Path to regional champions CSV.')
 
 # ------------------ Global variables and constants -------------
