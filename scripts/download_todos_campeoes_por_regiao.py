@@ -4,7 +4,7 @@ import download_campeoes_por_regiao as dr
 import json
 
 OUTPUT_PATH = utils.OUTPUT_PATH + 'campeoes_por_regiao'
-REGIONS_CHAMPS_KEY = 'general_information_url'
+REGIONS_CHAMPS_KEY = utils.TEAM_KEY
 
 def main():
   links = json.load(open(utils.LINKS_JSON_PATH, 'r'))
