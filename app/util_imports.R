@@ -1,4 +1,5 @@
 library(readr)
+library(dplyr)
 
 root = "../dados/"
 
@@ -26,14 +27,24 @@ import_universities = function() {
 }
 
 import_problems = function(anos) {
-  if (length(anos) == 1) {
+  
+  problems = data.frame()
+  for(ano in anos) {
+
     temp = paste(root, "estatisticas/", sep="")
     temp = paste(temp, ano, sep="")
     path = paste(temp, "/problems_pre_processado.csv", sep="")
-    problems = read_csv(path)
-    return(problems)
-  } else {
+    temp_df = read_csv(path)
+    problems = rbind(problems, temp_df)
     
   }
-
+  
+  problems = problems %>%
+    group_by(Problems) %>%
+    summarise(Total = sum(Total),
+              Accepted = sum(Accepted))
+  
+  
+  return(problems)
+  
 }

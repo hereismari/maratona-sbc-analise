@@ -36,7 +36,7 @@ ui <- dashboardPage(
                        box(width = NULL, uiOutput('selectUI'),
                            sliderInput(inputId = "problems_years", label = "Anos:",
                                        min = 2015, max = 2017, step = 1, 
-                                       sep = "", value = 2017))
+                                       sep = "", value = c(2017, 2017)))
                 )
               )
       )
@@ -63,15 +63,15 @@ ui <- dashboardPage(
 
 server <- function(input, output) {
   
-  output$selected_var <- renderText({ 
-    for (ano in input$problems_years) {
-     ano 
-    }
-  })
+  # output$selected_var <- renderText({ 
+  #   for (ano in input$problems_years) {
+  #    paste("oi", ano)
+  #   }
+  # })
   
   output$problemas_geral = renderHighchart({
 
-    problems = import_problems(input$problems_years[1])
+    problems = import_problems(input$problems_years)
     problems$NotAccepted = problems$Total - problems$Accepted
 
     highchart() %>%
@@ -81,13 +81,13 @@ server <- function(input, output) {
       hc_plotOptions( column = list(stacking = "normal") ) %>%
       hc_add_series(
         data = (problems$NotAccepted),
-        name = "Quantidade de alunos aptos a pagar",
+        name = "Quantidade de submissões não aceitas",
         color = "#B71C1C",
         type = "column"
       ) %>%
       hc_add_series(
         data = (problems$Accepted),
-        name = "Quantidade de alunos pagando",
+        name = "Quantidade de submissões aceitas",
         color = "#2980b9",
         type = "column"
       )
