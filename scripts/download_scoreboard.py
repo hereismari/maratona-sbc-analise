@@ -18,10 +18,8 @@ def download_scoreboard(scoreboard_url, output_path):
   print 'Getting scoreboard from: %s' % scoreboard_url
   # request html
   html = utils.request_get(scoreboard_url)
-
   # save last table as dataframe
   df = utils.get_last_table(html)
-
   print 'Saving as csv at %s' % output_path
   # save df as csv
   utils.save_as_csv(df, output_path)

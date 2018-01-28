@@ -8,15 +8,15 @@ import argparse  # use arguments
 parser = argparse.ArgumentParser()
 
 URL_2017 = "http://maratona.ime.usp.br/resultados17/reports/statistics/Report%20Page.html"
-parser.add_argument('--statistics_url', type=str, default=URL_2017,
-                    help='URL to a BOCA STATISTICS.')
+parser.add_argument('--estatisticas_url', type=str, default=URL_2017,
+                    help='URL to BOCA STATISTICS page.')
 
 parser.add_argument('--output_path', type=str, default='../data/statistics/2017/',
                     help='Path to CSV folder.')
 
 
 # -------------- Getting Statistics and Saving as CSV ------------------
-def download_statistics(statistics_url, output_path):
+def download_estatisticas(statistics_url, output_path):
   print 'Getting statistics from: %s' % statistics_url
   # request html
   html = utils.request_get(statistics_url)
@@ -32,7 +32,7 @@ def download_statistics(statistics_url, output_path):
 
 def main():
   args = parser.parse_args()
-  download_statistics(args.statistics_url, args.output_path)
+  download_estatisticas(args.estatisticas_url, args.output_path)
 
 
 if __name__ == '__main__':

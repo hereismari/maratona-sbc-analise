@@ -1,1 +1,6 @@
 *pyc
+.Rproj.user
+**/.ipynb_checkpoints
+**/*.Rhistory
+**/*.Rproj
+
