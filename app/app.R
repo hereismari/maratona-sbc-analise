@@ -4,12 +4,13 @@ library(shinydashboard)
 library(ggplot2)
 library(highcharter)
 library(plotly)
+library(dplyr)
 library(leaflet)
-#source("app/pre_processa.R")
-#source("app/util_imports.R")
 
-#source("pre_processa.R")
-source("~/maratona-sbc-analise/app/util_imports.R")
+source("../app/util_imports.R")
+
+universities = import_universities()
+competitors = import_competitors()
 
 
 ui <- dashboardPage(
@@ -31,47 +32,51 @@ ui <- dashboardPage(
                 column(width = 4,
                        box(width = NULL)
                 ),
-                column(width = 8,
-                       textOutput("selected_var"),
+                column(width = 8, 
                        box(width = NULL, highchartOutput("problemas_geral")),
-                       box(width = NULL, uiOutput('selectUI'),
+                       box(width = NULL,
                            sliderInput(inputId = "problems_years", label = "Anos:",
                                        min = 2015, max = 2017, step = 1, 
-                                       sep = "", value = c(2017, 2017)))
+                                       sep = "", value = c(2017, 2017))
+                       )
+                )
+              ),
+              fluidRow(
+                column(width = 4,
+                       box(width = NULL, 
+                           selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
                 ),
-                column(width=8,
-                       box(width=8, leafletOutput("mapa")),
-                       box(width=4, selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze"))))
+                column(width = 8,
+                       box(width = NULL, 
+                           leafletOutput("mapa"))
+                       )
+              )
+      ),
+      tabItem(tabName = "tab2",
+              fluidRow(
+                column(width = 4,
+                       box(width = NULL,
+                           selectInput(inputId = "univs", label = h3("Universidades"),
+                                       choices = unique(competitors$universidade), multiple=T,
+                                       selected = c("UFCG", "USP", "UFPE")
+                           )
+                       )
+                ),
+                column(width = 8,
+                       box(width = NULL, highchartOutput("participation_univs")),
+                       box(width = NULL,  uiOutput('selectUI'),
+                           sliderInput(inputId = "classifications_years", label = "Anos:",
+                                       min = min(competitors$ano), max = max(competitors$ano), step = 1, 
+                                       sep = "", value = c(2015, 2017))
+                       )
+                )
               )
       )
-      # tabItem(tabName = "tab2",
-      #         fluidRow(
-      #           column(width = 4,
-      #                  box(width = NULL, 
-      #                      selectInput("tab1_select_univ", label = h3("Universidades"),
-      #                                  choices = unique(universidades$nome), multiple=T,
-      #                                  selected = c("UFCG")
-      #                      )
-      #                  )
-      #           ),                
-      #           column(width = 8,
-      #                  box(width = NULL)
-      #           )
-      #         )
-      #         
-      # )
     )
   )
 )
 
-
 server <- function(input, output) {
-  
-  # output$selected_var <- renderText({ 
-  #   for (ano in input$problems_years) {
-  #    paste("oi", ano)
-  #   }
-  # })
   
   output$problemas_geral = renderHighchart({
 
@@ -97,9 +102,34 @@ server <- function(input, output) {
       )
   })
   
+  output$participation_univs = renderHighchart({
+    
+    m_competitors = import_competitors() %>%
+      filter(ano %in% c(input$classifications_years[1]:input$classifications_years[2])) %>%
+      filter(universidade %in% input$univs) %>%
+      select(-competidor) %>%
+      unique() %>%
+      filter(classificado == 1) %>%
+      group_by(universidade) %>%
+      summarise(QntTimes = n()) %>%
+      mutate(Size = QntTimes)
+
+    colors <- c("#FB1108", "#9AD2E1")
+    m_competitors$Color <- colorize(m_competitors$QntTimes, colors)
+
+    x <- c("Universidade", "Num times classificados")
+    y <- sprintf("{point.%s}", c("universidade", "QntTimes"))
+    tltip <- tooltip_table(x, y)
+
+    hchart(m_competitors, "scatter", hcaes(x = universidade, y = QntTimes, size = Size, color = Color)) %>%
+      hc_title(text = "Participação por universidade na mundial", style = list(fontSize = "15px")) %>%
+      hc_tooltip(useHTML = TRUE, headerFormat = "", pointFormat = tltip)
+    
+  })
+
   output$mapa <- renderLeaflet({
     
-    data <- readRDS(file = "~/maratona-sbc-analise/app/mapa/mapa_competidores.rds")
+    data <- readRDS(file = "../app/mapa/mapa_competidores.rds")
     
     bins <- c(0, 5, 10, 15, 20, 25, 30, 40, Inf)
     # Blue
@@ -120,7 +150,7 @@ server <- function(input, output) {
     ) %>% lapply(htmltools::HTML)
     
     
-    leaflet(data = brasileiropg) %>%
+    leaflet(data) %>%
       # setView(-96, 37.8, 4) %>%
       # addProviderTiles("CartoDB.Positron") %>%
       addProviderTiles("MapBox", options = providerTileOptions(
@@ -149,6 +179,7 @@ server <- function(input, output) {
                 opacity = 1)
     
   })
+
 }
 
 shinyApp(ui = ui, server = server)

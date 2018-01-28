@@ -1,7 +1,7 @@
 library(readr)
 library(dplyr)
 
-root = "~/maratona-sbc-analise/dados/"
+root = "../dados/"
 
 import_scoreboard = function(ano) {
   csv_name = paste(ano, ".csv", sep="")
@@ -39,7 +39,6 @@ import_competitors_grouped_by_state = function() {
   return(competitors_grouped)
 }
 
-
 import_universities = function() {
   path = paste(root, "auxiliares/universidades.csv", sep="")
   univs = read_csv(path)
@@ -64,7 +63,7 @@ import_problems = function(anos) {
     summarise(Total = sum(Total),
               Accepted = sum(Accepted))
   
-  
   return(problems)
-  
+
 }
+
