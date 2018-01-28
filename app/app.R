@@ -1,11 +1,15 @@
 library(shiny)
 library(shinyjs)
 library(shinydashboard)
-library(readr)
 library(ggplot2)
 library(highcharter)
 library(plotly)
-source("pre_processa.R")
+#source("pre_processa.R")
+#source("app/util_imports.R")
+
+#source("pre_processa.R")
+#source("util_imports.R")
+
 
 ui <- dashboardPage(
   
@@ -14,8 +18,8 @@ ui <- dashboardPage(
   dashboardSidebar(
     useShinyjs(),
     sidebarMenu(id = "menu",
-                menuItem("Tab1", tabName = "tab1", icon = icon("bookmark")),
-                menuItem("Tab2", tabName = "tab2", icon = icon("bookmark"))
+                menuItem("Universidades", tabName = "tab1", icon = icon("bookmark")),
+                menuItem("Times", tabName = "tab2", icon = icon("bookmark"))
     )
   ),
   dashboardBody(
@@ -24,8 +28,13 @@ ui <- dashboardPage(
       tabItem(tabName = "tab1",
               fluidRow(
                 column(width = 4,
-                       box(width = NULL)
-                ),
+                       box(width = NULL, 
+                           selectInput("tab1_select_univ", label = h3("Universidades"),
+                                       choices = unique(universidades$nome), multiple=T,
+                                       selected = c("UFCG")
+                           )
+                       )
+                ),                
                 column(width = 8,
                        box(width = NULL)
                 )
@@ -36,7 +45,8 @@ ui <- dashboardPage(
       tabItem(tabName = "tab2",
               fluidRow(
                 column(width = 4,
-                       box(width = NULL)),
+                       box(width = NULL)
+                ),
                 column(width = 8,
                        box(width = NULL)
                 )
@@ -47,7 +57,7 @@ ui <- dashboardPage(
   )
 )
 
-# Define server logic required to draw a histogram ----
+
 server <- function(input, output) {
   
   output$selected_var <- renderText({ 
