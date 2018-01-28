@@ -32,17 +32,24 @@ ui <- dashboardPage(
                 column(width = 4,
                        box(width = NULL)
                 ),
-                column(width = 8,
+                column(width = 8, 
                        box(width = NULL, highchartOutput("problemas_geral")),
                        box(width = NULL,
                            sliderInput(inputId = "problems_years", label = "Anos:",
                                        min = 2015, max = 2017, step = 1, 
                                        sep = "", value = c(2017, 2017))
                        )
+                )
+              ),
+              fluidRow(
+                column(width = 4,
+                       box(width = NULL, 
+                           selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
                 ),
-                column(width=8,
-                       box(width=8, leafletOutput("mapa")),
-                       box(width=4, selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze"))))
+                column(width = 8,
+                       box(width = NULL, 
+                           leafletOutput("mapa"))
+                       )
               )
       ),
       tabItem(tabName = "tab2",
