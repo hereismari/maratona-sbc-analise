@@ -110,8 +110,8 @@ server <- function(input, output) {
     colors <- c("#FB1108", "#9AD2E1")
     m_competitors$Color <- colorize(m_competitors$QntTimes, colors)
 
-    x <- c("Número times")
-    y <- sprintf("{point.%s}", c("QntTimes"))
+    x <- c("Universidade", "Num times classificados")
+    y <- sprintf("{point.%s}", c("universidade", "QntTimes"))
     tltip <- tooltip_table(x, y)
 
     hchart(m_competitors, "scatter", hcaes(x = universidade, y = QntTimes, size = Size, color = Color)) %>%
