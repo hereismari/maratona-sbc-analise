@@ -42,21 +42,20 @@ ui <- dashboardPage(
                                        sep = "", value = c(2017, 2017))
                        )
                 )
-              )
+              ),
+              br(),
               
-              # br(),
-              # 
-              # h3("Classificações e medalhas por região"),
-              # fluidRow(
-              #   column(width = 3,
-              #          box(width = NULL, 
-              #              selectInput("teste", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
-              #   ),
-              #   column(width = 6,
-              #          box(width = NULL, 
-              #              leafletOutput("mapa"))
-              #          )
-              # )
+              h3("Classificações e medalhas por região"),
+              fluidRow(
+                column(width = 3,
+                       box(width = NULL, 
+                           selectInput("tipo_mapa", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
+                ),
+                column(width = 6,
+                       box(width = NULL, 
+                           leafletOutput("mapa"))
+                       )
+              )
       ),
       tabItem(tabName = "tab2",
               fluidRow(
@@ -149,25 +148,24 @@ server <- function(input, output) {
   })
 
   output$mapa <- renderLeaflet({
-
-    data <- readRDS(file = "../app/mapa/mapa_competidores.rds")
-
+    data <- readRDS(file = "~/maratona-sbc-analise/app/mapa/mapa_competidores.rds")
+    
     bins <- c(0, 5, 10, 15, 20, 25, 30, 40, Inf)
     # Blue
-    pal <- colorBin("Blues", domain = data[[input$teste]], bins=bins)
+    pal <- colorBin("Blues", domain = data[[input$tipo_mapa]], bins=bins)
     # Red
-    # pal <- colorBin("YlOrRd", domain = data[[input$teste]], bins = bins)
-
+    # pal <- colorBin("YlOrRd", domain = data[[input$tipo_mapa]], bins = bins)
+    
     # draw the histogram with the specified number of bins
     state_popup <- paste0("<strong>Estado: </strong>",
                           data$estado,
                           "<br><strong>Medalhas de ouro: </strong>",
-                          data[[input$teste]])
-
-
+                          data[[input$tipo_mapa]])
+                          
+   
     labels <- sprintf(
       "<strong>%s</strong><br/>%g %s",
-      data$estado, data[[input$teste]], input$teste
+      data$estado, data[[input$tipo_mapa]], input$tipo_mapa
     ) %>% lapply(htmltools::HTML)
 
 
@@ -178,7 +176,7 @@ server <- function(input, output) {
       id = "mapbox.light",
       accessToken = Sys.getenv('MAPBOX_ACCESS_TOKEN'))) %>%
       addPolygons(
-        fillColor = ~pal(data[[input$teste]]),
+        fillColor = ~pal(data[[input$tipo_mapa]]),
         weight = 2,
         opacity = 1,
         color = "white",
@@ -195,7 +193,7 @@ server <- function(input, output) {
           style = list("font-weight" = "normal", padding = "3px 8px"),
           textsize = "15px",
           direction = "auto")) %>%
-      addLegend(pal = pal, values = ~data[[input$teste]],
+      addLegend(pal = pal, values = ~data[[input$tipo_mapa]],
                 title = "Pontos Conquistados",
                 opacity = 1)
 
