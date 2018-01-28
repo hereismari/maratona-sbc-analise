@@ -1,7 +1,7 @@
 library(readr)
 library(dplyr)
 
-root = "dados/"
+root = "~/maratona-sbc-analise/dados/"
 
 import_scoreboard = function(ano) {
   csv_name = paste(ano, ".csv", sep="")

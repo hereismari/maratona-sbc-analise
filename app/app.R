@@ -19,16 +19,19 @@ ui <- dashboardPage(
   dashboardSidebar(
     useShinyjs(),
     sidebarMenu(id = "menu",
-                menuItem("Geral", tabName = "tab1", icon = icon("bookmark")),
-                menuItem("Universidades", tabName = "tab2", icon = icon("bookmark")),
-                menuItem("Contests", tabName = "tab3", icon = icon("bookmark"))
+                menuItem("Sobre", tabName = "tab_sobre", icon = icon("bookmark")),
+                menuItem("Números da Maratona", tabName = "tab_numeros", icon = icon("bookmark")),
+                menuItem("Universidades", tabName = "tab_universidades", icon = icon("bookmark")),
+                menuItem("Contests", tabName = "tab_contests", icon = icon("bookmark")),
+                menuItem("Medalhistas", tabName = "tab_medalhistas", icon = icon("bookmark")),
+                menuItem("Coaches", tabName = "tab_coaches", icon = icon("bookmark")),
+                menuItem("Regiões do Brasil", tabName = "tab_regioes", icon = icon("bookmark"))
     )
   ),
   dashboardBody(
     
     tabItems(
-      tabItem(tabName = "tab1",
-              
+      tabItem(tabName = "tab_numeros",
               h3("Submissões totais"),
               fluidRow(
                 column(width = 3,
@@ -42,22 +45,12 @@ ui <- dashboardPage(
                                        sep = "", value = c(2017, 2017))
                        )
                 )
-              ),
-              br(),
-              
-              h3("Classificações e medalhas por região"),
-              fluidRow(
-                column(width = 3,
-                       box(width = NULL, 
-                           selectInput("tipo_mapa", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
-                ),
-                column(width = 6,
-                       box(width = NULL, 
-                           leafletOutput("mapa"))
-                       )
               )
       ),
-      tabItem(tabName = "tab2",
+      tabItem(tabName = "tab_coaches"),
+      tabItem(tabName = "tab_medalhistas"),
+      tabItem(tabName = "tab_sobre"),
+      tabItem(tabName = "tab_universidades",
               fluidRow(
                 column(width = 4,
                        box(width = NULL,
@@ -77,7 +70,7 @@ ui <- dashboardPage(
                 )
               )
       ),
-      tabItem(tabName = "tab3",
+      tabItem(tabName = "tab_contests",
               fluidRow(
                 column(width = 4,
                        box(width = NULL,
@@ -89,6 +82,22 @@ ui <- dashboardPage(
                 ),
                 column(width = 8,
                        box(width = NULL, plotlyOutput("teams_in_contest"))
+                ),
+                column(width = 12,
+                       box(width = NULL, plotlyOutput("submissions_per_interval"))
+                )
+              )
+      ),
+      tabItem(tabName = "tab_regioes",
+              h3("Classificações e medalhas por região"),
+              fluidRow(
+                column(width = 3,
+                       box(width = NULL, 
+                           selectInput("tipo_mapa", "Mostrar:", c("ouro", "medalhas", "prata", "classificados", "bronze")))
+                ),
+                column(width = 6,
+                       box(width = NULL, 
+                           leafletOutput("mapa"))
                 )
               )
       )
@@ -148,35 +157,35 @@ server <- function(input, output) {
   })
 
   output$mapa <- renderLeaflet({
-    data <- readRDS(file = "~/maratona-sbc-analise/app/mapa/mapa_competidores.rds")
+    data_mapa <- readRDS(file = "~/maratona-sbc-analise/app/mapa/mapa_competidores.rds")
     
     bins <- c(0, 5, 10, 15, 20, 25, 30, 40, Inf)
     # Blue
-    pal <- colorBin("Blues", domain = data[[input$tipo_mapa]], bins=bins)
+    pal <- colorBin("Blues", domain = data_mapa[[input$tipo_mapa]], bins=bins)
     # Red
     # pal <- colorBin("YlOrRd", domain = data[[input$tipo_mapa]], bins = bins)
     
     # draw the histogram with the specified number of bins
     state_popup <- paste0("<strong>Estado: </strong>",
-                          data$estado,
+                          data_mapa$estado,
                           "<br><strong>Medalhas de ouro: </strong>",
-                          data[[input$tipo_mapa]])
+                          data_mapa[[input$tipo_mapa]])
                           
    
     labels <- sprintf(
       "<strong>%s</strong><br/>%g %s",
-      data$estado, data[[input$tipo_mapa]], input$tipo_mapa
+      data_mapa$estado, data_mapa[[input$tipo_mapa]], input$tipo_mapa
     ) %>% lapply(htmltools::HTML)
 
 
-    leaflet(data) %>%
+    leaflet(data_mapa) %>%
       # setView(-96, 37.8, 4) %>%
       # addProviderTiles("CartoDB.Positron") %>%
       addProviderTiles("MapBox", options = providerTileOptions(
       id = "mapbox.light",
       accessToken = Sys.getenv('MAPBOX_ACCESS_TOKEN'))) %>%
       addPolygons(
-        fillColor = ~pal(data[[input$tipo_mapa]]),
+        fillColor = ~pal(data_mapa[[input$tipo_mapa]]),
         weight = 2,
         opacity = 1,
         color = "white",
@@ -193,7 +202,7 @@ server <- function(input, output) {
           style = list("font-weight" = "normal", padding = "3px 8px"),
           textsize = "15px",
           direction = "auto")) %>%
-      addLegend(pal = pal, values = ~data[[input$tipo_mapa]],
+      addLegend(pal = pal, values = ~data_mapa[[input$tipo_mapa]],
                 title = "Pontos Conquistados",
                 opacity = 1)
 
@@ -223,6 +232,31 @@ server <- function(input, output) {
     
     ggplotly(g)
     
+  })
+  
+  
+  # Plot submissions per interval
+  output$submissions_per_interval = renderPlotly({
+    
+    # input$contest_year
+    submissions = import_submissions(input$contest_year)
+    
+    submissions_grouped <- submissions %>%
+                           group_by(intervalo=cut(Time, breaks=seq(0, 400, by = 10), right=F)) %>%
+                           summarise(total=n(), aceitas=sum(AnswerBin),
+                                     aproveitamento=aceitas/total)
+    
+    plot_ly(submissions_grouped, hoverinfo="text") %>%
+      add_trace(x=~intervalo, y=~aceitas, type='bar', name='Submissões Corretas', text=~aceitas) %>%
+      add_trace(x=~intervalo, y=~total, type='bar', name='Total de Submissões', text=~total) %>%
+      layout(
+        xaxis=list(title='',
+                   tickfont=list(
+                     size = 10)),
+        yaxis=list(title = "Número de Submissões"),
+        barmode='stack',
+        title = paste('Submissões ao longo do tempo, Fase 2, Maratona SBC', input$contest_year)
+      )
   })
 
 }
