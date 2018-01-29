@@ -1,8 +1,9 @@
 library(readr)
 library(dplyr)
 
+root = "../dados/"
 #root = "~/maratona-sbc-analise/dados/"
-rooot = "../dados/"
+
 import_scoreboard = function(ano) {
   csv_name = paste(ano, ".csv", sep="")
   path = paste(root, "scoreboards/pre_processado_", sep="")
@@ -76,11 +77,28 @@ import_coaches = function() {
   competitors = subset(competitors, !duplicated(competitors[,2]))
 
   coaches = merge(competitors, temp_df, by=c("time", "ano", "universidade"))
-  #coaches <- coaches %>% 
-  #  group_by(coach, ano) %>% unique() %>% summarise(ouro = sum(medalha == 'gold'),
-  #                                prata = sum(medalha == 'silver'),
-  #                                bronze = sum(medalha == 'bronze'),
-  #                                medalhas = n(),
-  #                                classificados = sum(classificado == 1))
+  
   return(coaches)
+}
+
+import_coaches_grouped = function(){
+  coaches = import_coaches()
+  coaches_grouped = coaches %>% group_by(coach) %>%
+    summarise(ouro=sum(medalha == 'gold'), 
+              prata=sum(medalha == 'silver'),
+              bronze=sum(medalha == 'bronze'), 
+              medalhas=n(), 
+              classificados=sum(classificado == 1)) %>%
+    arrange(-ouro, -prata, -bronze)
+  return (coaches_grouped)
+}
+
+import_submissions = function(ano) {
+  csv_name = paste(ano, ".csv", sep="")
+  path = paste(root, "submissoes/pre_processado_", sep="")
+  path = paste(path, csv_name, sep="")
+  
+  submissoes = read_csv(path)
+  
+  return(submissoes)
 }
