@@ -1,566 +1,566 @@
-#,Site,User,Time,Problem,Language,Filename,Status,Judge (Site),Answer,AnswerBin
-1,1,Guilherme Pinto,-717,A,C,guilherme.c,judged,judge3 (1),YES,1
-2,1,Guilherme Pinto,-716,A,C++,fidel.cpp,judged,judge1 (1),YES,1
-3,1,Guilherme Pinto,-716,A,Java,cruz.java,judged,judge1 (1),NO - Filename mismatch,0
-4,1,Guilherme Pinto,-713,A,Java,A.java,judged,judge1 (1),YES,1
-5,1,Vinicius dos Santos,-707,A,C,mem.c,judged,judge3 (1),NO - Wrong answer,0
-6,1,Vinicius dos Santos,-707,A,C,mem.c,judged,judge3 (1),NO - Compilation error,0
-7,1,Guilherme Pinto,-704,B,C++,fidel.cpp,judged,judge1 (1),NO - Runtime error,0
-8,1,Guilherme Pinto,-703,B,Java,B.java,judged,judge1 (1),YES,1
-9,1,Guilherme Pinto,-703,B,C++,fidel.cpp,judged,judge1 (1),YES,1
-10,1,Guilherme Pinto,-702,B,C++,bruno.cpp,judged,judge1 (1),YES,1
-11,1,Guilherme Pinto,-699,C,C,guilherme.c,judged,judge1 (1),YES,1
-12,1,Guilherme Pinto,-698,C,C++,pablo.cpp,judged,judge1 (1),YES,1
-13,1,Guilherme Pinto,-698,C,Java,C.java,judged,judge1 (1),YES,1
-14,1,Guilherme Pinto,-696,D,C++,leo.cpp,judged,judge1 (1),YES,1
-15,1,Guilherme Pinto,-696,D,Java,D.java,judged,judge1 (1),NO - Compilation error,0
-16,1,Guilherme Pinto,-696,D,C++,fidel.cpp,judged,judge1 (1),YES,1
-17,1,Guilherme Pinto,-693,E,C++,timing.cpp,judged,judge1 (1),YES,1
-18,1,Guilherme Pinto,-693,E,Java,E.java,judged,judge3 (1),YES,1
-19,1,Guilherme Pinto,-691,F,C,guilherme.c,judged,judge1 (1),YES,1
-20,1,Guilherme Pinto,-690,F,Java,F.java,judged,judge1 (1),YES,1
-21,1,Guilherme Pinto,-690,F,C++,pablo.cpp,judged,judge1 (1),YES,1
-22,1,Guilherme Pinto,-688,G,C,guilherme-main.c,judged,judge1 (1),YES,1
-23,1,Guilherme Pinto,-688,G,Java,G.java,judged,judge1 (1),YES,1
-24,1,Guilherme Pinto,-688,G,C++,fidel.cpp,judged,judge1 (1),YES,1
-25,1,Guilherme Pinto,-686,H,C,guilherme.c,judged,judge1 (1),YES,1
-26,1,Guilherme Pinto,-686,H,C++,pablo.cpp,judged,judge1 (1),YES,1
-27,1,Guilherme Pinto,-685,H,Java,H.java,judged,judge1 (1),YES,1
-28,1,Guilherme Pinto,-683,I,C,guilherme.c,judged,judge1 (1),YES,1
-29,1,Guilherme Pinto,-683,I,C++,fidel.cpp,judged,judge1 (1),YES,1
-30,1,Guilherme Pinto,-683,I,Java,I.java,judged,judge1 (1),YES,1
-31,1,Guilherme Pinto,-681,J,C++,fidel-alt-log2.cpp,judged,judge1 (1),YES,1
-32,1,Guilherme Pinto,-681,J,C++,J.java,judged,judge1 (1),NO - Compilation error,0
-33,1,Guilherme Pinto,-681,J,C,guilherme.c,judged,judge1 (1),NO - Time limit exceeded,0
-34,1,Guilherme Pinto,-680,J,Java,J.java,judged,judge1 (1),YES,1
-35,1,Guilherme Pinto,-677,K,C++,timing.cpp,judged,judge1 (1),YES,1
-36,1,Guilherme Pinto,-677,K,Java,K.java,judged,judge1 (1),YES,1
-37,1,Guilherme Pinto,-675,J,C++,fidel.cpp,judged,judge3 (1),YES,1
-38,1,Guilherme Pinto,-632,D,Java,D.java,judged,judge3 (1),YES,1
-39,1,I am Root,3,A,C++,a.cpp,judged,judge2 (1),YES,1
-40,1,Literally Tourists,3,A,C++,a.cpp,judged,judge2 (1),YES,1
-41,1,Manoel borboleta e miguxos,4,A,C++,A.cpp,judged,judge2 (1),YES,1
-42,1,um balao ta bao,4,A,C,A.c,judged,judge1 (1),YES,1
-43,1,Ops! Solucao Trivial,4,A,C,A.c,judged,judge1 (1),YES,1
-44,1,Arquiduque Andorinha,4,A,C++,A.cpp,judged,judge3 (1),YES,1
-45,1,"Why Mr. Anderson, why?",4,A,C++,A.cpp,judged,judge2 (1),YES,1
-46,1,bytemen,4,A,Java,A.java,judged,judge1 (1),YES,1
-47,1,Compilation Error,4,A,C++,a.cpp,judged,judge3 (1),YES,1
-48,1,"Scooby, Dooby e Doo",4,A,C++,A.cpp,judged,judge3 (1),YES,1
-49,1,Remember us!,5,A,C++,A.cpp,judged,judge1 (1),YES,1
-50,1,Cachorrada do Fundao,5,A,C++,A.cpp,judged,judge2 (1),YES,1
-51,1,NULL_,5,A,C++,A.cpp,judged,judge2 (1),YES,1
-52,1,Zeppelin,5,A,C,A.c,judged,judge1 (1),YES,1
-53,1,Rua do sabao,5,A,C++,A.cpp,judged,judge2 (1),YES,1
-54,1,Gargamel's Team,5,A,C,a.c,judged,judge2 (1),YES,1
-55,1,CPF na nota?,5,A,C++,a.cpp,judged,judge3 (1),YES,1
-56,1,Trio de 11,5,A,C++,A.cpp,judged,judge3 (1),NO - Wrong answer,0
-57,1,Guns N' Codes,5,A,C++,A.cpp,judged,judge1 (1),YES,1
-58,1,Assembly! Rroooaarr,5,A,C++,a.cpp,judged,judge2 (1),YES,1
-59,1,Euterpe,6,A,C++,a.cpp,judged,judge2 (1),YES,1
-60,1,UFU Fighters,6,A,C++,a.cpp,judged,judge5 (1),YES,1
-61,1,#include <gambiarra.h>,6,A,C++,A.cpp,judged,judge5 (1),YES,1
-62,1,Don't Care,6,A,C++,A.cpp,judged,judge2 (1),YES,1
-63,1,zuera++,6,A,C++,A.cpp,judged,judge2 (1),YES,1
-64,1,TLE,6,A,C,A.c,judged,judge2 (1),YES,1
-65,1,#include <beer.h>,6,A,C++,a.cpp,judged,judge2 (1),YES,1
-66,1,Alwaysgood's team,6,A,C,A.c,judged,judge2 (1),YES,1
-67,1,Bread For (re)Search,6,A,C++,a.cpp,judged,judge2 (1),YES,1
-68,1,To Bit or Not To Bit,6,A,C++,a.cpp,judged,judge1 (1),YES,1
-69,1,Paitheus quer ir embora,6,A,C++,A.cpp,judged,judge3 (1),YES,1
-70,1,Deggub,6,A,C++,a.cpp,judged,judge1 (1),YES,1
-71,1,Segmentation_Fault,6,A,C++,A.cpp,judged,judge1 (1),YES,1
-72,1,Epic Sax Guys,7,A,C++,A.cpp,judged,judge3 (1),YES,1
-73,1,Don't care,7,A,C++,A.cpp,judged,judge1 (1),YES,1
-74,1,Bateu Ai?,7,A,C++,A.cpp,judged,judge2 (1),YES,1
-75,1,Tuiuiu,7,A,C,A.c,judged,judge1 (1),YES,1
-76,1,Chico,7,A,C++,A.cpp,judged,judge3 (1),YES,1
-77,1,The Morgans,8,A,C++,A.cpp,judged,judge5 (1),YES,1
-78,1,High Density Matter,8,A,C++,a.cpp,judged,judge1 (1),YES,1
-79,1,Monkeys,8,A,C++,pa.cpp,judged,judge1 (1),YES,1
-80,1,Bits Pantaneiro,8,A,C,A.c,judged,judge2 (1),NO - Wrong answer,0
-81,1,O(log n),8,A,C++,A.cpp,judged,judge2 (1),YES,1
-82,1,Lone Wolves,9,A,C++,A.cpp,judged,judge5 (1),YES,1
-83,1,Extreme team,9,A,Java,A.java,judged,judge2 (1),YES,1
-84,1,Ta Errado,9,A,C++,A.cpp,judged,judge2 (1),YES,1
-85,1,UEA_Coders,9,A,C,a.c,judged,judge1 (1),NO - Wrong answer,0
-86,1,The balloon is a lie,9,A,C,a.cpp,judged,judge5 (1),NO - Compilation error,0
-87,1,POLO,10,A,C++,A.cpp,judged,judge2 (1),YES,1
-88,1,Spyware,10,A,Java,A.java,judged,judge3 (1),YES,1
-89,1,Code Fu Pandas,10,A,C++,a.cpp,judged,judge5 (1),YES,1
-90,1,The balloon is a lie,10,A,C++,a.cpp,judged,judge5 (1),YES,1
-91,1,Rua do sabao,10,C,C++,c.cpp,judged,judge3 (1),YES,1
-92,1,AbsurdoLimitExceeded,10,A,C++,A.cpp,judged,judge3 (1),YES,1
-93,1,I am Root,11,H,C++,h.cpp,judged,judge2 (1),YES,1
-94,1,Guns N' Codes,11,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0
-95,1,Mayllon Veras,11,A,C,A.c,judged,judge3 (1),YES,1
-96,1,Bits Pantaneiro,12,A,C,A.c,judged,judge2 (1),YES,1
-97,1,Trio de 11,12,A,C++,A.cpp,judged,judge2 (1),YES,1
-98,1,UEA_Coders,14,A,C,a.c,judged,judge1 (1),YES,1
-99,1,Bread For (re)Search,15,H,C++,h.cpp,judged,judge5 (1),YES,1
-100,1,Cachorrada do Fundao,16,C,C++,C.cpp,judged,judge3 (1),YES,1
-101,1,MARRAPA,17,A,C,A.c,judged,judge3 (1),NO - Runtime error,0
-102,1,Guns N' Codes,17,C,C++,C.cpp,judged,judge3 (1),YES,1
-103,1,Haus of Code,17,A,C,A.C,judged,judge3 (1),YES,1
-104,1,I am Root,19,C,C++,c.cpp,judged,judge2 (1),YES,1
-105,1,Alwaysgood's team,20,C,C++,C.cpp,judged,judge3 (1),YES,1
-106,1,Zeppelin,21,H,C,H.c,judged,judge5 (1),NO - Wrong answer,0
-107,1,Manoel borboleta e miguxos,21,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-108,1,Compilation Error,21,H,C++,h.cpp,judged,judge5 (1),YES,1
-109,1,Ex nihilo,21,A,C,A.c,judged,judge5 (1),YES,1
-110,1,Paitheus quer ir embora,22,I,C++,I.cpp,judged,judge5 (1),YES,1
-111,1,Arquiduque Andorinha,22,C,C++,C.cpp,judged,judge2 (1),YES,1
-112,1,bytemen,22,H,Java,H.java,judged,judge2 (1),NO - Wrong answer,0
-113,1,zuera++,23,C,C++,C.cpp,judged,judge5 (1),YES,1
-114,1,Code Fu Pandas,24,H,C++,h.cpp,judged,judge5 (1),YES,1
-115,1,Literally Tourists,24,C,C++,c.cpp,judged,judge5 (1),YES,1
-116,1,MARRAPA,24,A,C++,A.cpp,judged,judge5 (1),NO - Wrong answer,0
-117,1,Esse,24,A,C++,a.cpp,judged,judge3 (1),YES,1
-118,1,Rua do sabao,25,H,C++,h.cpp,judged,judge3 (1),YES,1
-119,1,Code Fu Pandas,26,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0
-120,1,MARRAPA,26,A,C++,A.cpp,judged,judge3 (1),NO - Wrong answer,0
-121,1,Guns N' Codes,27,H,C++,H.cpp,judged,judge5 (1),YES,1
-122,1,MARRAPA,28,A,C++,A.cpp,judged,judge3 (1),YES,1
-123,1,Monkeys,30,H,C++,ph.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-124,1,Tuiuiu,30,C,C,C.c,judged,judge5 (1),NO - Time limit exceeded,0
-125,1,Euterpe,30,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-126,1,CPF na nota?,30,C,C++,a.cpp,judged,judge5 (1),YES,1
-127,1,bytemen,30,H,Java,H.java,judged,judge5 (1),NO - Wrong answer,0
-128,1,Alwaysgood's team,30,H,C++,H.cpp,judged,judge5 (1),YES,1
-129,1,Remember us!,30,H,C++,H.cpp,judged,judge5 (1),YES,1
-130,1,High Density Matter,31,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0
-131,1,Cachorrada do Fundao,31,H,C++,H.cpp,judged,judge5 (1),YES,1
-132,1,Arquiduque Andorinha,32,H,C++,H.cpp,judged,judge5 (1),YES,1
-133,1,I am Root,32,I,C++,i.cpp,judged,judge5 (1),YES,1
-134,1,The Morgans,32,H,C++,H.cpp,judged,judge5 (1),YES,1
-135,1,AbsurdoLimitExceeded,33,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0
-136,1,Gargamel's Team,33,H,C++,h.cpp,judged,judge3 (1),YES,1
-137,1,Don't Care,33,H,C++,H.cpp,judged,judge5 (1),YES,1
-138,1,"Why Mr. Anderson, why?",33,C,C++,C.cpp,judged,judge3 (1),YES,1
-139,1,NULL_,33,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-140,1,Compilation Error,34,C,C++,c.cpp,judged,judge3 (1),YES,1
-141,1,Code Fu Pandas,34,C,C++,C.cpp,judged,judge3 (1),YES,1
-142,1,Manoel borboleta e miguxos,35,H,C++,h.cpp,judged,judge3 (1),YES,1
-143,1,Euterpe,35,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-144,1,Haus of Code,36,C,C,C.C,judged,judge5 (1),NO - Time limit exceeded,0
-145,1,Remember us!,36,C,C++,C.cpp,judged,judge2 (1),NO - Wrong answer,0
-146,1,CPF na nota?,36,H,C++,a.cpp,judged,judge2 (1),YES,1
-147,1,Deggub,39,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0
-148,1,Literally Tourists,39,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0
-149,1,bytemen,41,H,Java,H.java,judged,judge5 (1),NO - Wrong answer,0
-150,1,O(log n),43,H,C++,H.cpp,judged,judge1 (1),NO - Wrong answer,0
-151,1,Assembly! Rroooaarr,43,H,C++,h.cpp,judged,judge3 (1),YES,1
-152,1,Arquiduque Andorinha,43,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0
-153,1,High Density Matter,44,C,C++,c.cpp,judged,judge3 (1),NO - Wrong answer,0
-154,1,"Why Mr. Anderson, why?",44,H,C++,H.cpp,judged,judge3 (1),YES,1
-155,1,Epic Sax Guys,44,C,C++,C.cpp,judged,judge5 (1),YES,1
-156,1,Code Fu Pandas,44,I,C++,i.cpp,judged,judge1 (1),NO - Runtime error,0
-157,1,#include <beer.h>,44,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-158,1,"Scooby, Dooby e Doo",44,C,C++,C.cpp,judged,judge5 (1),YES,1
-159,1,AbsurdoLimitExceeded,45,C,C++,C2.cpp,judged,judge3 (1),NO - Wrong answer,0
-160,1,Guns N' Codes,46,I,C++,I.cpp,judged,judge3 (1),NO - Wrong answer,0
-161,1,UFU Fighters,46,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-162,1,Epic Sax Guys,46,H,C++,H.cpp,judged,judge3 (1),YES,1
-163,1,Euterpe,46,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0
-164,1,Remember us!,47,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0
-165,1,zuera++,47,H,C++,H.cpp,judged,judge5 (1),YES,1
-166,1,Chico,47,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0
-167,1,Monkeys,47,H,C++,ph.cpp,judged,judge1 (1),NO - Wrong answer,0
-168,1,Deggub,47,C,C++,C.cpp,judged,judge5 (1),YES,1
-169,1,Alwaysgood's team,48,I,C++,I.cpp,judged,judge5 (1),YES,1
-170,1,AbsurdoLimitExceeded,48,C,C++,C2.cpp,judged,judge5 (1),YES,1
-171,1,Ex nihilo,50,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-172,1,Code Fu Pandas,50,I,C++,i.cpp,judged,judge3 (1),YES,1
-173,1,Extreme team,50,B,Java,B.java,judged,judge3 (1),NO - Wrong answer,0
-174,1,Tuiuiu,51,H,C,H.c,judged,judge5 (1),YES,1
-175,1,Manoel borboleta e miguxos,51,C,C++,C.cpp,judged,judge5 (1),YES,1
-176,1,High Density Matter,51,C,C++,c.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-177,1,Haus of Code,51,B,C,b.c,judged,judge5 (1),NO - Wrong answer,0
-178,1,um balao ta bao,52,H,C,H.c,judged,judge2 (1),NO - Wrong answer,0
-179,1,Segmentation_Fault,53,H,C,H.c,judged,judge2 (1),NO - Wrong answer,0
-180,1,Guns N' Codes,53,I,C++,I.cpp,judged,judge2 (1),YES,1
-181,1,Rua do sabao,56,I,C++,i.cpp,judged,judge1 (1),YES,1
-182,1,High Density Matter,56,H,C++,h.cpp,judged,judge2 (1),NO - Wrong answer,0
-183,1,Paitheus quer ir embora,57,H,C++,H.cpp,judged,judge3 (1),YES,1
-184,1,I am Root,58,G,C++,g.cpp,judged,judge2 (1),YES,1
-185,1,Trio de 11,59,H,C++,H.cpp,judged,judge3 (1),YES,1
-186,1,Esse,60,H,C++,h2.cpp,judged,judge1 (1),YES,1
-187,1,Bread For (re)Search,60,I,C++,i.cpp,judged,judge1 (1),NO - Runtime error,0
-188,1,Chico,60,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-189,1,CPF na nota?,60,I,C++,a.cpp,judged,judge1 (1),YES,1
-190,1,To Bit or Not To Bit,63,H,C++,h.cpp,judged,judge1 (1),NO - Wrong answer,0
-191,1,Compilation Error,64,B,C++,b.cpp,judged,judge5 (1),YES,1
-192,1,Epic Sax Guys,64,I,C++,I.cpp,judged,judge3 (1),NO - Wrong answer,0
-193,1,Remember us!,65,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0
-194,1,Bread For (re)Search,65,I,C++,i.cpp,judged,judge5 (1),YES,1
-195,1,Literally Tourists,65,H,C++,h.cpp,judged,judge1 (1),YES,1
-196,1,Mayllon Veras,65,C,Java,C.java,judged,judge5 (1),NO - Runtime error,0
-197,1,zuera++,65,I,C++,I.cpp,judged,judge3 (1),YES,1
-198,1,Deggub,65,H,C++,h.cpp,judged,judge5 (1),YES,1
-199,1,AbsurdoLimitExceeded,66,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-200,1,To Bit or Not To Bit,67,H,C++,h.cpp,judged,judge1 (1),NO - Wrong answer,0
-201,1,Monkeys,68,H,C++,ph1.cpp,judged,judge3 (1),YES,1
-202,1,I am Root,68,B,C++,b.cpp,judged,judge5 (1),YES,1
-203,1,um balao ta bao,69,H,C,H.c,judged,judge5 (1),NO - Wrong answer,0
-204,1,NULL_,70,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0
-205,1,#include <beer.h>,70,H,C++,h.cpp,judged,judge5 (1),YES,1
-206,1,AbsurdoLimitExceeded,70,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-207,1,POLO,71,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0
-208,1,Bits Pantaneiro,72,H,C,H.c,judged,judge5 (1),YES,1
-209,1,"Why Mr. Anderson, why?",72,I,C++,I.cpp,judged,judge5 (1),YES,1
-210,1,Extreme team,73,H,Java,H.java,judged,judge5 (1),YES,1
-211,1,Epic Sax Guys,73,I,C++,I.cpp,judged,judge5 (1),YES,1
-212,1,Cachorrada do Fundao,74,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0
-213,1,Manoel borboleta e miguxos,74,G,C++,g.cpp,judged,judge5 (1),YES,1
-214,1,Mayllon Veras,74,C,Java,C.java,judged,judge5 (1),NO - Time limit exceeded,0
-215,1,Code Fu Pandas,75,G,C++,g.cpp,judged,judge5 (1),NO - Wrong answer,0
-216,1,Arquiduque Andorinha,76,I,C++,I.cpp,judged,judge5 (1),YES,1
-217,1,Sao Judas 7,76,A,C,A.c,judged,judge5 (1),YES,1
-218,1,Paitheus quer ir embora,76,C,C++,C.cpp,judged,judge5 (1),YES,1
-219,1,Remember us!,77,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0
-220,1,AbsurdoLimitExceeded,78,H,C++,H.cpp,judged,judge3 (1),YES,1
-221,1,Euterpe,78,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-222,1,Don't care,78,H,C++,H.cpp,judged,judge5 (1),YES,1
-223,1,Bateu Ai?,79,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-224,1,Code Fu Pandas,79,G,C++,g.cpp,judged,judge3 (1),NO - Wrong answer,0
-225,1,Literally Tourists,80,I,C++,i.cpp,judged,judge5 (1),YES,1
-226,1,Lone Wolves,80,H,C++,H.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-227,1,MARRAPA,81,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-228,1,UEA_Coders,81,H,C,h.c,judged,judge5 (1),YES,1
-229,1,Spyware,82,C,Java,C.java,judged,judge5 (1),NO - Runtime error,0
-230,1,Code Fu Pandas,83,G,C++,g.cpp,judged,judge5 (1),YES,1
-231,1,Remember us!,84,C,C++,C.cpp,judged,judge1 (1),YES,1
-232,1,To Bit or Not To Bit,84,H,C++,h.cpp,judged,judge1 (1),NO - Wrong answer,0
-233,1,Zeppelin,87,C,C,C.c,judged,judge5 (1),NO - Wrong answer,0
-234,1,Chico,87,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-235,1,Ops! Solucao Trivial,88,B,C,B.c,judged,judge5 (1),NO - Wrong answer,0
-236,1,Guns N' Codes,88,G,C++,G.cpp,judged,judge5 (1),YES,1
-237,1,Manoel borboleta e miguxos,90,B,C++,B.cpp,judged,judge1 (1),YES,1
-238,1,I am Root,91,F,C++,f.cpp,judged,judge1 (1),YES,1
-239,1,Zeppelin,92,C,C,C.c,judged,judge3 (1),NO - Wrong answer,0
-240,1,The Morgans,92,C,C++,C.cpp,judged,judge5 (1),NO - Runtime error,0
-241,1,Cachorrada do Fundao,93,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0
-242,1,Monkeys,93,C,C++,pc.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-243,1,Lone Wolves,94,I,C++,I.cpp,judged,judge3 (1),NO - Wrong answer,0
-244,1,MARRAPA,94,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-245,1,CPF na nota?,95,B,C++,a.cpp,judged,judge3 (1),YES,1
-246,1,NULL_,95,H,C++,H.cpp,judged,judge1 (1),NO - Wrong answer,0
-247,1,Code Fu Pandas,96,B,C++,b.cpp,judged,judge1 (1),NO - Wrong answer,0
-248,1,The Morgans,96,C,C++,C.cpp,judged,judge3 (1),YES,1
-249,1,O(log n),98,C,C++,C.cpp,judged,judge1 (1),NO - Time limit exceeded,0
-250,1,Monkeys,98,C,C++,pc.cpp,judged,judge3 (1),YES,1
-251,1,Ta Errado,98,H,C++,H.cpp,judged,judge1 (1),NO - Wrong answer,0
-252,1,Cachorrada do Fundao,100,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0
-253,1,Bateu Ai?,101,C,C++,C.cpp,judged,judge5 (1),YES,1
-254,1,"Scooby, Dooby e Doo",102,I,C++,I.cpp,judged,judge5 (1),YES,1
-255,1,Ex nihilo,102,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-256,1,Extreme team,102,I,Java,I.java,judged,judge5 (1),NO - Time limit exceeded,0
-257,1,AbsurdoLimitExceeded,103,I,C++,I.cpp,judged,judge5 (1),YES,1
-258,1,Gargamel's Team,103,I,C++,i.cpp,judged,judge5 (1),YES,1
-259,1,TLE,103,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0
-260,1,Rua do sabao,104,G,C++,g.cpp,judged,judge5 (1),YES,1
-261,1,The balloon is a lie,104,H,C++,h2.cpp,judged,judge1 (1),YES,1
-262,1,Cachorrada do Fundao,105,G,C++,G.cpp,judged,judge5 (1),YES,1
-263,1,Arquiduque Andorinha,107,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0
-264,1,UFU Fighters,108,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0
-265,1,Sao Judas 7,108,H,C,H.c,judged,judge3 (1),NO - Wrong answer,0
-266,1,Remember us!,109,I,C++,I.cpp,judged,judge3 (1),YES,1
-267,1,Code Fu Pandas,110,B,C++,b.cpp,judged,judge5 (1),YES,1
-268,1,Compilation Error,110,I,C++,i.cpp,judged,judge1 (1),NO - Wrong answer,0
-269,1,"Scooby, Dooby e Doo",113,H,C++,H.cpp,judged,judge3 (1),YES,1
-270,1,CPF na nota?,113,G,C++,a.cpp,judged,judge3 (1),YES,1
-271,1,High Density Matter,114,C,C++,c.cpp,judged,judge3 (1),NO - Wrong answer,0
-272,1,Segmentation_Fault,115,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-273,1,TLE,115,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-274,1,Spyware,116,K,Java,K.java,judged,judge5 (1),NO - Wrong answer,0
-275,1,Guns N' Codes,116,B,C++,B.cpp,judged,judge3 (1),YES,1
-276,1,Deggub,116,I,C++,i.cpp,judged,judge5 (1),NO - Presentation error,0
-277,1,Gargamel's Team,116,C,C++,c.cc,judged,judge3 (1),YES,1
-278,1,Deggub,117,I,C++,i.cpp,judged,judge3 (1),YES,1
-279,1,Literally Tourists,118,G,C++,g.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-280,1,Zeppelin,118,C,C,C.c,judged,judge1 (1),NO - Time limit exceeded,0
-281,1,Bread For (re)Search,119,C,C++,c.cpp,judged,judge3 (1),NO - Wrong answer,0
-282,1,High Density Matter,119,C,C,c.cpp,judged,judge3 (1),NO - Compilation error,0
-283,1,High Density Matter,120,C,C++,c.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-284,1,Lone Wolves,120,B,C++,B.cpp,judged,judge2 (1),YES,1
-285,1,Ex nihilo,120,C,C++,C.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-286,1,"Why Mr. Anderson, why?",121,G,C++,G.cpp,judged,judge2 (1),YES,1
-287,1,#include <gambiarra.h>,121,C,C++,C.cpp,judged,judge2 (1),NO - Wrong answer,0
-288,1,POLO,122,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-289,1,Cachorrada do Fundao,122,I,C++,I.cpp,judged,judge1 (1),YES,1
-290,1,Alwaysgood's team,123,B,C++,B.cpp,judged,judge1 (1),NO - Wrong answer,0
-291,1,Manoel borboleta e miguxos,123,I,C++,I.cpp,judged,judge1 (1),YES,1
-292,1,#include <gambiarra.h>,123,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0
-293,1,Zeppelin,125,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0
-294,1,Bits Pantaneiro,125,C,C,C.c,judged,judge1 (1),NO - Runtime error,0
-295,1,NULL_,126,C,C++,C.cpp,judged,judge1 (1),NO - Time limit exceeded,0
-296,1,#include <gambiarra.h>,126,C,C++,C.cpp,judged,judge2 (1),YES,1
-297,1,Sao Judas 7,127,C,C,C.c,judged,judge1 (1),NO - Wrong answer,0
-298,1,Compilation Error,128,G,C++,g.cpp,judged,judge2 (1),NO - Wrong answer,0
-299,1,UFU Fighters,128,H,C++,H.cpp,judged,judge2 (1),YES,1
-300,1,Literally Tourists,130,G,C++,g.cpp,judged,judge3 (1),YES,1
-301,1,Alwaysgood's team,130,B,C++,B.cpp,judged,judge3 (1),YES,1
-302,1,Zeppelin,130,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0
-303,1,UFU Fighters,131,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0
-304,1,Rua do sabao,131,B,C++,b.cpp,judged,judge1 (1),NO - Wrong answer,0
-305,1,Haus of Code,134,H,C,h.c,judged,judge1 (1),NO - Wrong answer,0
-306,1,Bits Pantaneiro,135,C,C,C.c,judged,judge1 (1),NO - Runtime error,0
-307,1,Assembly! Rroooaarr,135,I,C++,i.cpp,judged,judge1 (1),YES,1
-308,1,Compilation Error,136,G,C++,g.cpp,judged,judge1 (1),NO - Wrong answer,0
-309,1,Arquiduque Andorinha,137,B,C++,B.cpp,judged,judge5 (1),YES,1
-310,1,POLO,137,H,C++,H.cpp,judged,judge2 (1),YES,1
-311,1,O(log n),137,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-312,1,High Density Matter,138,C,C++,c.cpp,judged,judge1 (1),YES,1
-313,1,Bateu Ai?,139,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-314,1,Haus of Code,139,H,C,h.c,judged,judge3 (1),NO - Wrong answer,0
-315,1,Bits Pantaneiro,139,C,C,C.c,judged,judge5 (1),NO - Runtime error,0
-316,1,Segmentation_Fault,139,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0
-317,1,I am Root,139,E,C++,e.cpp,judged,judge5 (1),YES,1
-318,1,Deggub,140,G,C++,g.cpp,judged,judge3 (1),NO - Wrong answer,0
-319,1,Paitheus quer ir embora,140,B,C++,B2.cpp,judged,judge3 (1),NO - Wrong answer,0
-320,1,Bits Pantaneiro,141,C,C,C.c,judged,judge2 (1),NO - Runtime error,0
-321,1,Ex nihilo,141,I,C++,I.cpp,judged,judge2 (1),NO - Wrong answer,0
-322,1,The Morgans,142,G,C++,G.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-323,1,Remember us!,142,B,C++,b.cpp,judged,judge2 (1),NO - Wrong answer,0
-324,1,TLE,142,B,C,B.c,judged,judge2 (1),NO - Wrong answer,0
-325,1,"Scooby, Dooby e Doo",143,B,C++,B.cpp,judged,judge5 (1),YES,1
-326,1,UEA_Coders,143,C,C,c.c,judged,judge3 (1),NO - Wrong answer,0
-327,1,Extreme team,143,I,Java,I.java,judged,judge2 (1),NO - Wrong answer,0
-328,1,Deggub,144,G,C++,g.cpp,judged,judge3 (1),NO - Wrong answer,0
-329,1,Ex nihilo,145,H,C++,H.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-330,1,UEA_Coders,146,C,C,c.c,judged,judge3 (1),NO - Wrong answer,0
-331,1,Ta Errado,146,H,C++,H.cpp,judged,judge1 (1),NO - Wrong answer,0
-332,1,Cachorrada do Fundao,147,B,C++,B.cpp,judged,judge2 (1),NO - Wrong answer,0
-333,1,Gargamel's Team,147,B,C++,b.cc,judged,judge5 (1),NO - Wrong answer,0
-334,1,Epic Sax Guys,151,G,C++,G.cpp,judged,judge3 (1),NO - Wrong answer,0
-335,1,Haus of Code,152,H,C,h.c,judged,judge5 (1),NO - Wrong answer,0
-336,1,UFU Fighters,152,C,C++,C.cpp,judged,judge5 (1),NO - Runtime error,0
-337,1,Deggub,154,G,C++,g.cpp,judged,judge2 (1),NO - Wrong answer,0
-338,1,bytemen,154,H,Java,H.java,judged,judge2 (1),NO - Wrong answer,0
-339,1,To Bit or Not To Bit,154,C,C++,c.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-340,1,Euterpe,155,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-341,1,Ex nihilo,155,H,C++,H.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-342,1,Arquiduque Andorinha,155,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0
-343,1,Segmentation_Fault,156,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0
-344,1,The balloon is a lie,156,I,C++,i.cpp,judged,judge5 (1),NO - Wrong answer,0
-345,1,MARRAPA,157,C,C++,C.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-346,1,Gargamel's Team,157,B,C++,b.cc,judged,judge3 (1),YES,1
-347,1,Remember us!,158,B,C++,b2.cpp,judged,judge3 (1),YES,1
-348,1,Extreme team,159,B,Java,B.java,judged,judge5 (1),NO - Wrong answer,0
-349,1,Tuiuiu,160,I,C,I.c,judged,judge5 (1),YES,1
-350,1,Compilation Error,161,I,C++,i.cpp,judged,judge5 (1),NO - Runtime error,0
-351,1,UFU Fighters,162,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0
-352,1,The Morgans,163,G,C++,G.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-353,1,High Density Matter,163,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-354,1,Literally Tourists,163,B,C++,b.cpp,judged,judge5 (1),YES,1
-355,1,Epic Sax Guys,164,G,C++,G.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-356,1,I am Root,165,D,C++,d.cpp,judged,judge5 (1),NO - Wrong answer,0
-357,1,Arquiduque Andorinha,165,G,C++,G.cpp,judged,judge2 (1),YES,1
-358,1,The balloon is a lie,168,I,C++,i.cpp,judged,judge3 (1),NO - Wrong answer,0
-359,1,Compilation Error,168,I,C++,i.cpp,judged,judge3 (1),NO - Runtime error,0
-360,1,zuera++,168,B,C++,B.cpp,judged,judge3 (1),YES,1
-361,1,The Morgans,169,I,C++,I.cpp,judged,judge5 (1),YES,1
-362,1,#include <gambiarra.h>,169,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0
-363,1,UFU Fighters,169,C,C++,C.cpp,judged,judge5 (1),YES,1
-364,1,I am Root,172,D,C++,d.cpp,judged,judge3 (1),NO - Wrong answer,0
-365,1,Sao Judas 7,172,H,C,H.c,judged,judge2 (1),NO - Wrong answer,0
-366,1,High Density Matter,172,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0
-367,1,POLO,173,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-368,1,NULL_,175,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-369,1,Chico,175,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-370,1,Rua do sabao,177,B,C++,b.cpp,judged,judge2 (1),YES,1
-371,1,"Scooby, Dooby e Doo",177,G,C++,G.cpp,judged,judge2 (1),YES,1
-372,1,Haus of Code,178,H,C,h.c,judged,judge2 (1),NO - Wrong answer,0
-373,1,zuera++,178,G,C++,G.cpp,judged,judge2 (1),YES,1
-374,1,#include <gambiarra.h>,181,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0
-375,1,Haus of Code,181,H,C,h.c,judged,judge5 (1),NO - Wrong answer,0
-376,1,Zeppelin,183,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0
-377,1,Lone Wolves,183,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-378,1,Bread For (re)Search,183,C,C++,c2.cpp,judged,judge2 (1),NO - Wrong answer,0
-379,1,Ta Errado,184,H,C++,H.cpp,judged,judge2 (1),YES,1
-380,1,TLE,184,H,C++,H.cpp,judged,judge2 (1),YES,1
-381,1,Paitheus quer ir embora,187,G,C++,G.cpp,judged,judge5 (1),YES,1
-382,1,Mayllon Veras,188,C,Java,C.java,judged,judge3 (1),NO - Time limit exceeded,0
-383,1,I am Root,190,D,C++,d.cpp,judged,judge5 (1),NO - Wrong answer,0
-384,1,AbsurdoLimitExceeded,191,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0
-385,1,To Bit or Not To Bit,192,B,C++,b.cpp,judged,judge5 (1),NO - Compilation error,0
-386,1,Bateu Ai?,192,I,C++,I.cpp,judged,judge5 (1),YES,1
-387,1,Deggub,194,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0
-388,1,To Bit or Not To Bit,194,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0
-389,1,Paitheus quer ir embora,195,B,C++,B2.cpp,judged,judge2 (1),YES,1
-390,1,Zeppelin,196,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0
-391,1,The Morgans,197,G,C++,G.cpp,judged,judge2 (1),NO - Wrong answer,0
-392,1,bytemen,198,H,Java,H.java,judged,judge3 (1),NO - Wrong answer,0
-393,1,Deggub,199,B,C++,b.cpp,judged,judge5 (1),NO - Wrong answer,0
-394,1,O(log n),199,H,C++,H.cpp,judged,judge3 (1),NO - Runtime error,0
-395,1,Ex nihilo,200,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-396,1,AbsurdoLimitExceeded,201,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0
-397,1,Chico,202,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0
-398,1,Epic Sax Guys,203,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0
-399,1,Alwaysgood's team,203,G,C++,G.cpp,judged,judge5 (1),NO - Runtime error,0
-400,1,Assembly! Rroooaarr,204,B,C++,b.cpp,judged,judge5 (1),YES,1
-401,1,Deggub,204,G,C++,g.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-402,1,Bits Pantaneiro,205,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0
-403,1,Epic Sax Guys,206,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0
-404,1,Remember us!,207,E,C++,E.cpp,judged,judge1 (1),YES,1
-405,1,To Bit or Not To Bit,208,B,C++,b.cpp,judged,judge5 (1),NO - Wrong answer,0
-406,1,Segmentation_Fault,208,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0
-407,1,O(log n),208,H,C++,H.cpp,judged,judge5 (1),NO - Runtime error,0
-408,1,Zeppelin,208,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0
-409,1,bytemen,209,C,Java,C.java,judged,judge5 (1),NO - Wrong answer,0
-410,1,The Morgans,210,G,C++,G.cpp,judged,judge5 (1),YES,1
-411,1,Haus of Code,211,C,C,C.C,judged,judge3 (1),NO - Time limit exceeded,0
-412,1,Alwaysgood's team,213,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0
-413,1,The balloon is a lie,214,I,C++,i.cpp,judged,judge3 (1),NO - Wrong answer,0
-414,1,Epic Sax Guys,214,G,C++,G.cpp,judged,judge3 (1),YES,1
-415,1,Cachorrada do Fundao,216,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0
-416,1,AbsurdoLimitExceeded,216,B,C++,B.cpp,judged,judge3 (1),YES,1
-417,1,I am Root,217,D,C++,d.cpp,judged,judge5 (1),NO - Wrong answer,0
-418,1,To Bit or Not To Bit,217,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0
-419,1,Cachorrada do Fundao,218,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0
-420,1,Alwaysgood's team,220,G,C++,G.cpp,judged,judge3 (1),NO - Wrong answer,0
-421,1,To Bit or Not To Bit,220,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-422,1,Esse,221,C,C++,c.cpp,judged,judge5 (1),NO - Wrong answer,0
-423,1,Segmentation_Fault,221,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0
-424,1,Extreme team,222,I,Java,I.java,judged,judge1 (1),YES,1
-425,1,Cachorrada do Fundao,222,B,C++,B.cpp,judged,judge1 (1),NO - Wrong answer,0
-426,1,AbsurdoLimitExceeded,224,G,C++,G.cpp,judged,judge3 (1),YES,1
-427,1,I am Root,224,D,C++,d.cpp,judged,judge3 (1),YES,1
-428,1,O(log n),224,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0
-429,1,Esse,225,C,C++,c.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-430,1,Bread For (re)Search,225,C,C++,c3.cpp,judged,judge5 (1),YES,1
-431,1,TLE,226,B,C,B.c,judged,judge2 (1),NO - Wrong answer,0
-432,1,MARRAPA,228,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-433,1,bytemen,229,C,Java,C.java,judged,judge3 (1),NO - Wrong answer,0
-434,1,Code Fu Pandas,230,F,C++,f3.cpp,judged,judge3 (1),NO - Wrong answer,0
-435,1,To Bit or Not To Bit,230,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0
-436,1,Sao Judas 7,230,H,C,H.c,judged,judge3 (1),NO - Wrong answer,0
-437,1,Alwaysgood's team,231,G,C++,G.cpp,judged,judge5 (1),YES,1
-438,1,"Why Mr. Anderson, why?",234,F,C++,F.cpp,judged,judge1 (1),YES,1
-439,1,TLE,235,B,C,B.c,judged,judge3 (1),YES,1
-440,1,Manoel borboleta e miguxos,237,K,C++,K.cpp,judged,judge3 (1),NO - Wrong answer,0
-441,1,To Bit or Not To Bit,238,C,C++,c.cpp,judged,judge3 (1),NO - Wrong answer,0
-442,1,#include <beer.h>,239,I,C++,denovo.cpp,judged,judge5 (1),NO - Wrong answer,0
-443,1,Ops! Solucao Trivial,240,C,C,C.c,judged,judge2 (1),NO - Wrong answer,0
-444,1,Arquiduque Andorinha,240,E,C++,E.cpp,judged,judge5 (1),NO - Wrong answer,0
-445,1,Ex nihilo,240,D,C++,D.cpp,judged,judge3 (1),NO - Wrong answer,0
-446,1,MARRAPA,242,C,C++,C.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-447,1,bytemen,244,C,Java,C.java,judged,judge3 (1),NO - Time limit exceeded,0
-448,1,Extreme team,244,C,Java,C.java,judged,judge3 (1),NO - Runtime error,0
-449,1,Cachorrada do Fundao,244,B,C++,B-4.cpp,judged,judge2 (1),NO - Wrong answer,0
-450,1,Euterpe,244,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-451,1,Ops! Solucao Trivial,245,C,C,C.c,judged,judge5 (1),YES,1
-452,1,High Density Matter,246,H,C++,h2.cpp,judged,judge3 (1),NO - Wrong answer,0
-453,1,Code Fu Pandas,246,E,C++,e.cpp,judged,judge3 (1),NO - Wrong answer,0
-454,1,Manoel borboleta e miguxos,247,E,C++,E.cpp,judged,judge5 (1),YES,1
-455,1,Paitheus quer ir embora,247,E,C++,E.cpp,judged,judge3 (1),YES,1
-456,1,Remember us!,249,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-457,1,To Bit or Not To Bit,249,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0
-458,1,Ex nihilo,250,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-459,1,Chico,251,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-460,1,NULL_,252,H,C++,H.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-461,1,Manoel borboleta e miguxos,252,K,C++,K.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-462,1,Deggub,252,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0
-463,1,Arquiduque Andorinha,254,E,C++,E.cpp,judged,judge3 (1),NO - Wrong answer,0
-464,1,Extreme team,254,C,Java,C.java,judged,judge5 (1),NO - Wrong answer,0
-465,1,Compilation Error,254,G,C++,g.cpp,judged,judge5 (1),YES,1
-466,1,Remember us!,254,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-467,1,Cachorrada do Fundao,255,B,C++,B-4.cpp,judged,judge5 (1),NO - Wrong answer,0
-468,1,Code Fu Pandas,257,E,C++,e.cpp,judged,judge3 (1),NO - Wrong answer,0
-469,1,Gargamel's Team,257,G,C++,g.cpp,judged,judge3 (1),NO - Wrong answer,0
-470,1,#include <gambiarra.h>,257,H,C++,H.cpp,judged,judge3 (1),NO - Runtime error,0
-471,1,Segmentation_Fault,258,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0
-472,1,Extreme team,258,C,Java,C.java,judged,judge3 (1),NO - Wrong answer,0
-473,1,Remember us!,259,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-474,1,Sao Judas 7,259,H,C,H.c,judged,judge3 (1),YES,1
-475,1,Tuiuiu,259,B,C++,B.cpp,judged,judge2 (1),NO - Wrong answer,0
-476,1,Guns N' Codes,260,E,C++,E.cpp,judged,judge3 (1),NO - Wrong answer,0
-477,1,Deggub,261,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0
-478,1,Extreme team,261,C,Java,C.java,judged,judge3 (1),NO - Wrong answer,0
-479,1,#include <gambiarra.h>,262,H,C++,H.cpp,judged,judge3 (1),NO - Runtime error,0
-480,1,Manoel borboleta e miguxos,263,K,C++,K.cpp,judged,judge1 (1),NO - Time limit exceeded,0
-481,1,MARRAPA,263,C,C++,C.cpp,judged,judge1 (1),NO - Time limit exceeded,0
-482,1,Spyware,263,H,Java,H.java,judged,judge1 (1),NO - Wrong answer,0
-483,1,Literally Tourists,263,E,C++,e.cpp,judged,judge5 (1),YES,1
-484,1,Tuiuiu,265,B,C++,B.cpp,judged,judge5 (1),YES,1
-485,1,Assembly! Rroooaarr,265,G,C++,g.cpp,judged,judge3 (1),YES,1
-486,1,The Morgans,265,B,C++,B.cpp,judged,judge1 (1),NO - Wrong answer,0
-487,1,The balloon is a lie,266,C,C++,c2.cpp,judged,judge5 (1),NO - Wrong answer,0
-488,1,Arquiduque Andorinha,266,E,C++,E.cpp,judged,judge5 (1),YES,1
-489,1,Lone Wolves,266,I,C++,I.cpp,judged,judge3 (1),YES,1
-490,1,Remember us!,266,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-491,1,Extreme team,266,C,Java,C.java,judged,judge5 (1),NO - Wrong answer,0
-492,1,Zeppelin,267,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-493,1,Bateu Ai?,267,B,C++,B.cpp,judged,judge3 (1),YES,1
-494,1,Spyware,267,H,Java,H.java,judged,judge5 (1),NO - Wrong answer,0
-495,1,Manoel borboleta e miguxos,268,K,C++,K.cpp,judged,judge1 (1),NO - Time limit exceeded,0
-496,1,POLO,269,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0
-497,1,bytemen,269,H,Java,H.java,judged,judge3 (1),NO - Wrong answer,0
-498,1,The balloon is a lie,269,C,C++,c2.cpp,judged,judge3 (1),YES,1
-499,1,Remember us!,270,G,C++,G.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-500,1,Trio de 11,270,C,C++,C.cpp,judged,judge2 (1),NO - Wrong answer,0
-501,1,Rua do sabao,270,E,C++,e.cpp,judged,judge5 (1),YES,1
-502,1,Manoel borboleta e miguxos,271,K,C++,K.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-503,1,To Bit or Not To Bit,271,C,C++,c.cpp,judged,judge2 (1),NO - Wrong answer,0
-504,1,Don't Care,272,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0
-505,1,Guns N' Codes,272,E,C++,E.cpp,judged,judge5 (1),YES,1
-506,1,Sao Judas 7,272,C,C,C.c,judged,judge1 (1),NO - Wrong answer,0
-507,1,Zeppelin,272,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-508,1,Bread For (re)Search,273,G,C++,g.cpp,judged,judge3 (1),YES,1
-509,1,Extreme team,273,C,Java,C.java,judged,judge5 (1),NO - Runtime error,0
-510,1,Spyware,274,H,Java,H.java,judged,judge3 (1),NO - Wrong answer,0
-511,1,Compilation Error,275,I,C++,i.cpp,judged,judge3 (1),NO - Runtime error,0
-512,1,Remember us!,276,G,C++,G.cpp,judged,judge5 (1),NO - Time limit exceeded,0
-513,1,Monkeys,277,B,C++,pb.cpp,judged,judge5 (1),NO - Wrong answer,0
-514,1,Cachorrada do Fundao,279,B,C++,B-4.cpp,judged,judge2 (1),NO - Wrong answer,0
-515,1,Deggub,280,B,C++,b.cpp,judged,judge3 (1),YES,1
-516,1,Monkeys,281,B,C++,pb.cpp,judged,judge1 (1),NO - Wrong answer,0
-517,1,Manoel borboleta e miguxos,281,K,C++,K.cpp,judged,judge5 (1),YES,1
-518,1,The balloon is a lie,283,B,C++,b2.cpp,judged,judge2 (1),NO - Wrong answer,0
-519,1,Ops! Solucao Trivial,284,H,C,H.c,judged,judge5 (1),NO - Wrong answer,0
-520,1,Epic Sax Guys,284,E,C++,E.cpp,judged,judge1 (1),NO - Time limit exceeded,0
-521,1,Don't Care,285,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0
-522,1,Deggub,285,G,C++,g.cpp,judged,judge1 (1),NO - Wrong answer,0
-523,1,I am Root,285,J,C++,j.cpp,judged,judge3 (1),YES,1
-524,1,Monkeys,286,I,C++,pi1.cpp,judged,judge5 (1),NO - Wrong answer,0
-525,1,Ex nihilo,286,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0
-526,1,Code Fu Pandas,286,F,C++,f3.cpp,judged,judge3 (1),NO - Wrong answer,0
-527,1,Epic Sax Guys,287,E,C++,E.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-528,1,#include <gambiarra.h>,287,H,C++,H.cpp,judged,judge2 (1),YES,1
-529,1,Epic Sax Guys,287,E,C++,E.cpp,judged,judge1 (1),NO - Time limit exceeded,0
-530,1,Extreme team,287,C,Java,C.java,judged,judge2 (1),NO - Runtime error,0
-531,1,Deggub,288,G,C++,g.cpp,judged,judge5 (1),NO - Wrong answer,0
-532,1,The balloon is a lie,288,B,C++,b2.cpp,judged,judge1 (1),NO - Wrong answer,0
-533,1,Segmentation_Fault,289,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0
-534,1,O(log n),290,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-535,1,Esse,291,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0
-536,1,Trio de 11,291,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-537,1,#include <beer.h>,292,C,C++,e.cpp,judged,judge3 (1),NO - Time limit exceeded,0
-538,1,Monkeys,292,B,C++,pb.cpp,judged,judge3 (1),NO - Wrong answer,0
-539,1,Monkeys,292,B,C++,pb.cpp,judged,judge3 (1),NO - Wrong answer,0
-540,1,Sao Judas 7,294,C,C,C.c,judged,judge2 (1),NO - Wrong answer,0
-541,1,Compilation Error,294,K,C++,k.cpp,judged,judge3 (1),NO - Wrong answer,0
-542,1,UFU Fighters,294,G,C++,G.cpp,judged,judge1 (1),NO - Time limit exceeded,0
-543,1,Lone Wolves,294,H,C++,H.cpp,judged,judge2 (1),NO - Wrong answer,0
-544,1,Mayllon Veras,295,B,C,B.c,judged,judge5 (1),NO - Wrong answer,0
-545,1,Manoel borboleta e miguxos,295,F,C++,f.cpp,judged,judge2 (1),NO - Wrong answer,0
-546,1,Bateu Ai?,296,H,C++,H.cpp,judged,judge2 (1),NO - Wrong answer,0
-547,1,Epic Sax Guys,296,B,C++,B.cpp,judged,judge2 (1),NO - Wrong answer,0
-548,1,The balloon is a lie,296,I,C++,i.cpp,judged,judge3 (1),NO - Wrong answer,0
-549,1,AbsurdoLimitExceeded,296,E,C++,E.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-550,1,To Bit or Not To Bit,296,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0
-551,1,O(log n),297,H,C++,H.cpp,judged,judge2 (1),NO - Wrong answer,0
-552,1,UEA_Coders,297,C,C,teste_c.c,judged,judge3 (1),NO - Time limit exceeded,0
-553,1,AbsurdoLimitExceeded,297,E,C++,E.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-554,1,I am Root,297,J,C++,j.cpp,judged,judge2 (1),YES,1
-555,1,Code Fu Pandas,298,F,C++,f3.cpp,judged,judge3 (1),NO - Wrong answer,0
-556,1,Ta Errado,298,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0
-557,1,Code Fu Pandas,298,E,C++,e.cpp,judged,judge3 (1),NO - Wrong answer,0
-558,1,UFU Fighters,299,G,C++,G.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-559,1,bytemen,299,C,Java,C.java,judged,judge2 (1),NO - Time limit exceeded,0
-560,1,AbsurdoLimitExceeded,299,E,C++,E.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-561,1,Ta Errado,299,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0
-562,1,AbsurdoLimitExceeded,299,E,C++,E.cpp,judged,judge2 (1),NO - Time limit exceeded,0
-563,1,TLE,299,K,C++,K.cpp,judged,judge3 (1),NO - Wrong answer,0
-564,1,The balloon is a lie,299,I,C++,i.cpp,judged,judge5 (1),NO - Wrong answer,0
-565,1,zuera++,299,D,C++,D.cpp,judged,judge1 (1),NO - Compilation error,0
+#,Site,User,Time,Problem,Language,Filename,Status,Judge (Site),Answer,AnswerBin,Penalty
+1,1,Guilherme Pinto,-717,A,C,guilherme.c,judged,judge3 (1),YES,1,-717
+2,1,Guilherme Pinto,-716,A,C++,fidel.cpp,judged,judge1 (1),YES,1,
+3,1,Guilherme Pinto,-716,A,Java,cruz.java,judged,judge1 (1),NO - Filename mismatch,0,
+4,1,Guilherme Pinto,-713,A,Java,A.java,judged,judge1 (1),YES,1,
+5,1,Vinicius dos Santos,-707,A,C,mem.c,judged,judge3 (1),NO - Wrong answer,0,0
+6,1,Vinicius dos Santos,-707,A,C,mem.c,judged,judge3 (1),NO - Compilation error,0,0
+7,1,Guilherme Pinto,-704,B,C++,fidel.cpp,judged,judge1 (1),NO - Runtime error,0,-717
+8,1,Guilherme Pinto,-703,B,Java,B.java,judged,judge1 (1),YES,1,-1400
+9,1,Guilherme Pinto,-703,B,C++,fidel.cpp,judged,judge1 (1),YES,1,
+10,1,Guilherme Pinto,-702,B,C++,bruno.cpp,judged,judge1 (1),YES,1,
+11,1,Guilherme Pinto,-699,C,C,guilherme.c,judged,judge1 (1),YES,1,-2099
+12,1,Guilherme Pinto,-698,C,C++,pablo.cpp,judged,judge1 (1),YES,1,
+13,1,Guilherme Pinto,-698,C,Java,C.java,judged,judge1 (1),YES,1,
+14,1,Guilherme Pinto,-696,D,C++,leo.cpp,judged,judge1 (1),YES,1,-2795
+15,1,Guilherme Pinto,-696,D,Java,D.java,judged,judge1 (1),NO - Compilation error,0,
+16,1,Guilherme Pinto,-696,D,C++,fidel.cpp,judged,judge1 (1),YES,1,
+17,1,Guilherme Pinto,-693,E,C++,timing.cpp,judged,judge1 (1),YES,1,-3488
+18,1,Guilherme Pinto,-693,E,Java,E.java,judged,judge3 (1),YES,1,
+19,1,Guilherme Pinto,-691,F,C,guilherme.c,judged,judge1 (1),YES,1,-4179
+20,1,Guilherme Pinto,-690,F,Java,F.java,judged,judge1 (1),YES,1,
+21,1,Guilherme Pinto,-690,F,C++,pablo.cpp,judged,judge1 (1),YES,1,
+22,1,Guilherme Pinto,-688,G,C,guilherme-main.c,judged,judge1 (1),YES,1,-4867
+23,1,Guilherme Pinto,-688,G,Java,G.java,judged,judge1 (1),YES,1,
+24,1,Guilherme Pinto,-688,G,C++,fidel.cpp,judged,judge1 (1),YES,1,
+25,1,Guilherme Pinto,-686,H,C,guilherme.c,judged,judge1 (1),YES,1,-5553
+26,1,Guilherme Pinto,-686,H,C++,pablo.cpp,judged,judge1 (1),YES,1,
+27,1,Guilherme Pinto,-685,H,Java,H.java,judged,judge1 (1),YES,1,
+28,1,Guilherme Pinto,-683,I,C,guilherme.c,judged,judge1 (1),YES,1,-6236
+29,1,Guilherme Pinto,-683,I,C++,fidel.cpp,judged,judge1 (1),YES,1,
+30,1,Guilherme Pinto,-683,I,Java,I.java,judged,judge1 (1),YES,1,
+31,1,Guilherme Pinto,-681,J,C++,fidel-alt-log2.cpp,judged,judge1 (1),YES,1,-6917
+32,1,Guilherme Pinto,-681,J,C++,J.java,judged,judge1 (1),NO - Compilation error,0,
+33,1,Guilherme Pinto,-681,J,C,guilherme.c,judged,judge1 (1),NO - Time limit exceeded,0,
+34,1,Guilherme Pinto,-680,J,Java,J.java,judged,judge1 (1),YES,1,
+35,1,Guilherme Pinto,-677,K,C++,timing.cpp,judged,judge1 (1),YES,1,-7594
+36,1,Guilherme Pinto,-677,K,Java,K.java,judged,judge1 (1),YES,1,
+37,1,Guilherme Pinto,-675,J,C++,fidel.cpp,judged,judge3 (1),YES,1,
+38,1,Guilherme Pinto,-632,D,Java,D.java,judged,judge3 (1),YES,1,
+39,1,[USP] I am Root,3,A,C++,a.cpp,judged,judge2 (1),YES,1,3
+40,1,[UFMG] Literally Tourists,3,A,C++,a.cpp,judged,judge2 (1),YES,1,3
+41,1,[UFCG] Manoel borboleta e miguxos,4,A,C++,A.cpp,judged,judge2 (1),YES,1,4
+42,1,[UFSCAR] um balao ta bao,4,A,C,A.c,judged,judge1 (1),YES,1,4
+43,1,[UNIOESTE] Ops! Solucao Trivial,4,A,C,A.c,judged,judge1 (1),YES,1,4
+44,1,[USP] Arquiduque Andorinha,4,A,C++,A.cpp,judged,judge3 (1),YES,1,4
+45,1,"[USP] Why Mr. Anderson, why?",4,A,C++,A.cpp,judged,judge2 (1),YES,1,4
+46,1,[FACCAT] bytemen,4,A,Java,A.java,judged,judge1 (1),YES,1,4
+47,1,[UFRGS] Compilation Error,4,A,C++,a.cpp,judged,judge3 (1),YES,1,4
+48,1,"[UFPE] Scooby, Dooby e Doo",4,A,C++,A.cpp,judged,judge3 (1),YES,1,4
+49,1,[UFG] Remember us!,5,A,C++,A.cpp,judged,judge1 (1),YES,1,5
+50,1,[UFRJ] Cachorrada do Fundao,5,A,C++,A.cpp,judged,judge2 (1),YES,1,5
+51,1,[FACENS] NULL_,5,A,C++,A.cpp,judged,judge2 (1),YES,1,5
+52,1,[IFTM] Zeppelin,5,A,C,A.c,judged,judge1 (1),YES,1,5
+53,1,[UNICAMP] Rua do sabao,5,A,C++,A.cpp,judged,judge2 (1),YES,1,5
+54,1,[UFSC] Gargamel's Team,5,A,C,a.c,judged,judge2 (1),YES,1,5
+55,1,[ITA] CPF na nota?,5,A,C++,a.cpp,judged,judge3 (1),YES,1,5
+56,1,[UNIFESP] Trio de 11,5,A,C++,A.cpp,judged,judge3 (1),NO - Wrong answer,0,0
+57,1,[UFRJ] Guns N' Codes,5,A,C++,A.cpp,judged,judge1 (1),YES,1,5
+58,1,[ITA] Assembly! Rroooaarr,5,A,C++,a.cpp,judged,judge2 (1),YES,1,5
+59,1,[UFFS] Euterpe,6,A,C++,a.cpp,judged,judge2 (1),YES,1,6
+60,1,[UFU] UFU Fighters,6,A,C++,a.cpp,judged,judge5 (1),YES,1,6
+61,1,[UNIVASF] #include <gambiarra.h>,6,A,C++,A.cpp,judged,judge5 (1),YES,1,6
+62,1,[UFPI] Don't Care,6,A,C++,A.cpp,judged,judge2 (1),YES,1,6
+63,1,[IME] zuera++,6,A,C++,A.cpp,judged,judge2 (1),YES,1,6
+64,1,[UFES] TLE,6,A,C,A.c,judged,judge2 (1),YES,1,6
+65,1,[UNISAL] #include <beer.h>,6,A,C++,a.cpp,judged,judge2 (1),YES,1,6
+66,1,[UFPR] Alwaysgood's team,6,A,C,A.c,judged,judge2 (1),YES,1,6
+67,1,[UFBA] Bread For (re)Search,6,A,C++,a.cpp,judged,judge2 (1),YES,1,6
+68,1,[UFV] To Bit or Not To Bit,6,A,C++,a.cpp,judged,judge1 (1),YES,1,6
+69,1,[UFU] Paitheus quer ir embora,6,A,C++,A.cpp,judged,judge3 (1),YES,1,6
+70,1,[UFSCAR] Deggub,6,A,C++,a.cpp,judged,judge1 (1),YES,1,6
+71,1,[IFNMG] Segmentation_Fault,6,A,C++,A.cpp,judged,judge1 (1),YES,1,6
+72,1,[UNIFEI] Epic Sax Guys,7,A,C++,A.cpp,judged,judge3 (1),YES,1,7
+73,1,[UEFS] Don't care,7,A,C++,A.cpp,judged,judge1 (1),YES,1,7
+74,1,[UFS] Bateu Ai?,7,A,C++,A.cpp,judged,judge2 (1),YES,1,7
+75,1,[UFMS] Tuiuiu,7,A,C,A.c,judged,judge1 (1),YES,1,7
+76,1,[UESB] Chico,7,A,C++,A.cpp,judged,judge3 (1),YES,1,7
+77,1,[UFFS] The Morgans,8,A,C++,A.cpp,judged,judge5 (1),YES,1,8
+78,1,[UFC] High Density Matter,8,A,C++,a.cpp,judged,judge1 (1),YES,1,8
+79,1,[UFG] Monkeys,8,A,C++,pa.cpp,judged,judge1 (1),YES,1,8
+80,1,[UFMT] Bits Pantaneiro,8,A,C,A.c,judged,judge2 (1),NO - Wrong answer,0,0
+81,1,[UNESP] O(log n),8,A,C++,A.cpp,judged,judge2 (1),YES,1,8
+82,1,[UNB] Lone Wolves,9,A,C++,A.cpp,judged,judge5 (1),YES,1,9
+83,1,[UNISALESIANO] Extreme team,9,A,Java,A.java,judged,judge2 (1),YES,1,9
+84,1,[UFMG] Ta Errado,9,A,C++,A.cpp,judged,judge2 (1),YES,1,9
+85,1,[UEA] UEA_Coders,9,A,C,a.c,judged,judge1 (1),NO - Wrong answer,0,0
+86,1,[UNICAMP] The balloon is a lie,9,A,C,a.cpp,judged,judge5 (1),NO - Compilation error,0,0
+87,1,[UFRN] POLO,10,A,C++,A.cpp,judged,judge2 (1),YES,1,10
+88,1,[UNIJUI] Spyware,10,A,Java,A.java,judged,judge3 (1),YES,1,10
+89,1,[UFPE] Code Fu Pandas,10,A,C++,a.cpp,judged,judge5 (1),YES,1,10
+90,1,[UNICAMP] The balloon is a lie,10,A,C++,a.cpp,judged,judge5 (1),YES,1,30
+91,1,[UNICAMP] Rua do sabao,10,C,C++,c.cpp,judged,judge3 (1),YES,1,15
+92,1,[UFRN] AbsurdoLimitExceeded,10,A,C++,A.cpp,judged,judge3 (1),YES,1,10
+93,1,[USP] I am Root,11,H,C++,h.cpp,judged,judge2 (1),YES,1,14
+94,1,[UFRJ] Guns N' Codes,11,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0,5
+95,1,[UNINASSAU-FAP] Mayllon Veras,11,A,C,A.c,judged,judge3 (1),YES,1,11
+96,1,[UFMT] Bits Pantaneiro,12,A,C,A.c,judged,judge2 (1),YES,1,32
+97,1,[UNIFESP] Trio de 11,12,A,C++,A.cpp,judged,judge2 (1),YES,1,32
+98,1,[UEA] UEA_Coders,14,A,C,a.c,judged,judge1 (1),YES,1,34
+99,1,[UFBA] Bread For (re)Search,15,H,C++,h.cpp,judged,judge5 (1),YES,1,21
+100,1,[UFRJ] Cachorrada do Fundao,16,C,C++,C.cpp,judged,judge3 (1),YES,1,21
+101,1,[CESUPA] MARRAPA,17,A,C,A.c,judged,judge3 (1),NO - Runtime error,0,0
+102,1,[UFRJ] Guns N' Codes,17,C,C++,C.cpp,judged,judge3 (1),YES,1,42
+103,1,[UFPel] Haus of Code,17,A,C,A.C,judged,judge3 (1),YES,1,17
+104,1,[USP] I am Root,19,C,C++,c.cpp,judged,judge2 (1),YES,1,33
+105,1,[UFPR] Alwaysgood's team,20,C,C++,C.cpp,judged,judge3 (1),YES,1,26
+106,1,[IFTM] Zeppelin,21,H,C,H.c,judged,judge5 (1),NO - Wrong answer,0,5
+107,1,[UFCG] Manoel borboleta e miguxos,21,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,4
+108,1,[UFRGS] Compilation Error,21,H,C++,h.cpp,judged,judge5 (1),YES,1,25
+109,1,[UFF] Ex nihilo,21,A,C,A.c,judged,judge5 (1),YES,1,21
+110,1,[UFU] Paitheus quer ir embora,22,I,C++,I.cpp,judged,judge5 (1),YES,1,28
+111,1,[USP] Arquiduque Andorinha,22,C,C++,C.cpp,judged,judge2 (1),YES,1,26
+112,1,[FACCAT] bytemen,22,H,Java,H.java,judged,judge2 (1),NO - Wrong answer,0,4
+113,1,[IME] zuera++,23,C,C++,C.cpp,judged,judge5 (1),YES,1,29
+114,1,[UFPE] Code Fu Pandas,24,H,C++,h.cpp,judged,judge5 (1),YES,1,34
+115,1,[UFMG] Literally Tourists,24,C,C++,c.cpp,judged,judge5 (1),YES,1,27
+116,1,[CESUPA] MARRAPA,24,A,C++,A.cpp,judged,judge5 (1),NO - Wrong answer,0,0
+117,1,[FEI] Esse,24,A,C++,a.cpp,judged,judge3 (1),YES,1,24
+118,1,[UNICAMP] Rua do sabao,25,H,C++,h.cpp,judged,judge3 (1),YES,1,40
+119,1,[UFPE] Code Fu Pandas,26,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0,34
+120,1,[CESUPA] MARRAPA,26,A,C++,A.cpp,judged,judge3 (1),NO - Wrong answer,0,0
+121,1,[UFRJ] Guns N' Codes,27,H,C++,H.cpp,judged,judge5 (1),YES,1,69
+122,1,[CESUPA] MARRAPA,28,A,C++,A.cpp,judged,judge3 (1),YES,1,88
+123,1,[UFG] Monkeys,30,H,C++,ph.cpp,judged,judge5 (1),NO - Time limit exceeded,0,8
+124,1,[UFMS] Tuiuiu,30,C,C,C.c,judged,judge5 (1),NO - Time limit exceeded,0,7
+125,1,[UFFS] Euterpe,30,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+126,1,[ITA] CPF na nota?,30,C,C++,a.cpp,judged,judge5 (1),YES,1,35
+127,1,[FACCAT] bytemen,30,H,Java,H.java,judged,judge5 (1),NO - Wrong answer,0,4
+128,1,[UFPR] Alwaysgood's team,30,H,C++,H.cpp,judged,judge5 (1),YES,1,56
+129,1,[UFG] Remember us!,30,H,C++,H.cpp,judged,judge5 (1),YES,1,35
+130,1,[UFC] High Density Matter,31,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0,8
+131,1,[UFRJ] Cachorrada do Fundao,31,H,C++,H.cpp,judged,judge5 (1),YES,1,52
+132,1,[USP] Arquiduque Andorinha,32,H,C++,H.cpp,judged,judge5 (1),YES,1,58
+133,1,[USP] I am Root,32,I,C++,i.cpp,judged,judge5 (1),YES,1,65
+134,1,[UFFS] The Morgans,32,H,C++,H.cpp,judged,judge5 (1),YES,1,40
+135,1,[UFRN] AbsurdoLimitExceeded,33,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0,10
+136,1,[UFSC] Gargamel's Team,33,H,C++,h.cpp,judged,judge3 (1),YES,1,38
+137,1,[UFPI] Don't Care,33,H,C++,H.cpp,judged,judge5 (1),YES,1,39
+138,1,"[USP] Why Mr. Anderson, why?",33,C,C++,C.cpp,judged,judge3 (1),YES,1,37
+139,1,[FACENS] NULL_,33,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,5
+140,1,[UFRGS] Compilation Error,34,C,C++,c.cpp,judged,judge3 (1),YES,1,59
+141,1,[UFPE] Code Fu Pandas,34,C,C++,C.cpp,judged,judge3 (1),YES,1,88
+142,1,[UFCG] Manoel borboleta e miguxos,35,H,C++,h.cpp,judged,judge3 (1),YES,1,59
+143,1,[UFFS] Euterpe,35,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+144,1,[UFPel] Haus of Code,36,C,C,C.C,judged,judge5 (1),NO - Time limit exceeded,0,17
+145,1,[UFG] Remember us!,36,C,C++,C.cpp,judged,judge2 (1),NO - Wrong answer,0,35
+146,1,[ITA] CPF na nota?,36,H,C++,a.cpp,judged,judge2 (1),YES,1,71
+147,1,[UFSCAR] Deggub,39,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+148,1,[UFMG] Literally Tourists,39,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0,27
+149,1,[FACCAT] bytemen,41,H,Java,H.java,judged,judge5 (1),NO - Wrong answer,0,4
+150,1,[UNESP] O(log n),43,H,C++,H.cpp,judged,judge1 (1),NO - Wrong answer,0,8
+151,1,[ITA] Assembly! Rroooaarr,43,H,C++,h.cpp,judged,judge3 (1),YES,1,48
+152,1,[USP] Arquiduque Andorinha,43,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0,58
+153,1,[UFC] High Density Matter,44,C,C++,c.cpp,judged,judge3 (1),NO - Wrong answer,0,8
+154,1,"[USP] Why Mr. Anderson, why?",44,H,C++,H.cpp,judged,judge3 (1),YES,1,81
+155,1,[UNIFEI] Epic Sax Guys,44,C,C++,C.cpp,judged,judge5 (1),YES,1,51
+156,1,[UFPE] Code Fu Pandas,44,I,C++,i.cpp,judged,judge1 (1),NO - Runtime error,0,88
+157,1,[UNISAL] #include <beer.h>,44,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+158,1,"[UFPE] Scooby, Dooby e Doo",44,C,C++,C.cpp,judged,judge5 (1),YES,1,48
+159,1,[UFRN] AbsurdoLimitExceeded,45,C,C++,C2.cpp,judged,judge3 (1),NO - Wrong answer,0,10
+160,1,[UFRJ] Guns N' Codes,46,I,C++,I.cpp,judged,judge3 (1),NO - Wrong answer,0,69
+161,1,[UFU] UFU Fighters,46,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+162,1,[UNIFEI] Epic Sax Guys,46,H,C++,H.cpp,judged,judge3 (1),YES,1,97
+163,1,[UFFS] Euterpe,46,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+164,1,[UFG] Remember us!,47,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0,35
+165,1,[IME] zuera++,47,H,C++,H.cpp,judged,judge5 (1),YES,1,76
+166,1,[UESB] Chico,47,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0,7
+167,1,[UFG] Monkeys,47,H,C++,ph.cpp,judged,judge1 (1),NO - Wrong answer,0,8
+168,1,[UFSCAR] Deggub,47,C,C++,C.cpp,judged,judge5 (1),YES,1,73
+169,1,[UFPR] Alwaysgood's team,48,I,C++,I.cpp,judged,judge5 (1),YES,1,104
+170,1,[UFRN] AbsurdoLimitExceeded,48,C,C++,C2.cpp,judged,judge5 (1),YES,1,98
+171,1,[UFF] Ex nihilo,50,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0,21
+172,1,[UFPE] Code Fu Pandas,50,I,C++,i.cpp,judged,judge3 (1),YES,1,158
+173,1,[UNISALESIANO] Extreme team,50,B,Java,B.java,judged,judge3 (1),NO - Wrong answer,0,9
+174,1,[UFMS] Tuiuiu,51,H,C,H.c,judged,judge5 (1),YES,1,58
+175,1,[UFCG] Manoel borboleta e miguxos,51,C,C++,C.cpp,judged,judge5 (1),YES,1,110
+176,1,[UFC] High Density Matter,51,C,C++,c.cpp,judged,judge5 (1),NO - Time limit exceeded,0,8
+177,1,[UFPel] Haus of Code,51,B,C,b.c,judged,judge5 (1),NO - Wrong answer,0,17
+178,1,[UFSCAR] um balao ta bao,52,H,C,H.c,judged,judge2 (1),NO - Wrong answer,0,4
+179,1,[IFNMG] Segmentation_Fault,53,H,C,H.c,judged,judge2 (1),NO - Wrong answer,0,6
+180,1,[UFRJ] Guns N' Codes,53,I,C++,I.cpp,judged,judge2 (1),YES,1,142
+181,1,[UNICAMP] Rua do sabao,56,I,C++,i.cpp,judged,judge1 (1),YES,1,96
+182,1,[UFC] High Density Matter,56,H,C++,h.cpp,judged,judge2 (1),NO - Wrong answer,0,8
+183,1,[UFU] Paitheus quer ir embora,57,H,C++,H.cpp,judged,judge3 (1),YES,1,85
+184,1,[USP] I am Root,58,G,C++,g.cpp,judged,judge2 (1),YES,1,123
+185,1,[UNIFESP] Trio de 11,59,H,C++,H.cpp,judged,judge3 (1),YES,1,91
+186,1,[FEI] Esse,60,H,C++,h2.cpp,judged,judge1 (1),YES,1,84
+187,1,[UFBA] Bread For (re)Search,60,I,C++,i.cpp,judged,judge1 (1),NO - Runtime error,0,21
+188,1,[UESB] Chico,60,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,7
+189,1,[ITA] CPF na nota?,60,I,C++,a.cpp,judged,judge1 (1),YES,1,131
+190,1,[UFV] To Bit or Not To Bit,63,H,C++,h.cpp,judged,judge1 (1),NO - Wrong answer,0,6
+191,1,[UFRGS] Compilation Error,64,B,C++,b.cpp,judged,judge5 (1),YES,1,123
+192,1,[UNIFEI] Epic Sax Guys,64,I,C++,I.cpp,judged,judge3 (1),NO - Wrong answer,0,97
+193,1,[UFG] Remember us!,65,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0,35
+194,1,[UFBA] Bread For (re)Search,65,I,C++,i.cpp,judged,judge5 (1),YES,1,106
+195,1,[UFMG] Literally Tourists,65,H,C++,h.cpp,judged,judge1 (1),YES,1,112
+196,1,[UNINASSAU-FAP] Mayllon Veras,65,C,Java,C.java,judged,judge5 (1),NO - Runtime error,0,11
+197,1,[IME] zuera++,65,I,C++,I.cpp,judged,judge3 (1),YES,1,141
+198,1,[UFSCAR] Deggub,65,H,C++,h.cpp,judged,judge5 (1),YES,1,138
+199,1,[UFRN] AbsurdoLimitExceeded,66,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,98
+200,1,[UFV] To Bit or Not To Bit,67,H,C++,h.cpp,judged,judge1 (1),NO - Wrong answer,0,6
+201,1,[UFG] Monkeys,68,H,C++,ph1.cpp,judged,judge3 (1),YES,1,116
+202,1,[USP] I am Root,68,B,C++,b.cpp,judged,judge5 (1),YES,1,191
+203,1,[UFSCAR] um balao ta bao,69,H,C,H.c,judged,judge5 (1),NO - Wrong answer,0,4
+204,1,[FACENS] NULL_,70,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0,5
+205,1,[UNISAL] #include <beer.h>,70,H,C++,h.cpp,judged,judge5 (1),YES,1,96
+206,1,[UFRN] AbsurdoLimitExceeded,70,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,98
+207,1,[UFRN] POLO,71,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0,10
+208,1,[UFMT] Bits Pantaneiro,72,H,C,H.c,judged,judge5 (1),YES,1,104
+209,1,"[USP] Why Mr. Anderson, why?",72,I,C++,I.cpp,judged,judge5 (1),YES,1,153
+210,1,[UNISALESIANO] Extreme team,73,H,Java,H.java,judged,judge5 (1),YES,1,82
+211,1,[UNIFEI] Epic Sax Guys,73,I,C++,I.cpp,judged,judge5 (1),YES,1,190
+212,1,[UFRJ] Cachorrada do Fundao,74,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0,52
+213,1,[UFCG] Manoel borboleta e miguxos,74,G,C++,g.cpp,judged,judge5 (1),YES,1,184
+214,1,[UNINASSAU-FAP] Mayllon Veras,74,C,Java,C.java,judged,judge5 (1),NO - Time limit exceeded,0,11
+215,1,[UFPE] Code Fu Pandas,75,G,C++,g.cpp,judged,judge5 (1),NO - Wrong answer,0,158
+216,1,[USP] Arquiduque Andorinha,76,I,C++,I.cpp,judged,judge5 (1),YES,1,154
+217,1,[USJT] Sao Judas 7,76,A,C,A.c,judged,judge5 (1),YES,1,76
+218,1,[UFU] Paitheus quer ir embora,76,C,C++,C.cpp,judged,judge5 (1),YES,1,161
+219,1,[UFG] Remember us!,77,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0,35
+220,1,[UFRN] AbsurdoLimitExceeded,78,H,C++,H.cpp,judged,judge3 (1),YES,1,216
+221,1,[UFFS] Euterpe,78,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+222,1,[UEFS] Don't care,78,H,C++,H.cpp,judged,judge5 (1),YES,1,85
+223,1,[UFS] Bateu Ai?,79,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0,7
+224,1,[UFPE] Code Fu Pandas,79,G,C++,g.cpp,judged,judge3 (1),NO - Wrong answer,0,158
+225,1,[UFMG] Literally Tourists,80,I,C++,i.cpp,judged,judge5 (1),YES,1,192
+226,1,[UNB] Lone Wolves,80,H,C++,H.cpp,judged,judge5 (1),NO - Time limit exceeded,0,9
+227,1,[CESUPA] MARRAPA,81,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,88
+228,1,[UEA] UEA_Coders,81,H,C,h.c,judged,judge5 (1),YES,1,115
+229,1,[UNIJUI] Spyware,82,C,Java,C.java,judged,judge5 (1),NO - Runtime error,0,10
+230,1,[UFPE] Code Fu Pandas,83,G,C++,g.cpp,judged,judge5 (1),YES,1,281
+231,1,[UFG] Remember us!,84,C,C++,C.cpp,judged,judge1 (1),YES,1,199
+232,1,[UFV] To Bit or Not To Bit,84,H,C++,h.cpp,judged,judge1 (1),NO - Wrong answer,0,6
+233,1,[IFTM] Zeppelin,87,C,C,C.c,judged,judge5 (1),NO - Wrong answer,0,5
+234,1,[UESB] Chico,87,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0,7
+235,1,[UNIOESTE] Ops! Solucao Trivial,88,B,C,B.c,judged,judge5 (1),NO - Wrong answer,0,4
+236,1,[UFRJ] Guns N' Codes,88,G,C++,G.cpp,judged,judge5 (1),YES,1,230
+237,1,[UFCG] Manoel borboleta e miguxos,90,B,C++,B.cpp,judged,judge1 (1),YES,1,274
+238,1,[USP] I am Root,91,F,C++,f.cpp,judged,judge1 (1),YES,1,282
+239,1,[IFTM] Zeppelin,92,C,C,C.c,judged,judge3 (1),NO - Wrong answer,0,5
+240,1,[UFFS] The Morgans,92,C,C++,C.cpp,judged,judge5 (1),NO - Runtime error,0,40
+241,1,[UFRJ] Cachorrada do Fundao,93,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0,52
+242,1,[UFG] Monkeys,93,C,C++,pc.cpp,judged,judge5 (1),NO - Time limit exceeded,0,116
+243,1,[UNB] Lone Wolves,94,I,C++,I.cpp,judged,judge3 (1),NO - Wrong answer,0,9
+244,1,[CESUPA] MARRAPA,94,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0,88
+245,1,[ITA] CPF na nota?,95,B,C++,a.cpp,judged,judge3 (1),YES,1,226
+246,1,[FACENS] NULL_,95,H,C++,H.cpp,judged,judge1 (1),NO - Wrong answer,0,5
+247,1,[UFPE] Code Fu Pandas,96,B,C++,b.cpp,judged,judge1 (1),NO - Wrong answer,0,281
+248,1,[UFFS] The Morgans,96,C,C++,C.cpp,judged,judge3 (1),YES,1,156
+249,1,[UNESP] O(log n),98,C,C++,C.cpp,judged,judge1 (1),NO - Time limit exceeded,0,8
+250,1,[UFG] Monkeys,98,C,C++,pc.cpp,judged,judge3 (1),YES,1,234
+251,1,[UFMG] Ta Errado,98,H,C++,H.cpp,judged,judge1 (1),NO - Wrong answer,0,9
+252,1,[UFRJ] Cachorrada do Fundao,100,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0,52
+253,1,[UFS] Bateu Ai?,101,C,C++,C.cpp,judged,judge5 (1),YES,1,128
+254,1,"[UFPE] Scooby, Dooby e Doo",102,I,C++,I.cpp,judged,judge5 (1),YES,1,150
+255,1,[UFF] Ex nihilo,102,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0,21
+256,1,[UNISALESIANO] Extreme team,102,I,Java,I.java,judged,judge5 (1),NO - Time limit exceeded,0,82
+257,1,[UFRN] AbsurdoLimitExceeded,103,I,C++,I.cpp,judged,judge5 (1),YES,1,319
+258,1,[UFSC] Gargamel's Team,103,I,C++,i.cpp,judged,judge5 (1),YES,1,141
+259,1,[UFES] TLE,103,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+260,1,[UNICAMP] Rua do sabao,104,G,C++,g.cpp,judged,judge5 (1),YES,1,200
+261,1,[UNICAMP] The balloon is a lie,104,H,C++,h2.cpp,judged,judge1 (1),YES,1,134
+262,1,[UFRJ] Cachorrada do Fundao,105,G,C++,G.cpp,judged,judge5 (1),YES,1,197
+263,1,[USP] Arquiduque Andorinha,107,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0,154
+264,1,[UFU] UFU Fighters,108,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+265,1,[USJT] Sao Judas 7,108,H,C,H.c,judged,judge3 (1),NO - Wrong answer,0,76
+266,1,[UFG] Remember us!,109,I,C++,I.cpp,judged,judge3 (1),YES,1,308
+267,1,[UFPE] Code Fu Pandas,110,B,C++,b.cpp,judged,judge5 (1),YES,1,411
+268,1,[UFRGS] Compilation Error,110,I,C++,i.cpp,judged,judge1 (1),NO - Wrong answer,0,123
+269,1,"[UFPE] Scooby, Dooby e Doo",113,H,C++,H.cpp,judged,judge3 (1),YES,1,263
+270,1,[ITA] CPF na nota?,113,G,C++,a.cpp,judged,judge3 (1),YES,1,339
+271,1,[UFC] High Density Matter,114,C,C++,c.cpp,judged,judge3 (1),NO - Wrong answer,0,8
+272,1,[IFNMG] Segmentation_Fault,115,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+273,1,[UFES] TLE,115,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+274,1,[UNIJUI] Spyware,116,K,Java,K.java,judged,judge5 (1),NO - Wrong answer,0,10
+275,1,[UFRJ] Guns N' Codes,116,B,C++,B.cpp,judged,judge3 (1),YES,1,346
+276,1,[UFSCAR] Deggub,116,I,C++,i.cpp,judged,judge5 (1),NO - Presentation error,0,138
+277,1,[UFSC] Gargamel's Team,116,C,C++,c.cc,judged,judge3 (1),YES,1,257
+278,1,[UFSCAR] Deggub,117,I,C++,i.cpp,judged,judge3 (1),YES,1,275
+279,1,[UFMG] Literally Tourists,118,G,C++,g.cpp,judged,judge3 (1),NO - Time limit exceeded,0,192
+280,1,[IFTM] Zeppelin,118,C,C,C.c,judged,judge1 (1),NO - Time limit exceeded,0,5
+281,1,[UFBA] Bread For (re)Search,119,C,C++,c.cpp,judged,judge3 (1),NO - Wrong answer,0,106
+282,1,[UFC] High Density Matter,119,C,C,c.cpp,judged,judge3 (1),NO - Compilation error,0,8
+283,1,[UFC] High Density Matter,120,C,C++,c.cpp,judged,judge2 (1),NO - Time limit exceeded,0,8
+284,1,[UNB] Lone Wolves,120,B,C++,B.cpp,judged,judge2 (1),YES,1,129
+285,1,[UFF] Ex nihilo,120,C,C++,C.cpp,judged,judge2 (1),NO - Time limit exceeded,0,21
+286,1,"[USP] Why Mr. Anderson, why?",121,G,C++,G.cpp,judged,judge2 (1),YES,1,274
+287,1,[UNIVASF] #include <gambiarra.h>,121,C,C++,C.cpp,judged,judge2 (1),NO - Wrong answer,0,6
+288,1,[UFRN] POLO,122,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,10
+289,1,[UFRJ] Cachorrada do Fundao,122,I,C++,I.cpp,judged,judge1 (1),YES,1,339
+290,1,[UFPR] Alwaysgood's team,123,B,C++,B.cpp,judged,judge1 (1),NO - Wrong answer,0,104
+291,1,[UFCG] Manoel borboleta e miguxos,123,I,C++,I.cpp,judged,judge1 (1),YES,1,397
+292,1,[UNIVASF] #include <gambiarra.h>,123,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+293,1,[IFTM] Zeppelin,125,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0,5
+294,1,[UFMT] Bits Pantaneiro,125,C,C,C.c,judged,judge1 (1),NO - Runtime error,0,104
+295,1,[FACENS] NULL_,126,C,C++,C.cpp,judged,judge1 (1),NO - Time limit exceeded,0,5
+296,1,[UNIVASF] #include <gambiarra.h>,126,C,C++,C.cpp,judged,judge2 (1),YES,1,172
+297,1,[USJT] Sao Judas 7,127,C,C,C.c,judged,judge1 (1),NO - Wrong answer,0,76
+298,1,[UFRGS] Compilation Error,128,G,C++,g.cpp,judged,judge2 (1),NO - Wrong answer,0,123
+299,1,[UFU] UFU Fighters,128,H,C++,H.cpp,judged,judge2 (1),YES,1,174
+300,1,[UFMG] Literally Tourists,130,G,C++,g.cpp,judged,judge3 (1),YES,1,342
+301,1,[UFPR] Alwaysgood's team,130,B,C++,B.cpp,judged,judge3 (1),YES,1,254
+302,1,[IFTM] Zeppelin,130,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0,5
+303,1,[UFU] UFU Fighters,131,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0,174
+304,1,[UNICAMP] Rua do sabao,131,B,C++,b.cpp,judged,judge1 (1),NO - Wrong answer,0,200
+305,1,[UFPel] Haus of Code,134,H,C,h.c,judged,judge1 (1),NO - Wrong answer,0,17
+306,1,[UFMT] Bits Pantaneiro,135,C,C,C.c,judged,judge1 (1),NO - Runtime error,0,104
+307,1,[ITA] Assembly! Rroooaarr,135,I,C++,i.cpp,judged,judge1 (1),YES,1,183
+308,1,[UFRGS] Compilation Error,136,G,C++,g.cpp,judged,judge1 (1),NO - Wrong answer,0,123
+309,1,[USP] Arquiduque Andorinha,137,B,C++,B.cpp,judged,judge5 (1),YES,1,311
+310,1,[UFRN] POLO,137,H,C++,H.cpp,judged,judge2 (1),YES,1,167
+311,1,[UNESP] O(log n),137,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0,8
+312,1,[UFC] High Density Matter,138,C,C++,c.cpp,judged,judge1 (1),YES,1,246
+313,1,[UFS] Bateu Ai?,139,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,128
+314,1,[UFPel] Haus of Code,139,H,C,h.c,judged,judge3 (1),NO - Wrong answer,0,17
+315,1,[UFMT] Bits Pantaneiro,139,C,C,C.c,judged,judge5 (1),NO - Runtime error,0,104
+316,1,[IFNMG] Segmentation_Fault,139,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+317,1,[USP] I am Root,139,E,C++,e.cpp,judged,judge5 (1),YES,1,421
+318,1,[UFSCAR] Deggub,140,G,C++,g.cpp,judged,judge3 (1),NO - Wrong answer,0,275
+319,1,[UFU] Paitheus quer ir embora,140,B,C++,B2.cpp,judged,judge3 (1),NO - Wrong answer,0,161
+320,1,[UFMT] Bits Pantaneiro,141,C,C,C.c,judged,judge2 (1),NO - Runtime error,0,104
+321,1,[UFF] Ex nihilo,141,I,C++,I.cpp,judged,judge2 (1),NO - Wrong answer,0,21
+322,1,[UFFS] The Morgans,142,G,C++,G.cpp,judged,judge2 (1),NO - Time limit exceeded,0,156
+323,1,[UFG] Remember us!,142,B,C++,b.cpp,judged,judge2 (1),NO - Wrong answer,0,308
+324,1,[UFES] TLE,142,B,C,B.c,judged,judge2 (1),NO - Wrong answer,0,6
+325,1,"[UFPE] Scooby, Dooby e Doo",143,B,C++,B.cpp,judged,judge5 (1),YES,1,406
+326,1,[UEA] UEA_Coders,143,C,C,c.c,judged,judge3 (1),NO - Wrong answer,0,115
+327,1,[UNISALESIANO] Extreme team,143,I,Java,I.java,judged,judge2 (1),NO - Wrong answer,0,82
+328,1,[UFSCAR] Deggub,144,G,C++,g.cpp,judged,judge3 (1),NO - Wrong answer,0,275
+329,1,[UFF] Ex nihilo,145,H,C++,H.cpp,judged,judge3 (1),NO - Time limit exceeded,0,21
+330,1,[UEA] UEA_Coders,146,C,C,c.c,judged,judge3 (1),NO - Wrong answer,0,115
+331,1,[UFMG] Ta Errado,146,H,C++,H.cpp,judged,judge1 (1),NO - Wrong answer,0,9
+332,1,[UFRJ] Cachorrada do Fundao,147,B,C++,B.cpp,judged,judge2 (1),NO - Wrong answer,0,339
+333,1,[UFSC] Gargamel's Team,147,B,C++,b.cc,judged,judge5 (1),NO - Wrong answer,0,257
+334,1,[UNIFEI] Epic Sax Guys,151,G,C++,G.cpp,judged,judge3 (1),NO - Wrong answer,0,190
+335,1,[UFPel] Haus of Code,152,H,C,h.c,judged,judge5 (1),NO - Wrong answer,0,17
+336,1,[UFU] UFU Fighters,152,C,C++,C.cpp,judged,judge5 (1),NO - Runtime error,0,174
+337,1,[UFSCAR] Deggub,154,G,C++,g.cpp,judged,judge2 (1),NO - Wrong answer,0,275
+338,1,[FACCAT] bytemen,154,H,Java,H.java,judged,judge2 (1),NO - Wrong answer,0,4
+339,1,[UFV] To Bit or Not To Bit,154,C,C++,c.cpp,judged,judge2 (1),NO - Time limit exceeded,0,6
+340,1,[UFFS] Euterpe,155,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+341,1,[UFF] Ex nihilo,155,H,C++,H.cpp,judged,judge5 (1),NO - Time limit exceeded,0,21
+342,1,[USP] Arquiduque Andorinha,155,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0,311
+343,1,[IFNMG] Segmentation_Fault,156,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+344,1,[UNICAMP] The balloon is a lie,156,I,C++,i.cpp,judged,judge5 (1),NO - Wrong answer,0,134
+345,1,[CESUPA] MARRAPA,157,C,C++,C.cpp,judged,judge2 (1),NO - Time limit exceeded,0,88
+346,1,[UFSC] Gargamel's Team,157,B,C++,b.cc,judged,judge3 (1),YES,1,434
+347,1,[UFG] Remember us!,158,B,C++,b2.cpp,judged,judge3 (1),YES,1,486
+348,1,[UNISALESIANO] Extreme team,159,B,Java,B.java,judged,judge5 (1),NO - Wrong answer,0,82
+349,1,[UFMS] Tuiuiu,160,I,C,I.c,judged,judge5 (1),YES,1,218
+350,1,[UFRGS] Compilation Error,161,I,C++,i.cpp,judged,judge5 (1),NO - Runtime error,0,123
+351,1,[UFU] UFU Fighters,162,C,C++,C.cpp,judged,judge5 (1),NO - Wrong answer,0,174
+352,1,[UFFS] The Morgans,163,G,C++,G.cpp,judged,judge5 (1),NO - Time limit exceeded,0,156
+353,1,[UFC] High Density Matter,163,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,246
+354,1,[UFMG] Literally Tourists,163,B,C++,b.cpp,judged,judge5 (1),YES,1,505
+355,1,[UNIFEI] Epic Sax Guys,164,G,C++,G.cpp,judged,judge5 (1),NO - Time limit exceeded,0,190
+356,1,[USP] I am Root,165,D,C++,d.cpp,judged,judge5 (1),NO - Wrong answer,0,421
+357,1,[USP] Arquiduque Andorinha,165,G,C++,G.cpp,judged,judge2 (1),YES,1,496
+358,1,[UNICAMP] The balloon is a lie,168,I,C++,i.cpp,judged,judge3 (1),NO - Wrong answer,0,134
+359,1,[UFRGS] Compilation Error,168,I,C++,i.cpp,judged,judge3 (1),NO - Runtime error,0,123
+360,1,[IME] zuera++,168,B,C++,B.cpp,judged,judge3 (1),YES,1,309
+361,1,[UFFS] The Morgans,169,I,C++,I.cpp,judged,judge5 (1),YES,1,325
+362,1,[UNIVASF] #include <gambiarra.h>,169,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0,172
+363,1,[UFU] UFU Fighters,169,C,C++,C.cpp,judged,judge5 (1),YES,1,403
+364,1,[USP] I am Root,172,D,C++,d.cpp,judged,judge3 (1),NO - Wrong answer,0,421
+365,1,[USJT] Sao Judas 7,172,H,C,H.c,judged,judge2 (1),NO - Wrong answer,0,76
+366,1,[UFC] High Density Matter,172,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0,246
+367,1,[UFRN] POLO,173,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0,167
+368,1,[FACENS] NULL_,175,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,5
+369,1,[UESB] Chico,175,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,7
+370,1,[UNICAMP] Rua do sabao,177,B,C++,b.cpp,judged,judge2 (1),YES,1,397
+371,1,"[UFPE] Scooby, Dooby e Doo",177,G,C++,G.cpp,judged,judge2 (1),YES,1,583
+372,1,[UFPel] Haus of Code,178,H,C,h.c,judged,judge2 (1),NO - Wrong answer,0,17
+373,1,[IME] zuera++,178,G,C++,G.cpp,judged,judge2 (1),YES,1,487
+374,1,[UNIVASF] #include <gambiarra.h>,181,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0,172
+375,1,[UFPel] Haus of Code,181,H,C,h.c,judged,judge5 (1),NO - Wrong answer,0,17
+376,1,[IFTM] Zeppelin,183,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0,5
+377,1,[UNB] Lone Wolves,183,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,129
+378,1,[UFBA] Bread For (re)Search,183,C,C++,c2.cpp,judged,judge2 (1),NO - Wrong answer,0,106
+379,1,[UFMG] Ta Errado,184,H,C++,H.cpp,judged,judge2 (1),YES,1,233
+380,1,[UFES] TLE,184,H,C++,H.cpp,judged,judge2 (1),YES,1,230
+381,1,[UFU] Paitheus quer ir embora,187,G,C++,G.cpp,judged,judge5 (1),YES,1,348
+382,1,[UNINASSAU-FAP] Mayllon Veras,188,C,Java,C.java,judged,judge3 (1),NO - Time limit exceeded,0,11
+383,1,[USP] I am Root,190,D,C++,d.cpp,judged,judge5 (1),NO - Wrong answer,0,421
+384,1,[UFRN] AbsurdoLimitExceeded,191,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0,319
+385,1,[UFV] To Bit or Not To Bit,192,B,C++,b.cpp,judged,judge5 (1),NO - Compilation error,0,6
+386,1,[UFS] Bateu Ai?,192,I,C++,I.cpp,judged,judge5 (1),YES,1,320
+387,1,[UFSCAR] Deggub,194,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0,275
+388,1,[UFV] To Bit or Not To Bit,194,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+389,1,[UFU] Paitheus quer ir embora,195,B,C++,B2.cpp,judged,judge2 (1),YES,1,563
+390,1,[IFTM] Zeppelin,196,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0,5
+391,1,[UFFS] The Morgans,197,G,C++,G.cpp,judged,judge2 (1),NO - Wrong answer,0,325
+392,1,[FACCAT] bytemen,198,H,Java,H.java,judged,judge3 (1),NO - Wrong answer,0,4
+393,1,[UFSCAR] Deggub,199,B,C++,b.cpp,judged,judge5 (1),NO - Wrong answer,0,275
+394,1,[UNESP] O(log n),199,H,C++,H.cpp,judged,judge3 (1),NO - Runtime error,0,8
+395,1,[UFF] Ex nihilo,200,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0,21
+396,1,[UFRN] AbsurdoLimitExceeded,201,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0,319
+397,1,[UESB] Chico,202,H,C++,H.cpp,judged,judge3 (1),NO - Wrong answer,0,7
+398,1,[UNIFEI] Epic Sax Guys,203,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0,190
+399,1,[UFPR] Alwaysgood's team,203,G,C++,G.cpp,judged,judge5 (1),NO - Runtime error,0,254
+400,1,[ITA] Assembly! Rroooaarr,204,B,C++,b.cpp,judged,judge5 (1),YES,1,387
+401,1,[UFSCAR] Deggub,204,G,C++,g.cpp,judged,judge5 (1),NO - Time limit exceeded,0,275
+402,1,[UFMT] Bits Pantaneiro,205,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0,104
+403,1,[UNIFEI] Epic Sax Guys,206,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0,190
+404,1,[UFG] Remember us!,207,E,C++,E.cpp,judged,judge1 (1),YES,1,693
+405,1,[UFV] To Bit or Not To Bit,208,B,C++,b.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+406,1,[IFNMG] Segmentation_Fault,208,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+407,1,[UNESP] O(log n),208,H,C++,H.cpp,judged,judge5 (1),NO - Runtime error,0,8
+408,1,[IFTM] Zeppelin,208,C,C,C.c,judged,judge3 (1),NO - Time limit exceeded,0,5
+409,1,[FACCAT] bytemen,209,C,Java,C.java,judged,judge5 (1),NO - Wrong answer,0,4
+410,1,[UFFS] The Morgans,210,G,C++,G.cpp,judged,judge5 (1),YES,1,595
+411,1,[UFPel] Haus of Code,211,C,C,C.C,judged,judge3 (1),NO - Time limit exceeded,0,17
+412,1,[UFPR] Alwaysgood's team,213,G,C++,G.cpp,judged,judge5 (1),NO - Wrong answer,0,254
+413,1,[UNICAMP] The balloon is a lie,214,I,C++,i.cpp,judged,judge3 (1),NO - Wrong answer,0,134
+414,1,[UNIFEI] Epic Sax Guys,214,G,C++,G.cpp,judged,judge3 (1),YES,1,484
+415,1,[UFRJ] Cachorrada do Fundao,216,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0,339
+416,1,[UFRN] AbsurdoLimitExceeded,216,B,C++,B.cpp,judged,judge3 (1),YES,1,575
+417,1,[USP] I am Root,217,D,C++,d.cpp,judged,judge5 (1),NO - Wrong answer,0,421
+418,1,[UFV] To Bit or Not To Bit,217,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+419,1,[UFRJ] Cachorrada do Fundao,218,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0,339
+420,1,[UFPR] Alwaysgood's team,220,G,C++,G.cpp,judged,judge3 (1),NO - Wrong answer,0,254
+421,1,[UFV] To Bit or Not To Bit,220,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+422,1,[FEI] Esse,221,C,C++,c.cpp,judged,judge5 (1),NO - Wrong answer,0,84
+423,1,[IFNMG] Segmentation_Fault,221,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+424,1,[UNISALESIANO] Extreme team,222,I,Java,I.java,judged,judge1 (1),YES,1,344
+425,1,[UFRJ] Cachorrada do Fundao,222,B,C++,B.cpp,judged,judge1 (1),NO - Wrong answer,0,339
+426,1,[UFRN] AbsurdoLimitExceeded,224,G,C++,G.cpp,judged,judge3 (1),YES,1,799
+427,1,[USP] I am Root,224,D,C++,d.cpp,judged,judge3 (1),YES,1,725
+428,1,[UNESP] O(log n),224,H,C++,H.cpp,judged,judge5 (1),NO - Wrong answer,0,8
+429,1,[FEI] Esse,225,C,C++,c.cpp,judged,judge3 (1),NO - Time limit exceeded,0,84
+430,1,[UFBA] Bread For (re)Search,225,C,C++,c3.cpp,judged,judge5 (1),YES,1,371
+431,1,[UFES] TLE,226,B,C,B.c,judged,judge2 (1),NO - Wrong answer,0,230
+432,1,[CESUPA] MARRAPA,228,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,88
+433,1,[FACCAT] bytemen,229,C,Java,C.java,judged,judge3 (1),NO - Wrong answer,0,4
+434,1,[UFPE] Code Fu Pandas,230,F,C++,f3.cpp,judged,judge3 (1),NO - Wrong answer,0,411
+435,1,[UFV] To Bit or Not To Bit,230,H,C++,h.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+436,1,[USJT] Sao Judas 7,230,H,C,H.c,judged,judge3 (1),NO - Wrong answer,0,76
+437,1,[UFPR] Alwaysgood's team,231,G,C++,G.cpp,judged,judge5 (1),YES,1,545
+438,1,"[USP] Why Mr. Anderson, why?",234,F,C++,F.cpp,judged,judge1 (1),YES,1,508
+439,1,[UFES] TLE,235,B,C,B.c,judged,judge3 (1),YES,1,505
+440,1,[UFCG] Manoel borboleta e miguxos,237,K,C++,K.cpp,judged,judge3 (1),NO - Wrong answer,0,397
+441,1,[UFV] To Bit or Not To Bit,238,C,C++,c.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+442,1,[UNISAL] #include <beer.h>,239,I,C++,denovo.cpp,judged,judge5 (1),NO - Wrong answer,0,96
+443,1,[UNIOESTE] Ops! Solucao Trivial,240,C,C,C.c,judged,judge2 (1),NO - Wrong answer,0,4
+444,1,[USP] Arquiduque Andorinha,240,E,C++,E.cpp,judged,judge5 (1),NO - Wrong answer,0,496
+445,1,[UFF] Ex nihilo,240,D,C++,D.cpp,judged,judge3 (1),NO - Wrong answer,0,21
+446,1,[CESUPA] MARRAPA,242,C,C++,C.cpp,judged,judge2 (1),NO - Time limit exceeded,0,88
+447,1,[FACCAT] bytemen,244,C,Java,C.java,judged,judge3 (1),NO - Time limit exceeded,0,4
+448,1,[UNISALESIANO] Extreme team,244,C,Java,C.java,judged,judge3 (1),NO - Runtime error,0,344
+449,1,[UFRJ] Cachorrada do Fundao,244,B,C++,B-4.cpp,judged,judge2 (1),NO - Wrong answer,0,339
+450,1,[UFFS] Euterpe,244,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+451,1,[UNIOESTE] Ops! Solucao Trivial,245,C,C,C.c,judged,judge5 (1),YES,1,269
+452,1,[UFC] High Density Matter,246,H,C++,h2.cpp,judged,judge3 (1),NO - Wrong answer,0,246
+453,1,[UFPE] Code Fu Pandas,246,E,C++,e.cpp,judged,judge3 (1),NO - Wrong answer,0,411
+454,1,[UFCG] Manoel borboleta e miguxos,247,E,C++,E.cpp,judged,judge5 (1),YES,1,644
+455,1,[UFU] Paitheus quer ir embora,247,E,C++,E.cpp,judged,judge3 (1),YES,1,810
+456,1,[UFG] Remember us!,249,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0,693
+457,1,[UFV] To Bit or Not To Bit,249,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+458,1,[UFF] Ex nihilo,250,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,21
+459,1,[UESB] Chico,251,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,7
+460,1,[FACENS] NULL_,252,H,C++,H.cpp,judged,judge3 (1),NO - Time limit exceeded,0,5
+461,1,[UFCG] Manoel borboleta e miguxos,252,K,C++,K.cpp,judged,judge5 (1),NO - Time limit exceeded,0,644
+462,1,[UFSCAR] Deggub,252,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0,275
+463,1,[USP] Arquiduque Andorinha,254,E,C++,E.cpp,judged,judge3 (1),NO - Wrong answer,0,496
+464,1,[UNISALESIANO] Extreme team,254,C,Java,C.java,judged,judge5 (1),NO - Wrong answer,0,344
+465,1,[UFRGS] Compilation Error,254,G,C++,g.cpp,judged,judge5 (1),YES,1,417
+466,1,[UFG] Remember us!,254,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0,693
+467,1,[UFRJ] Cachorrada do Fundao,255,B,C++,B-4.cpp,judged,judge5 (1),NO - Wrong answer,0,339
+468,1,[UFPE] Code Fu Pandas,257,E,C++,e.cpp,judged,judge3 (1),NO - Wrong answer,0,411
+469,1,[UFSC] Gargamel's Team,257,G,C++,g.cpp,judged,judge3 (1),NO - Wrong answer,0,434
+470,1,[UNIVASF] #include <gambiarra.h>,257,H,C++,H.cpp,judged,judge3 (1),NO - Runtime error,0,172
+471,1,[IFNMG] Segmentation_Fault,258,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+472,1,[UNISALESIANO] Extreme team,258,C,Java,C.java,judged,judge3 (1),NO - Wrong answer,0,344
+473,1,[UFG] Remember us!,259,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0,693
+474,1,[USJT] Sao Judas 7,259,H,C,H.c,judged,judge3 (1),YES,1,395
+475,1,[UFMS] Tuiuiu,259,B,C++,B.cpp,judged,judge2 (1),NO - Wrong answer,0,218
+476,1,[UFRJ] Guns N' Codes,260,E,C++,E.cpp,judged,judge3 (1),NO - Wrong answer,0,346
+477,1,[UFSCAR] Deggub,261,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0,275
+478,1,[UNISALESIANO] Extreme team,261,C,Java,C.java,judged,judge3 (1),NO - Wrong answer,0,344
+479,1,[UNIVASF] #include <gambiarra.h>,262,H,C++,H.cpp,judged,judge3 (1),NO - Runtime error,0,172
+480,1,[UFCG] Manoel borboleta e miguxos,263,K,C++,K.cpp,judged,judge1 (1),NO - Time limit exceeded,0,644
+481,1,[CESUPA] MARRAPA,263,C,C++,C.cpp,judged,judge1 (1),NO - Time limit exceeded,0,88
+482,1,[UNIJUI] Spyware,263,H,Java,H.java,judged,judge1 (1),NO - Wrong answer,0,10
+483,1,[UFMG] Literally Tourists,263,E,C++,e.cpp,judged,judge5 (1),YES,1,768
+484,1,[UFMS] Tuiuiu,265,B,C++,B.cpp,judged,judge5 (1),YES,1,503
+485,1,[ITA] Assembly! Rroooaarr,265,G,C++,g.cpp,judged,judge3 (1),YES,1,652
+486,1,[UFFS] The Morgans,265,B,C++,B.cpp,judged,judge1 (1),NO - Wrong answer,0,595
+487,1,[UNICAMP] The balloon is a lie,266,C,C++,c2.cpp,judged,judge5 (1),NO - Wrong answer,0,134
+488,1,[USP] Arquiduque Andorinha,266,E,C++,E.cpp,judged,judge5 (1),YES,1,802
+489,1,[UNB] Lone Wolves,266,I,C++,I.cpp,judged,judge3 (1),YES,1,415
+490,1,[UFG] Remember us!,266,G,C++,G.cpp,judged,judge3 (1),NO - Time limit exceeded,0,693
+491,1,[UNISALESIANO] Extreme team,266,C,Java,C.java,judged,judge5 (1),NO - Wrong answer,0,344
+492,1,[IFTM] Zeppelin,267,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,5
+493,1,[UFS] Bateu Ai?,267,B,C++,B.cpp,judged,judge3 (1),YES,1,587
+494,1,[UNIJUI] Spyware,267,H,Java,H.java,judged,judge5 (1),NO - Wrong answer,0,10
+495,1,[UFCG] Manoel borboleta e miguxos,268,K,C++,K.cpp,judged,judge1 (1),NO - Time limit exceeded,0,644
+496,1,[UFRN] POLO,269,C,C++,C.cpp,judged,judge3 (1),NO - Wrong answer,0,167
+497,1,[FACCAT] bytemen,269,H,Java,H.java,judged,judge3 (1),NO - Wrong answer,0,4
+498,1,[UNICAMP] The balloon is a lie,269,C,C++,c2.cpp,judged,judge3 (1),YES,1,423
+499,1,[UFG] Remember us!,270,G,C++,G.cpp,judged,judge5 (1),NO - Time limit exceeded,0,693
+500,1,[UNIFESP] Trio de 11,270,C,C++,C.cpp,judged,judge2 (1),NO - Wrong answer,0,91
+501,1,[UNICAMP] Rua do sabao,270,E,C++,e.cpp,judged,judge5 (1),YES,1,667
+502,1,[UFCG] Manoel borboleta e miguxos,271,K,C++,K.cpp,judged,judge3 (1),NO - Time limit exceeded,0,644
+503,1,[UFV] To Bit or Not To Bit,271,C,C++,c.cpp,judged,judge2 (1),NO - Wrong answer,0,6
+504,1,[UFPI] Don't Care,272,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0,39
+505,1,[UFRJ] Guns N' Codes,272,E,C++,E.cpp,judged,judge5 (1),YES,1,638
+506,1,[USJT] Sao Judas 7,272,C,C,C.c,judged,judge1 (1),NO - Wrong answer,0,395
+507,1,[IFTM] Zeppelin,272,C,C++,C.cpp,judged,judge5 (1),NO - Time limit exceeded,0,5
+508,1,[UFBA] Bread For (re)Search,273,G,C++,g.cpp,judged,judge3 (1),YES,1,644
+509,1,[UNISALESIANO] Extreme team,273,C,Java,C.java,judged,judge5 (1),NO - Runtime error,0,344
+510,1,[UNIJUI] Spyware,274,H,Java,H.java,judged,judge3 (1),NO - Wrong answer,0,10
+511,1,[UFRGS] Compilation Error,275,I,C++,i.cpp,judged,judge3 (1),NO - Runtime error,0,417
+512,1,[UFG] Remember us!,276,G,C++,G.cpp,judged,judge5 (1),NO - Time limit exceeded,0,693
+513,1,[UFG] Monkeys,277,B,C++,pb.cpp,judged,judge5 (1),NO - Wrong answer,0,234
+514,1,[UFRJ] Cachorrada do Fundao,279,B,C++,B-4.cpp,judged,judge2 (1),NO - Wrong answer,0,339
+515,1,[UFSCAR] Deggub,280,B,C++,b.cpp,judged,judge3 (1),YES,1,635
+516,1,[UFG] Monkeys,281,B,C++,pb.cpp,judged,judge1 (1),NO - Wrong answer,0,234
+517,1,[UFCG] Manoel borboleta e miguxos,281,K,C++,K.cpp,judged,judge5 (1),YES,1,1025
+518,1,[UNICAMP] The balloon is a lie,283,B,C++,b2.cpp,judged,judge2 (1),NO - Wrong answer,0,423
+519,1,[UNIOESTE] Ops! Solucao Trivial,284,H,C,H.c,judged,judge5 (1),NO - Wrong answer,0,269
+520,1,[UNIFEI] Epic Sax Guys,284,E,C++,E.cpp,judged,judge1 (1),NO - Time limit exceeded,0,484
+521,1,[UFPI] Don't Care,285,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0,39
+522,1,[UFSCAR] Deggub,285,G,C++,g.cpp,judged,judge1 (1),NO - Wrong answer,0,635
+523,1,[USP] I am Root,285,J,C++,j.cpp,judged,judge3 (1),YES,1,1010
+524,1,[UFG] Monkeys,286,I,C++,pi1.cpp,judged,judge5 (1),NO - Wrong answer,0,234
+525,1,[UFF] Ex nihilo,286,I,C++,I.cpp,judged,judge5 (1),NO - Wrong answer,0,21
+526,1,[UFPE] Code Fu Pandas,286,F,C++,f3.cpp,judged,judge3 (1),NO - Wrong answer,0,411
+527,1,[UNIFEI] Epic Sax Guys,287,E,C++,E.cpp,judged,judge3 (1),NO - Time limit exceeded,0,484
+528,1,[UNIVASF] #include <gambiarra.h>,287,H,C++,H.cpp,judged,judge2 (1),YES,1,539
+529,1,[UNIFEI] Epic Sax Guys,287,E,C++,E.cpp,judged,judge1 (1),NO - Time limit exceeded,0,484
+530,1,[UNISALESIANO] Extreme team,287,C,Java,C.java,judged,judge2 (1),NO - Runtime error,0,344
+531,1,[UFSCAR] Deggub,288,G,C++,g.cpp,judged,judge5 (1),NO - Wrong answer,0,635
+532,1,[UNICAMP] The balloon is a lie,288,B,C++,b2.cpp,judged,judge1 (1),NO - Wrong answer,0,423
+533,1,[IFNMG] Segmentation_Fault,289,B,C++,B.cpp,judged,judge3 (1),NO - Wrong answer,0,6
+534,1,[UNESP] O(log n),290,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,8
+535,1,[FEI] Esse,291,B,C++,b.cpp,judged,judge3 (1),NO - Wrong answer,0,84
+536,1,[UNIFESP] Trio de 11,291,C,C++,C.cpp,judged,judge3 (1),NO - Time limit exceeded,0,91
+537,1,[UNISAL] #include <beer.h>,292,C,C++,e.cpp,judged,judge3 (1),NO - Time limit exceeded,0,96
+538,1,[UFG] Monkeys,292,B,C++,pb.cpp,judged,judge3 (1),NO - Wrong answer,0,234
+539,1,[UFG] Monkeys,292,B,C++,pb.cpp,judged,judge3 (1),NO - Wrong answer,0,234
+540,1,[USJT] Sao Judas 7,294,C,C,C.c,judged,judge2 (1),NO - Wrong answer,0,395
+541,1,[UFRGS] Compilation Error,294,K,C++,k.cpp,judged,judge3 (1),NO - Wrong answer,0,417
+542,1,[UFU] UFU Fighters,294,G,C++,G.cpp,judged,judge1 (1),NO - Time limit exceeded,0,403
+543,1,[UNB] Lone Wolves,294,H,C++,H.cpp,judged,judge2 (1),NO - Wrong answer,0,415
+544,1,[UNINASSAU-FAP] Mayllon Veras,295,B,C,B.c,judged,judge5 (1),NO - Wrong answer,0,11
+545,1,[UFCG] Manoel borboleta e miguxos,295,F,C++,f.cpp,judged,judge2 (1),NO - Wrong answer,0,1025
+546,1,[UFS] Bateu Ai?,296,H,C++,H.cpp,judged,judge2 (1),NO - Wrong answer,0,587
+547,1,[UNIFEI] Epic Sax Guys,296,B,C++,B.cpp,judged,judge2 (1),NO - Wrong answer,0,484
+548,1,[UNICAMP] The balloon is a lie,296,I,C++,i.cpp,judged,judge3 (1),NO - Wrong answer,0,423
+549,1,[UFRN] AbsurdoLimitExceeded,296,E,C++,E.cpp,judged,judge2 (1),NO - Time limit exceeded,0,799
+550,1,[UFV] To Bit or Not To Bit,296,H,C++,h.cpp,judged,judge5 (1),NO - Wrong answer,0,6
+551,1,[UNESP] O(log n),297,H,C++,H.cpp,judged,judge2 (1),NO - Wrong answer,0,8
+552,1,[UEA] UEA_Coders,297,C,C,teste_c.c,judged,judge3 (1),NO - Time limit exceeded,0,115
+553,1,[UFRN] AbsurdoLimitExceeded,297,E,C++,E.cpp,judged,judge2 (1),NO - Time limit exceeded,0,799
+554,1,[USP] I am Root,297,J,C++,j.cpp,judged,judge2 (1),YES,1,
+555,1,[UFPE] Code Fu Pandas,298,F,C++,f3.cpp,judged,judge3 (1),NO - Wrong answer,0,411
+556,1,[UFMG] Ta Errado,298,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0,233
+557,1,[UFPE] Code Fu Pandas,298,E,C++,e.cpp,judged,judge3 (1),NO - Wrong answer,0,411
+558,1,[UFU] UFU Fighters,299,G,C++,G.cpp,judged,judge2 (1),NO - Time limit exceeded,0,403
+559,1,[FACCAT] bytemen,299,C,Java,C.java,judged,judge2 (1),NO - Time limit exceeded,0,4
+560,1,[UFRN] AbsurdoLimitExceeded,299,E,C++,E.cpp,judged,judge2 (1),NO - Time limit exceeded,0,799
+561,1,[UFMG] Ta Errado,299,B,C++,B.cpp,judged,judge5 (1),NO - Wrong answer,0,233
+562,1,[UFRN] AbsurdoLimitExceeded,299,E,C++,E.cpp,judged,judge2 (1),NO - Time limit exceeded,0,799
+563,1,[UFES] TLE,299,K,C++,K.cpp,judged,judge3 (1),NO - Wrong answer,0,505
+564,1,[UNICAMP] The balloon is a lie,299,I,C++,i.cpp,judged,judge5 (1),NO - Wrong answer,0,423
+565,1,[IME] zuera++,299,D,C++,D.cpp,judged,judge1 (1),NO - Compilation error,0,487

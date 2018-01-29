@@ -209,36 +209,29 @@ server <- function(input, output) {
   })
   
   output$contest_teams_cond = renderUI({
-    
-    submissions = import_submissions(input$contest_year) 
+    submissions <- import_submissions(input$contest_year)
     teams = unique(submissions$User)
     
     selectInput(inputId = "contest_teams", label = "Selecione os times",
-                choices = teams, multiple=T
+                choices = teams, multiple=T, selected=c('[USP] ¯\\\\_( \"/ )_/¯')
     )
   })
   
   output$teams_in_contest = renderPlotly({
+    submissions = import_submissions(input$contest_year) %>% na.omit() %>%
+      filter(User %in% input$contest_teams) %>%
+      group_by(User)
     
-    submissions = import_submissions(input$contest_year) %>%
-      filter(User %in% input$contest_teams)
     
-    g = ggplot(submissions, aes(x = Time, y = User, group = User, color = User)) +
-      geom_point(aes(size=AnswerBin)) +
-      geom_line() + 
-      ggtitle("Número de matrículas realizadas por período") + 
-      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-      theme_bw()
-    
-    ggplotly(g)
-    
+    plot_ly(submissions, x=~Time, y = ~Penalty, type='scatter', symbols = c('x','circle'),
+            color = ~User, symbol = ~AnswerBin, showlegend=T) %>%
+      add_trace(type='scatter', mode='line+markers')
   })
   
   
   # Plot submissions per interval
   output$submissions_per_interval = renderPlotly({
     
-    # input$contest_year
     submissions = import_submissions(input$contest_year)
     
     submissions_grouped <- submissions %>%
