@@ -6,11 +6,14 @@ library(highcharter)
 library(plotly)
 library(dplyr)
 library(leaflet)
+library(DT)
 
 source("../app/util_imports.R")
 
 universities = import_universities()
 competitors = import_competitors()
+coaches = import_coaches()
+
 
 ui <- dashboardPage(
   
@@ -47,7 +50,18 @@ ui <- dashboardPage(
                 )
               )
       ),
-      tabItem(tabName = "tab_coaches"),
+      tabItem(tabName = "tab_coaches",
+              fluidRow(
+                column(width = 12,
+                       DTOutput('tbl')),
+                verbatimTextOutput("selectedCells")),
+              fluidRow(
+                conditionalPanel(condition =  "typeof input.tbl_rows_selected  !== 'undefined' && input.tbl_rows_selected.length > 0",
+                                 box(width = NULL,
+                                     highchartOutput("participation_coaches"))
+                                 )
+                )
+      ),
       tabItem(tabName = "tab_medalhistas"),
       tabItem(tabName = "tab_sobre"),
       tabItem(tabName = "tab_universidades",
@@ -104,6 +118,7 @@ ui <- dashboardPage(
     )
   )
 )
+
 
 server <- function(input, output) {
   
@@ -258,7 +273,30 @@ server <- function(input, output) {
         title = paste('Submissões ao longo do tempo, Fase 2, Maratona SBC', input$contest_year)
       )
   })
-
+  
+  output$tbl = renderDT({
+    
+    coaches_grouped <- import_coaches_grouped()
+    
+    datatable(coaches_grouped, 
+              selection=list(mode="single"))
+  })
+  
+  output$participation_coaches = renderHighchart({
+    coaches_grouped = import_coaches_grouped()
+    nome <- coaches_grouped[input$tbl_rows_selected[1],] %>% select(coach)
+    temp_coaches <- coaches %>% filter(coach %in% nome) %>% arrange(ano) %>% 
+      group_by(medalha, ano)
+    
+    x <- c("Classificados", "Posição: ", "Universidade:", "Time:")
+    y <- sprintf("{point.%s}", c("classificado", "posicao", "universidade", "time"))
+    tltip <- tooltip_table(x, y)
+    
+    hchart(temp_coaches, "scatter", hcaes(x = ano, y=posicao, group = medalha)) %>%
+      hc_title(text = "Resultado das competições anteriores", style = list(fontSize = "15px")) %>%
+      hc_tooltip(useHTML = TRUE, headerFormat = "", pointFormat = tltip)
+    
+})
 }
 
 shinyApp(ui = ui, server = server)
