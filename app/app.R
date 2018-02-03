@@ -85,20 +85,32 @@ ui <- dashboardPage(
               )
       ),
       tabItem(tabName = "tab_contests",
+              h3("Algum título"),
               fluidRow(
-                column(width = 4,
+                
+                column(width = 2,
                        box(width = NULL,
                            selectInput(inputId = "contest_year", label = "Selecione o ano",
                                        choices = list("2015" = 2015, "2016" = 2016, "2017" = 2017), selected = 2017
                            )
-                       ),
-                       box(width = NULL, uiOutput("contest_teams_cond"))
+                       )
                 ),
-                column(width = 8,
-                       box(width = NULL, plotlyOutput("teams_in_contest"))
-                ),
-                column(width = 12,
-                       box(width = NULL, plotlyOutput("submissions_per_interval"))
+                
+                column(width = 10,
+                  
+                  column(width = 12,
+                    column(width = 3,
+                          box(width = NULL, uiOutput("contest_teams_cond"))                        
+                    ),
+                    column(width = 9,
+                           box(width = NULL, plotlyOutput("teams_in_contest"))
+                    ) 
+                  ),
+                  
+                  column(width = 12,
+                         box(width = NULL, plotlyOutput("submissions_per_interval"))
+                  )
+                  
                 )
               )
       ),
