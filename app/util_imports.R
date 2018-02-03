@@ -100,5 +100,34 @@ import_submissions = function(ano) {
   
   submissoes = read_csv(path)
   
+  submissoes = submissoes %>% filter(Time > 0)
+  
+  pega_nome_time = function(v) {
+    if (length(v) > 1) {
+      m_string = v[[2]]
+      m_string = trimws(m_string)
+      return(m_string)  
+    } else {
+      m_string = v[[1]]
+      m_string = trimws(m_string)
+      return(m_string)  
+    }
+  }
+  
+  pega_univ_time = function(v) {
+    if (length(v) > 1) {
+      m_string = v[[1]]
+      m_string = trimws(m_string)
+      return(m_string)  
+    } else {
+      return(NA)  
+    }
+  }
+  
+  submissoes$nome_split = strsplit(submissoes$User, "]")
+  submissoes$User = sapply(submissoes$nome_split, pega_nome_time)
+  submissoes$Univ = sapply(submissoes$nome_split, pega_univ_time)
+  submissoes$Univ = gsub("[[]", "", submissoes$Univ)
+  
   return(submissoes)
 }
