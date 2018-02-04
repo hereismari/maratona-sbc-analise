@@ -7,6 +7,7 @@ library(plotly)
 library(dplyr)
 library(leaflet)
 library(DT)
+library("viridisLite")
 
 source("../app/util_imports.R")
 
@@ -103,12 +104,12 @@ ui <- dashboardPage(
                           box(width = NULL, uiOutput("contest_teams_cond"))                        
                     ),
                     column(width = 9,
-                           box(width = NULL, plotlyOutput("teams_in_contest"))
+                           box(width = NULL, highchartOutput("teams_in_contest"))
                     ) 
                   ),
                   
                   column(width = 12,
-                         box(width = NULL, plotlyOutput("submissions_per_interval"))
+                         box(width = NULL, highchartOutput("submissions_per_interval"))
                   )
                   
                 )
@@ -239,43 +240,62 @@ server <- function(input, output) {
     submissions <- import_submissions(input$contest_year)
     teams = unique(submissions$User)
     
+    random_selected = sample(teams, 1)
+    
     selectInput(inputId = "contest_teams", label = "Selecione os times",
-                choices = teams, multiple=T, selected=c('[USP] ¯\\\\_( \"/ )_/¯')
+                choices = teams, multiple=T, selected=random_selected
     )
   })
   
-  output$teams_in_contest = renderPlotly({
+  output$teams_in_contest = renderHighchart({
     submissions = import_submissions(input$contest_year) %>% na.omit() %>%
       filter(User %in% input$contest_teams) %>%
       group_by(User)
     
+    cols <- viridis(6)
+    cols <- substr(cols, 0, 7)
+        
+    hchart(submissions, "spline", hcaes(x = Time, y = Penalty, group = User)) %>%
+      hc_plotOptions(
+        series  = list(
+          marker = list(enabled = TRUE, 'x')
+        )
+      ) %>%
+    hc_colors(cols) %>%
+    hc_title(text = "Desempenho de times ao longo da competição", style = list(fontSize = "15px")) %>%
+    hc_yAxis(title = list(text = "Pontuação"), min = 0) %>%
+    hc_xAxis(title = list(text = "Tempo"), min = 0) %>%
+    hc_legend(align = "right", verticalAlign = "top", layout = "vertical", x= 0, y = 10) %>% 
+    hc_tooltip(sort = TRUE, table = TRUE)
     
-    plot_ly(submissions, x=~Time, y = ~Penalty, type='scatter', symbols = c('x','circle'),
-            color = ~User, symbol = ~AnswerBin, showlegend=T) %>%
-      add_trace(type='scatter', mode='line+markers')
   })
   
-  
-  # Plot submissions per interval
-  output$submissions_per_interval = renderPlotly({
+  output$submissions_per_interval = renderHighchart({
     
     submissions = import_submissions(input$contest_year)
     
     submissions_grouped <- submissions %>%
                            group_by(intervalo=cut(Time, breaks=seq(0, 400, by = 10), right=F)) %>%
                            summarise(total=n(), aceitas=sum(AnswerBin),
-                                     aproveitamento=aceitas/total)
-    
-    plot_ly(submissions_grouped, hoverinfo="text") %>%
-      add_trace(x=~intervalo, y=~aceitas, type='bar', name='Submissões Corretas', text=~aceitas) %>%
-      add_trace(x=~intervalo, y=~total, type='bar', name='Total de Submissões', text=~total) %>%
-      layout(
-        xaxis=list(title='',
-                   tickfont=list(
-                     size = 10)),
-        yaxis=list(title = "Número de Submissões"),
-        barmode='stack',
-        title = paste('Submissões ao longo do tempo, Fase 2, Maratona SBC', input$contest_year)
+                                     aproveitamento=aceitas/total, n_aceitas=total-aceitas)
+    highchart() %>%
+      hc_chart(animation = FALSE) %>%
+      hc_title(text = paste('Submissões ao longo do tempo, Fase 2, Maratona SBC', input$contest_year)) %>%
+      hc_xAxis(categories = submissions_grouped$intervalo,
+               title = list(text = "Decorrer do campeonato")) %>%
+      hc_yAxis(title = list(text = "Número de Submissões")) %>%
+      hc_plotOptions( column = list(stacking = "normal") ) %>%
+      hc_add_series(
+        data = (submissions_grouped$n_aceitas),
+        name = "Não aceitas",
+        color = "#311B92",
+        type = "column"
+      ) %>%
+      hc_add_series(
+        data = (submissions_grouped$aceitas),
+        name = "Aceitas",
+        color = "#00BFA5",
+        type = "column"
       )
   })
   
@@ -302,6 +322,7 @@ server <- function(input, output) {
       hc_tooltip(useHTML = TRUE, headerFormat = "", pointFormat = tltip)
     
 })
+  
 }
 
 shinyApp(ui = ui, server = server)
