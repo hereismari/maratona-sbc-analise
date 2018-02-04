@@ -7,6 +7,8 @@ library(plotly)
 library(dplyr)
 library(leaflet)
 library(DT)
+library(viridis)
+library("viridisLite")
 
 source("../app/util_imports.R")
 
@@ -65,8 +67,9 @@ ui <- dashboardPage(
       tabItem(tabName = "tab_medalhistas"),
       tabItem(tabName = "tab_sobre"),
       tabItem(tabName = "tab_universidades",
+              h3("Algum título"),
               fluidRow(
-                column(width = 4,
+                column(width = 3,
                        box(width = NULL,
                            selectInput(inputId = "univs", label = h3("Universidades"),
                                        choices = unique(competitors$universidade), multiple=T,
@@ -74,7 +77,7 @@ ui <- dashboardPage(
                            )
                        )
                 ),
-                column(width = 8,
+                column(width = 6,
                        box(width = NULL, highchartOutput("participation_univs")),
                        box(width = NULL,  
                            sliderInput(inputId = "classifications_years", label = "Anos:",
@@ -130,7 +133,9 @@ server <- function(input, output) {
     highchart() %>%
       hc_chart(animation = FALSE) %>%
       hc_title(text = "Submissões em problemas") %>%
-      hc_xAxis(categories = problems$Problems) %>%
+      hc_xAxis(title = list(text = "Questão"), 
+               categories = problems$Problems) %>%
+      hc_yAxis(title = list(text = "Número de submissões")) %>%
       hc_plotOptions( column = list(stacking = "normal") ) %>%
       hc_add_series(
         data = (problems$NotAccepted),
@@ -156,21 +161,31 @@ server <- function(input, output) {
       filter(classificado == 1) %>%
       group_by(universidade) %>%
       summarise(QntTimes = n()) %>%
-      mutate(Size = QntTimes)
-
-    colors <- c("#FB1108", "#9AD2E1")
+      mutate(Size = QntTimes) %>%
+      arrange(-QntTimes)
+    
+    colors <- c("#FFEB3B", "#9AD2E1")
     m_competitors$Color <- colorize(m_competitors$QntTimes, colors)
-
     x <- c("Universidade:", "Num times classificados: ")
     y <- sprintf("{point.%s}", c("universidade", "QntTimes"))
     tltip <- tooltip_table(x, y)
 
-    hchart(m_competitors, "scatter", hcaes(x = universidade, y = QntTimes, size = Size, color = Color)) %>%
-      hc_title(text = "Participação por universidade na mundial", style = list(fontSize = "15px")) %>%
-      hc_tooltip(useHTML = TRUE, headerFormat = "", pointFormat = tltip)
+    hchart(m_competitors, "bar", hcaes(x = universidade, y = QntTimes, size = Size, color = Color)) %>%
+      hc_title(text = "Participação por universidade no campeonato mundial", style = list(fontSize = "15px")) %>%
+      hc_tooltip(useHTML = TRUE, headerFormat = "", pointFormat = tltip) %>%
+      hc_yAxis(title = list(text = "Quantida de times classificados"),
+               type = "category"
+      ) %>%
+      hc_xAxis(title = list(text = "Universidade"))
+    
+    # library("viridisLite")
+    # cols <- viridis(3)
+    # cols <- substr(cols, 0, 7)
+    # highcharts_demo() %>%
+    #   hc_colors(cols)
     
   })
-
+  
   output$mapa <- renderLeaflet({
     data_mapa <- readRDS(file = "~/maratona-sbc-analise/app/mapa/mapa_competidores.rds")
     
@@ -243,7 +258,6 @@ server <- function(input, output) {
       add_trace(type='scatter', mode='line+markers')
   })
   
-  
   # Plot submissions per interval
   output$submissions_per_interval = renderPlotly({
     
@@ -290,6 +304,7 @@ server <- function(input, output) {
       hc_tooltip(useHTML = TRUE, headerFormat = "", pointFormat = tltip)
     
 })
+  
 }
 
 shinyApp(ui = ui, server = server)
